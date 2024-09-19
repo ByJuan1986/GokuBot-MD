@@ -1,3 +1,3 @@
 GokuBot-MD
 
-en creación!!!
+en creación actualmente este proyecto no se si tardara un año...!!!
