@@ -23,10 +23,7 @@ import {Low, JSONFile} from 'lowdb'
 import {mongoDB, mongoDBV2} from './goku/mongoDB.js'
 import store from './goku/store.js'
 const {proto} = (await import('@whiskeysockets/baileys')).default
-import pkg from 'google-libphonenumber'
-const { PhoneNumberUtil } = pkg
-const phoneUtil = PhoneNumberUtil.getInstance()
-const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser } = await import('@whiskeysockets/baileys')
+const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser, PHONENUMBER_MCC} = await import('@whiskeysockets/baileys')
 import readline from 'readline'
 import NodeCache from 'node-cache'
 const {CONNECTING} = ws
@@ -54,7 +51,7 @@ global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse()
 global.prefix = new RegExp('^[/.$#!]')
 // global.opts['db'] = process.env['db']
 
-global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile(`src/database/database.json`));
+global.db = new Low(/https?:\/\//.test(opts['db'] || '') ? new cloudDBAdapter(opts['db']) : new JSONFile('src/database/database.json'))
 
 global.DATABASE = global.db 
 global.loadDatabase = async function loadDatabase() {
@@ -106,7 +103,7 @@ do {
 opcion = await question(colores('Seleccione una opción:\n') + opcionQR('1. Con código QR\n') + opcionTexto('2. Con código de texto de 8 dígitos\n--> '))
 
 if (!/^[1-2]$/.test(opcion)) {
-console.log(chalk.bold.redBright(`Solo se admiten numeros del 1 al 2, no se admiten letras ni numeros altos.`))
+console.log(chalk.bold.redBright(`🚩 No se permiten numeros que no sean 1 o 2, tampoco letras o símbolos especiales.`))
 }} while (opcion !== '1' && opcion !== '2' || fs.existsSync(`./${sessions}/creds.json`))
 } 
 
@@ -127,7 +124,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? [`🌎 GokuBot-MD 🌎`, 'Edge', '20.0.04'] : methodCodeQR ? [`🌎 GookuBot-MD 🌎`, 'Edge', '20.0.04'] : ['Ubuntu', 'Edge', '110.0.1587.56'], 
+browser: opcion == '1' ? [`${nameqr}`, 'Edge', '20.0.04'] : methodCodeQR ? [`${nameqr}`, 'Edge', '20.0.04'] : ['Ubuntu', 'Edge', '110.0.1587.56'], 
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -157,18 +154,18 @@ if (MethodMobile) throw new Error('No se puede usar un código de emparejamiento
 let numeroTelefono
 if (!!phoneNumber) {
 numeroTelefono = phoneNumber.replace(/[^0-9]/g, '')
-if (!await isValidPhoneNumber(phoneNumber)) {
-console.log(chalk.bgBlack(chalk.bold.greenBright(`🌎 Ingrese su numero de WhatsApp para vincular.\nPor ejemplo: 5493873655135\n`)))
+if (!Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
+console.log(chalk.bgBlack(chalk.bold.greenBright(`🚩 Por favor, Ingrese el número de WhatsApp.\n${chalk.bold.yellowBright(`☁️  Ejemplo: 57321×××××××`)}\n${chalk.bold.magentaBright('---> ')}`)))
 process.exit(0)
 }} else {
 while (true) {
-numeroTelefono = await question(chalk.bgBlack(chalk.bold.yellowBright('🌎 Debe de ingresar su numero de WhatsApp.\nPor ejemplo: 5493873655135\n')))
+numeroTelefono = await question(chalk.bgBlack(chalk.bold.greenBright(`🚩 Por favor, escriba su número de WhatsApp.\n☁️  Ejemplo: 57321×××××××\n`)))
 numeroTelefono = numeroTelefono.replace(/[^0-9]/g, '')
 
-if (numeroTelefono.match(/^\d+$/) && await isValidPhoneNumber(numeroTelefono)) {
+if (numeroTelefono.match(/^\d+$/) && Object.keys(PHONENUMBER_MCC).some(v => numeroTelefono.startsWith(v))) {
 break 
 } else {
-console.log(chalk.bgBlack(chalk.bold.redBright("❌ Por favor, escriba su número de WhatsApp.\nPor ejemplo: 5493873655135\n")))
+console.log(chalk.bgBlack(chalk.bold.greenBright(`🚩 Por favor, escriba su número de WhatsApp.\n☁️  Ejemplo: 57321×××××××\n`)))
 }}
 rl.close()  
 } 
@@ -176,14 +173,14 @@ rl.close()
 setTimeout(async () => {
 let codigo = await conn.requestPairingCode(numeroTelefono)
 codigo = codigo?.match(/.{1,4}/g)?.join("-") || codigo
-console.log(chalk.black(chalk.bgGreen(`CODIGO DE VERIFICACION:`)), chalk.black(chalk.white(codigo)))
+console.log(chalk.bold.white(chalk.bgMagenta(`👑 CÓDIGO DE VINCULACIÓN 👑`)), chalk.bold.white(chalk.white(codigo)))
 }, 3000)
 }}
 }
 
 conn.isInit = false;
 conn.well = false;
-
+//conn.logger.info(`🔵  H E C H O\n`)
 
 if (!opts['test']) {
 if (global.db) setInterval(async () => {
@@ -206,33 +203,34 @@ global.timestamp.connect = new Date;
 if (global.db.data == null) loadDatabase();
 if (update.qr != 0 && update.qr != undefined || methodCodeQR) {
 if (opcion == '1' || methodCodeQR) {
-console.log(chalk.bold.green(`\nEscanee el codigo qr, expirara en 45 segundos.`))}
+console.log(chalk.bold.yellow(`\n✅ ESCANEA EL CÓDIGO QR EXPIRA EN 45 SEGUNDOS`))}
 }
 if (connection == 'open') {
-console.log(boxen(chalk.bold(' ✅ SE HA CONECTADO CON EXITO ✅ '), { borderStyle: 'round', borderColor: 'green', title: chalk.green.bold('● CONEXIÓN ●'), titleAlignment: '', float: '' }))}
+console.log(boxen(chalk.bold(' ¡CONECTADO CON WHATSAPP! '), { borderStyle: 'round', borderColor: 'green', title: chalk.green.bold('● CONEXIÓN ●'), titleAlignment: '', float: '' }))
+await joinChannels(conn)}
 let reason = new Boom(lastDisconnect?.error)?.output?.statusCode
 if (connection === 'close') {
 if (reason === DisconnectReason.badSession) {
-console.log(chalk.bold.cyanBright(`\n╭❪ ❌ ›› SIN EXITO, borre la carpeta ${global.sessions} y vuelva a solicitar code qr o 8 digitos.`))
+console.log(chalk.bold.cyanBright(`\n⚠️ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y ESCANEA EL CÓDIGO QR ⚠️`))
 } else if (reason === DisconnectReason.connectionClosed) {
-console.log(chalk.bold.magentaBright(`\n╭❪ 📌 ›› CONEXION CERRADA, se intentara reconectar...`))
+console.log(chalk.bold.magentaBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☹\n┆ ⚠️ CONEXION CERRADA, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☹`))
 await global.reloadHandler(true).catch(console.error)
 } else if (reason === DisconnectReason.connectionLost) {
-console.log(chalk.bold.blueBright(`\n╭❪ ⛔ ›› SIN CONEXION EN EL SERVIDOR, se intentsra reconectar, espere un momento...`))
+console.log(chalk.bold.blueBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☂\n┆ ⚠️ CONEXIÓN PERDIDA CON EL SERVIDOR, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ☂`))
 await global.reloadHandler(true).catch(console.error)
 } else if (reason === DisconnectReason.connectionReplaced) {
-console.log(chalk.bold.yellowBright(`\n╭❪ 📢 ›› NUEVA SESION, no puedes tener dos sesiones vinculadas a whatsapp, borre la actual para usar el nuevo.`))
+console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗\n┆ ⚠️ CONEXIÓN REEMPLAZADA, SE HA ABIERTO OTRA NUEVA SESION, POR FAVOR, CIERRA LA SESIÓN ACTUAL PRIMERO.\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✗`))
 } else if (reason === DisconnectReason.loggedOut) {
-console.log(chalk.bold.redBright(`\n╭❪ ❌ ›› SIN EXITO, borre la carpeta ${global.sessions} y vuelva a solicitar code qr o 8 digitos.`))
+console.log(chalk.bold.redBright(`\n⚠️ SIN CONEXIÓN, BORRE LA CARPETA ${global.sessions} Y ESCANEA EL CÓDIGO QR ⚠️`))
 await global.reloadHandler(true).catch(console.error)
 } else if (reason === DisconnectReason.restartRequired) {
-console.log(chalk.bold.cyanBright(`\n╭❪ ✅ ›› CONEXION PERFECTA, se ha conectado con exito al servidor.`))
+console.log(chalk.bold.cyanBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓\n┆ ❇️ CONECTANDO AL SERVIDOR...\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ✓`))
 await global.reloadHandler(true).catch(console.error)
 } else if (reason === DisconnectReason.timedOut) {
-console.log(chalk.bold.yellowBright(`\n╭❪ ⏳ ›› TIEMPO DE ESPERA CADUCADA, se ha agotado el tiempo de espera para vincular, intentalo de nuevo.`))
+console.log(chalk.bold.yellowBright(`\n╭┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸\n┆ ⌛ TIEMPO DE CONEXIÓN AGOTADO, RECONECTANDO....\n╰┄┄┄┄┄┄┄┄┄┄┄┄┄┄ • • • ┄┄┄┄┄┄┄┄┄┄┄┄┄┄ ▸`))
 await global.reloadHandler(true).catch(console.error) //process.send('reset')
 } else {
-console.log(chalk.bold.redBright(`\n╭❪ ⁉️ ›› DESCONEXION DESCONOCIDA, motivo: ${reason || 'No encontrado'} >> ${connection || 'No encontrado'}`))
+console.log(chalk.bold.redBright(`\n⚠️❗ RAZON DE DESCONEXIÓN DESCONOCIDA: ${reason || 'No encontrado'} >> ${connection || 'No encontrado'}`))
 }}
 }
 process.on('uncaughtException', console.error)
@@ -384,11 +382,11 @@ unlinkSync(`./${jadi}/${directorio}/${fileInDir}`)
 }})
 }})
 if (SBprekey.length === 0) {
-console.log(chalk.bold.green(`\n⟣❪ ✅ ✎ LIMPIO, no hay archivos por eliminar...`))
+console.log(chalk.bold.green(`\n╭» 🟡 ${jadi} 🟡\n│→ NADA POR ELIMINAR \n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 } else {
-console.log(chalk.bold.cyanBright(`\n⟣❪ ✅ ✎ ARCHIVOS, los archivos innecesarios fueron eliminados...`))
+console.log(chalk.bold.cyanBright(`\n╭» ⚪ ${jadi} ⚪\n│→ ARCHIVOS NO ESENCIALES ELIMINADOS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 }} catch (err) {
-console.log(chalk.bold.red(`\n⟣❪ ⁉️ ✎ ERROR, ocurrio un error al tratar de eliminar los archivos innecesarios...\n` + err))
+console.log(chalk.bold.red(`\n╭» 🔴 ${jadi} 🔴\n│→ OCURRIÓ UN ERROR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️\n` + err))
 }}
 
 function purgeOldFiles() {
@@ -401,9 +399,9 @@ if (file !== 'creds.json') {
 const filePath = path.join(dir, file);
 unlinkSync(filePath, err => {
 if (err) {
-console.log(chalk.bold.red(`\n⟣❪ ⛔ ✎ ERROR, no se pudo eliminar el archivo: ${file}\n` + err))
+console.log(chalk.bold.red(`\n╭» 🔴 ARCHIVO 🔴\n│→ ${file} NO SE LOGRÓ BORRAR\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️❌\n` + err))
 } else {
-console.log(chalk.bold.green(`\n⟣❪ ✅ ✎ EXITO, se ha borrado con exito el archivo ${file}`))
+console.log(chalk.bold.green(`\n╭» 🟣 ARCHIVO 🟣\n│→ ${file} BORRADO CON ÉXITO\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))
 } }) }
 }) }) }) }
 
@@ -420,12 +418,12 @@ originalConsoleMethod.apply(console, arguments)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await clearTmp()
-console.log(chalk.bold.cyanBright(`\n⟣❪ ✅ ✎ ARCHIVOS, los archivos en tmp fueron eliminados con exito...`))}, 1000 * 60 * 4) // 4 min 
+console.log(chalk.bold.cyanBright(`\n╭» 🟢 MULTIMEDIA 🟢\n│→ ARCHIVOS DE LA CARPETA TMP ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 4) // 4 min 
 
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeSession()
-console.log(chalk.bold.cyanBright(`\n⟣❪ 🌐 ✎ SESIONES, las sesiones innecesarias fueron eliminadas...`))}, 1000 * 60 * 10) // 10 min
+console.log(chalk.bold.cyanBright(`\n╭» 🔵 ${global.sessions} 🔵\n│→ SESIONES NO ESENCIALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 10) // 10 min
 
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
@@ -434,21 +432,11 @@ await purgeSessionSB()}, 1000 * 60 * 10)
 setInterval(async () => {
 if (stopped === 'close' || !conn || !conn.user) return
 await purgeOldFiles()
-console.log(chalk.bold.cyanBright(`\n⟣❪ ✅ ✎ ARCHIVOS, los archivos innecesarios fueron eliminados...`))}, 1000 * 60 * 10)
+console.log(chalk.bold.cyanBright(`\n╭» 🟠 ARCHIVOS 🟠\n│→ ARCHIVOS RESIDUALES ELIMINADAS\n╰― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― ― 🗑️♻️`))}, 1000 * 60 * 10)
 
-_quickTest().then(() => conn.logger.info(chalk.bold(`⟣❪ ✅ ✎ ¡¡BIENVENIDO!!\n`.trim()))).catch(console.error)
+_quickTest().then(() => conn.logger.info(chalk.bold(`🔵  H E C H O\n`.trim()))).catch(console.error)
 
-async function isValidPhoneNumber(number) {
-try {
-number = number.replace(/\s+/g, '')
-// Si el número empieza con '+521' o '+52 1', quitar el '1'
-if (number.startsWith('+521')) {
-number = number.replace('+521', '+52'); // Cambiar +521 a +52
-} else if (number.startsWith('+52') && number[4] === '1') {
-number = number.replace('+52 1', '+52'); // Cambiar +52 1 a +52
-}
-const parsedNumber = phoneUtil.parseAndKeepRawInput(number)
-return phoneUtil.isValidNumber(parsedNumber)
-} catch (error) {
-return false
+async function joinChannels(conn) {
+for (const channelId of Object.values(global.ch)) {
+await conn.newsletterFollow(channelId).catch(() => {})
 }}
