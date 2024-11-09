@@ -10,7 +10,7 @@ global.botNumberCode = ''
 global.confirmCode = ''
 //agrega tu numero o mas.
 global.owner = [
-['', 'Punisher', true]
+['573108625104', 'Punisher', true]
 ]
 
 //Ignorar este apartado.
@@ -43,8 +43,8 @@ global.canal = ''
 global.md = 'https://github.com/ByJuan1986/GokuBot-MD' 
 
 //Fakes
-global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5493873655135-5493873655168@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ɢᴏᴋᴜ ʙᴏᴛ ᴍᴅ︎', orderTitle: 'Bang', thumbnail: imgs, sellerJid: '0@s.whatsapp.net'}}}
-global.esti = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5493873655135-5493873655168@g.us" } : {})},message: {"videoMessage": { "title": `𝑮𝒐𝒌𝒖𝑩𝒐𝒕-𝑴𝑫`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `ɢᴏᴋᴜ ʙᴏᴛ ᴍᴅ︎`, 'jpegThumbnail': imgs }}}
+//global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5493873655135-5493873655168@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'ɢᴏᴋᴜ ʙᴏᴛ ᴍᴅ︎', orderTitle: 'Bang', thumbnail: imgs, sellerJid: '0@s.whatsapp.net'}}}
+//global.esti = { key: {participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5493873655135-5493873655168@g.us" } : {})},message: {"videoMessage": { "title": `𝑮𝒐𝒌𝒖𝑩𝒐𝒕-𝑴𝑫`, "h": `Hmm`,'seconds': '99999', 'gifPlayback': 'true', 'caption': `ɢᴏᴋᴜ ʙᴏᴛ ᴍᴅ︎`, 'jpegThumbnail': imgs }}}
 
 //Librerias
 global.cheerio = cheerio
