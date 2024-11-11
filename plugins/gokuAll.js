@@ -33,8 +33,8 @@ let user = global.db.data.users[who]
 let pushname = m.pushName || 'Sin nombre'
 
 //• ⟢ › Contactos.
-global.creador = 'wa.me/'
-global.asistencia = 'wa.me/'
+global.creador = 'wa.me/573108625104'
+global.asistencia = 'wa.me/573108625104'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
 
 //• ⟢ › Fecha
@@ -68,7 +68,7 @@ global.md = 'https://github.com/ByJuan1986/GokuBot-MD'
 //global.canal3 = 'https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R'
 global.mbmd = 'https://github.com/MBMD-OFC'
 //global.instagram = ''
-//global.facebook = ''
+//global.facebook = 'https://www.facebook.com/groups/992399634839160/'
 //global.discord = ''
 //global.atombio = ''
 
