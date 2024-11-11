@@ -80,19 +80,19 @@ global.gokuImagens = [imagen1, imagen2, imagen3, imagen4, imagen5].getRandom() /
 //global.gokuVideo = [video1, video2, video3, video4, video5].getRandom() //Videos para menus.
 
 //• ⟢ › Imagenes cuadradas.
-global.img1 = ''
-global.img2 = ''
-global.img3 = ''
-global.img4 = ''
-global.img5 = ''
+global.img1 = 'https://i.postimg.cc/vH61KxqM/Goku-Bot-01.jpg'
+global.img2 = 'https://i.postimg.cc/zDQbpFk0/Goku-Bot-02.jpg'
+global.img3 = 'https://i.postimg.cc/HnrJdrTw/Goku-Bot-03.jpg'
+global.img4 = 'https://i.postimg.cc/fy1VLMb6/Goku-Bot-04.jpg'
+global.img5 = 'https://i.postimg.cc/mgfcWZJ9/Goku-Bot-05.jpg'
 
 
 //• ⟢ › Imagenes
-global.imagen1 = ''
-global.imagen2 = ''
-global.imagen3 = ''
-global.imagen4 = ''
-global.imagen5 = ''
+global.imagen1 = 'https://i.postimg.cc/vmJ2C93F/Goku-06.jpg'
+global.imagen2 = 'https://i.postimg.cc/KztpbzHK/goku-07.jpg'
+global.imagen3 = 'https://i.postimg.cc/fRgrj1db/goku-08.jpg'
+global.imagen4 = 'https://i.postimg.cc/jjwk8v64/Goku-09.jpg'
+global.imagen5 = 'https://i.postimg.cc/Twz8q1KQ/Goku-10.jpg'
 
 
 //• ⟢ › Videos
