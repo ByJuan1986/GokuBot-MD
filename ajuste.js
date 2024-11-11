@@ -34,12 +34,12 @@ global.author = 'ByJuan1986'
 
 
 //Redes y mas
-global.grupo1 = ''
-global.grupo2 = ''
-global.grupo3 = ''
-global.grupo4 = ''
-global.grupo5 = ''
-global.canal = ''
+global.grupo1 = 'https://chat.whatsapp.com/L2vpoClRqYC6wsmGC0gFqS'
+global.grupo2 = 'https://chat.whatsapp.com/ELy0mvOw5JyLnHmwFY7j1K'
+global.grupo3 = 'https://chat.whatsapp.com/LmDvJZWd0eQCzhR8lwJ5B4'
+global.grupo4 = 'https://chat.whatsapp.com/LddDN9xDXcg15IuOirylqZ'
+global.grupo5 = 'https://chat.whatsapp.com/EaTmnGSAX3pH06Dl7MRzmV'
+global.canal = 'https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w'
 global.md = 'https://github.com/ByJuan1986/GokuBot-MD' 
 
 //Fakes
