@@ -97,11 +97,11 @@ global.imagen5 = 'https://i.postimg.cc/Twz8q1KQ/Goku-10.jpg'
 
 //• ⟢ › Videos
 //Puedes quitar los // si empiezas a utilizarlo.
-//global.video1 = ''
-//global.video2 = ''
-//global.video3 = ''
-//global.video4 = ''
-//global.video5 = ''
+//global.video1 = 'https://qu.ax/gHBqR.mp4'
+//global.video2 = 'https://qu.ax/hPPON.mp4'
+//global.video3 = 'https://qu.ax/XAeCG.mp4'
+//global.video4 = 'https://qu.ax/mTVkE.mp4'
+//global.video5 = 'https://qu.ax/kRpxc.mp4'
 
 
 //• ⟢ › Tiempo
