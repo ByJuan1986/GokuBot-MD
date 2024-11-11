@@ -10,8 +10,9 @@ global.botNumberCode = ''
 global.confirmCode = ''
 //agrega tu numero o mas.
 global.owner = [
-['573108625104', 'Punisher', true]
-]
+['573108625104', 'Punisher', true],
+['16285002831', 'Colaborador 1', true],
+['34686630246', 'Colaborador 2', true]]
 
 //Ignorar este apartado.
 global.mods = []
