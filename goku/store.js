@@ -183,4 +183,4 @@ function useSingleFileAuthState(filename, logger) {
 export default {
     bind,
     useSingleFileAuthState
-}
+                }
