@@ -1,7 +1,7 @@
 {
-"name": "GokuBot-MD",
+"name": "GokuBot-MB",
 "version": "1.9.9",
-"description": "Simple WhatsApp Bot Multi Device",
+"description": "WhatsApp bot",
 "main": "index.js",
 "type": "module",
 "directories": {
@@ -18,20 +18,23 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/ByJuan1986/GokuBot-MD",
+"homepage": "https://github.com/ByJuan1986/GokuBot-MB",
 "author": {
-"name": "Punisher"
+"name": "ByJuan1986"
+},
+"collaborators": {
+"col1": "MBMD-OFC"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/ByJuan1986/GokuBot-MD.git"
+"url": "git+https://github.com/ByJuan1986/GokuBot-MB.git"
 },
 "bugs": {
-"url": "https://github.com/ByJuan1986/GokuBot-MD/issues"
+"url": "https://github.com/ByJuan1986/GokuBot-MB/issues"
 },
 "license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "github:nstar-y/Bail",
+"@whiskeysockets/baileys": "github:Dev-Diego/Bailey",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "^4.2.4",
 "@bochilteam/scraper-sosmed": "^1.0.5",
