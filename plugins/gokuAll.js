@@ -40,25 +40,6 @@ global.gokuAll = [grupo1, canal][Math.floor(Math.random() * 2)] //Solo redes soc
 global.gokuImgs = [img1, img2, img3, img4, img5][Math.floor(Math.random() * 5)] //Solo imagenes cuadradas.
 global.gokuImagens = [imagen1, imagen2, imagen3, imagen4, imagen5][Math.floor(Math.random() * 5)] //Imagenes de cualquier forma.
 
-global.img1 = 'https://i.postimg.cc/vH61KxqM/Goku-Bot-01.jpg'
-global.img2 = 'https://i.postimg.cc/zDQbpFk0/Goku-Bot-02.jpg'
-global.img3 = 'https://i.postimg.cc/HnrJdrTw/Goku-Bot-03.jpg'
-global.img4 = 'https://i.postimg.cc/fy1VLMb6/Goku-Bot-04.jpg'
-global.img5 = 'https://i.postimg.cc/mgfcWZJ9/Goku-Bot-05.jpg'
-
-global.imagen1 = 'https://i.postimg.cc/vmJ2C93F/Goku-06.jpg'
-global.imagen2 = 'https://i.postimg.cc/KztpbzHK/goku-07.jpg'
-global.imagen3 = 'https://i.postimg.cc/fRgrj1db/goku-08.jpg'
-global.imagen4 = 'https://i.postimg.cc/jjwk8v64/Goku-09.jpg'
-global.imagen5 = 'https://i.postimg.cc/Twz8q1KQ/Goku-10.jpg'
-
-global.grupo1 = 'https://chat.whatsapp.com/L2vpoClRqYC6wsmGC0gFqS'
-global.grupo2 = 'https://chat.whatsapp.com/ELy0mvOw5JyLnHmwFY7j1K'
-global.grupo3 = 'https://chat.whatsapp.com/LmDvJZWd0eQCzhR8lwJ5B4'
-global.grupo4 = 'https://chat.whatsapp.com/LddDN9xDXcg15IuOirylqZ'
-global.grupo5 = 'https://chat.whatsapp.com/EaTmnGSAX3pH06Dl7MRzmV'
-global.canal = 'https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w'
-global.md = 'https://github.com/ByJuan1986/GokuBot-MD' 
 //global.paypal = 'https://www.paypal.com/paypalme/juann1986'
 //global.canal2 = 'https://whatsapp.com/channel/0029VaQghZyAInPcWuTHOR3V'
 //global.canal3 = 'https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R'
