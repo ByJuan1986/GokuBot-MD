@@ -1,61 +1,57 @@
-import pkg from '@whiskeysockets/baileys'
-import fs from 'fs'
+
 import fetch from 'node-fetch'
-import axios from 'axios'
 import moment from 'moment-timezone'
-const { generateWAMessageFromContent, prepareWAMessageMedia, proto } = pkg
+import axios from 'axios'
+import fs from 'fs'
+const { generateWAMessageFromContent, prepareWAMessageMedia, proto }  = (await import(global.baileys))
+import '../ajuste.js'
+//import '../src/apis.js'
 
-var handler = m => m
+let handler = m => m
 handler.all = async function (m) {
+global.key = ''
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? this.user.jid : m.sender
+let imgbot = await this.profilePictureUrl(who, 'image').catch(_ => gokuImgs)
 
-global.getBuffer = async function getBuffer(url, options) {
-try {
-options ? options : {}
-var res = await axios({
-method: "get",
-url,
-headers: {
-'DNT': 1,
-'User-Agent': 'GoogleBot',
-'Upgrade-Insecure-Request': 1
-},
-...options,
-responseType: 'arraybuffer'
-})
-return res.data
-} catch (e) {
-console.log(`Error : ${e}`)
-}}
+global.fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
+//global.canalfalso = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: canalwa, serverMessageId: 100, newsletterName: 'MBMD' }, externalAdReply: { title: 'MBMD', body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: imgs, thumbnail: imgc2, sourceUrl: allmbmd }}}, { quoted: m }
+//global.falsedad = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: , serverMessageId: '', newsletterName: 'NOTIFY' }, externalAdReply: { title: 'GokuBot', body: wm, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: gokuImgs, sourceUrl: gokuAll }}}
 
-const who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
-global.fotoperfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
-let user = global.db.data.users[who]
-let pushname = m.pushName || 'Sin nombre'
+const mb_style = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5493873655135-5493873655168@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: 'GokuBot', orderTitle: 'Bang', thumbnail: gokuImgs, sellerJid: '0@s.whatsapp.net' }}}
+const audio_style = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: "5493873655135-5493873655168@g.us" } : {}) }, message: { "audioMessage": { "mimetype":"audio/ogg; codecs=opus", "seconds": "99569", "ptt": "true"}}}
 
-//• ⟢ › Contactos.
-global.creador = 'wa.me/573108625104'
-global.asistencia = 'wa.me/573108625104'
-global.ofcbot = `${conn.user.jid.split('@')[0]}`
+let falso_trol = { key: { remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { itemCount: 99, status: 1, surface: 1, message: wm, orderTitle: wm, sellerJid: '0@s.whatsapp.net' } } }
+//let falso_gif = {key: {participant : '0@s.whatsapp.net'}, message: {"videoMessage": { "title": wm, "h": `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': imgs)}}}
 
-//• ⟢ › Fecha
-global.d = new Date(new Date + 3600000)
-global.locale = 'es'
-global.dia = d.toLocaleDateString(locale, {weekday: 'long'})
-global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'})
-global.mes = d.toLocaleDateString('es', {month: 'long'})
-global.año = d.toLocaleDateString('es', {year: 'numeric'})
-global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true})
+let link_bot = { contextInfo: { externalAdReply: {title: 'Siguenos.', body: 'Canal de WhatsApp.' , sourceUrl: gokuAll, thumbnail: await(await fetch(gokuImgs)).buffer() }}}
+let link_bot2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: gokuAll, mediaType: 'VIDEO', description: '', title: wm, body: 'AI', thumbnailUrl: gokuImagens, sourceUrl: gokuAll }}}
+let linkbot = [link_bot, link_bot2]  
 
+global.wait = "Cargando..."
+global.waitt = "Cargando.."
+global.waittt = "Cargando."
+global.waitttt = "Cargando"
+global.waittttt = "Cargando..."
 
-//• ⟢ › Mensajes en espera.
-global.wait = '• ⏳ › _Cargando 23%_'
-global.waitt = '• ⏳ › _Cargando 46%_'
-global.waittt = '• ⏳ › _Cargando 76%_'
-global.waitttt = '• ⏳ › _Cargando 93%_'
-global.waittttt = '• ⏳ › _Cargando 100%_'
+}
+export default handler
 
-//• ⟢ › Enlaces
-//Puedes quitar los // si comienzas a usarlo.
+global.gokuAll = [grupo1, canal][Math.floor(Math.random() * 2)] //Solo redes sociales o similares.
+global.gokuImgs = [img1, img2, img3, img4, img5][Math.floor(Math.random() * 5)] //Solo imagenes cuadradas.
+global.gokuImagens = [imagen1, imagen2, imagen3, imagen4, imagen5][Math.floor(Math.random() * 5)] //Imagenes de cualquier forma.
+
+global.img1 = 'https://i.postimg.cc/vH61KxqM/Goku-Bot-01.jpg'
+global.img2 = 'https://i.postimg.cc/zDQbpFk0/Goku-Bot-02.jpg'
+global.img3 = 'https://i.postimg.cc/HnrJdrTw/Goku-Bot-03.jpg'
+global.img4 = 'https://i.postimg.cc/fy1VLMb6/Goku-Bot-04.jpg'
+global.img5 = 'https://i.postimg.cc/mgfcWZJ9/Goku-Bot-05.jpg'
+
+global.imagen1 = 'https://i.postimg.cc/vmJ2C93F/Goku-06.jpg'
+global.imagen2 = 'https://i.postimg.cc/KztpbzHK/goku-07.jpg'
+global.imagen3 = 'https://i.postimg.cc/fRgrj1db/goku-08.jpg'
+global.imagen4 = 'https://i.postimg.cc/jjwk8v64/Goku-09.jpg'
+global.imagen5 = 'https://i.postimg.cc/Twz8q1KQ/Goku-10.jpg'
+
 global.grupo1 = 'https://chat.whatsapp.com/L2vpoClRqYC6wsmGC0gFqS'
 global.grupo2 = 'https://chat.whatsapp.com/ELy0mvOw5JyLnHmwFY7j1K'
 global.grupo3 = 'https://chat.whatsapp.com/LmDvJZWd0eQCzhR8lwJ5B4'
@@ -66,80 +62,23 @@ global.md = 'https://github.com/ByJuan1986/GokuBot-MD'
 //global.paypal = 'https://www.paypal.com/paypalme/juann1986'
 //global.canal2 = 'https://whatsapp.com/channel/0029VaQghZyAInPcWuTHOR3V'
 //global.canal3 = 'https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R'
-global.mbmd = 'https://github.com/MBMD-OFC'
 //global.instagram = ''
 //global.facebook = 'https://www.facebook.com/groups/992399634839160/'
 //global.discord = ''
 //global.atombio = ''
 
+global.creador = 'wa.me/573108625104'
+global.asistencia = 'wa.me/573108625104'
+global.ofcbot = `${conn.user.jid.split('@')[0]}`
 
-//• ⟢ › Formatos aleatorios.
-global.gokuAll = [grupo1, mb, canal].getRandom() //Solo redes sociales o similares.
-global.gokuImgs = [img1, img2, img3, img4, img5].getRandom() //Solo imagenes cuadradas.
-global.gokuImagens = [imagen1, imagen2, imagen3, imagen4, imagen5].getRandom() //Imagenes de cualquier forma.
-//global.gokuVideo = [video1, video2, video3, video4, video5].getRandom() //Videos para menus.
+global.mensajesEditados = async function(conn, m) {
+const mensajes = [waitt, waittt, waitttt, waittttt]
+key = await conn.sendMessage(m.chat, { text: wait, quoted: m })
+for (let i = 0; i < mensajes.length; i++) {
+await new Promise(resolve => setTimeout(resolve, 1000))
+await conn.sendMessage(m.chat, { text: mensajes[i], edit: key })
+}}
 
-//• ⟢ › Imagenes cuadradas.
-global.img1 = 'https://i.postimg.cc/vH61KxqM/Goku-Bot-01.jpg'
-global.img2 = 'https://i.postimg.cc/zDQbpFk0/Goku-Bot-02.jpg'
-global.img3 = 'https://i.postimg.cc/HnrJdrTw/Goku-Bot-03.jpg'
-global.img4 = 'https://i.postimg.cc/fy1VLMb6/Goku-Bot-04.jpg'
-global.img5 = 'https://i.postimg.cc/mgfcWZJ9/Goku-Bot-05.jpg'
-
-
-//• ⟢ › Imagenes
-global.imagen1 = 'https://i.postimg.cc/vmJ2C93F/Goku-06.jpg'
-global.imagen2 = 'https://i.postimg.cc/KztpbzHK/goku-07.jpg'
-global.imagen3 = 'https://i.postimg.cc/fRgrj1db/goku-08.jpg'
-global.imagen4 = 'https://i.postimg.cc/jjwk8v64/Goku-09.jpg'
-global.imagen5 = 'https://i.postimg.cc/Twz8q1KQ/Goku-10.jpg'
-
-
-//• ⟢ › Videos
-//Puedes quitar los // si empiezas a utilizarlo.
-//global.video1 = 'https://qu.ax/gHBqR.mp4'
-//global.video2 = 'https://qu.ax/hPPON.mp4'
-//global.video3 = 'https://qu.ax/XAeCG.mp4'
-//global.video4 = 'https://qu.ax/mTVkE.mp4'
-//global.video5 = 'https://qu.ax/kRpxc.mp4'
-
-
-//• ⟢ › Tiempo
-var ase = new Date(); 
-var hour = ase.getHours(); switch(hour){ 
-case 0:  hour = 'Buenas noches'; break; 
-case 1: hour = 'Buenas noches'; break; 
-case 2: hour = 'Buenas noches'; break; 
-case 3: hour = 'Buenos dias'; break; 
-case 4: hour = 'Buenos dias'; break; 
-case 5: hour = 'Buenos dias'; break; 
-case 6: hour = 'Buenos dias'; break; 
-case 7: hour = 'Buenos dias'; break; 
-case 8: hour = 'Buenos dias'; break; 
-case 9: hour = 'Buenos dias'; break; 
-case 10: hour = 'Buenas tardes'; break; 
-case 11: hour = 'Buenas tardes'; break; 
-case 12: hour = 'Buenas tardes'; break; 
-case 13: hour = 'Buenas tardes'; break; 
-case 14: hour = 'Buenas tardes'; break; 
-case 15: hour = 'Buenas tardes'; break; 
-case 16: hour = 'Buenas tardes'; break; 
-case 17: hour = 'Buenas tardes'; break; 
-case 18: hour = 'Buenas noches'; break; 
-case 19: hour = 'Buenas noches'; break; 
-case 20: hour = 'Buenas noches'; break; 
-case 21: hour = 'Buenas noches'; break; 
-case 22: hour = 'Buenas noches'; break; 
-case 23: hour = 'Buenas noches'; break;}
-global.saludo = hour;
-
-//• ⟢ › Mensionados
-global.nombre = conn.getName(m.sender)
-global.taguser = '@' + m.sender.split("@s.whatsapp.net")
-var more = String.fromCharCode(8206)
-global.readMore = more.repeat(850)
-
-//• ⟢ › Diseños en textos
-global.fkontak = { key: {participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `6285600793871-1614953337@g.us` } : {}) }, message: { 'contactMessage': { 'displayName': `${pushname}`, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${pushname},;;;\nFN:${pushname},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`, 'jpegThumbnail': null, thumbnail: null,sendEphemeral: true}}}
+function pickRandom(list) {
+return list[Math.floor(Math.random() * list.length)]
 }
-export default handler
