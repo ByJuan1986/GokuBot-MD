@@ -9,7 +9,7 @@ const name = await conn.getName(m.sender);
 
 if (command === "canal" || command === "channel") {
 let canalXd = `📍  No hay canal en este plugin.`
-await conn.sendMessage(m.chat, { text: infoXd }, { quoted: m })
+await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 }
 
 if (command === "grupos" || command === "gruposoficiales") {
