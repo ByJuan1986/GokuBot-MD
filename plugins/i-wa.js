@@ -27,12 +27,30 @@ https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w
 𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗟𝗲𝗴𝗲𝗻𝗱𝘀
 https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 `
+if (!args[0]) {
 await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
+} else if (args[0] === "telegram") {
+let canalt = `📍 Nada agregado...`
+conn.reply(m.chat, canalt, m)
+}
 }
 
 if (command === "grupos" || command === "gruposoficiales") {
 let grupos = `📍  No se han agregado grupos todavia.`
-await conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
+if (!args[0]) {
+  conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
+} else if (args[0] === "telegram") {
+let grupot = `📍 Nada agregado...`
+conn.reply(m.chat, grupot, m)
+} else if (args[0] === "facebook") {
+let grupof = `📍 Nada agregado...`
+conn.reply(m.chat, grupof, m)
+} else if (args[0] === "frikis") {
+let grupofr = `📍 Nada agregado...`
+conn.reply(m.chat, grupofr, m)
+} else if {
+return conn.reply(m.chat, `📍  No hay grupos en esa categoría...`, m)
+}
 }
 
 if (command === "support" || command === "soporte") {
