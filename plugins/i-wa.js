@@ -8,9 +8,13 @@ const user = global.db.data.users[m.sender] || {};
 const name = await conn.getName(m.sender);
 
 if (command === "canal" || command === "channel") {
-let canalXd = `📍  No hay canal en este plugin.
+let canalXd = `𝗖𝗮𝗻𝗮𝗹𝗲𝘀 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹
+
 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗪𝗼𝗿𝗹𝗱
 https://whatsapp.com/channel/0029Vb6FZFa9WtC05USddp3e
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗩𝗶𝗱𝗲𝗼𝘀 𝗘𝗱𝗶𝘁
+https://whatsapp.com/channel/0029Vb7QSaIDZ4LjPAPogb2V
 `
 await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 }
