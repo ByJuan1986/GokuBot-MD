@@ -46,9 +46,29 @@ conn.reply('5493873655135@s.whatsapp.net', m.quoted ? teks + m.quoted.text : tek
 await conn.sendMessage(m.chat, { text: `✓  Comentario enviado a los desarrolladores.` }, { quoted: m })
 };
 
+if (command === "test") {
+let xd = `Unete al grupo con estos enlaces:
+
+> Grupo 1
+https://ejemplo.com
+
+> Grupo 2
+https://ejemplo.com
+
+📍 Usa *${usedPrefix + command} telegram* para ver los grupos de telegram.`
+if (!args[0]) {
+conn.reply(m.chat, xd, m)
+} else if (args[0] === "telegram") {
+let t = `Grupo de telegram:
+
+https://ejemplo.com`
+}
+}
+
+  
 };
 
-handler.command = ['canal', 'canales', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ['canal', 'canales', 'test', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
