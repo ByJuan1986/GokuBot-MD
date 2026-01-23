@@ -26,7 +26,8 @@ https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w
 
 𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗟𝗲𝗴𝗲𝗻𝗱𝘀
 https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
-`
+
+📍  Usa *${usedPrefix + command} telegram* para ver los canales de telegram.`
 if (!args[0]) {
 await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 } else if (args[0] === "telegram") {
@@ -36,7 +37,14 @@ conn.reply(m.chat, canalt, m)
 }
 
 if (command === "grupos" || command === "gruposoficiales") {
-let grupos = `📍  No se han agregado grupos todavia.`
+let grupos = `📍  No se han agregado grupos todavia.
+
+📍  Usa categorias para ver otros grupos.
+- telegram
+- facebook 
+- frikis
+
+> *Por ejemplo:* ${usedPrefix + command} facebook`
 if (!args[0]) {
   conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
 } else if (args[0] === "telegram") {
@@ -48,8 +56,6 @@ conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
 let grupofr = `📍 Nada agregado...`
 conn.reply(m.chat, grupofr, m)
-} else if {
-return conn.reply(m.chat, `📍  No hay grupos en esa categoría...`, m)
 }
 }
 
