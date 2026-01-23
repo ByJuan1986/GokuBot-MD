@@ -23,6 +23,9 @@ https://whatsapp.com/channel/0029VaQghZyAInPcWuTHOR3V
 
 𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹
 https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w
+
+𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗟𝗲𝗴𝗲𝗻𝗱𝘀
+https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 `
 await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 }
