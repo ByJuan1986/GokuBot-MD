@@ -62,6 +62,7 @@ conn.reply(m.chat, xd, m)
 let t = `Grupo de telegram:
 
 https://ejemplo.com`
+  conn.reply(m.chat, t, m)
 }
 }
 
