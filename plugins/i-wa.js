@@ -7,7 +7,7 @@ return conn.sendMessage(m.chat, { text: `📍  Los comandos de *[ información ]
 const user = global.db.data.users[m.sender] || {};
 const name = await conn.getName(m.sender);
 
-if (command === "canal" || command === "channel") {
+if (command === "canal" || command === "canales") {
 let canalXd = `𝗔𝗾𝘂𝗶 𝘁𝗲𝗻𝗲𝗶𝘀 𝗹𝗼𝘀 𝗰𝗮𝗻𝗮𝗹𝗲𝘀 𝗱𝗲 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗱𝗲 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 😁
 
 *➤ 🄲🄰🄽🄰🄻🄴🅂 🅆🄷🄰🅃🅂🄰🄿🄿 🄳🄴 🄳🅁🄰🄶🄾🄽 🄱🄰🄻🄻*
@@ -45,7 +45,7 @@ await conn.sendMessage(m.chat, { text: `✓  Comentario enviado a los desarrolla
 
 };
 
-handler.command = ['canal', 'channel', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ['canal', 'canales', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
