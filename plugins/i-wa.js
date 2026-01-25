@@ -31,7 +31,46 @@ https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 if (!args[0]) {
 await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 } else if (args[0] === "telegram") {
-let canalt = `📍 Nada agregado...`
+let canalt = `📍 Nada agregado...
+𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺.
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗰𝗮𝘀𝘁𝗲𝗹𝗹𝗮𝗻𝗼
+- https://t.me/+KtSUCeZ7-0Y3ZWI0
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗲𝗻 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽
+- https://miniurl.cl/DragonBallEnWhatsApp
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗚𝗮𝗹𝗹𝗲𝗴𝗼 
+- https://miniurl.cl/DragonBallGallego
+
+𝗘𝗻𝗰𝘂𝗲𝘀𝘁𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 
+- https://t.me/+AhjEkyliMt8xOTVk
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗰𝗮𝘁𝗮𝗹𝗮𝗻
+- https://miniurl.cl/GrupBolaDeDracCatala
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝘃𝗮𝗹𝗲𝗻𝗰𝗶𝗮𝗻𝗼
+- https://t.me/boladedracvalencia
+
+𝗙𝗮𝗺𝗶𝗹𝗶𝗮 𝗦𝗮𝗶𝘆𝗮𝗻𝘀
+- https://t.me/FamiliaSaiyan
+
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗟𝗲𝗴𝗲𝗻𝗱𝘀
+- https://t.me/+yfN-w0E3V0kxNGQ0
+
+𝗔𝗻𝗶𝗺𝗲 𝗲𝗻 𝗰𝗮𝘁𝗮𝗹𝗮𝗻
+- https://bit.ly/AnimeEnCatala
+
+ 🇪🇸 𝗔𝗹𝗶𝗲𝗻 𝗩𝗦 𝗗𝗲𝗽𝗿𝗲𝗱𝗮𝗱𝗼𝗿 🇪🇸 
+- https://t.me/ComunidadAlienVsPredator
+
+ 🇪🇸 𝗦𝘁𝗮𝗿 𝗧𝗿𝗲𝗸 𝗪𝗮𝗿𝘀 🇪🇸 
+- https://t.me/ComunidadStarWarsWars
+
+🇪🇸 𝗗𝗖 𝘆 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
+- https://t.me/ComunidadDCMarvel
+
+𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
 conn.reply(m.chat, canalt, m)
 }
 }
