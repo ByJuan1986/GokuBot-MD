@@ -31,7 +31,24 @@ https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 if (!args[0]) {
 await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 } else if (args[0] === "telegram") {
-let canalt = `📍 Nada agregado...
+let canalt = `📍 Nada agregado...`
+conn.reply(m.chat, canalt, m)
+}
+}
+
+if (command === "grupos" || command === "gruposoficiales") {
+let grupos = `📍  No se han agregado grupos todavia.
+
+📍  Usa categorias para ver otros grupos.
+- telegram
+- facebook 
+- frikis
+
+> *Por ejemplo:* ${usedPrefix + command} facebook`
+if (!args[0]) {
+  conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
+} else if (args[0] === "telegram") {
+let grupot = `📍 Nada agregado...
 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺.
 
 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗰𝗮𝘀𝘁𝗲𝗹𝗹𝗮𝗻𝗼
@@ -70,24 +87,8 @@ let canalt = `📍 Nada agregado...
 🇪🇸 𝗗𝗖 𝘆 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
 - https://t.me/ComunidadDCMarvel
 
-𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
-conn.reply(m.chat, canalt, m)
-}
-}
-
-if (command === "grupos" || command === "gruposoficiales") {
-let grupos = `📍  No se han agregado grupos todavia.
-
-📍  Usa categorias para ver otros grupos.
-- telegram
-- facebook 
-- frikis
-
-> *Por ejemplo:* ${usedPrefix + command} facebook`
-if (!args[0]) {
-  conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
-} else if (args[0] === "telegram") {
-let grupot = `📍 Nada agregado...`
+𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓
+`
 conn.reply(m.chat, grupot, m)
 } else if (args[0] === "facebook") {
 let grupof = `📍 Nada agregado...`
