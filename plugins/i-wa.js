@@ -39,8 +39,7 @@ conn.reply(m.chat, canalt, m)
 if (command === "grupos" || command === "gruposoficiales") {
 let grupos = `Buscas grupos de dragon ball aqui tienes varios grupos elije el tuyo y difruta del mejor anime del mundo.
 
-◜🐉 🅳🆁🅰🅶🅾🅽 🅱🅰🅻🅻 1/2🐉◞
-
+◜🐉 🅳🆁🅰🅶🅾🅽 🅱🅰🅻🅻 🐉◞
 
 🌍📱🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕃𝕖𝕘𝕖𝕟𝕕𝕤 🐉 🎮📱🌍
 https://chat.whatsapp.com/L2vpoClRqYC6wsmGC0gFqS
@@ -66,7 +65,34 @@ https://chat.whatsapp.com/Hq0VCaXqGaU40P89HmPuni
 🌍🐉📹 𝕍𝕚𝕕𝕖𝕠𝕤 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 📹🐉🌍
 https://chat.whatsapp.com/EaTmnGSAX3pH06Dl7MRzmV
 
-Más grupos /whatsappdragonball2
+🌍🐲🐉𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕊𝕥𝕚𝕔𝕜𝕖𝕣𝕤🐉🐲🌍
+https://chat.whatsapp.com/K1FSWdgwuzTL1z08NVYJNw
+
+🌍🐉🎨 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕕𝕚𝕓𝕦𝕛𝕠𝕤 🎨🐉🌍
+https://chat.whatsapp.com/LddDN9xDXcg15IuOirylqZ
+
+🌍🐉 𝔻ℝ𝔸𝔾𝕆ℕ 𝔹𝔸𝕃𝕃 𝔾𝔼ℕ𝕂𝕀𝕊ℍ𝕀ℕ 𝕊ℚ 𝕌𝔸𝔻ℝ𝔸 🐉🌍
+https://chat.whatsapp.com/F3MXKGiRbkACoOEnzFon8Y
+
+🌍📊🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕖𝕟𝕔𝕦𝕖𝕤𝕥𝕒𝕤 🐉📊🌍
+https://chat.whatsapp.com/GX6QQjlGEcYAGz823ZUpfI
+
+🌍🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝕓𝕒𝕝𝕝 𝕜𝕒𝕜𝕒𝕣𝕠𝕥 🐉🎮🌍
+https://chat.whatsapp.com/JbIgLHQuvue7hItxhng9nN
+
+🌍🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 ℤ 𝔻𝕠𝕜𝕜𝕒𝕟 𝕓𝕒𝕥𝕥𝕝𝕖 🐉🎮🌍
+https://chat.whatsapp.com/GEj9B5TlTvoIC6wBLJ71UU
+
+🌍🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝔹𝕦𝕕𝕠𝕜𝕒𝕚 𝕋𝕖𝕟𝕜𝕒𝕚𝕔𝕙𝕚 🐉 🎮🌍
+https://chat.whatsapp.com/KljiSB549Xc7HXXIzVPFat
+
+🌍🐉🐲 𝔽𝕒𝕟𝕤 𝔻𝕖 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 ℤ 𝕂𝕒𝕚 🐲🐉🌍
+https://chat.whatsapp.com/BhXwjZVP0Ae9VU4pHqXATS
+
+🐉🎮𝔻ℝ𝔸𝔾𝕆ℕ 𝔹𝔸𝕃𝕃 𝔽𝕀𝔾𝕋ℍ𝔼ℝℤ🎮🐉
+https://chat.whatsapp.com/LUKhODoKfqrC0uVKqMdfu4
+
+𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟏𝟒/𝟎𝟗/𝟐𝟓
 
 📍 Para ver otros grupos.
 - grupos telegram
