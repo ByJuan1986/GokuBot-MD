@@ -37,14 +37,45 @@ conn.reply(m.chat, canalt, m)
 }
 
 if (command === "grupos" || command === "gruposoficiales") {
-let grupos = `📍  No se han agregado grupos todavia.
+let grupos = `Buscas grupos de dragon ball aqui tienes varios grupos elije el tuyo y difruta del mejor anime del mundo.
 
-📍  Usa categorias para ver otros grupos.
-- telegram
-- facebook 
-- frikis
+◜🐉 🅳🆁🅰🅶🅾🅽 🅱🅰🅻🅻 1/2🐉◞
 
-> *Por ejemplo:* ${usedPrefix + command} facebook`
+
+🌍📱🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕃𝕖𝕘𝕖𝕟𝕕𝕤 🐉 🎮📱🌍
+https://chat.whatsapp.com/L2vpoClRqYC6wsmGC0gFqS
+
+🌍🐉👨‍👩‍👧‍👧 𝔽𝕒𝕞𝕚𝕝𝕚𝕒 𝕊𝕒𝕚𝕪𝕒𝕟 👨‍👩‍👧‍👧🐉🌍
+https://chat.whatsapp.com/LmDvJZWd0eQCzhR8lwJ5B4
+
+🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝔽𝕠𝕣𝕥𝕟𝕚𝕥𝕖 🐉
+https://chat.whatsapp.com/KJcE87Yb8ZP7WDiww8UDkY
+
+🌍🐉🐲 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 ℝ𝕠𝕝 🐲🐉🌍
+https://chat.whatsapp.com/JXVf0iaQhuvE7uQCE8QSym
+
+🌍🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕤𝕡𝕒𝕣𝕜𝕚𝕟𝕘 𝕫𝕖𝕣𝕠 🐉🎮🌍
+https://chat.whatsapp.com/EJFl28xgwLeEhIQxriWiuZ
+
+🌍🐉🦹‍♂️ 𝕍𝕚𝕝𝕝𝕒𝕟𝕠𝕤 𝕕𝕖 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 🐉🦹‍♂️🌍
+https://chat.whatsapp.com/LCF5v7bb9dN8lGOrY9OlFR
+
+🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕏𝕖𝕟𝕠𝕧𝕖𝕣𝕤𝕖 🐉
+https://chat.whatsapp.com/Hq0VCaXqGaU40P89HmPuni
+
+🌍🐉📹 𝕍𝕚𝕕𝕖𝕠𝕤 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 📹🐉🌍
+https://chat.whatsapp.com/EaTmnGSAX3pH06Dl7MRzmV
+
+Más grupos /whatsappdragonball2
+
+📍 Para ver otros grupos.
+- grupos telegram
+- grupos facebook 
+- grupos frikis
+
+> *Por ejemplo:* ${usedPrefix + command} facebook
+
+`
 if (!args[0]) {
   conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
 } else if (args[0] === "telegram") {
