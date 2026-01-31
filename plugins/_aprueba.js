@@ -24,7 +24,7 @@ let handler = async (m, { conn, args, usedPrefix, command, text }) => {
         const link = await finalEnlace(media)
         
         await conn.sendMessage(m.chat, { 
-            text: `✅ Imagen subida exitosamente!\n\n🔗 URL: ${link}\n📊 Tamaño: ${formatBytes(media.length)}` 
+            text: `✅ Imagen subida exitosamente!\n\n🔗 URL: ${link}\n📊 Tamaño: ${formatBytes(media.length)}\n⏰ Permanente - Sin caducidad` 
         }, { quoted: m })
         
     } catch (error) {
@@ -52,34 +52,46 @@ async function finalEnlace(buffer) {
         const ext = fileType ? fileType.ext : 'jpg'
         
         // Generar nombre único
-        const randomName = crypto.randomBytes(6).toString('hex')
-        const fileName = `${randomName}.${ext}`
+        const randomName = crypto.randomBytes(8).toString('hex')
+        const fileName = `image_${randomName}.${ext}`
         
         // Crear FormData
         const form = new FormData()
-        form.append('upload', buffer, {
+        form.append('file', buffer, {
             filename: fileName,
             contentType: fileType ? fileType.mime : 'image/jpeg'
         })
-        form.append('numfiles', '1')
-        form.append('upload_session', crypto.randomBytes(16).toString('hex'))
-        form.append('adult', 'false')
+        form.append('type', 'file')
+        form.append('action', 'upload')
         
-        // Subir a PostImages
+        // Headers que simulan un navegador real
+        const headers = {
+            ...form.getHeaders(),
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/javascript, */*; q=0.01',
+            'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+            'Origin': 'https://postimages.org',
+            'Referer': 'https://postimages.org/',
+            'X-Requested-With': 'XMLHttpRequest'
+        }
+        
+        // Subir a PostImages usando su API alternativa
         const response = await fetch('https://postimages.org/json/rr', {
             method: 'POST',
             body: form,
-            headers: form.getHeaders()
+            headers: headers
         })
         
         if (!response.ok) {
-            throw new Error(`Error HTTP: ${response.status}`)
+            throw new Error(`Error HTTP: ${response.status} - ${response.statusText}`)
         }
         
         const data = await response.json()
         
-        // Verificar si la subida fue exitosa
+        // Verificar respuesta
         if (data.status === 'OK' && data.url) {
+            return data.url
+        } else if (data.url) {
             return data.url
         } else {
             throw new Error('PostImages no devolvió una URL válida')
