@@ -27,7 +27,7 @@ const dibujo = [
 " ____",
 " |  |",
 intentos < 6 ? " | O" : " |",
-intentos < 5 ? " | /" : intentos < 4 ? " | / " : intentos < 3 ? " | / \ " : intentos < 2 ? " | / \ " : " |",
+intentos < 5 ? " | /" : intentos < 4 ? " | / " : intentos < 3 ? " | /  ⃥" : intentos < 2 ? " | /  ⃥ " : " |",
 intentos < 2 ? "_|_" : " |",
 ]
 return dibujo.slice(0, intentosMaximos - intentos).join("\n")
