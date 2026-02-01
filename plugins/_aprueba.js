@@ -25,7 +25,7 @@ return palabraOculta.trim();
 function mostrarAhorcado(intentos) {
 const dibujo = [
 " ____",
-" ||",
+" | |",
 intentos < 6 ? " | O" : " |",
 intentos < 5 ? " | /" : intentos < 4 ? " | / " : intentos < 3 ? " | / \\" : intentos < 2 ? " | / \\ " : " |",
 intentos < 2 ? "_|_" : " |",
