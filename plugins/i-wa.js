@@ -29,7 +29,8 @@ https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 
 📍  Usa *${usedPrefix + command} telegram* para ver los canales de telegram.`
 if (!args[0]) {
-await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
+  await conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: canalXd }, { quoted: m })
+//await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 } else if (args[0] === "telegram") {
 let canalt = `📍 Nada agregado...`
 conn.reply(m.chat, canalt, m)
@@ -99,11 +100,10 @@ https://chat.whatsapp.com/LUKhODoKfqrC0uVKqMdfu4
 - grupos facebook 
 - grupos frikis
 
-> *Por ejemplo:* ${usedPrefix + command} facebook
-
-`
+> *Por ejemplo:* ${usedPrefix + command} facebook`
 if (!args[0]) {
-  conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupos }, { quoted: m })
+  //conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
 } else if (args[0] === "telegram") {
 let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺.
 
@@ -145,13 +145,16 @@ let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱�
 
 𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓
 `
-conn.reply(m.chat, grupot, m)
+  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupot }, { quoted: m })
+//conn.reply(m.chat, grupot, m)
 } else if (args[0] === "facebook") {
 let grupof = `📍 Nada agregado...`
-conn.reply(m.chat, grupof, m)
+  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupof }, { quoted: m })
+//conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
 let grupofr = `📍 Nada agregado...`
-conn.reply(m.chat, grupofr, m)
+  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupofr }, { quoted: m })
+//conn.reply(m.chat, grupofr, m)
 }
 }
 
