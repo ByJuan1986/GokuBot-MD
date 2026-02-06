@@ -19,7 +19,8 @@ let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
 if (matchedAudio) {
 try {
 this.sendPresenceUpdate('recording', m.chat)
-this.sendMessage(m.chat, {audio: {url: matchedAudio.url}, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true}, {quoted: m})
+this.sendFile(m.chat, matchedAudio.url, 'goku.mp3', null, m, true, { type: 'audioMessage', ptt: true })
+  //sendMessage(m.chat, {audio: {url: matchedAudio.url}, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true}, {quoted: m})
 } catch (e) {
 console.error(e)
 } finally {
