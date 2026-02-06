@@ -7,7 +7,7 @@ if (m.fromMe) return !0
 if (!db.data.chats[m.chat].fAudios) return
 
 const audioMap = [
-{regex: /^A Bueno master|Bueno master|Bueno Máster|🫂$/i, url: 'https://qu.ax/xynz.mp3'},
+{regex: /^bien pensado$/i, url: './src/bien-pensado-boddy.mp3'},
 {regex: /^ara ara$/i, url: 'https://qu.ax/PPgt.mp3'},
 {regex: /(bienvenido|bienvenid@)/gi, url: 'https://qu.ax/cUYg.mp3'}
 ]
