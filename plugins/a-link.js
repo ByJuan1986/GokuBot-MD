@@ -16,6 +16,6 @@ if (isGroupLink && m.text.includes(linkThisGroup)) return !0
 }
 if (chat.fEnlaces && isGroupLink && !isAdmin && !isROwner && isBotAdmin && m.key.participant !== conn.user.jid) {
 await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.key.id, participant: m.key.participant }})
-await conn.sendMessage(m.chat, { text: `📍  ${global.db.data.users[m.key.participant].name || 'User' } removed for unfit links.` }, m)
+await conn.sendMessage(m.chat, { text: `📍  User removed for unfit links.` }, m)
 await conn.groupParticipantsUpdate(m.chat, [m.key.participant], 'remove')
 }}}
