@@ -1,31 +1,11 @@
 import util from 'util'
 import path from 'path'
-let handler = (m) => m
-handler.all = async function (m) {
-let chat = global.db.data.chats[m.chat]
-if (m.isBot || m.sender.includes('bot') || m.sender.includes('Bot')) return true
-if (chat.isBanned) return
-if (m.fromMe) return !0
-if (!db.data.chats[m.chat].fAudios) return
+let handler = async (m, {conn}) => {
+if (!db.data.chats[m.chat].fAudios && m.isGroup) throw 0
 
-const audioMap = [
-{regex: /^bien pensado$/i, url: './src/bien-pensado-boddy.mp3'},
-{regex: /^ara ara$/i, url: 'https://qu.ax/PPgt.mp3'},
-{regex: /(bienvenido|bienvenid@)/gi, url: 'https://qu.ax/cUYg.mp3'}
-]
-
-let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
-
-if (matchedAudio) {
-try {
-this.sendPresenceUpdate('recording', m.chat)
-this.sendMessage(m.chat, {audio: {url: matchedAudio.url}, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true}, {quoted: m})
-} catch (e) {
-console.error(e)
-} finally {
+let vaudio = './src/bien-pensado-boddy.mp3'
+conn.sendFile(m.chat, vaudio, 'a.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 }
-}
-
-return !0
-}
+handler.customPrefix = /bien pensado|bien pensado boddy/
+handler.command = /^(bien pensado|bien pensado boddy?$)/
 export default handler
