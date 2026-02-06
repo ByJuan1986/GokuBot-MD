@@ -1,51 +1,44 @@
 import { sticker } from '../lib/sticker.js'
+import uploadFile from '../lib/uploadFile.js'
+import uploadImage from '../lib/uploadImage.js'
+import { webp2png } from '../lib/webp2mp4.js'
 
-let handler = async (m, { conn }) => {
-  try {
-    let q = m.quoted ? m.quoted : m
-    let mime = (q.msg || q).mimetype || q.mediaType || ''
+let handler = async (m, { conn, args }) => {
+let stiker = false
+let userId = m.sender
+let packstickers = global.db.data.users[userId] || {}
+let texto1 = packstickers.text1 || 'Goku'
+let texto2 = packstickers.text2 || 'Bot'
+try {
+let q = m.quoted ? m.quoted : m
+let mime = (q.msg || q).mimetype || q.mediaType || ''
+let txt = args.join(' ')
 
-    if (!/image|video|webp/.test(mime))
-      return m.reply('Responde a una imagen, video o sticker')
+if (/webp|image|video/g.test(mime) && q.download) {
+if (/video/.test(mime) && (q.msg || q).seconds > 11)
+return conn.reply(m.chat, 'El video no puede durar mas de 10 segundos...', m)
+let buffer = await q.download()
+await m.react('⏰')
 
-    if (/video/.test(mime)) {
-      let dur = (q.msg || q).seconds || 0
-      if (dur > 7) return m.reply('Duración máxima 7 segundos')
-    }
+let marca = txt ? txt.split(/[\u2022|]/).map(part => part.trim()) : [texto1, texto2]
+stiker = await sticker(buffer, false, marca[0], marca[1])
+} else if (args[0] && isUrl(args[0])) {
+let buffer = await sticker(false, args[0], texto1, texto2)
+stiker = buffer
+} else {
+return conn.reply(m.chat, 'ᗢ Responda a una imagen o video para crear un sticker.', m)
+}} catch (e) {
+await conn.reply(m.chat, e.message, m)
+} finally {
+if (stiker) {
+conn.sendFile(m.chat, stiker, 'sticker.webp', '', m)
+}}}
 
-    await conn.sendMessage(m.chat, {
-      react: { text: '🕒', key: m.key }
-    })
-
-    let media = await q.download()
-    if (!media) throw 'No se pudo obtener el archivo'
-
-    let stiker = await sticker(
-      media,
-      global.packsticker || '',
-      global.packsticker2 || ''
-    )
-
-    await conn.sendMessage(
-      m.chat,
-      { sticker: stiker },
-      { quoted: m }
-    )
-
-    await conn.sendMessage(m.chat, {
-      react: { text: '✅', key: m.key }
-    })
-
-  } catch (e) {
-    await conn.sendMessage(m.chat, {
-      react: { text: '❌', key: m.key }
-    })
-    m.reply('Error al crear el sticker')
-  }
-}
-
-handler.help = ['s']
-handler.tags = ['tools']
 handler.command = ['s', 'sticker']
 
 export default handler
+
+const isUrl = (text) => {
+return text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)(jpe?g|gif|png)/, 'gi'))
+}
+
