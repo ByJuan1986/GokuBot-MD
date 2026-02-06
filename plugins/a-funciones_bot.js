@@ -28,6 +28,7 @@ ${readMore}
 ⧡ *${usedPrefix}on/off* buscador
 ⧡ *${usedPrefix}on/off* convertidor
 ⧡ *${usedPrefix}on/off* stickers
+⧡ *${usedPrefix}on/off* autosticker
 ⧡ *${usedPrefix}on/off* grupos
 ⧡ *${usedPrefix}on/off* rpg
 ⧡ *${usedPrefix}on/off* ia
