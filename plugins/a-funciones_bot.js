@@ -105,6 +105,16 @@ throw false
 chat.fSearch = isEnable
 break
 
+    case 'audios':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.fAudios = isEnable
+      break
+        
 case 'stickers':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
