@@ -33,7 +33,8 @@ if (!args[0]) {
 //await conn.sendMessage(m.chat, { text: canalXd }, { quoted: m })
 } else if (args[0] === "telegram") {
 let canalt = `📍 Nada agregado...`
-conn.reply(m.chat, canalt, m)
+  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: canalt }, { quoted: m })
+//conn.reply(m.chat, canalt, m)
 }
 }
 
