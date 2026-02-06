@@ -196,14 +196,14 @@ let t = `📍 No hay numero...`
   //----------------------
   //Prueba de video.
   //----------------------
-  if (command === "prueba") { //cambia el handler.command = ['prueba'] por otro
+  if (command === "appstickers" || command === "appsticker") { 
   let ssXd = `📍 Mensaje con video XD.`
-    conn.sendMessage(m.chat, { video: { url: 'https://files.catbox.moe/j3073e.mp4' }, caption: ssXd }, { quoted: m })
+    conn.sendMessage(m.chat, { video: { url: 'https://files.catbox.moe/j3073e.mp4' }, caption: ssXd }, { quoted: m }) //el url esta dentro de este codigo.
   }
 
 };
 
-handler.command = ['prueba', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ['appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
