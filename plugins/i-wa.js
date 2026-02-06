@@ -173,8 +173,8 @@ await conn.sendMessage(m.chat, { text: `✓  Comentario enviado a los desarrolla
 if (command === "dar") {
 let lolXd = `📍  Usa *(${usedPrefix + command} numero)*`
 if (!args[0]) {
-conn.reply(m.chat, xd, m)
-} else if (args[0] === "telegram") {
+conn.reply(m.chat, lolXd, m)
+} else if (args[0] === "número" || args[0] === "numero") {
 let t = `📍 No hay numero...`
   conn.reply(m.chat, t, m)
 }
