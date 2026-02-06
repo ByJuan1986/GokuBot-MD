@@ -13,20 +13,18 @@ let opciones = `· ┄ · ⊸ 𔓕 *Ajustes : Settings*
 
 \t📍 Puedes desactivar o activar comandos segun tu preferencia.
 
-\t＃ *Funciones* : *13* results
+\t＃ *Funciones* : *17* results
 \t＃ *Tipo* : admins
 
 \t⚶ Ejemplo de uso:
 *${usedPrefix + command}* descargas
 ${readMore}
-> [ VARIADO ]
 ⧡ *${usedPrefix}on/off* welcome
+⧡ *${usedPrefix}on/off* admin
 ⧡ *${usedPrefix}on/off* enlaces
-⧡ *${usedPrefix}on/off* detector
-
-> [ CHATS ]
 ⧡ *${usedPrefix}on/off* informacion
 ⧡ *${usedPrefix}on/off* descargas
+⧡ *${usedPrefix}on/off* juegos
 ⧡ *${usedPrefix}on/off* buscador
 ⧡ *${usedPrefix}on/off* convertidor
 ⧡ *${usedPrefix}on/off* stickers
@@ -44,18 +42,8 @@ ${readMore}
 let isAll = false,
 isUser = false
 switch (type) {
-case 'descargas':
-case 'downloads':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}
-}
-chat.fDescargas = isEnable
-break
-
-case 'welcome': {
+case 'welcome':
+case 'bienvenida': {
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
@@ -68,18 +56,7 @@ chat.welcome = isEnable
 break
 }
 
-case 'buscador':
-case 'search':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}
-}
-chat.fSearch = isEnable
-break
-
-case 'detector': {
+case 'admins': {
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
@@ -88,21 +65,12 @@ throw false
 global.dfail('admin', m, conn)
 throw false
 }
-chat.detect = isEnable
+chat.fAdmin = isEnable
 break
 }
 
-case 'stickers':
-if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
-throw false
-}
-}
-chat.fStickers = isEnable
-break
-
-case 'enlaces': {
+case 'enlaces':
+case 'links': {
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
@@ -114,6 +82,59 @@ throw false
 chat.fEnlaces = isEnable
 break
 }
+
+case 'descargas':
+case 'downloads':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}}
+chat.fDescargas = isEnable
+break
+
+case 'buscador':
+case 'search':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}
+}
+chat.fSearch = isEnable
+break
+
+case 'stickers':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}
+}
+chat.fStickers = isEnable
+break
+
+case 'shop':
+case 'tienda':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}
+}
+chat.fTienda = isEnable
+break
+
+case 'game':
+case 'juegos':
+if (m.isGroup) {
+if (!(isAdmin || isOwner)) {
+global.dfail('admin', m, conn)
+throw false
+}
+}
+chat.fJuegos = isEnable
+break
 
 case 'rpg':
 if (m.isGroup) {
@@ -249,10 +270,11 @@ if (!/[01]/.test(command))
 return await conn.sendMessage(m.chat, { text: opciones }, { quoted: m })
 throw false
 }
-await conn.sendMessage(m.chat, { text: `✅  Se ha ${isEnable ? 'activado' : 'desactivado'} la funcion *[ ${type} ]* en este chat.` }, { quoted: m })
+await conn.sendMessage(m.chat, { text: `✅  Se ha ${isEnable ? 'activado' : 'desactivado'} la opción *[ ${type} ]*` }, { quoted: m })
 }
 handler.command = ["on", "off"]
 handler.admin = true
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
+
