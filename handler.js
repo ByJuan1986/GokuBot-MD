@@ -146,6 +146,7 @@ if (!("fOwners" in chat)) chat.fOwners = true
 if (!("fInformation" in chat)) chat.fInformation = true
 if (!("fLogos" in chat)) chat.fLogos = true
 if (!("fEdits" in chat)) chat.fEdits = false
+if (!("fAudios" in chat)) chat.fAudios = false
 if (!("fAutoStick" in chat)) chat.fAutoStick = false
 if (!("fPremium" in chat)) chat.fPremium = false
 if (!("fModers" in chat)) chat.fModers = false
@@ -183,6 +184,7 @@ fOwners: true,
 fInformation: true,
 fLogos: true,
 fEdits: false,
+fAudios: false,
 fAutoStick: false,
 fPremium: false,
 fModers: false,
