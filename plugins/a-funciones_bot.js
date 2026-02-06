@@ -254,6 +254,16 @@ throw false
 chat.fLogos = isEnable
 break
 
+    case 'autosticker':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.fAutoStick = isEnable
+      break
+
 case 'group':
 case 'grupos':
 if (m.isGroup) {
