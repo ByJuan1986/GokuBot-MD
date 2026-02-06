@@ -3,7 +3,7 @@ import path from 'path'
 let handler = async (m, {conn}) => {
 if (!db.data.chats[m.chat].fAudios && m.isGroup) throw 0
 
-let vaudio = 'https://files.catbox.moe/cv4969.mp3'
+let vaudio = 'https://files.catbox.moe/pxgxpk.mp3'
 conn.sendFile(m.chat, vaudio, 'a.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 }
 handler.customPrefix = /bien pensado|bien pensado boddy/i
