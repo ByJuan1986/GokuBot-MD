@@ -7,6 +7,9 @@ return conn.sendMessage(m.chat, { text: `📍  Los comandos de *[ información ]
 const user = global.db.data.users[m.sender] || {};
 const name = await conn.getName(m.sender);
 
+  //------------------
+  //Comando de canales
+  //------------------
 if (command === "canal" || command === "canales") {
 let canalXd = `𝗔𝗾𝘂𝗶 𝘁𝗲𝗻𝗲𝗶𝘀 𝗹𝗼𝘀 𝗰𝗮𝗻𝗮𝗹𝗲𝘀 𝗱𝗲 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝗱𝗲 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 😁
 
@@ -38,6 +41,9 @@ let canalt = `📍 Nada agregado...`
 }
 }
 
+  //-------------------------
+  //Comando de grupos.
+  //-------------------------
 if (command === "grupos" || command === "gruposoficiales") {
 let grupos = `Buscas grupos de dragon ball aqui tienes varios grupos elije el tuyo y difruta del mejor anime del mundo.
 
@@ -144,8 +150,7 @@ let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱�
 🇪🇸 𝗗𝗖 𝘆 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
 - https://t.me/ComunidadDCMarvel
 
-𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓
-`
+𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
   return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupot }, { quoted: m })
 //conn.reply(m.chat, grupot, m)
 } else if (args[0] === "facebook") {
@@ -159,6 +164,9 @@ let grupofr = `📍 Nada agregado...`
 }
 }
 
+  //----------------------
+  //Comando de soporte
+  //----------------------
 if (command === "support" || command === "soporte") {
 if (!text) return conn.sendMessage(m.chat, { text: `ᗢ Ingrese su reporte para enviarlo a los desarrolladores.\n\n\t⚶ Por ejemplo:\n*${usedPrefix + command}* El comando #menu esta fallando.` }, { quoted: m })
 let teks = `·─┄ · ✦ *Reporte : Support* ✦ ·
@@ -170,6 +178,10 @@ conn.reply('5493873655135@s.whatsapp.net', m.quoted ? teks + m.quoted.text : tek
 await conn.sendMessage(m.chat, { text: `✓  Comentario enviado a los desarrolladores.` }, { quoted: m })
 };
 
+
+  //-----------------------
+  //Comando para enviar numero o alguna cuenta.
+  //-----------------------
 if (command === "dar") {
 let lolXd = `📍  Usa *(${usedPrefix + command} numero)*`
 if (!args[0]) {
@@ -180,10 +192,18 @@ let t = `📍 No hay numero...`
 }
 }
 
-  
+
+  //----------------------
+  //Prueba de video.
+  //----------------------
+  if (command === "prueba") { //cambia el handler.command = ['prueba'] por otro
+  let ssXd = `📍 Mensaje con video XD.`
+    conn.sendMessage(m.chat, { video: { url: 'https://files.catbox.moe/j3073e.mp4' }, caption: ssXd }, { quoted: m })
+  }
+
 };
 
-handler.command = ['canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ['prueba', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
