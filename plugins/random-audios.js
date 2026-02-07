@@ -26,6 +26,8 @@ const audioMap = [
 {regex: /^los pinguinos$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzhf/Los%20ping%C3%BCinos.mp3'},
 {regex: /^maldicion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzlf/Maldicion.mp3'},
 {regex: /^mangekyo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODBf/Mangekyo.mp3'},
+{regex: /^Mary Jane$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODFf/Mary%20Jane.mp3'},
+
   
 ]
 
