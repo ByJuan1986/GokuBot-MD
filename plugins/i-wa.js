@@ -151,7 +151,7 @@ let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱�
 - https://t.me/ComunidadDCMarvel
 
 𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
-  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupot }, { quoted: m })
+  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/ruuai1.png" }, caption: grupot }, { quoted: m })
 //conn.reply(m.chat, grupot, m)
 } else if (args[0] === "facebook") {
 let grupof = `📍 Nada agregado...`
