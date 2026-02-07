@@ -13,6 +13,7 @@ const audioMap = [
 {regex: /^Bien pensado boddy|bien pensado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
 {regex: /^soy toxico|les saluda el toxico$/i, url: 'https://files.catbox.moe/pxgxpk.mp3'},
 {regex: /^buenas noches bro$/i, url: 'https://files.catbox.moe/wsgu0d.aac'},
+{regex: /^buenos dias$/i, url: 'https://od.lk/s/NTZfMjkxOTY4ODlf/buenos%20d%C3%ADas%20Goku%20latino.mp3'},  
 ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
