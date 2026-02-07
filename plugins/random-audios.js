@@ -27,7 +27,7 @@ const audioMap = [
 {regex: /^maldicion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzlf/Maldicion.mp3'},
 {regex: /^mangekyo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODBf/Mangekyo.mp3'},
 {regex: /^Mary Jane$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODFf/Mary%20Jane.mp3'},
-
+{regex: /^la fe de cristo rey$/i, url: 'https://od.lk/s/NTZfMjg3NDE0MjBf/Meme%20-%20La%20fe%20de%20Cristo%20rey.mp3'},
   
 ]
 
