@@ -15,7 +15,7 @@ const audioMap = [
 {regex: /^buenas noches bro$/i, url: 'https://files.catbox.moe/wsgu0d.aac'},
 {regex: /^buenos dias$/i, url: 'https://od.lk/s/NTZfMjkxOTY4ODlf/buenos%20d%C3%ADas%20Goku%20latino.mp3'},  
 {regex: /^hola GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDFf/GokuBot%20hola%20latino.mp3'},
-{regex: /^kame haaa$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDJf/Kame%20ha%20latino.mp3'},
+{regex: /^kame haaa$/i, url: 'https://files.catbox.moe/g2r6ww.mp3'},
 {regex: /^Goku eta vaina es seria$/i, url: 'https://od.lk/s/NTZfMjk4MTU0NTNf/Esta%20vaina%20es%20seria.mp3'},
 
 ]
