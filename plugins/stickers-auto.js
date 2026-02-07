@@ -14,7 +14,12 @@ await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
 //Copia y pega.
-
+if (/^alegre$/i.test(m.text)) {
+let stiker = await sticker(null, alegre[Math.floor(Math.random() * alegre.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+ }
 
 }}
 handler.customPrefix = /hola|hello|alegre|holi|oli|ola/i
