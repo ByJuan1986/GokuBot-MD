@@ -32,8 +32,8 @@ const hola = [
 ]
 
 /* //copiar
-const = [
-'',
+const alegre = [
+'https://files.catbox.moe/4j22kf.jpg',
 '',
 ''
 ]
