@@ -17,7 +17,7 @@ await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 
 
 }}
-handler.customPrefix = /hola|hello|holi|oli|alegre|ola/i
+handler.customPrefix = /😀|alegre|alegria|feliz|felices/i
 handler.command = new RegExp()
 export default handler
 
