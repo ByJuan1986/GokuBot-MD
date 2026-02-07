@@ -109,7 +109,7 @@ https://chat.whatsapp.com/LUKhODoKfqrC0uVKqMdfu4
 
 > *Por ejemplo:* ${usedPrefix + command} facebook`
 if (!args[0]) {
-await conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupos }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/ruuai1.png" }, caption: grupos }, { quoted: m })
   //conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
 } else if (args[0] === "telegram") {
 let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺.
