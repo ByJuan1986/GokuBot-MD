@@ -159,7 +159,7 @@ let grupof = `📍 Nada agregado...`
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
 let grupofr = `📍 Nada agregado...`
-  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: grupofr }, { quoted: m })
+  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
 }
 }
