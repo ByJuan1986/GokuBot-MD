@@ -12,6 +12,7 @@ if (!db.data.chats[m.chat].fAudios) return
 const audioMap = [
 {regex: /^Bien pensado boddy|bien pensado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
 {regex: /^soy toxico|les saluda el toxico$/i, url: 'https://files.catbox.moe/pxgxpk.mp3'},
+{regex: /^buenas noches bro$/i, url: 'https://files.catbox.moe/wsgu0d.aac'},
 ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
