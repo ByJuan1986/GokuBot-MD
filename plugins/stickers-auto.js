@@ -31,12 +31,12 @@ const hola = [
 'https://files.catbox.moe/b3rhjz.jpg'
 ]
 
-/* //copiar
+* //copiar
 const alegre = [
 'https://files.catbox.moe/4j22kf.jpg',
-'',
-''
+'https://files.catbox.moe/4j22kf.jpg',
+'https://files.catbox.moe/4j22kf.jpg'
 ]
-*/ 
+*
 
 //Agrega comas cada nuevo url que agregues pero no agregues coma al ultimo url.
