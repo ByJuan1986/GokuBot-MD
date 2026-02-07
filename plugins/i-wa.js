@@ -158,13 +158,7 @@ let grupof = `📍 Nada agregado...`
   return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupof }, { quoted: m })
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
-let grupofr = `📍 Nada agregado...
-
-*Buscas una comunidad de anime? aqui tienes los enlaces de la comunidad frikilandia de WhatsApp, si queréis ver los grupos de Facebook y Telegram pon:*
-
-*.gruposwhatsapp*
-*.Facebook*
-*.Telegram*
+let grupofr = `*Buscas una comunidad de anime? aqui tienes los enlaces de la comunidad frikilandia de WhatsApp, si queréis ver los grupos de Facebook y Telegram pon:*
 
 *➤ Comunidad frikilandia*
 
@@ -226,6 +220,10 @@ https://chat.whatsapp.com/CjPAAmdWQzO07yzPoypr6O
 
 *🌍🐱🌕 𝗦𝗮𝗶𝗹𝗼𝗿 𝗠𝗼𝗼𝗻 🌕🐱🌍*
 https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
+
+*.gruposwhatsapp*
+*.Facebook*
+*.Telegram*
 
 *Actualizado 04/02/2026.*`
   return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupofr }, { quoted: m })
