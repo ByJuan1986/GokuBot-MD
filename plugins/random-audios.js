@@ -42,6 +42,8 @@ const audioMap = [
 {regex: /^y a mi que$/i, url: 'https://od.lk/s/NTZfMjg3NDcxMzBf/meme%206%20-%20ami%20que%20vergas%20me%20importa.mp3'},    
 {regex: /^y este quien poronga es$/i, url: 'https://od.lk/s/NTZfMjg3NDcxNTZf/meme%207%20-%20este%20que%20pongas%20es.mp3'},
 {regex: /^eres un cobarde$/i, url: 'https://od.lk/s/NTZfMjg3NDcyMTZf/meme%208%20-%20t%C3%BA%20eres%20un%20cobarde.mp3'},    
+{regex: /^ya vasta$/i, url: 'https://od.lk/s/NTZfMjg3NDcyNDdf/meme%209%20-%20ya%20basta%20Freezer.mp3'},
+{regex: /^mi dinero$/i, url: 'https://od.lk/s/NTZfMjkyMjY5NDFf/mi%20dinero%20disminulle.mp3'},
     
 ]
 
