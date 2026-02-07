@@ -21,6 +21,13 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
  }
 
+if (/^amor$/i.test(m.text)) {
+let stiker = await sticker(null, amor[Math.floor(Math.random() * amor.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+ }
+
 }}
 handler.customPrefix = /hola|hello|alegre|holi|oli|ola/i
 handler.command = new RegExp()
@@ -38,6 +45,12 @@ const hola = [
 
  //copiar
 const alegre = [
+'https://files.catbox.moe/4j22kf.jpg',
+'https://files.catbox.moe/4j22kf.jpg',
+'https://files.catbox.moe/4j22kf.jpg'
+]
+
+const amor = [
 'https://files.catbox.moe/4j22kf.jpg',
 'https://files.catbox.moe/4j22kf.jpg',
 'https://files.catbox.moe/4j22kf.jpg'
