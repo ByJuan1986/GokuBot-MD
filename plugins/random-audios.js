@@ -51,11 +51,7 @@ const audioMap = [
 {regex: /^si la verdad es que si$/i, url: 'https://od.lk/s/NTZfMjg5OTA0OTFf/Si%20la%20verdad%20es%20que%20si.mp3'},
 {regex: /^ta bien$/i, url: 'https://od.lk/s/NTZfMjg3MzAzOTBf/Ta%20bien.mp3'},
 {regex: /^ya vete del ciber$/i, url: 'https://od.lk/s/NTZfMjg3MzAzOTNf/Ya%20vete%20del%20cyber.mp3'},
-
-{regex: /^ultra instinto$/i, url: 'https://od.lk/s/NTZfMjg3MzAzOTJf/Ultrainstinto%20latino.mp3'},
-
-    
-]
+ ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
 
