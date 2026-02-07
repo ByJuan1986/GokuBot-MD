@@ -26,7 +26,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 //Agrega mas consonantes y define su argumento.
 //Constante hola
 const hola = [
-'https://files.catbox.moe/m48dwb.jpg',
+'https://files.catbox.moe/1stgzp.jpg',
 'https://files.catbox.moe/ce5bek.jpg',
 'https://files.catbox.moe/69ukdx.jpg'
 ]
