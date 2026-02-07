@@ -51,9 +51,9 @@ const alegre = [
 ]
 
 const amor = [
-'https://files.catbox.moe/4j22kf.jpg',
-'https://files.catbox.moe/4j22kf.jpg',
-'https://files.catbox.moe/4j22kf.jpg'
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg'
 ]
 
 
