@@ -27,8 +27,8 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 //Constante hola
 const hola = [
 'https://files.catbox.moe/1stgzp.jpg',
-'https://files.catbox.moe/ce5bek.jpg',
-'https://files.catbox.moe/69ukdx.jpg'
+'https://files.catbox.moe/ucdo6i.jpg',
+'https://files.catbox.moe/b3rhjz.jpg'
 ]
 
 /* //copiar
