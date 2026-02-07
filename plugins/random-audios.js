@@ -45,7 +45,9 @@ const audioMap = [
 {regex: /^ya basta$/i, url: 'https://od.lk/s/NTZfMjg3NDcyNDdf/meme%209%20-%20ya%20basta%20Freezer.mp3'},
 {regex: /^mi dinero$/i, url: 'https://od.lk/s/NTZfMjkyMjY5NDFf/mi%20dinero%20disminulle.mp3'},
 {regex: /^la depuracion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODJf/purga%20infinita%20latino.mp3'},
-
+{regex: /^que bendicion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODNf/Que%20bendicion.mp3'},
+{regex: /^que calor$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODVf/Que%20calor.mp3'},
+    
     
 ]
 
