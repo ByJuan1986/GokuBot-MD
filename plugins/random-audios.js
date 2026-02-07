@@ -35,7 +35,12 @@ const audioMap = [
 {regex: /^yo soy el mas perron$/i, url: 'https://od.lk/s/NTZfMjg3NjY5ODJf/meme%2014%20-%20yo%20soy%20el%20m%C3%A1s%20Perroni%20aqui.mp3'},
 {regex: /^que linda estas$/i, url: 'https://od.lk/s/NTZfMjg3NjcwOTJf/meme%2015%20-%20qu%C3%A9%20linda%20estas.mp3'},
 {regex: /^viejo sabroso$/i, url: 'https://od.lk/s/NTZfMjg3NjczMzNf/meme%2016%20viejo%20sabroso.mp3'},
-{regex: /^traele una falda a la niña$/i, url: 'https://od.lk/s/NTZfMjg4MzM2MDlf/Meme%2017%20-%20traele%20una%20falda%20a%20la%20ni%C3%B1a.mp3'},
+{regex: /^o my good$/i, url: 'https://od.lk/s/NTZfMjg3NDE1NTJf/meme%202%20-%20O%20my%20God.mp3'},
+{regex: /^espera Vegueta$/i, url: 'https://od.lk/s/NTZfMjg3NDE2ODNf/meme%203%20-%20Espera%20Vegeta.mp3'},
+{regex: /^Napa su nivel$/i, url: 'https://od.lk/s/NTZfMjg3NDcwNTNf/meme%204%20-%20Nappa%20su%20nivel.mp3'},
+{regex: /^cada dia mas basado$/i, url: 'https://od.lk/s/NTZfMjg3NDcxMDBf/meme%205%20-%20cada%20d%C3%ADa%20m%C3%A1s%20basado.mp3'},
+    
+
     
 ]
 
