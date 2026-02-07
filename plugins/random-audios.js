@@ -19,7 +19,7 @@ const audioMap = [
 {regex: /^Goku eta vaina es seria$/i, url: 'https://od.lk/s/NTZfMjk4MTU0NTNf/Esta%20vaina%20es%20seria.mp3'},
 
 // Audio en latino 
-{regex: /^a tu casa$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzVf/A%20tu%20casa.mp3'},  
+{regex: /^carita empapada$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzZf/Carita%20empapada.mp3'},  
 ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
