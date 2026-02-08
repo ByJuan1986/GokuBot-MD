@@ -52,8 +52,17 @@ const audioMap = [
 {regex: /^ta bien$/i, url: 'https://od.lk/s/NTZfMjg3MzAzOTBf/Ta%20bien.mp3'},
 
  // Melodias
+{regex: /^alarma$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTRf/Alarma.mp3'},
 {regex: /^silbando$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOThf/Gohan%20silbido.mp3'},  
 {regex: /^dj dragon ball$/i, url: 'https://od.lk/s/NTZfMjg3MjkwODlf/Dj%20drag%C3%B3n%20ball.mp3'},
+{regex: /^felicidades bro$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTZf/Feliz%20cumple.mp3'},
+{regex: /^jumanji$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTlf/Jumaji.mp3'},
+{regex: /^lobo$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMDJf/Lobo.mp3'},
+{regex: /^psicosis$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMDhf/Psicosis.mp3'},
+{regex: /^risa Nelson$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMDlf/Risa%20Nelson.mp3'},
+{regex: /^soy un nomo$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTBf/Soy%20un%20nomo.mp3'},
+{regex: /^terminator$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTJf/Terminator%202.mp3'},
+{regex: /^un caracol$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTNf/Un%20caracol%20fugaz.mp3'}, 
 ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
