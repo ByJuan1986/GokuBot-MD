@@ -265,8 +265,8 @@ let t = `📍 No hay numero...`
   //----------------------
   if (command === "appstickers" || command === "appsticker") { 
   let ssXd = `📍 Mensaje con video XD.`
-    await //conn.sendMessage(m.chat, { document: { url: "https://files.catbox.moe/j3073e.mp4" }, fileName: `tutorial-appstickers.mp4`, mimetype: 'video/mp4', caption: `Video Tutorial :3\n> ${textbot}` }, { quoted: m } )
-    conn.sendMessage(m.chat, { video: { url: 'https://files.catbox.moe/j3073e.mp4' }, caption: ssXd }, { quoted: m }) //el url esta dentro de este codigo.
+    await //conn.sendMessage(m.chat, { document: { url: "https://od.lk/s/NTZfMzUzODMxODhf/Tutorial.mp4" }, fileName: `tutorial-appstickers.mp4`, mimetype: 'video/mp4', caption: `Video Tutorial :3\n> ${textbot}` }, { quoted: m } )
+    conn.sendMessage(m.chat, { video: { url: 'https://od.lk/s/NTZfMzUzODMxODhf/Tutorial.mp4' }, caption: ssXd }, { quoted: m }) //el url esta dentro de este codigo.
   }
 
 };
