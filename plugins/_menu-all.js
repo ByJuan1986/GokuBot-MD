@@ -135,7 +135,13 @@ ${readMore}
 \tᗢ *${usedPrefix}file-*  ⧾  query
 
 ⚶⭒ \`Menu audios\` 
-	ᗢ *hola bot*
+	ᗢ *Espartaco*
+
+
+
+
+𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .) 
+	
 
 > ${textbot}`
 await conn.sendMessage(m.chat, { text: menuAll, contextInfo: { forwardingScore: 1, isForwarded: false, externalAdReply: { showAdAttribution: false, renderLargerThumbnail: true, title: botname, body: textbot, containsAutoReply: true, mediaType: 1, thumbnailUrl: global.gokuMenu, sourceUrl: null }}}, { quoted: m })
