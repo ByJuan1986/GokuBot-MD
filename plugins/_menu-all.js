@@ -134,6 +134,9 @@ ${readMore}
 \tᗢ *${usedPrefix}file+*  ⧾  query
 \tᗢ *${usedPrefix}file-*  ⧾  query
 
+⚶⭒ \`Menu audios\` 
+	ᗢ *hola bot*
+
 > ${textbot}`
 await conn.sendMessage(m.chat, { text: menuAll, contextInfo: { forwardingScore: 1, isForwarded: false, externalAdReply: { showAdAttribution: false, renderLargerThumbnail: true, title: botname, body: textbot, containsAutoReply: true, mediaType: 1, thumbnailUrl: global.gokuMenu, sourceUrl: null }}}, { quoted: m })
 //conn.sendMessage(m.chat, { text: menuAll, mentions: [m.sender], contextInfo: { externalAdReply: { title: botname, body: textbot, thumbnail: thumbBot, sourceUrl: null, mediaType: 1, renderLargerThumbnail: true }}}, { quoted: m })
