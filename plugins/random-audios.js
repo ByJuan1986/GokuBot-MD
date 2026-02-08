@@ -73,8 +73,16 @@ const audioMap = [
 
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
-{regex: /^mandanga style$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2MzRf/Amador%20Ribas%20-%20mandanga%20style.mp3'},
 {regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
+{regex: /^merengue$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzlf/Amador%20Ribas%20-%20Merengue%20merengue.mp3'},
+{regex: /^Milagritos$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDFf/Amador%20Ribas%20-%20mira%20el%20abuelita.mp3'},
+{regex: /^porque tocas$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDJf/Amador%20Ribas%20-%20Porque%20tocas.mp3'},
+{regex: /^que viene$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDNf/Amador%20Ribas%20-%20Que%20viene%20que%20viene.mp3'},
+{regex: /^salami$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDRf/Amador%20Ribas%20-%20Salami.mp3'},
+{regex: /^te voy a poner fina$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDVf/Amador%20Ribas%20-%20Te%20voy%20a%20poner%20fina%20filipina.mp3'},
+{regex: /^meminas la moral$/i, url: 'https://od.lk/d/NTZfMjg3Mjg2Mzhf/Antonio%20Recio%20-%20Meminas%20la%20moral.mp3'},
+{regex: /^que culito tengo$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDZf/Antonio%20Recio%20-%20Que%20culito%20tengo.mp3'},
+ 
 ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
