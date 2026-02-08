@@ -264,7 +264,23 @@ let t = `📍 No hay numero...`
   //Prueba de video.
   //----------------------
   if (command === "appstickers" || command === "appsticker") { 
-  let ssXd = `📍 Mensaje con video XD.`
+  let ssXd = `*¿Te gustaría descargar todos los stickers de dragón ball y de otros animes? En este video tutorial te explicamos de una app llamada Sticker ly, aparte de los stickers que mostramos en el video hay muchos mas... descarga la app de tu tienda y danos a seguir nos ayudaras a seguir subiendo mas stickers*
+
+_*PlayStore*_
+*https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android*
+
+_*AppStore*_
+*https://apps.apple.com/es/app/sticker-ly-sticker-maker/id1458740001*
+
+*_Descargate la app desde mediafire_ https://www.mediafire.com/file/ioed5yg1601knnd/Sticker.ly+-+Sticker+Maker.apk/file*
+
+*Nota: esta app que subimos a MediaFire, es de la tienda oficial, para poder descargarla pon lo siguiente:*
+
+*.mediafire https://www.mediafire.com/file/ioed5yg1601knnd/Sticker.ly+-+Sticker+Maker.apk/file*
+
+*_Para mas información consulte con el administrador By Juan1986_*
+
+*Esto a sido posible By Juan1986*`
     await //conn.sendMessage(m.chat, { document: { url: "https://od.lk/s/NTZfMzUzODMxODhf/Tutorial.mp4" }, fileName: `tutorial-appstickers.mp4`, mimetype: 'video/mp4', caption: `Video Tutorial :3\n> ${textbot}` }, { quoted: m } )
     conn.sendMessage(m.chat, { video: { url: 'https://od.lk/s/NTZfMzUzODMxODhf/Tutorial.mp4' }, caption: ssXd }, { quoted: m }) //el url esta dentro de este codigo.
   }
