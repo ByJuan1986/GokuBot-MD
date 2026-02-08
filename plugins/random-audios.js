@@ -12,8 +12,7 @@ if (!db.data.chats[m.chat].fAudios) return
 const audioMap = [
 {regex: /^Bien pensado boddy|bien pensado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
 {regex: /^soy toxico|les saluda el toxico$/i, url: 'https://files.catbox.moe/pxgxpk.mp3'},
-{regex: /^porta Tapion$/i, url: 'https://od.lk/s/NTZfMjg5ODkzMzJf/Porta%20tapion.mp3'},
- 
+
 // GokuBot castellano
 {regex: /^buenas noches|que descanses$/i, url: 'https://od.lk/s/NTZfMjkxOTY1NjNf/buenas%20noches%20que%20descanses%20castellano.mp3'},
 {regex: /^buenos dias|feliz dias$/i, url: 'https://od.lk/s/NTZfMjkxOTY4NzJf/Buenos%20d%C3%ADas%20voz%20goku.mp3'}, 
@@ -71,6 +70,11 @@ const audioMap = [
 {regex: /^soy un nomo$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTBf/Soy%20un%20nomo.mp3'},
 {regex: /^terminator$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTJf/Terminator%202.mp3'},
 {regex: /^un caracol$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTNf/Un%20caracol%20fugaz.mp3'}, 
+
+// Sonido LQS
+{regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
+{regex: /^mandanga style$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2MzRf/Amador%20Ribas%20-%20mandanga%20style.mp3'},
+{regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
 ]
 
 let matchedAudio = audioMap.find((audio) => audio.regex.test(m.text))
