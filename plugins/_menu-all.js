@@ -136,14 +136,14 @@ ${readMore}
 
 
 ⚶⭒ \`Menu audios\` 
-🔊 *Espartaco*
+🔊 *espartaco*
 🔊 *buenos dias*
-🔊 *buenas noches*|*buenas noches bro*
+🔊 *buenas noches*| *buenas noches bro*
 🔊 *hola soy GokuBot*
-🔊 *kamehaa"
-🔊 
-🔊 
-🔊 
+🔊 *kamehaa*
+🔊 *hola soy GokuBot*
+🔊 *Goku eta vaina es seria*
+🔊 *carita empapada*
 🔊 
 🔊 
 🔊 
