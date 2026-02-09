@@ -41,9 +41,16 @@ await delay(3 * 3000)
 if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 } 
+
+if (/^guantazo$/i.test(m.text)) {
+let stiker = await sticker(null, guantazo[Math.floor(Math.random() * guantazo.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
  
 }}
-handler.customPrefix = /hola|enfadado|alegre|holi|amor|baile/i
+handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile/i
 handler.command = new RegExp()
 export default handler
 
@@ -78,21 +85,27 @@ const alegre = [
 ]
 
 const amor = [
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg'
+'https://od.lk/s/NTZfMjczNDA0ODdf/amor%2001.jpg',
+'https://od.lk/s/NTZfMjczNDA0ODhf/amor%2002.jpg',
+'https://od.lk/s/NTZfMjczNDA0ODlf/amor%2003.jpg'
 ]
 
 const baile = [
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg'
+'https://od.lk/s/NTZfMjUwNjcxMjdf/Baile%201.gif',
+'https://od.lk/s/NTZfMjUwNjcxMTlf/Baile%202.gif',
+'https://od.lk/s/NTZfMjUwNjcxMjBf/Baile%203.gif'
 ]
 
 const enfadado = [
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg'
+'https://od.lk/s/NTZfMjUwOTU1MDlf/enfadado%2001.png',
+'https://od.lk/s/NTZfMjUwOTU1MTBf/enfadado%2002.jpeg',
+'https://od.lk/s/NTZfMjUwOTU1MTJf/enfadado%2003.jpeg'
+]
+
+const guantazo = [
+'https://od.lk/s/NTZfMjUwOTU1MDlf/enfadado%2001.png',
+'https://od.lk/s/NTZfMjUwOTU1MTBf/enfadado%2002.jpeg',
+'https://od.lk/s/NTZfMjUwOTU1MTJf/enfadado%2003.jpeg'
 ]
 
 const hola = [
