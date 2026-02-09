@@ -74,7 +74,6 @@ const audioMap = [
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
 {regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
 {regex: /^merengue$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzlf/Amador%20Ribas%20-%20Merengue%20merengue.mp3'},
-{regex: /^Milagritos$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDFf/Amador%20Ribas%20-%20mira%20el%20abuelita.mp3'},
 {regex: /^porque tocas$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDJf/Amador%20Ribas%20-%20Porque%20tocas.mp3'},
 {regex: /^que viene$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDNf/Amador%20Ribas%20-%20Que%20viene%20que%20viene.mp3'},
 {regex: /^salami$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2NDRf/Amador%20Ribas%20-%20Salami.mp3'},
