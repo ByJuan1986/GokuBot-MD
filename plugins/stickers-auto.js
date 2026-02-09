@@ -37,17 +37,21 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 //Agrega mas consonantes y define su argumento.
 //Constante hola
+
+//copiar
+const alegre = [
+'https://od.lk/s/NTZfMjU0NTgxMjhf/alegre%2001.png',
+'https://od.lk/s/NTZfMjU3OTM0MzBf/Alegre%2002.png',
+'https://od.lk/s/NTZfMjU0NTgxMjdf/alegre%2003.png',
+'https://od.lk/s/NTZfMjU0NTgxMjdf/alegre%2003.png',
+'https://od.lk/s/NTZfMjU0NTc1NDlf/alegre%2004.png',
+'https://od.lk/s/NTZfMjU0NTgxNTVf/alegre%2005.png'
+]
+
 const hola = [
 'https://files.catbox.moe/1stgzp.jpg',
 'https://files.catbox.moe/ucdo6i.jpg',
 'https://files.catbox.moe/b3rhjz.jpg'
-]
-
- //copiar
-const alegre = [
-'https://files.catbox.moe/4j22kf.jpg',
-'https://files.catbox.moe/4j22kf.jpg',
-'https://files.catbox.moe/4j22kf.jpg'
 ]
 
 const amor = [
