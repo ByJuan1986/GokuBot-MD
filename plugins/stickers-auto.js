@@ -45,7 +45,22 @@ const alegre = [
 'https://od.lk/s/NTZfMjU0NTgxMjdf/alegre%2003.png',
 'https://od.lk/s/NTZfMjU0NTgxMjdf/alegre%2003.png',
 'https://od.lk/s/NTZfMjU0NTc1NDlf/alegre%2004.png',
-'https://od.lk/s/NTZfMjU0NTgxNTVf/alegre%2005.png'
+'https://od.lk/s/NTZfMjU0NTgxNTVf/alegre%2005.png',
+'https://od.lk/s/NTZfMjU0NTc1NTFf/alegre%2006.jpg',
+'https://od.lk/s/NTZfMjU0NTc1NTJf/alegre%2007.jpg',
+'https://od.lk/s/NTZfMjU0NTgxMjFf/alegre%2008.png',
+'https://od.lk/s/NTZfMjU0NTc1NTRf/Alegre%2009.png',
+'https://od.lk/s/NTZfMjU0NTgxMjJf/alegre%2010.png',
+'https://od.lk/s/NTZfMjU0NTgxMjlf/alegre%2011.png',
+'https://od.lk/s/NTZfMjU0NTgxMzBf/alegre%2012.png',
+'https://od.lk/s/NTZfMjU0NTgxMzFf/alegre%2013.png',
+'https://od.lk/s/NTZfMjU0NTgxMzJf/alegre%2014.png',
+'https://od.lk/s/NTZfMjU0NTgxMzNf/alegre%2015.png',
+'https://od.lk/s/NTZfMjU0NTgxMzRf/alegre%2016.png',
+'https://od.lk/s/NTZfMjU0NTgxMzVf/alegre%2017.png',
+'https://od.lk/s/NTZfMjU0NTgxMzZf/alegre%2018.png',
+'https://od.lk/s/NTZfMjU0NTgxMzdf/alegre%2019.png',
+'https://od.lk/s/NTZfMjU0NTgxMzhf/alegre%2020.png'
 ]
 
 const hola = [
