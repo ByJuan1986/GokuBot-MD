@@ -19,8 +19,7 @@ const audioMap = [
 {regex: /^hola soy GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTZf/GokuBot%20hola%20castellano.mp3'},
 {regex: /^kamehaa$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTdf/GokuBot%20kamehaa%20castellano.mp3'},
  
- // GokuBot latino
-{regex: /^buenas noches bro$/i, url: 'https://files.catbox.moe/wsgu0d.aac'},  
+ // GokuBot latino  
 {regex: /^hola GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDFf/GokuBot%20hola%20latino.mp3'},
 
 // Audio en latino 
