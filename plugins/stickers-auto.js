@@ -28,8 +28,15 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
  }
 
+if (/^baile$/i.test(m.text)) {
+let stiker = await sticker(null, baile[Math.floor(Math.random() * baile.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
+ 
 }}
-handler.customPrefix = /hola|hello|alegre|holi|amor|ola/i
+handler.customPrefix = /hola|hello|alegre|holi|amor|baile/i
 handler.command = new RegExp()
 export default handler
 
@@ -63,17 +70,25 @@ const alegre = [
 'https://od.lk/s/NTZfMjU0NTgxMzhf/alegre%2020.png'
 ]
 
+const amor = [
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg'
+]
+
+const baile = [
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg'
+]
+
 const hola = [
 'https://files.catbox.moe/1stgzp.jpg',
 'https://files.catbox.moe/ucdo6i.jpg',
 'https://files.catbox.moe/b3rhjz.jpg'
 ]
 
-const amor = [
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg',
-'https://files.catbox.moe/pl62mt.jpg'
-]
+
 
 
 //Agrega comas cada nuevo url que agregues pero no agregues coma al ultimo url.
