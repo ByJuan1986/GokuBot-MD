@@ -34,9 +34,16 @@ await delay(3 * 3000)
 if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
+
+if (/^enfadado$/i.test(m.text)) {
+let stiker = await sticker(null, enfadado[Math.floor(Math.random() * enfadado.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+} 
  
 }}
-handler.customPrefix = /hola|hello|alegre|holi|amor|baile/i
+handler.customPrefix = /hola|enfadado|alegre|holi|amor|baile/i
 handler.command = new RegExp()
 export default handler
 
@@ -77,6 +84,12 @@ const amor = [
 ]
 
 const baile = [
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg',
+'https://files.catbox.moe/pl62mt.jpg'
+]
+
+const enfadado = [
 'https://files.catbox.moe/pl62mt.jpg',
 'https://files.catbox.moe/pl62mt.jpg',
 'https://files.catbox.moe/pl62mt.jpg'
