@@ -48,9 +48,16 @@ await delay(3 * 3000)
 if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
+
+if (/^llorar$/i.test(m.text)) {
+let stiker = await sticker(null, llorar[Math.floor(Math.random() * llorar.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+                       }
  
 }}
-handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile/i
+handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar/i
 handler.command = new RegExp()
 export default handler
 
@@ -103,12 +110,18 @@ const enfadado = [
 ]
 
 const guantazo = [
-'https://od.lk/s/NTZfMjUwOTU1MDlf/enfadado%2001.png',
-'https://od.lk/s/NTZfMjUwOTU1MTBf/enfadado%2002.jpeg',
-'https://od.lk/s/NTZfMjUwOTU1MTJf/enfadado%2003.jpeg'
+'https://od.lk/s/NTZfMjUwMDMwNzJf/Bofetada%201.gif',
+'https://od.lk/s/NTZfMjUwNjcwMTNf/Bofetada%202.jpg',
+'https://od.lk/s/NTZfMjUwMDU0Mzhf/Bofetada%203.jpeg'
 ]
 
 const hola = [
+'https://files.catbox.moe/1stgzp.jpg',
+'https://files.catbox.moe/ucdo6i.jpg',
+'https://files.catbox.moe/b3rhjz.jpg'
+]
+
+const llorar = [
 'https://files.catbox.moe/1stgzp.jpg',
 'https://files.catbox.moe/ucdo6i.jpg',
 'https://files.catbox.moe/b3rhjz.jpg'
