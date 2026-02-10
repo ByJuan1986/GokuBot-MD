@@ -105,10 +105,16 @@ await delay(3 * 3000)
 if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 } 
- 
+
+if (/^vacilon$/i.test(m.text)) {
+let stiker = await sticker(null, vacilon[Math.floor(Math.random() * vacilon.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+} 
  
 }}
-handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo|ok|papus|payaso|pienso|risa|triste/i
+handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo|ok|papus|payaso|pienso|risa|triste|vacilon/i
 handler.command = new RegExp()
 export default handler
 
@@ -229,5 +235,17 @@ const triste = [
 'https://od.lk/s/NTZfMjU3Nzk1NTlf/triste%2003.jpg'
 ]
 
+const vacilon = [
+'https://od.lk/s/NTZfMjUwMDY2ODNf/Goku%20vacilon%201.jpg',
+'https://od.lk/s/NTZfMjUwMDYzNDBf/Goku%20vacilon%202.png',
+'https://od.lk/s/NTZfMjUwMDU3OTNf/Goku%20vacilon%203.jpg',
+'https://od.lk/s/NTZfMjUwMDU3OTVf/Goku%20vacil%C3%B3n%204.jpg',
+'https://od.lk/s/NTZfMjUwMDU3OThf/Goku%20vacil%C3%B3n%205.jpg',
+'https://od.lk/s/NTZfMjUwMDc1MzNf/Goku%20vacilon%206.jpg',
+'https://od.lk/s/NTZfMjUwMDc1Mzdf/Goku%20vacilon%207.jpeg',
+'https://od.lk/s/NTZfMjUwMDc1NDNf/Goku%20vacilon%208.jpg',
+'https://od.lk/s/NTZfMjUwMDU0MTlf/Goku%20vacilon9.jpg'
+]
+ 
 
 //Agrega comas cada nuevo url que agregues pero no agregues coma al ultimo url.
