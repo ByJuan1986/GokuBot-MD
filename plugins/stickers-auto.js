@@ -54,10 +54,18 @@ let stiker = await sticker(null, llorar[Math.floor(Math.random() * llorar.length
 await delay(3 * 3000)
 if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
-                       }
+}
+
+if (/^miedo$/i.test(m.text)) {
+let stiker = await sticker(null, miedo[Math.floor(Math.random() * miedo.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
+
  
 }}
-handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar/i
+handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo/i
 handler.command = new RegExp()
 export default handler
 
@@ -131,6 +139,12 @@ const llorar = [
 'https://od.lk/s/NTZfMjU5MzkxNjdf/llorar%2007.jpg',
 'https://od.lk/s/NTZfMjU5MzkxOTlf/llorar%2008.jpg',
 'https://od.lk/s/NTZfMjU5MzkyMjVf/llorar%2009.jpg'
+]
+
+const miedo = [
+'https://od.lk/s/NTZfMjUwOTU1MjBf/miedo%2001.gif',
+'https://od.lk/s/NTZfMjUwOTU1MjFf/miedo%2002.jpg',
+'https://od.lk/s/NTZfMjUwOTU1MjJf/miedo%2003.jpeg'
 ]
 
 
