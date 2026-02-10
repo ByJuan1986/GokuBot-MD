@@ -69,10 +69,17 @@ await delay(3 * 3000)
 if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
- 
+
+
+if (/^papus$/i.test(m.text)) {
+let stiker = await sticker(null, papus[Math.floor(Math.random() * papus.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+} 
  
 }}
-handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo|ok/i
+handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo|ok|papus/i
 handler.command = new RegExp()
 export default handler
 
@@ -158,6 +165,12 @@ const ok = [
 'https://od.lk/s/NTZfMjUwMDMwNTZf/ok%2001.jpg',
 'https://od.lk/s/NTZfMjU0NDU5NTdf/ok%2002.png',
 'https://od.lk/s/NTZfMjU0NDU5Njlf/ok%2003.png'
+]
+
+const papus = [
+'https://od.lk/s/NTZfMjU3NjgzMTZf/Papus%2001.png',
+'https://od.lk/s/NTZfMjU3NjgzMTdf/Papus%2002.png',
+'https://od.lk/s/NTZfMjU3NjgzMThf/Papus%2003.png'
 ]
 
 
