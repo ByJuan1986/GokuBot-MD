@@ -122,9 +122,15 @@ const hola = [
 ]
 
 const llorar = [
-'https://files.catbox.moe/1stgzp.jpg',
-'https://files.catbox.moe/ucdo6i.jpg',
-'https://files.catbox.moe/b3rhjz.jpg'
+'https://od.lk/s/NTZfMjU5MzkxNjJf/llorar%2001.gif',
+'https://od.lk/s/NTZfMjU5MzkxNjNf/llorar%2002.jpg',
+'https://od.lk/s/NTZfMjU5MzkxNjRf/llorar%2003.gif',
+'https://od.lk/s/NTZfMjU5MzkxNjVf/llorar%2004.gif',
+'https://od.lk/s/NTZfMjU5MzkxNjZf/llorar%2005.jpg',
+'https://od.lk/s/NTZfMjU5MzkxNjhf/llorar%2006.jpg',
+'https://od.lk/s/NTZfMjU5MzkxNjdf/llorar%2007.jpg',
+'https://od.lk/s/NTZfMjU5MzkxOTlf/llorar%2008.jpg',
+'https://od.lk/s/NTZfMjU5MzkyMjVf/llorar%2009.jpg'
 ]
 
 
