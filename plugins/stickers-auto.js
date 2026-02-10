@@ -63,9 +63,16 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
+if (/^ok$/i.test(m.text)) {
+let stiker = await sticker(null, ok[Math.floor(Math.random() * ok.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
+ 
  
 }}
-handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo/i
+handler.customPrefix = /hola|enfadado|alegre|guantazo|amor|baile|llorar|miedo|ok/i
 handler.command = new RegExp()
 export default handler
 
@@ -147,7 +154,11 @@ const miedo = [
 'https://od.lk/s/NTZfMjUwOTU1MjJf/miedo%2003.jpeg'
 ]
 
-
+const ok = [
+'https://od.lk/s/NTZfMjUwMDMwNTZf/ok%2001.jpg',
+'https://od.lk/s/NTZfMjUwMDMwNjBf/ok%2002.gif',
+'https://od.lk/s/NTZfMjUwMDI1OTNf/ok%2003.mp4'
+]
 
 
 //Agrega comas cada nuevo url que agregues pero no agregues coma al ultimo url.
