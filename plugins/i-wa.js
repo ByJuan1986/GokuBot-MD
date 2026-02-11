@@ -154,7 +154,28 @@ let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱�
   return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/ruuai1.png" }, caption: grupot }, { quoted: m })
 //conn.reply(m.chat, grupot, m)
 } else if (args[0] === "facebook") {
-let grupof = `📍 Nada agregado...`
+let grupof = `*Aqui te pondre los enlaces de Facebook, para ver los enlaces de Telegram y WhatsApp poner:*
+
+🄴🄽🄻🄰🄲🄴🅂 🄳🄴 🄵🄰🄲🄴🄱🄾🄾🄺
+
+*➤ 𝙶𝚛𝚞𝚙𝚘𝚜 de Facebook:*
+
+*Fans de dragón ball Z kai castellano de España*
+https://www.facebook.com/groups/667472657700009/
+
+*Alíen VS depredador español castellano* https://www.facebook.com/groups/207704962082606/
+
+*Start trek wars Español castellano* https://www.facebook.com/groups/213867644714527/
+
+*Los caballeros del zodiaco Español castellano* https://www.facebook.com/groups/649206827024362/
+
+*El take doblaje castellano de España* https://www.facebook.com/groups/5608883022528456/
+
+*Ayudanos con el gasto del servidor http://paypal.me/GokuBotyJuan1986*
+
+*Actualizado 10/02/2026.*
+
+`
   return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupof }, { quoted: m })
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
@@ -221,9 +242,7 @@ https://chat.whatsapp.com/CjPAAmdWQzO07yzPoypr6O
 *🌍🐱🌕 𝗦𝗮𝗶𝗹𝗼𝗿 𝗠𝗼𝗼𝗻 🌕🐱🌍*
 https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
 
-*.gruposwhatsapp*
-*.Facebook*
-*.Telegram*
+
 
 *Actualizado 04/02/2026.*`
   return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupofr }, { quoted: m })
