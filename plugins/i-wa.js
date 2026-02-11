@@ -247,7 +247,7 @@ https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
 
 
 *Actualizado 04/02/2026.*`
-  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupofr }, { quoted: m })
+  return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
 }
 }
