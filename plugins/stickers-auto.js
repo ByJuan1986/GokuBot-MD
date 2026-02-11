@@ -232,7 +232,14 @@ const risa = [
 const triste = [
 'https://od.lk/s/NTZfMjUzNTg1ODhf/triste%2001.jpg',
 'https://od.lk/s/NTZfMjU3Nzk1NThf/triste%2002.jpeg',
-'https://od.lk/s/NTZfMjU3Nzk1NTlf/triste%2003.jpg'
+'https://od.lk/s/NTZfMjU3Nzk1NTlf/triste%2003.jpg',
+'https://od.lk/s/NTZfMjU3Nzk1NjBf/triste%2004.png',
+'https://od.lk/s/NTZfMjU3Nzk1NjFf/triste%2005.jpg',
+'https://od.lk/s/NTZfMjU3Nzk1NjJf/triste%2006.png',
+'https://od.lk/s/NTZfMjU3Nzk1NjNf/triste%2007.png',
+'https://od.lk/s/NTZfMjU3Nzk1NjRf/triste%2008.jpg',
+'https://od.lk/s/NTZfMjU3Nzk1NjVf/triste%2009.jpg',
+'https://od.lk/s/NTZfMjU3Nzk1NjZf/triste%2010.jpg'
 ]
 
 const vacilon = [
