@@ -163,20 +163,22 @@ let grupof = `*Aqui te pondre los enlaces de Facebook, para ver los enlaces de T
 *Fans de dragón ball Z kai castellano de España*
 https://www.facebook.com/groups/667472657700009/
 
-*Alíen VS depredador español castellano* https://www.facebook.com/groups/207704962082606/
+*Alíen VS depredador español castellano*
+https://www.facebook.com/groups/207704962082606/
 
-*Start trek wars Español castellano* https://www.facebook.com/groups/213867644714527/
+*Start trek wars Español castellano*
+https://www.facebook.com/groups/213867644714527/
 
-*Los caballeros del zodiaco Español castellano* https://www.facebook.com/groups/649206827024362/
+*Los caballeros del zodiaco Español castellano*
+https://www.facebook.com/groups/649206827024362/
 
-*El take doblaje castellano de España* https://www.facebook.com/groups/5608883022528456/
-
-*Ayudanos con el gasto del servidor http://paypal.me/GokuBotyJuan1986*
+*El take doblaje castellano de España*
+https://www.facebook.com/groups/5608883022528456/ 
 
 *Actualizado 10/02/2026.*
 
 `
-  return conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/9r0jxd.jpg" }, caption: grupof }, { quoted: m })
+  return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODI4ODhf/Goku_facebook.png" }, caption: grupof }, { quoted: m })
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
 let grupofr = `*Buscas una comunidad de anime? aqui tienes los enlaces de la comunidad frikilandia de WhatsApp, si queréis ver los grupos de Facebook y Telegram pon:*
