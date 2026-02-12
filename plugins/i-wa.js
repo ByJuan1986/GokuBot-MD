@@ -203,21 +203,15 @@ https://chat.whatsapp.com/By1GlKQ5yLQAYYxhTR8t9N
 *🌍⚔️🗡️ 𝑲𝒊𝒍𝒍 𝒍𝒂 𝒌𝒊𝒍𝒍 🗡️⚔️🌍*
 https://chat.whatsapp.com/IIH75WjAuzhBSrd05wFsgV
 
-
-
-
 *🌍🎭🐻 𝑩𝒍𝒆𝒂𝒄𝒉 🐻🎭🌍*
 https://chat.whatsapp.com/J0vzttZbKXqKeUZPj0fUYa
 
-*🌍💪🦲 𝑶𝒏𝒆 𝒑𝒖𝒏𝒄𝒉 𝒎𝒂𝒏 🦲💪🌍*
-https://chat.whatsapp.com/CjPAAmdWQzO07yzPoypr6O
-
-*🌍🐱🌕 𝗦𝗮𝗶𝗹𝗼𝗿 𝗠𝗼𝗼𝗻 🌕🐱🌍*
+*🌍⚔️🛡️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒂𝒕𝒂𝒒𝒖𝒆 𝒂 𝒍𝒐𝒔 𝒕𝒊𝒕𝒂𝒏𝒆𝒔 ⚔️🛡️🌍*
 https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
 
 
 
-*Actualizado 04/02/2026.*`
+*Actualizado 10/02/2026.*`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
 }
