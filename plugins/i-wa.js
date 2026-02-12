@@ -215,6 +215,9 @@ https://chat.whatsapp.com/J0vzttZbKXqKeUZPj0fUYa
 *💥💣ARCANE💣💥*
 https://chat.whatsapp.com/HHqnpkNB3pRCpekFTzQTne
 
+*🌍🍥🍜 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑵𝒂𝒓𝒖𝒕𝒐 🍜🍥🌍*
+https://chat.whatsapp.com/GDbQsR94lxuIhwggOCPtqA
+
 *🌍⚔️🛡️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒂𝒕𝒂𝒒𝒖𝒆 𝒂 𝒍𝒐𝒔 𝒕𝒊𝒕𝒂𝒏𝒆𝒔 ⚔️🛡️🌍*
 https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
 
