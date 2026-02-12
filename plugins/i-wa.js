@@ -188,9 +188,6 @@ let grupofr = `*Buscas una comunidad de anime? aqui tienes los enlaces de la com
 *亀🇪🇸 𝔽𝕒𝕟𝕤 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 🇪🇸亀*
 https://chat.whatsapp.com/ChQubdKdYav2XpohU8Vs3R
 
-*🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍*
-https://chat.whatsapp.com/EGR7UJ4mvjMD0hc0ZoAxwI
-
 *🌍🐉🐲 𝘽𝙤𝙡𝙖 𝙙𝙚 𝘿𝙧𝙖𝙘 𝙚𝙣 𝙑𝙖𝙡𝙚𝙣𝙘𝙞𝙖 🐲🐉🌍*
 https://chat.whatsapp.com/IhWTZM7Wu36AiiXE7mfXak
 
@@ -209,6 +206,14 @@ https://chat.whatsapp.com/J0vzttZbKXqKeUZPj0fUYa
 *🌍⚔️🛡️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒂𝒕𝒂𝒒𝒖𝒆 𝒂 𝒍𝒐𝒔 𝒕𝒊𝒕𝒂𝒏𝒆𝒔 ⚔️🛡️🌍*
 https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
 
+*🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍*
+https://chat.whatsapp.com/EGR7UJ4mvjMD0hc0ZoAxwI
+
+*2️⃣🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍2️⃣*
+https://chat.whatsapp.com/LZbQBENMeIjEv7HE1DM32v
+
+*3️⃣🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍3️⃣*
+https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
 
 *Actualizado 10/02/2026.*`
