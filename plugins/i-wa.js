@@ -188,25 +188,14 @@ let grupofr = `*Buscas una comunidad de anime? aqui tienes los enlaces de la com
 *亀🇪🇸 𝔽𝕒𝕟𝕤 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 🇪🇸亀*
 https://chat.whatsapp.com/ChQubdKdYav2XpohU8Vs3R
 
-*🌍🦸‍♂️🖖 𝑴𝒖𝒏𝒅𝒐 𝑭𝒓𝒊𝒌𝒊 🖖🦸‍♂️🌍* https://chat.whatsapp.com/DY1OajQN1dn3zKWy18pwF2
-
 *🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍*
 https://chat.whatsapp.com/EGR7UJ4mvjMD0hc0ZoAxwI
 
-*🌍⚡🔥 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑷𝒐𝒌𝒆𝒎𝒐𝒏 🔥⚡🌍*
-https://chat.whatsapp.com/KfMhKx6jRUR8jzZB13M2hB
-
-*🌍🥅⚽ 𝘊𝘢𝘱𝘪𝘵𝘢𝘯 𝘛𝘴𝘶𝘣𝘢𝘴𝘢 - 𝘊𝘢𝘮𝘱𝘦𝘰𝘯𝘦𝘴: 𝘖𝘭𝘪𝘷𝘦𝘳 𝘺 𝘉𝘦𝘯𝘫𝘪 ⚽🥅🌍*
-https://chat.whatsapp.com/GtVWMKa8Nkn04h7YeswwGQ
-
-*🌍🕵️⛓️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒍𝒖𝒑𝒊𝒏 𝑰𝑰𝑰 ⛓️🕵️🌍*
+*🌍🐉🐲 𝘽𝙤𝙡𝙖 𝙙𝙚 𝘿𝙧𝙖𝙘 𝙚𝙣 𝙑𝙖𝙡𝙚𝙣𝙘𝙞𝙖 🐲🐉🌍*
 https://chat.whatsapp.com/IhWTZM7Wu36AiiXE7mfXak
 
-*🌍🍥🍜 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑵𝒂𝒓𝒖𝒕𝒐 🍜🍥🌍*
-https://chat.whatsapp.com/CIsIuOpJoEX72KsLMHpMHz
 
-*🌍 👒⛩️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑶𝒏𝒆 𝒑𝒊𝒆𝒄𝒆 ⛩️👒🌍*
-https://chat.whatsapp.com/KkanOPfYmn2DE0oErnxdKf
+
 
 *🌍🛡️👊 𝑺𝒂𝒊𝒏𝒕 𝑺𝒆𝒊𝒚𝒂 - 𝑳𝒐𝒔 𝑪𝒂𝒃𝒂𝒍𝒍𝒆𝒓𝒐𝒔 𝒅𝒆𝒍 𝒁𝒐𝒅𝒊𝒂𝒄𝒐 👊🛡️🌍*
 https://chat.whatsapp.com/G0ZqsFR5ZLAHDWPEuPXAEG
