@@ -230,8 +230,13 @@ https://chat.whatsapp.com/LZbQBENMeIjEv7HE1DM32v
 *3️⃣🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍3️⃣*
 https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
+*Actualizado 12/02/2026.*
 
-*Actualizado 10/02/2026.*`
+📍 Para ver otros grupos.
+- grupos telegram
+- grupos facebook 
+- grupos
+`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
 }
