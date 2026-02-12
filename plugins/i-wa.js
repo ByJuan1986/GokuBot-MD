@@ -109,7 +109,7 @@ https://chat.whatsapp.com/LUKhODoKfqrC0uVKqMdfu4
 
 > *Por ejemplo:* ${usedPrefix + command} facebook`
 if (!args[0]) {
-await conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/ruuai1.png" }, caption: grupos }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzQ5NTQwMjNf/Goku_whatsApp.jpg" }, caption: grupos }, { quoted: m })
   //conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
 } else if (args[0] === "telegram") {
 let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺.
@@ -177,7 +177,7 @@ https://www.facebook.com/groups/5608883022528456/
 
 *Actualizado 10/02/2026.*
 
-`
+> *Por ejemplo:* ${usedPrefix + command} facebook`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODI4ODhf/Goku_facebook.png" }, caption: grupof }, { quoted: m })
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
@@ -236,7 +236,8 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 - grupos telegram
 - grupos facebook 
 - grupos
-`
+
+> *Por ejemplo:* ${usedPrefix + command} facebook`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
 }
