@@ -100,7 +100,7 @@ https://chat.whatsapp.com/BhXwjZVP0Ae9VU4pHqXATS
 🐉🎮𝔻ℝ𝔸𝔾𝕆ℕ 𝔹𝔸𝕃𝕃 𝔽𝕀𝔾𝕋ℍ𝔼ℝℤ🎮🐉
 https://chat.whatsapp.com/LUKhODoKfqrC0uVKqMdfu4
 
-𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟏𝟒/𝟎𝟗/𝟐𝟓
+𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 *12/02/26*
 
 📍 Para ver otros grupos.
 - grupos telegram
