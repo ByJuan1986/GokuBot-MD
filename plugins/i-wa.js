@@ -194,35 +194,17 @@ https://chat.whatsapp.com/EGR7UJ4mvjMD0hc0ZoAxwI
 *🌍🐉🐲 𝘽𝙤𝙡𝙖 𝙙𝙚 𝘿𝙧𝙖𝙘 𝙚𝙣 𝙑𝙖𝙡𝙚𝙣𝙘𝙞𝙖 🐲🐉🌍*
 https://chat.whatsapp.com/IhWTZM7Wu36AiiXE7mfXak
 
-
-
-
-*🌍🛡️👊 𝑺𝒂𝒊𝒏𝒕 𝑺𝒆𝒊𝒚𝒂 - 𝑳𝒐𝒔 𝑪𝒂𝒃𝒂𝒍𝒍𝒆𝒓𝒐𝒔 𝒅𝒆𝒍 𝒁𝒐𝒅𝒊𝒂𝒄𝒐 👊🛡️🌍*
-https://chat.whatsapp.com/G0ZqsFR5ZLAHDWPEuPXAEG
-
-*🌍🦾🦿 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑴𝒂𝒛𝒊𝒏𝒈𝒆𝒓 𝒁 🦿🦾🌍*
-https://chat.whatsapp.com/CtZOjnEVUEBHuaEnsNoo7H
-
 *🌍😺🐼 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑹𝒂𝒏𝒎𝒂 ½ 🐼😺🌍*
 https://chat.whatsapp.com/CRYP316MujxKFYiIHe9ZEx
-
-*🌍⚔️🛡️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒂𝒕𝒂𝒒𝒖𝒆 𝒂 𝒍𝒐𝒔 𝒕𝒊𝒕𝒂𝒏𝒆𝒔 ⚔️🛡️🌍*
-https://chat.whatsapp.com/FSJYfwMx8RVEMQ9zkt7xPx
-
-*🌍🌟🌌 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒍𝒂 𝒑𝒂𝒕𝒓𝒖𝒍𝒍𝒂 𝒈𝒂𝒍á𝒄𝒕𝒊𝒄𝒂 "𝑮𝒂𝒍𝒂𝒙𝒚 𝑹𝒂𝒏𝒈𝒆𝒓𝒔" 🌌🌟🌍*
-https://chat.whatsapp.com/IYoPm45egDQJ5yBOsHxBpc
 
 *🌍🃏♣️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑲𝒂𝒌𝒆𝒈𝒖𝒓𝒖𝒊 ♣️🃏🌍*
 https://chat.whatsapp.com/By1GlKQ5yLQAYYxhTR8t9N
 
-*🌍🪚🗡️ 𝑪𝒉𝒂𝒊𝒏𝒔𝒂𝒘 𝑴𝒂𝒏 🗡️🪚🌍*
-https://chat.whatsapp.com/JmDT04P5aSfJoIfCAmh40A
-
 *🌍⚔️🗡️ 𝑲𝒊𝒍𝒍 𝒍𝒂 𝒌𝒊𝒍𝒍 🗡️⚔️🌍*
 https://chat.whatsapp.com/IIH75WjAuzhBSrd05wFsgV
 
-*🌍🔩🦾 𝑭𝒂𝒏𝒔 𝑮𝒉𝒐𝒔𝒕 𝒊𝒏 𝒕𝒉𝒆 𝑺𝒉𝒆𝒍𝒍 🦾🔩🌍*
-https://chat.whatsapp.com/HAnxvpAirb4AsXBsDAGn6E
+
+
 
 *🌍🎭🐻 𝑩𝒍𝒆𝒂𝒄𝒉 🐻🎭🌍*
 https://chat.whatsapp.com/J0vzttZbKXqKeUZPj0fUYa
