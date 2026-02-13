@@ -33,6 +33,9 @@ https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 • 𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗔𝗻𝗶𝗺𝗲
 https://whatsapp.com/channel/0029Va9HjoqICVfqKkhmYD1e
 
+• 𝗕𝗼𝗹𝗮 𝗱𝗲 𝗗𝗿𝗮𝗰 - 𝗙𝗮𝗻𝗱𝘂𝗯 𝗩𝗮𝗹𝗲𝗻𝗰𝗶𝗮
+https://whatsapp.com/channel/0029VbB3I3T8kyyEIAyjJe1S
+
 📍  Usa *${usedPrefix + command} telegram* para ver los canales de telegram.`
 if (!args[0]) {
   await conn.sendMessage(m.chat, { image: { url: "https://files.catbox.moe/bcqc8j.jpg" }, caption: canalXd }, { quoted: m })
