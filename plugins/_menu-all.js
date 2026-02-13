@@ -32,26 +32,26 @@ let menuAll = `▢ *Prefix* : (/ # - . ,)
 ▢ *Modo* : Privado.
 ${readMore}
 ⚶⭒ \`Informacion\` 
-\tᗢ *${usedPrefix}estado*
-\tᗢ *${usedPrefix}ping*
-\tᗢ *${usedPrefix}run*
-\tᗢ *${usedPrefix}canal*
-\tᗢ *${usedPrefix}grupos*
-\tᗢ *${usedPrefix}support*  =  text
+\t㊙ *${usedPrefix}estado*
+\t㊙ *${usedPrefix}ping*
+\t㊙ *${usedPrefix}run*
+\t㊙ *${usedPrefix}canal*
+\t㊙ *${usedPrefix}grupos*
+\t㊙ *${usedPrefix}support*  =  text
 
 ⚶⭒ \`Descargas\` 
-\tᗢ *${usedPrefix}play*  =  link/text
-\tᗢ *${usedPrefix}ytmp3*  =  link/text
-\tᗢ *${usedPrefix}ytmp4*  =  link/text
-\tᗢ *${usedPrefix}github*  =  link
-\tᗢ *${usedPrefix}mediafire*  =  link
-\tᗢ *${usedPrefix}facebook*  =  link
-\tᗢ *${usedPrefix}instagram*  =  link
-\tᗢ *${usedPrefix}twitter*  =  link
-\tᗢ *${usedPrefix}spotify*  =  link
-\tᗢ *${usedPrefix}pinterest*  =  link
-\tᗢ *${usedPrefix}tiktok*  =  link
-\tᗢ *${usedPrefix}sly*  =  link
+\t⬇️ *${usedPrefix}play*  =  link/text
+\t⬇️​ *${usedPrefix}ytmp3*  =  link/text
+\t⬇️​ *${usedPrefix}ytmp4*  =  link/text
+\t⬇️​ *${usedPrefix}github*  =  link
+\t⬇️​ *${usedPrefix}mediafire*  =  link
+\t⬇️​ *${usedPrefix}facebook*  =  link
+\t⬇️ *${usedPrefix}instagram*  =  link
+\t⬇️ *${usedPrefix}twitter*  =  link
+\t⬇️ *${usedPrefix}spotify*  =  link
+\t⬇️ *${usedPrefix}pinterest*  =  link
+\t⬇️ *${usedPrefix}tiktok*  =  link
+\t⬇️ *${usedPrefix}sly*  =  link
 
 ⚶⭒ \`Busquedas\` 
 \tᗢ *${usedPrefix}fdroids*  =  text
@@ -68,20 +68,20 @@ ${readMore}
 
 ⚶⭒ \`Grupos\` 
 \t🐲 *${usedPrefix}link*
-\tᗢ *${usedPrefix}inum*
-\tᗢ *${usedPrefix}dnum*
-\tᗢ *${usedPrefix}invocar*  =  text
-\tᗢ *${usedPrefix}img+*  =  text
-\tᗢ *${usedPrefix}name+*  =  text
-\tᗢ *${usedPrefix}desc+*  =  text
-\tᗢ *${usedPrefix}kick*  =  mention
-\tᗢ *${usedPrefix}add*  =  number
-\tᗢ *${usedPrefix}admin+*  =  mention
-\tᗢ *${usedPrefix}admin-*  =  mention
-\tᗢ *${usedPrefix}warn+*  = mention 
-\tᗢ *${usedPrefix}warn-*  =  mention
-\tᗢ *${usedPrefix}mute+*  =  mention
-\tᗢ *${usedPrefix}mute-*  =  mention
+\t🐲 *${usedPrefix}inum*
+\t🐲 *${usedPrefix}dnum*
+\t🐲 *${usedPrefix}invocar*  =  text
+\t🐲 *${usedPrefix}img+*  =  text
+\t🐲 *${usedPrefix}name+*  =  text
+\t🐲 *${usedPrefix}desc+*  =  text
+\t🐲 *${usedPrefix}kick*  =  mention
+\t🐲 *${usedPrefix}add*  =  number
+\t🐲 *${usedPrefix}admin+*  =  mention
+\t🐲 *${usedPrefix}admin-*  =  mention
+\t🐲 *${usedPrefix}warn+*  = mention 
+\t🐲 *${usedPrefix}warn-*  =  mention
+\t🐲 *${usedPrefix}mute+*  =  mention
+\t🐲 *${usedPrefix}mute-*  =  mention
 
 ⚶⭒ \`Convertidor\` 
 \tᗢ *${usedPrefix}hd*  =  reply
