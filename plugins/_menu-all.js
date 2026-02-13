@@ -38,6 +38,8 @@ ${readMore}
 \t㊙ *${usedPrefix}canal*
 \t㊙ *${usedPrefix}grupos*
 \t㊙ *${usedPrefix}grupos telegram*
+\t㊙ *${usedPrefix}grupos facebook*
+\t㊙ *${usedPrefix}appsticker*
 \t㊙ *${usedPrefix}support*  =  text
 
 ⚶⭒ \`Descargas\` 
