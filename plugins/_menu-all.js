@@ -54,17 +54,17 @@ ${readMore}
 \t⬇️ *${usedPrefix}sly*  =  link
 
 ⚶⭒ \`Busquedas\` 
-\tᗢ *${usedPrefix}fdroids*  =  text
-\tᗢ *${usedPrefix}google*  =  text
-\tᗢ *${usedPrefix}imagen*  =  text
-\tᗢ *${usedPrefix}tiktoks*  =  text
-\tᗢ *${usedPrefix}pinimg*  =  text
-\tᗢ *${usedPrefix}spotifys*  =  text
-\tᗢ *${usedPrefix}slys*  =  text
-\tᗢ *${usedPrefix}apk*  =  text
-\tᗢ *${usedPrefix}yts*  =  text
-\tᗢ *${usedPrefix}apples*  =  text
-\tᗢ *${usedPrefix}tenor*  =  text
+\t🔍 *${usedPrefix}fdroids*  =  text
+\t🔍 *${usedPrefix}google*  =  text
+\t🔍 *${usedPrefix}imagen*  =  text
+\t🔍 *${usedPrefix}tiktoks*  =  text
+\t🔍 *${usedPrefix}pinimg*  =  text
+\t🔍 *${usedPrefix}spotifys*  =  text
+\t🔍 *${usedPrefix}slys*  =  text
+\t🔍 *${usedPrefix}apk*  =  text
+\t🔍 *${usedPrefix}yts*  =  text
+\t🔍 *${usedPrefix}apples*  =  text
+\t🔍 *${usedPrefix}tenor*  =  text
 
 ⚶⭒ \`Grupos\` 
 \t🐲 *${usedPrefix}link*
