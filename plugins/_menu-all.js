@@ -67,7 +67,7 @@ ${readMore}
 \tᗢ *${usedPrefix}tenor*  =  text
 
 ⚶⭒ \`Grupos\` 
-\tᗢ *${usedPrefix}link*
+\t🐲 *${usedPrefix}link*
 \tᗢ *${usedPrefix}inum*
 \tᗢ *${usedPrefix}dnum*
 \tᗢ *${usedPrefix}invocar*  =  text
