@@ -37,6 +37,7 @@ ${readMore}
 \t㊙ *${usedPrefix}run*
 \t㊙ *${usedPrefix}canal*
 \t㊙ *${usedPrefix}grupos*
+\t㊙ *${usedPrefix}grupos telegram*
 \t㊙ *${usedPrefix}support*  =  text
 
 ⚶⭒ \`Descargas\` 
