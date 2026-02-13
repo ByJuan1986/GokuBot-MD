@@ -150,6 +150,11 @@ let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱�
 🇪🇸 𝗗𝗖 𝘆 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
 - https://t.me/ComunidadDCMarvel
 
+📍 Para ver otros grupos.
+- grupos
+- grupos facebook 
+- grupos frikis
+
 𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODMxMTFf/Goku_telegram.png" }, caption: grupot }, { quoted: m })
 //conn.reply(m.chat, grupot, m)
@@ -174,6 +179,11 @@ https://www.facebook.com/groups/649206827024362/
 
 *El take doblaje castellano de España*
 https://www.facebook.com/groups/5608883022528456/ 
+
+📍 Para ver otros grupos.
+- grupos
+- grupos telegram
+- grupos frikis
 
 *Actualizado 10/02/2026.*
 
