@@ -288,8 +288,12 @@ let t = `📍 No hay numero...`
 }
 
 if (command === "añadirusuario") {
-let tuto = `Texto por aqui`
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfMzUzODMxODhf/Tutorial.mp4" }, caption: tuto }, { quoted: m })
+let tuto = `*Tus amigos le gusta dragón ball, WhatsApp tiene  de la opción, puedes añadir usuarios de desde tu agenda.. Arriba te dejo el video tutorial y te explicó como se hace, funciona en todos los grupos de esta comunidad*
+
+*Si teneis dudas escribir a By Juan1986*
+
+*Esto a sido posible gracias a By Juan𝟏𝟗𝟖𝟔*`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODBf/A%C3%B1adirUsuariosAlGrupo.mp4" }, caption: tuto }, { quoted: m })
 }
 
   
