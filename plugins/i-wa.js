@@ -287,24 +287,22 @@ let t = `📍 No hay numero...`
 }
 }
 
+// video tutorial curiosidades dragon ball
 if (command === "curiosidadesdragonball") {
 let tuto = `*Buscas estar informado de las curiosidades de dragón ball? En el vídeo de arriba te dejo lo que puedes encontrar.. Un canal echo por un fan para otros fans de dragón ball...*
 
 *Pulsen a seguir para estar informados de las novedades 👇👇*
 *https://whatsapp.com/channel/0029VaQghZyAInPcWuTHOR3V*
 
-*Si tenéis dudas escribir a By Juan1986*
-
-*Esto a sido posible gracias a By Juan𝟏𝟗𝟖𝟔*`
+*Esto a sido posible gracias a By Juan1986*`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODJf/Curiosidades%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
-  
+
+// video tutorial añadir usuarios
 if (command === "añadirusuario") {
 let tuto = `*Tus amigos le gusta dragón ball, WhatsApp tiene  de la opción, puedes añadir usuarios de desde tu agenda.. Arriba te dejo el video tutorial y te explicó como se hace, funciona en todos los grupos de esta comunidad*
 
-*Si teneis dudas escribir a By Juan1986*
-
-*Esto a sido posible gracias a By Juan𝟏𝟗𝟖𝟔*`
+*Esto a sido posible gracias a By Juan1986*`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODBf/A%C3%B1adirUsuariosAlGrupo.mp4" }, caption: tuto }, { quoted: m })
 }
 
