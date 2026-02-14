@@ -287,8 +287,15 @@ let t = `📍 No hay numero...`
 }
 }
 
-if (command === "curiosidades dragon ball") {
-let tuto = `Texto por aqui`
+if (command === "curiosidadesdragonball") {
+let tuto = `*Buscas estar informado de las curiosidades de dragón ball? En el vídeo de arriba te dejo lo que puedes encontrar.. Un canal echo por un fan para otros fans de dragón ball...*
+
+*Pulsen a seguir para estar informados de las novedades 👇👇*
+*https://whatsapp.com/channel/0029VaQghZyAInPcWuTHOR3V*
+
+*Si tenéis dudas escribir a By Juan1986*
+
+*Esto a sido posible gracias a By Juan𝟏𝟗𝟖𝟔*`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODJf/Curiosidades%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
   
