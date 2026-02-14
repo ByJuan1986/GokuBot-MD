@@ -287,6 +287,12 @@ let t = `📍 No hay numero...`
 }
 }
 
+// noticias dragon ball
+if (command === "noticiasdragonball") {
+let tuto = `Texto por aqui`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODFf/Noticias%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
+}
+  
 // video tutorial curiosidades dragon ball
 if (command === "curiosidadesdragonball") {
 let tuto = `*Buscas estar informado de las curiosidades de dragón ball? En el vídeo de arriba te dejo lo que puedes encontrar.. Un canal echo por un fan para otros fans de dragón ball...*
@@ -334,7 +340,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["curiosidadesdragonball", "añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
