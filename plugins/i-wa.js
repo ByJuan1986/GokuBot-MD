@@ -287,6 +287,11 @@ let t = `📍 No hay numero...`
 }
 }
 
+if (command === "curiosidades dragon ball") {
+let tuto = `Texto por aqui`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODJf/Curiosidades%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
+}
+  
 if (command === "añadirusuario") {
 let tuto = `*Tus amigos le gusta dragón ball, WhatsApp tiene  de la opción, puedes añadir usuarios de desde tu agenda.. Arriba te dejo el video tutorial y te explicó como se hace, funciona en todos los grupos de esta comunidad*
 
@@ -324,7 +329,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ["curiosidadesdragonball", "añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
