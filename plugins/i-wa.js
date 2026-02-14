@@ -287,7 +287,12 @@ let t = `📍 No hay numero...`
 }
 }
 
+if (command === "añadirusuario") {
+let tuto = `Texto por aqui`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfMzUzODMxODhf/Tutorial.mp4" }, caption: tuto }, { quoted: m })
+}
 
+  
   //----------------------
   //Prueba de video.
   //----------------------
@@ -315,7 +320,7 @@ _*AppStore*_
 
 };
 
-handler.command = ['appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ["añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
 
 export default handler;
   
