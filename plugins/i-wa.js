@@ -289,7 +289,7 @@ let t = `📍 No hay numero...`
 
 // noticias dragon ball
 if (command === "noticiasdragonball") {
-let tuto = `Texto por aqui`
+let tuto = `Buscas un canal de noticias de dragon ball, en este canal podreis ver y estar al dia en las noticias...`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODFf/Noticias%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
   
