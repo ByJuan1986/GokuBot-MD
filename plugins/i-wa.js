@@ -282,7 +282,13 @@ let lolXd = `📍  Usa *(${usedPrefix + command} numero)*`
 if (!args[0]) {
 conn.reply(m.chat, lolXd, m)
 } else if (args[0] === "número" || args[0] === "numero") {
-let t = `📍 No hay numero...`
+let t = `📢 *¿Tienes un número de WhatsApp y no lo usas? o te gustaría ayudar? 📢*
+
+*🤔 ¿Para que solicitan un numero de WhatsApp? 🤔*
+*👉 El bot llamo GokuBot que esta en esta comunidad funciona con un numero de teléfono de cualquier pais... por eso si tienes un numero que no usas o quieres comprar uno nuevo puedes ayudar dándolo por una buena causa.*
+🤔 *¿Que benificios tengo por dar un número de WhatsApp? 🤔*
+*👉 Puedes bajar videos de las redes sociales, hacer stickers y todo el mundo puede disfrutar de GokuBot...⚡*
+*📲 Escribenle al privado de Juan1986, den un numero y difruten de GokuBot.*`
   conn.reply(m.chat, t, m)
 }
 }
