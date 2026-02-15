@@ -259,6 +259,11 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 }
 }
 
+if (command === "administradores") {
+let random = `Xd`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: random }, { quoted: m })
+}
+  
   //----------------------
   //Comando de soporte
   //----------------------
@@ -346,7 +351,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte', 'administradores'];
 
 export default handler;
   
