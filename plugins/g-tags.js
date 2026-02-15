@@ -18,7 +18,7 @@ teks += `⚶ @${mem.id.split('@')[0]}\n`;
 }
 teks += `\n> ${textbot}`;
 
-const imgUrl = global.toruMenu;
+const imgUrl = global.gokuMenu;
 
 await conn.sendMessage(m.chat, { 
 image: { url: imgUrl }, 
