@@ -1,147 +1,121 @@
-const regexPatterns = {
-  whatsappGroup: /(?:https?:\/\/)?(?:www\.)?chat\.whatsapp\.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/gi,
-  whatsappChannel: /(?:https?:\/\/)?(?:www\.)?whatsapp\.com\/channel\/([0-9A-Za-z]+)/gi,
-  waMe: /(?:https?:\/\/)?(?:www\.)?wa\.me\/(?:qr\/|join\/)?([0-9A-Za-z+/=_-]+)/gi,
-  genericLink: /(?:https?:\/\/)?(?:www\.)?[a-zA-Z0-9][\w\-]*[a-zA-Z0-9]*\.[a-zA-Z]{2,}(?:\/[^\s]*)?/gi,
-  customDomains: [
-    /carmecita\.by/gi,
-    /t\.me\//gi,
-    /discord\.gg\//gi
-  ]
-}
+let linkRegex1 = /chat\.whatsapp\.com\/([0-9A-Za-z]{20,24})/i
+let linkRegex2 = /whatsapp\.com\/channel\/([0-9A-Za-z]{20,24})/i
 
-function detectLinks(text) {
-  const results = {
-    whatsappGroup: false,
-    whatsappChannel: false,
-    waMe: false,
-    genericLink: false,
-    customDomain: false,
-    foundLinks: []
-  }
-  
-  const groupMatches = text.match(regexPatterns.whatsappGroup)
-  if (groupMatches) {
-    results.whatsappGroup = true
-    results.foundLinks.push(...groupMatches)
-  }
-  
-  const channelMatches = text.match(regexPatterns.whatsappChannel)
-  if (channelMatches) {
-    results.whatsappChannel = true
-    results.foundLinks.push(...channelMatches)
-  }
-  
-  const waMeMatches = text.match(regexPatterns.waMe)
-  if (waMeMatches) {
-    results.waMe = true
-    results.foundLinks.push(...waMeMatches)
-  }
-  
-  const genericMatches = text.match(regexPatterns.genericLink)
-  if (genericMatches) {
-    results.genericLink = true
-    results.foundLinks.push(...genericMatches)
-  }
-  
-  for (const customRegex of regexPatterns.customDomains) {
-    const customMatches = text.match(customRegex)
-    if (customMatches) {
-      results.customDomain = true
-      results.foundLinks.push(...customMatches)
-    }
-  }
-  
-  return results
-}
-
-export async function before(m, { conn, isAdmin, isBotAdmin }) {
-  try {
-    if (!m || !m.text || m.text.trim() === '' || (m.isBaileys && m.fromMe) || !m.isGroup) {
-      return true
-    }
+let handler = (m) => m
+handler.before = async function (m, {conn, isAdmin, isBotAdmin, isOwner}) {
+    // Verificaciones básicas
+    if (!m.isGroup) return true
+    if (!m.text) return true
+    if (m.fromMe) return true
     
-    if (!global.db) global.db = { data: { chats: {} } }
-    if (!global.db.data) global.db.data = { chats: {} }
-    if (!global.db.data.chats) global.db.data.chats = {}
-    if (!global.db.data.chats[m.chat]) global.db.data.chats[m.chat] = {}
+    let chat = global.db.data.chats[m.chat]
+    if (!chat || !chat.fEnlaces) return true // Si antienlaces está desactivado, salir
     
-    const chat = global.db.data.chats[m.chat]
+    const sender = m.sender
     
-    if (!isBotAdmin) return true
+    // Verificar si es owner del bot
+    const isGlobalOwner = global.owner.some(([ownerNumber]) => {
+        return sender === `${ownerNumber}@s.whatsapp.net` || sender.split('@')[0] === ownerNumber.toString()
+    })
     
-    const userNumber = m.sender.split('@')[0]
-    const linkDetection = detectLinks(m.text)
+    if (isOwner || isGlobalOwner) return true // Owners pueden enviar enlaces
     
-    if (chat.fEnlaces) {
-      const foundProhibitedLink = linkDetection.whatsappGroup || linkDetection.whatsappChannel || linkDetection.waMe
-      
-      if (foundProhibitedLink && !isAdmin) {
-        if (linkDetection.whatsappGroup) {
-          try {
-            const groupInviteCode = await conn.groupInviteCode(m.chat)
-            if (m.text.includes(groupInviteCode)) {
-              return true 
+    // Detectar si hay enlaces
+    const hasGroupLink = linkRegex1.test(m.text)
+    const hasChannelLink = linkRegex2.test(m.text)
+    
+    if (hasGroupLink || hasChannelLink) {
+        console.log('Enlace detectado de:', sender)
+        
+        // Obtener el enlace del grupo actual
+        let linkThisGroup = ''
+        try {
+            const groupCode = await conn.groupInviteCode(m.chat)
+            linkThisGroup = `https://chat.whatsapp.com/${groupCode}`
+        } catch (e) {
+            console.log('Error obteniendo código del grupo:', e)
+        }
+        
+        // Si el enlace es del mismo grupo, permitirlo
+        if (linkThisGroup && m.text.includes(linkThisGroup)) {
+            //console.log('Es enlace del mismo grupo, permitido')
+            return true
+        }
+        
+        // Si el bot no es admin, solo avisar
+        if (!isBotAdmin) {
+            await conn.reply(m.chat, `📍  Se detecto un enlace en este chat.\n- No soy admin para continuar la expulsión...`, m)
+            return true
+        }
+        
+        // Si es ADMINISTRADOR del grupo
+        if (isAdmin) {
+            console.log('Usuario es admin, solo advertencia y eliminar mensaje')
+            
+            await conn.sendMessage(m.chat, {
+                text: `📍  Hola, @${sender.split('@')[0]}, como eres administrador, se te recomienda no enviar enlaces grupales.`,
+                mentions: [sender]
+            })
+            
+            // Eliminar solo el mensaje
+            try {
+                await conn.sendMessage(m.chat, {
+                    delete: {
+                        remoteJid: m.chat,
+                        fromMe: false,
+                        id: m.key.id,
+                        participant: sender
+                    }
+                })
+            } catch (e) {
+                console.log('Error al eliminar mensaje:', e)
             }
-          } catch (error) {
-            console.error('❌ [ANTILINK] Error verificando grupo:', error)
-          }
+            
+            return false
         }
         
-        console.log(`🚫 [ANTILINK] Expulsando usuario ${userNumber} por enlace prohibido`)
-        
-        try {
-          await conn.reply(
-            m.chat,
-            `📍 @${userNumber} ha sido expulsado.`,
-            m,
-            { mentions: [m.sender] }
-          )
-          
-          await conn.sendMessage(m.chat, { delete: m.key })
-          await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-          
-        } catch (error) {
-          console.error('❌ [ANTILINK] Error durante expulsión:', error)
+        // Si es USUARIO NORMAL (no admin, no owner)
+        if (!isAdmin) {
+            console.log('Usuario normal, eliminando')
+            
+            await conn.sendMessage(m.chat, {
+                text: `📍  El usuario @${sender.split('@')[0]} sera eliminado en breve por enviar un enlace al chat...`,
+                mentions: [sender]
+            })
+            
+            // Eliminar el mensaje
+            try {
+                await conn.sendMessage(m.chat, {
+                    delete: {
+                        remoteJid: m.chat,
+                        fromMe: false,
+                        id: m.key.id,
+                        participant: sender
+                    }
+                })
+            } catch (e) {
+                console.log('Error al eliminar mensaje:', e)
+            }
+            
+            // Esperar antes de eliminar usuario
+            await new Promise(resolve => setTimeout(resolve, 1000))
+            
+            // Eliminar del grupo
+            try {
+                await conn.groupParticipantsUpdate(m.chat, [sender], 'remove')
+                //console.log('Usuario eliminado exitosamente')
+            } catch (e) {
+                //console.log('Error al eliminar usuario:', e)
+                await conn.sendMessage(m.chat, {
+                    text: `📍  No pude eliminar al usuario, es posible que no haya permisos...`
+                })
+            }
+            
+            return false
         }
-        
-        return false
-      }
-    }
-    
-    if (chat.fEnlaces2) {
-      const foundAnyLink = linkDetection.genericLink || linkDetection.customDomain
-      
-      if (foundAnyLink && !isAdmin) {
-        if (chat.antiLink && (linkDetection.whatsappGroup || linkDetection.whatsappChannel || linkDetection.waMe)) {
-          return false
-        }
-        
-        console.log(`🚫 [ANTILINK2] Expulsando usuario ${userNumber} por enlace genérico`)
-        
-        try {
-          await conn.reply(
-            m.chat,
-            `📍 @${userNumber} ha sido expulsado.`,
-            m,
-            { mentions: [m.sender] }
-          )
-          
-          await conn.sendMessage(m.chat, { delete: m.key })
-          await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-          
-        } catch (error) {
-          console.error('❌ [ANTILINK2] Error durante expulsión:', error)
-        }
-        
-        return false
-      }
     }
     
     return true
-    
-  } catch (error) {
-    console.error('💥 [ANTILINK] ERROR CRÍTICO:', error)
-    return true
-  }
 }
+
+export default handler
