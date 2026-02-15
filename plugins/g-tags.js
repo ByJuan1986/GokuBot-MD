@@ -27,7 +27,7 @@ mentions: participants.map((a) => a.id)
 });
 };
 
-handler.command = ['todos', 'tags', 'tagall'];
+handler.command = ['invocar', 'todos', 'tags', 'tagall'];
 handler.admin = true;
 handler.group = true;
 
