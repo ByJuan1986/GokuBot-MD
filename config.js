@@ -34,7 +34,7 @@ global.canal = ""
 global.botgrupo = ""
 global.textbot = "ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ᴀɴᴅ ʀᴇsᴇʀᴠᴇᴅ ʙʏ @Punisher"
 global.gokuImg = "https://files.catbox.moe/ox4wq2.jpg"
-global.gokuMenu = "https://files.catbox.moe/wnibgu.jpg"
+global.gokuMenu = "https://od.lk/s/NTZfNDc2MzMwOTdf/menu_GokuBot.jpg"
 
 global.dev = "Punisher"
 global.author = "@Punisher"
