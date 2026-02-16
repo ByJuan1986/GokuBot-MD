@@ -28,7 +28,7 @@ global.sessions = "Sessions/Principal"
 global.jadi = "Sessions/SubBot"
 global.alanWasock = true
 
-global.botname = "G O K U  :  New Bot"
+global.botname = "𝐆𝐨𝐤𝐮𝐁𝐨𝐭 - 𝐁𝐲 𝐉𝐮𝐚𝐧𝟏𝟗𝟖𝟔"
 global.botweb = ""
 global.canal = ""
 global.botgrupo = ""
