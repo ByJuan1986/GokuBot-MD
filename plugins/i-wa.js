@@ -261,7 +261,7 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
 if (command === "administradores") {
 let random = `Xd`
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: random }, { quoted: m })
 }
   
   //----------------------
