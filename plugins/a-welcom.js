@@ -39,8 +39,8 @@ return jid.split('@')[0];
 export async function before(m, { conn, participants, groupMetadata }) {
 if (!m.messageStubType || !m.isGroup) return true;
 
-let imgWelcome = 'https://files.catbox.moe/h1jbw1.jpg';
-let imgBye = 'https://files.catbox.moe/h1jbw1.jpg';
+let imgWelcome = 'https://od.lk/s/NTZfNDc2MzMxMDJf/menu2_GokuBot.jpg';
+let imgBye = 'https://od.lk/s/NTZfNDc2MzMxMDJf/menu2_GokuBot.jpg';
 
 let chat = global.db.data.chats[m.chat];
 const getMentionedJid = () => {
