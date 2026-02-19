@@ -13,7 +13,7 @@ const audioMap = [
 {regex: /^Bien pensado boddy|bien pensado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
 {regex: /^Gokubot 1|cancion GokuBot$/i, url: 'https://od.lk/s/NTZfNDc1MTI4NzFf/GokuBot%20cancion.mp3'},
 
-// personajes Goku en castellano 
+// Personajes dragon ball en castellano 
 {regex: /^Final flash|vegeta flash$/i, url: 'https://od.lk/s/NTZfNDc2OTg4MDhf/Final%20flash%20castellano.mp3'},
  
 // GokuBot castellano
@@ -25,18 +25,14 @@ const audioMap = [
  // GokuBot latino  
 {regex: /^hola GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDFf/GokuBot%20hola%20latino.mp3'},
 
-// Audio en latino 
+// Personajes dragon ball en latino 
 {regex: /^Insecto|insecto verde$/i, url: 'https://od.lk/s/NTZfNDc2OTg1MjBf/insecto%20verde.mp3'},
 {regex: /^No seas ingenuo|no weas ingenuo vegeta$/i, url: 'https://od.lk/s/NTZfNDc2OTkzMDBf/No%20seas%20ingenuo%20Vegeta.mp3'},
 {regex: /^Goku eta vaina es seria$/i, url: 'https://od.lk/s/NTZfMjk4MTU0NTNf/Esta%20vaina%20es%20seria.mp3'},
 {regex: /^carita empapada$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzZf/Carita%20empapada.mp3'},  
 {regex: /^cell tiene miedo$/i, url: 'https://od.lk/s/NTZfMjkyMjY5MjVf/C%C3%A9lula%20tuve%20miedo.mp3'},
 {regex: /^insecto$/i, url: 'https://od.lk/s/NTZfMjkwMDk0NDFf/Goku%20latino%20insecto.mp3'},
-{regex: /^hay alguien en el grupo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzdf/Hay%20alguien%20en%20el%20grupo.mp3'},
-{regex: /^los pinguinos$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzhf/Los%20ping%C3%BCinos.mp3'},
 {regex: /^maldicion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzlf/Maldicion.mp3'},
-{regex: /^mangekyo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODBf/Mangekyo.mp3'},
-{regex: /^Mary Jane$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODFf/Mary%20Jane.mp3'},
 {regex: /^la fe de cristo rey$/i, url: 'https://od.lk/s/NTZfMjg3NDE0MjBf/Meme%20-%20La%20fe%20de%20Cristo%20rey.mp3'},
 {regex: /^maltito$/i, url: 'https://od.lk/s/NTZfMjg3NDczMzNf/meme%2010%20-%20eres%20un%20maltito.mp3'},
 {regex: /^machete$/i, url: 'https://od.lk/s/NTZfMjg3NjY4OTNf/meme%2011%20-%20machete.mp3'},
@@ -54,13 +50,20 @@ const audioMap = [
 {regex: /^eres un cobarde$/i, url: 'https://od.lk/s/NTZfMjg3NDcyMTZf/meme%208%20-%20t%C3%BA%20eres%20un%20cobarde.mp3'},    
 {regex: /^ya basta$/i, url: 'https://od.lk/s/NTZfMjg3NDcyNDdf/meme%209%20-%20ya%20basta%20Freezer.mp3'},
 {regex: /^mi dinero$/i, url: 'https://od.lk/s/NTZfMjkyMjY5NDFf/mi%20dinero%20disminulle.mp3'},
+
+ // Audio en latino
+{regex: /^hay alguien en el grupo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzdf/Hay%20alguien%20en%20el%20grupo.mp3'},
+{regex: /^los pinguinos$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzhf/Los%20ping%C3%BCinos.mp3'},
 {regex: /^la depuracion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODJf/purga%20infinita%20latino.mp3'},
 {regex: /^que bendicion$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODNf/Que%20bendicion.mp3'},
 {regex: /^que calor$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODVf/Que%20calor.mp3'},
 {regex: /^que rico$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODZf/Que%20rico.mp3'},    
 {regex: /^si la verdad es que si$/i, url: 'https://od.lk/s/NTZfMjg5OTA0OTFf/Si%20la%20verdad%20es%20que%20si.mp3'},
 {regex: /^ta bien$/i, url: 'https://od.lk/s/NTZfMjg3MzAzOTBf/Ta%20bien.mp3'},
+{regex: /^mangekyo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODBf/Mangekyo.mp3'},
+{regex: /^Mary Jane$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODFf/Mary%20Jane.mp3'},
 
+ 
  // Melodias
 {regex: /^alarma$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTRf/Alarma.mp3'},
 {regex: /^silbando$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOThf/Gohan%20silbido.mp3'},  
