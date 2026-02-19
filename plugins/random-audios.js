@@ -18,7 +18,7 @@ const audioMap = [
  
 // GokuBot castellano
 {regex: /^buenas noches|que descanses$/i, url: 'https://od.lk/s/NTZfMjkxOTY1NjNf/buenas%20noches%20que%20descanses%20castellano.mp3'},
-{regex: /^buenos dias|feliz dias$/i, url: 'https://od.lk/s/NTZfMjkxOTY4NzJf/Buenos%20d%C3%ADas%20voz%20goku.mp3'}, 
+{regex: /^buenos dias|buenos días|feliz dias$/i, url: 'https://od.lk/s/NTZfMjkxOTY4NzJf/Buenos%20d%C3%ADas%20voz%20goku.mp3'}, 
 {regex: /^hola soy GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTZf/GokuBot%20hola%20castellano.mp3'},
 {regex: /^kamehaa$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTdf/GokuBot%20kamehaa%20castellano.mp3'},
  
@@ -27,6 +27,7 @@ const audioMap = [
 
 // Audio en latino 
 {regex: /^Insecto|insecto verde$/i, url: 'https://od.lk/s/NTZfNDc2OTg1MjBf/insecto%20verde.mp3'},
+{regex: /^No seas ingenuo|no weas ingenuo vegeta$/i, url: 'https://od.lk/s/NTZfNDc2OTg1MjBf/insecto%20verde.mp3'},
 {regex: /^Goku eta vaina es seria$/i, url: 'https://od.lk/s/NTZfMjk4MTU0NTNf/Esta%20vaina%20es%20seria.mp3'},
 {regex: /^carita empapada$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzZf/Carita%20empapada.mp3'},  
 {regex: /^cell tiene miedo$/i, url: 'https://od.lk/s/NTZfMjkyMjY5MjVf/C%C3%A9lula%20tuve%20miedo.mp3'},
