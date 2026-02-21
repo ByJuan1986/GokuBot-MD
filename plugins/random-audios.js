@@ -27,6 +27,7 @@ const audioMap = [
 {regex: /^Hola soy Goku|hola GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDFf/GokuBot%20hola%20latino.mp3'},
 
 // Personajes dragon ball en latino 
+{regex: /^yo también superare$/i, url: 'https://od.lk/s/NTZfNDc3Mjk1NTNf/yo%20tambi%C3%A9n%20superare%20latino.mp3'},
 {regex: /^Insecto|insecto verde$/i, url: 'https://od.lk/s/NTZfNDc2OTg1MjBf/insecto%20verde.mp3'},
 {regex: /^No seas ingenuo|no weas ingenuo vegeta$/i, url: 'https://od.lk/s/NTZfNDc2OTkzMDBf/No%20seas%20ingenuo%20Vegeta.mp3'},
 {regex: /^Goku eta vaina es seria$/i, url: 'https://od.lk/s/NTZfMjk4MTU0NTNf/Esta%20vaina%20es%20seria.mp3'},
