@@ -68,6 +68,7 @@ const audioMap = [
 
  
  // Melodias
+{regex: /^pvp|una partida|un combate$/i, url: 'https://od.lk/s/NTZfNDc3NDU5MTZf/Goku%20ultra%20instinto.mp3'}, 
 {regex: /^alarma$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTRf/Alarma.mp3'},
 {regex: /^silbando$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOThf/Gohan%20silbido.mp3'},  
 {regex: /^dj dragon ball$/i, url: 'https://od.lk/s/NTZfMjg3MjkwODlf/Dj%20drag%C3%B3n%20ball.mp3'},
