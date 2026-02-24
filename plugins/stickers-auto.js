@@ -169,7 +169,7 @@ const enfadado = [
 const guantazo = [
 'https://od.lk/s/NTZfMjUwMDMwNzJf/Bofetada%201.gif',
 'https://od.lk/s/NTZfMjUwNjcwMTNf/Bofetada%202.jpg',
-'https://od.lk/s/NTZfMjUwMDU0Mzhf/Bofetada%203.jpeg'
+'https://od.lk/s/NTZfNDc3NDU3Mzlf/Bofetada%209.gif'
 ]
 
 const hola = [
