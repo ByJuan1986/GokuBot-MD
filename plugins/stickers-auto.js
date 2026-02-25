@@ -6,7 +6,7 @@ let nombre = "Goku" //nombre del sticker en config.js
 let nombre2 = "Bot" //nombre del sticker en config.js
 
 //Sticker de hola
-if (/^hola|hello|holi|oli|ola$/i.test(m.text)) {
+if (/^hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|$/i.test(m.text)) {
 let stiker = await sticker(null, hola[Math.floor(Math.random() * hola.length)], nombre, nombre2) //Cambia "hola" por otro constante si copias este.
 await delay(3 * 3000)
 if (stiker)
@@ -114,7 +114,7 @@ await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 } 
  
 }}
-handler.customPrefix = /hola|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|🤔|☹️|🙁|alegre|😊|😀|guantazo|amor|baile|llorar|miedo|ok|papus|payaso|pienso|risa|🤣|😂|😄|😁|😊|triste|vacilon/i
+handler.customPrefix = /hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|🤔|☹️|🙁|alegre|😊|😀|guantazo|amor|baile|llorar|miedo|ok|papus|payaso|pienso|risa|🤣|😂|😄|😁|😊|triste|vacilon/i
 handler.command = new RegExp()
 export default handler
 
