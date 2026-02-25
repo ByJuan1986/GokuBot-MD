@@ -251,7 +251,10 @@ const vacilon = [
 'https://od.lk/s/NTZfMjUwMDc1MzNf/Goku%20vacilon%206.jpg',
 'https://od.lk/s/NTZfMjUwMDc1Mzdf/Goku%20vacilon%207.jpeg',
 'https://od.lk/s/NTZfMjUwMDc1NDNf/Goku%20vacilon%208.jpg',
-'https://od.lk/s/NTZfMjUwMDU0MTlf/Goku%20vacilon9.jpg'
+'https://od.lk/s/NTZfMjUwMDU0MTlf/Goku%20vacilon9.jpg',
+'https://od.lk/s/NTZfNDc3NTE0NTdf/Goku%20vacilon%2010.png',
+'https://od.lk/s/NTZfNDc3NTE0NThf/Goku%20vacilon%2011.png',
+'https://od.lk/s/NTZfNDc3NTE0NTlf/Goku%20vacilon%2012.png'
 ]
  
 
