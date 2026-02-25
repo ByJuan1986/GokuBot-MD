@@ -173,9 +173,9 @@ const guantazo = [
 ]
 
 const hola = [
-'https://files.catbox.moe/1stgzp.jpg',
-'https://files.catbox.moe/ucdo6i.jpg',
-'https://files.catbox.moe/b3rhjz.jpg'
+'https://od.lk/s/NTZfMjUwMDI3OTlf/hola%2001.png',
+'https://od.lk/s/NTZfMjUwMDI4MDdf/hola%2002.png',
+'https://od.lk/s/NTZfMjUwMDI4NTdf/hola%2003.png'
 ]
 
 const llorar = [
