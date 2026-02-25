@@ -162,7 +162,7 @@ const baile = [
 
 const enfadado = [
 'https://od.lk/s/NTZfMjUwOTU1MDlf/enfadado%2001.png',
-'https://od.lk/s/NTZfMjUwOTU1MTBf/enfadado%2002.jpeg',
+'https://od.lk/s/NTZfNDc3NTE0NjNf/enfadado%2002.jpg',
 'https://od.lk/s/NTZfMjUwOTU1MTJf/enfadado%2003.jpeg'
 ]
 
