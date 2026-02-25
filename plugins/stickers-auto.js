@@ -85,7 +85,7 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
-if (/^pienso$/i.test(m.text)) {
+if (/^pienso|🤔$/i.test(m.text)) {
 let stiker = await sticker(null, pienso[Math.floor(Math.random() * pienso.length)], nombre, nombre2)
 await delay(3 * 3000)
 if (stiker)
@@ -99,7 +99,7 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
-if (/^triste$/i.test(m.text)) {
+if (/^triste|☹️|🙁$/i.test(m.text)) {
 let stiker = await sticker(null, triste[Math.floor(Math.random() * triste.length)], nombre, nombre2)
 await delay(3 * 3000)
 if (stiker)
@@ -114,7 +114,7 @@ await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 } 
  
 }}
-handler.customPrefix = /hola|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|alegre|guantazo|amor|baile|llorar|miedo|ok|papus|payaso|pienso|risa|triste|vacilon/i
+handler.customPrefix = /hola|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|🤔|☹️|🙁|alegre|guantazo|amor|baile|llorar|miedo|ok|papus|payaso|pienso|risa|triste|vacilon/i
 handler.command = new RegExp()
 export default handler
 
