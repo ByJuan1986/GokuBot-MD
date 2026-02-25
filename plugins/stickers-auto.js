@@ -85,7 +85,7 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
-if (/^pienso|🤔$/i.test(m.text)) {
+if (/^🤔|pienso$/i.test(m.text)) {
 let stiker = await sticker(null, pienso[Math.floor(Math.random() * pienso.length)], nombre, nombre2)
 await delay(3 * 3000)
 if (stiker)
