@@ -6,7 +6,7 @@ let nombre = "Goku" //nombre del sticker en config.js
 let nombre2 = "Bot" //nombre del sticker en config.js
 
 //Sticker de hola
-if (/^hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|$/i.test(m.text)) {
+if (/^hola|👋|👋🏼|👋🏽|👋🏾|👋🏿$/i.test(m.text)) {
 let stiker = await sticker(null, hola[Math.floor(Math.random() * hola.length)], nombre, nombre2) //Cambia "hola" por otro constante si copias este.
 await delay(3 * 3000)
 if (stiker)
