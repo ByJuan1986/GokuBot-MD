@@ -168,9 +168,13 @@ const baile = [
 ]
 
 const comida = [
-'https://od.lk/s/NTZfMjUwNjcxMjdf/Baile%201.gif',
-'https://od.lk/s/NTZfMjUwNjcxMTlf/Baile%202.gif',
-'https://od.lk/s/NTZfMjUwNjcxMjBf/Baile%203.gif'
+'https://od.lk/s/NTZfNDc4MDUwNTVf/Comida%2001.gif',
+'https://od.lk/s/NTZfNDc4MDQ3MTlf/Comida%2002.gif',
+'https://od.lk/s/NTZfNDc4MDQ3MjBf/Comida%2003.gif',
+'https://od.lk/s/NTZfNDc4MDQ3MjFf/Comida%2004.gif',
+'https://od.lk/s/NTZfNDc4MDUwNTdf/Comida%2006.gif',
+'https://od.lk/s/NTZfNDc4MDUwNTdf/Comida%2006.gif',
+'https://od.lk/s/NTZfNDc4MDUwNTlf/Comida%2007.gif'
 ]
 
 const enfadado = [
