@@ -35,6 +35,13 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
+if (/^comida$/i.test(m.text)) {
+let stiker = await sticker(null, comida[Math.floor(Math.random() * comida.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
+
 if (/^enfadado|😠|😤|😡$/i.test(m.text)) {
 let stiker = await sticker(null, enfadado[Math.floor(Math.random() * enfadado.length)], nombre, nombre2)
 await delay(3 * 3000)
@@ -114,7 +121,7 @@ await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 } 
  
 }}
-handler.customPrefix = /hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|alegre|😊|😀|guantazo|amor|🥰|😍|🫶|❤️|😚|baile|llorar|miedo|ok|papus|payaso|pienso|🤔|risa|🤣|😂|😄|😁|😊|triste|☹️|🙁|vacilon/i
+handler.customPrefix = /hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|comida|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|alegre|😊|😀|guantazo|amor|🥰|😍|🫶|❤️|😚|baile|llorar|miedo|ok|papus|payaso|pienso|🤔|risa|🤣|😂|😄|😁|😊|triste|☹️|🙁|vacilon/i
 handler.command = new RegExp()
 export default handler
 
@@ -155,6 +162,12 @@ const amor = [
 ]
 
 const baile = [
+'https://od.lk/s/NTZfMjUwNjcxMjdf/Baile%201.gif',
+'https://od.lk/s/NTZfMjUwNjcxMTlf/Baile%202.gif',
+'https://od.lk/s/NTZfMjUwNjcxMjBf/Baile%203.gif'
+]
+
+const comida = [
 'https://od.lk/s/NTZfMjUwNjcxMjdf/Baile%201.gif',
 'https://od.lk/s/NTZfMjUwNjcxMTlf/Baile%202.gif',
 'https://od.lk/s/NTZfMjUwNjcxMjBf/Baile%203.gif'
