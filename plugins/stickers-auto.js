@@ -35,7 +35,7 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
-if (/^comida|🥝|🥑|🥔|🥞|🥖|🥐|🍥|🥮|🍩|🥧|🍛|🍪|🎂|🍰|🧁$/i.test(m.text)) {
+if (/^comida|voy a comer|estoy comiendo|comiendo|🥝|🥑|🥔|🥞|🥖|🥐|🍥|🥮|🍩|🥧|🍛|🍪|🎂|🍰|🧁$/i.test(m.text)) {
 let stiker = await sticker(null, comida[Math.floor(Math.random() * comida.length)], nombre, nombre2)
 await delay(3 * 3000)
 if (stiker)
@@ -172,7 +172,7 @@ const comida = [
 'https://od.lk/s/NTZfNDc4MDQ3MTlf/Comida%2002.gif',
 'https://od.lk/s/NTZfNDc4MDQ3MjBf/Comida%2003.gif',
 'https://od.lk/s/NTZfNDc4MDQ3MjFf/Comida%2004.gif',
-'https://od.lk/s/NTZfNDc4MDUwNTdf/Comida%2006.gif',
+'https://od.lk/s/NTZfNDc4MTAyNzBf/Comida%2005.gif',
 'https://od.lk/s/NTZfNDc4MDUwNTdf/Comida%2006.gif',
 'https://od.lk/s/NTZfNDc4MDUwNTlf/Comida%2007.gif'
 ]
