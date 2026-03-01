@@ -54,7 +54,15 @@ global.toem = "💴"
 global.toem2 = "🪙"
 global.toruCh = "https://files.catbox.moe/bbm4z7.jpg"
 
-global.ch = { ch1: "120363148987849046@newsletter" }
+global.ch = {
+ch1: "120363148987849046@newsletter",
+ch2: "120363195436416919@newsletter",
+ch3: "120363234822910701@newsletter",
+ch4: "120363248027382788@newsletter",
+ch5: "120363405626996983@newsletter",
+ch6: "120363263357160092@newsletter",
+ch7: "120363422011302677@newsletter"
+}
 
 
 
