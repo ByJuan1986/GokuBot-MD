@@ -33,12 +33,12 @@ const PORT = process.env.PORT || process.env.SERVER_PORT || 3000
 
 let { say } = cfonts
 console.log(chalk.greenBright('\nIniciando...'))
-say('Goku\nBot', {
-font: 'block',
+say('Goku\nMT', {
+font: 'simpleBlock',
 align: 'center',
 gradient: ['green', 'white']
 })
-say('Goku : Inteligencia Artificial con multi funciones.', {
+say('Version : ^2.5.6-lt', {
 font: 'console',
 align: 'center',
 colors: ['cyan', 'magenta', 'yellow']

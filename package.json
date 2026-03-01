@@ -1,38 +1,26 @@
 {
-  "name": "GokuBot-MD",
-  "version": "2.8.6",
-  "description": "Bot de WhatsApp",
-  "main": "index.js",
-  "type": "module",
-
-  "engines": {
-    "node": ">=20.0.0",
-    "npm": ">=11.6.0"
-  },
-  "directories": {
-    "lib": "lib",
-    "src": "src",
-    "plugins": "plugins"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "qr": "node index.js qr",
-    "code": "node index.js code",
-    "eslint": "eslint .",
-    "eslintfix": "eslint --fix ."
-  },
-  "homepage": "https://github.com/ByJuan1986/GokuBot-MD",
-  "author": {
-    "name": "Farguts"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ByJuan1986/GokuBot-MD.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ByJuan1986/GokuBot-MD/issues"
-  },
-  "license": "GPL-3.0-or-later",
+"name": "GokuBot-MD",
+"version": "2.5.6",
+"description": "Version mejorada de Goku Bot",
+"main": "index.js",
+"type": "module",
+"directories": {
+"lib": "lib",
+"plugins": "plugins"
+},
+"scripts": {
+"start": "node index.js"
+},
+"repository": {
+"type": "git",
+"url": "git+https://github.com/ByJuan1986/GokuBot-MD.git"
+},  
+"author": "Alan.Js",
+"license": "MIT-License",
+"bugs": {
+"url": "https://github.com/ByJuan1986/GokuBot-MD/issues"
+},
+"homepage": "https://github.com/ByJuan1986/GokuBot-MD#readme",
   "dependencies": {
     "@whiskeysockets/baileys": "npm:wileys",
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -60,6 +48,7 @@
     "g-i-s": "^2.1.6",
     "google-it": "^1.6.4",
     "google-libphonenumber": "3.2.38",
+    "got-scraping": "^4.1.2",
     "gradient-string": "^2.0.2",
     "hispamemes": "^1.0.7",
     "human-readable": "^0.2.1",
@@ -105,6 +94,10 @@
   "optionalDependencies": {
     "wa-sticker-formatter": "^4.3.2",
     "moment-timezone": "^0.5.37"
-  },
-  "_note": "Compatible con todas las plataformas para bots de WhatsApp"
+},
+"engines": {
+"node": ">=20.0.0"
 }
+}
+    
+
