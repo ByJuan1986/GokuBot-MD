@@ -47,6 +47,7 @@ global.textbot = "ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ᴀɴᴅ ʀᴇsᴇʀᴠᴇᴅ ʙ
 global.gokuImg = "https://od.lk/s/NTZfNDc2MzMxMDJf/menu2_GokuBot.jpg"
 global.gokuMenu = "https://od.lk/s/NTZfNDc2MzMwOTdf/menu_GokuBot.jpg"
 
+global.emoji = "🐲'
 global.currency = "Yenes"
 global.currency2 = "Monedas"
 global.toem = "💴"
