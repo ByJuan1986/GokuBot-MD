@@ -35,21 +35,21 @@ amigoss: '*Solo amigos agregados por el propietario..."'
 }
 
 global.fargs = {
-  prop: '✦  *No puedes usar este comando...*',
-  dAdmin: '✦  *Solo administradores del bot...*',
-  moder: '✦  *Solo moderadores...*',
-  prem: '✦  *Solo usuarios premium...*',
-  grupo: '✦  *Solo en chats grupales...*',
-  privado: '✦  *Solo en chats individuales...*',
-  admins: '✦  *Solo administradores...*',
-  bAdmin: '✦  *Solo si el bot es administrador...*',
-  registro: '✦  *Añade tu nombre a la lista de usuarios.*\n\n> *Por ejemplo:*\n*#new* Punisher',
-  amigos: '✦  *Solo amigos agendados por @Punisher...*',
-  estric: '✦  *Comando restringido...*'
+  prop: '㊙️  *No puedes usar este comando...*',
+  dAdmin: '㊙️  *Solo administradores del bot...*',
+  moder: '㊙️  *Solo moderadores...*',
+  prem: '㊙️  *Solo usuarios premium...*',
+  grupo: '㊙️  *Solo en chats grupales...*',
+  privado: '㊙️  *Solo en chats individuales...*',
+  admins: '㊙️  *Solo administradores...*',
+  bAdmin: '㊙️  *Solo si el bot es administrador...*',
+  registro: '㊙️  *Añade tu nombre a la lista de usuarios.*\n\n> *Por ejemplo:*\n*#new* Punisher',
+  amigos: '㊙️  *Solo amigos agendados por @Punisher...*',
+  estric: '㊙️  *Comando restringido...*'
 }
 
 global.botname = "𝐆𝐨𝐤𝐮𝐁𝐨𝐭 - 𝐁𝐲 𝐉𝐮𝐚𝐧𝟏𝟗𝟖𝟔"
-global.canal = "https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w"
+global.botcanal = "https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w"
 global.botgrupo = ""
 global.textbot = "« ᴀɪ-ᴅʀɪᴠᴇɴ ᴡʜᴀᴛsᴀᴘᴘ ᴇxᴘᴇʀɪᴇɴᴄᴇ »"
 global.gokuImg = "https://od.lk/s/NTZfNDc2MzMxMDJf/menu2_GokuBot.jpg"
