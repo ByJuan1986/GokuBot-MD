@@ -55,7 +55,7 @@ let caption = `> ${videoData.title}
 ❒ *Publicado* » ${videoData.ago}
 ❒ *Enlace* » ${videoData.url}
 
-${emox} Responda con los siguientes formatos:
+${emoji} Responda con los siguientes formatos:
 \`Video\` o \`Videodoc\`
 \`Audio\` o \`Audiodoc\`
 
