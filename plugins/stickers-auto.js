@@ -91,6 +91,13 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
+if (/^pelea$/i.test(m.text)) {
+let stiker = await sticker(null, pelea[Math.floor(Math.random() * pelea.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
+
 if (/^🤔|pienso$/i.test(m.text)) {
 let stiker = await sticker(null, pienso[Math.floor(Math.random() * pienso.length)], nombre, nombre2)
 await delay(3 * 3000)
@@ -229,6 +236,13 @@ const payaso = [
 'https://od.lk/s/NTZfMjczMzcxMjJf/payaso%2002.png',
 'https://od.lk/s/NTZfMjczMzcxMjNf/payaso%2003.png',
 'https://od.lk/s/NTZfMjczMzcxMjRf/payaso%2004.png'
+]
+
+const pelea = [
+'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif',
+'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif',
+'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif',
+'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif'
 ]
 
 const pienso = [
