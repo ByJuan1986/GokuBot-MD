@@ -240,9 +240,10 @@ const payaso = [
 
 const pelea = [
 'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif',
-'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif',
-'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif',
-'https://od.lk/s/NTZfNDc4ODc1NDJf/Pelea%2001.gif'
+'https://od.lk/s/NTZfNDc4ODc1NDNf/Pelea%2002.gif',
+'https://od.lk/s/NTZfNDc4ODc1NDRf/Pelea%2003.gif',
+'https://od.lk/s/NTZfNDc4ODc1NDVf/Pelea%2004.gif',
+'https://od.lk/s/NTZfNDc4ODc1NDZf/Pelea%2005.gif'
 ]
 
 const pienso = [
