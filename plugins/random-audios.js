@@ -82,7 +82,8 @@ const audioMap = [
 {regex: /^soy un nomo$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTBf/Soy%20un%20nomo.mp3'},
 {regex: /^terminator$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTJf/Terminator%202.mp3'},
 {regex: /^un caracol$/i, url: 'https://od.lk/s/NTZfMjg3MjkxMTNf/Un%20caracol%20fugaz.mp3'}, 
-
+{regex: /^caramelo|caramelo de chocolate|🍭|🍬$/i, url: 'https://od.lk/s/NTZfNDc4OTc1MDBf/Caramelos%20de%20chocolate.mp3'},
+ 
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
 {regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
