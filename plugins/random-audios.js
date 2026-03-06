@@ -85,6 +85,7 @@ const audioMap = [
 {regex: /^caramelo|caramelo de chocolate|🍭|🍬$/i, url: 'https://od.lk/s/NTZfNDc4OTc1MDBf/Caramelos%20de%20chocolate.mp3'},
 {regex: /^hentai|musica hentai|🥵|🌡️$/i, url: 'https://od.lk/s/NTZfNDc4OTc2Njhf/hentai.mp3'},
 {regex: /^shunkanido|adios|👋$/i, url: 'https://od.lk/s/NTZfNDc4OTc3MDVf/Shunkanido.mp3'},
+{regex: /^sexual|sexo$/i, url: 'https://od.lk/s/NTZfNDc4OTc3MzRf/Sxo%20anal.mp3'},
  
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
