@@ -71,6 +71,7 @@ const audioMap = [
 {regex: /^Mary Jane$/i, url: 'https://od.lk/s/NTZfMjg3MzAzODFf/Mary%20Jane.mp3'},
 {regex: /^oye|gallina|oye la gallina$/i, url: 'https://od.lk/s/NTZfNDc5MDI1NDZf/Oye%20la%20gallina.mp3'},
 {regex: /^sexo$/i, url: 'https://od.lk/s/NTZfNDc5MDI1NjRf/Sexo%20cancion.mp3'},
+{regex: /^mmmm$/i, url: 'https://od.lk/s/NTZfNDc5MDI1Njlf/mm2.mp3'},
  
  // Melodias
 {regex: /^pvp|una partida|un combate$/i, url: 'https://od.lk/s/NTZfNDc3NDU5MTZf/Goku%20ultra%20instinto.mp3'}, 
