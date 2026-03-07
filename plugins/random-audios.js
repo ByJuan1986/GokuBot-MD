@@ -12,6 +12,7 @@ if (!db.data.chats[m.chat].fAudios) return
 const audioMap = [
 {regex: /^Bien pensado boddy|bien pensado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
 {regex: /^Gokubot 1|cancion GokuBot$/i, url: 'https://od.lk/s/NTZfNDc1MTI4NzFf/GokuBot%20cancion.mp3'},
+{regex: /^Gokubot 2|cancion GokuBot 2$/i, url: 'https://od.lk/s/NTZfNDc5MDI1NzJf/GokuBot%20cancion%202.mp3'},
 
 // Personajes dragon ball en castellano 
 {regex: /^Final flash|vegeta flash$/i, url: 'https://od.lk/s/NTZfNDc2OTg4MDhf/Final%20flash%20castellano.mp3'},
