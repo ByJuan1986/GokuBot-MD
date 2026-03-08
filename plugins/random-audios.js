@@ -18,6 +18,7 @@ const audioMap = [
 {regex: /^Final flash|vegeta flash$/i, url: 'https://od.lk/s/NTZfNDc2OTg4MDhf/Final%20flash%20castellano.mp3'},
 {regex: /^baba la cansina|hermana de mutenroshi$/i, url: 'https://od.lk/s/NTZfNDc2OTkzNTBf/Baba%20la%20cansina.mp3'},
 {regex: /^calvito|calvito Krilin$/i, url: 'https://od.lk/s/NTZfNDc4OTc4NzVf/Vegeta%20le%20dice%20calvito%20a%20Krilin.mp3'},
+{regex: /^la calvie$/i, url: 'https://od.lk/s/NTZfNDc5MDYxMDBf/La%20calvicie.mp3'},
  
 // GokuBot castellano
 {regex: /^buenas noches|que descanses$/i, url: 'https://od.lk/s/NTZfMjkxOTY1NjNf/buenas%20noches%20que%20descanses%20castellano.mp3'},
