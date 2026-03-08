@@ -63,6 +63,7 @@ const audioMap = [
 {regex: /^mondongo$/i, url: 'https://od.lk/s/NTZfNDc5MDU4NDhf/Goku%20diciendo%20mondongo.mp3'},
 {regex: /^ta bien$/i, url: 'https://od.lk/s/NTZfNDc5MDU4NjVf/Goku%20ta%20bien.mp3'},
 {regex: /^mi niña bonita$/i, url: 'https://od.lk/s/NTZfNDc5MDU4NzVf/Mi%20nina%20bonita%20Goku.mp3'},
+{regex: /^los terrenos|los terrenos de la abuelita$/i, url: 'https://od.lk/s/NTZfNDc5MDU4ODJf/Los%20terrenos%20de%20la%20abuelita.mp3'},
 
  // Audio en latino
 {regex: /^hay alguien en el grupo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzdf/Hay%20alguien%20en%20el%20grupo.mp3'},
