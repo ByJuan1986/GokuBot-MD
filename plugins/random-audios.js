@@ -20,7 +20,8 @@ const audioMap = [
 {regex: /^calvito|calvito Krilin$/i, url: 'https://od.lk/s/NTZfNDc4OTc4NzVf/Vegeta%20le%20dice%20calvito%20a%20Krilin.mp3'},
 {regex: /^la calvicie$/i, url: 'https://od.lk/s/NTZfNDc5MDYxMDBf/La%20calvicie.mp3'},
 {regex: /^gordito|régimen|regimen$/i, url: 'https://od.lk/s/NTZfNDc5MjQ4NTlf/Vegeta%20le%20dice%20a%20Bu%20que%20est%C3%A1%20a%20dieta.mp3'},
- 
+{regex: /^no soy un heroe de la justicia$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMTBf/No%20soy%20un%20heroe%20de%20la%20justicia.mp3'},
+
 // GokuBot castellano
 {regex: /^buenas noches|que descanses$/i, url: 'https://od.lk/s/NTZfMjkxOTY1NjNf/buenas%20noches%20que%20descanses%20castellano.mp3'},
 {regex: /^buenos dias|buenos días|feliz dias$/i, url: 'https://od.lk/s/NTZfMjkxOTY4NzJf/Buenos%20d%C3%ADas%20voz%20goku.mp3'}, 
