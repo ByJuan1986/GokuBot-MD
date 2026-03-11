@@ -82,7 +82,7 @@ const audioMap = [
 {regex: /^sexo$/i, url: 'https://od.lk/s/NTZfNDc5MDI1NjRf/Sexo%20cancion.mp3'},
 {regex: /^mmmm$/i, url: 'https://od.lk/s/NTZfNDc5MDI1Njlf/mm2.mp3'},
 {regex: /^esta leyendo biblia|biblia$/i, url: 'https://od.lk/s/NTZfNDc5MDI3Njhf/Est%C3%A1%20leyendo%20la%20biblia.mp3'},
-{regex: /^mirar para adelante|adelante$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMDhf/Mirar%20para%20adelante.mp3'},
+{regex: /^mirar para adelante|adelante$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMDlf/Mirar%20para%20adelante.mp3'},
 
  // Melodias
 {regex: /^pvp|una partida|un combate$/i, url: 'https://od.lk/s/NTZfNDc3NDU5MTZf/Goku%20ultra%20instinto.mp3'}, 
