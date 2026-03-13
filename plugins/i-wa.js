@@ -259,6 +259,13 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 }
 }
 
+// menú audios
+if (command === "menuaudio") {
+let random = `Xd`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc2MzMzNjhf/Dragon_ball_video_01.mp4" }, caption: random }, { quoted: m })
+}
+
+// funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc2MzMzNjhf/Dragon_ball_video_01.mp4" }, caption: random }, { quoted: m })
@@ -351,7 +358,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte', 'administradores'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte', 'administradores'];
 
 export default handler;
   
