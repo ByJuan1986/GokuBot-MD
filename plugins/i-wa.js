@@ -33,6 +33,9 @@ https://whatsapp.com/channel/0029VaQkf7T0rGiORXhKqR0R
 • 𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗔𝗻𝗶𝗺𝗲
 https://whatsapp.com/channel/0029Va9HjoqICVfqKkhmYD1e
 
+• 𝗠𝗲𝗺𝗲𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹
+https://whatsapp.com/channel/0029Va5xYqaKbYMS2dzwvC2D
+
 • 𝗕𝗼𝗹𝗮 𝗱𝗲 𝗗𝗿𝗮𝗰 - 𝗙𝗮𝗻𝗱𝘂𝗯 𝗩𝗮𝗹𝗲𝗻𝗰𝗶𝗮
 https://whatsapp.com/channel/0029VbB3I3T8kyyEIAyjJe1S
 
