@@ -261,9 +261,11 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
 // menú audios
 if (command === "menuaudio") {
-let random = `⚶⭒ \`Menu audios\` 
-
-• \`𝗩𝗼𝗰𝗲𝘀 𝗗𝗕𝗭\`🇪🇸
+let random = `
+╔══════════════
+║ \`Menu audios\` 
+║
+║ • \`𝗩𝗼𝗰𝗲𝘀 𝗗𝗕𝗭\`🇪🇸
 🔊 𝗕𝘂𝗲𝗻𝗼𝘀 𝗱𝗶𝗮𝘀
 🔊 𝗕𝘂𝗲𝗻𝗮𝘀 𝗻𝗼𝗰𝗵𝗲𝘀
 🔊 𝗛𝗼𝗹𝗮 𝘀𝗼𝘆 𝗚𝗼𝗸𝘂𝗕𝗼𝘁
@@ -352,7 +354,8 @@ let random = `⚶⭒ \`Menu audios\`
 🔊 𝗧𝗲 𝘃𝗼𝘆 𝗮 𝗽𝗼𝗻𝗲𝗿 𝗳𝗶𝗻𝗮
 🔊 𝗤𝘂𝗲 𝗰𝘂𝗹𝗶𝘁𝗼 𝘁𝗲𝗻𝗴𝗼
 🔊 𝗨𝗻 𝗰𝗮𝗿𝗮𝗰𝗼𝗹
-🔊 𝗥𝗶𝘀𝗮 𝗡𝗲𝗹𝘀𝗼𝗻
+*║*🔊 𝗥𝗶𝘀𝗮 𝗡𝗲𝗹𝘀𝗼𝗻
+*╚══════════════*
 
 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)`
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf/Menu%20audios.jpg" }, caption: random }, { quoted: m })
