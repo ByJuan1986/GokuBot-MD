@@ -261,8 +261,7 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
 // menú audios
 if (command === "menuaudio") {
-let random = `
-*╔══════════════*
+let random = `*╔══════════════*
 *║* \`Menu audios\` 
 *║*
 *║* • \`𝗩𝗼𝗰𝗲𝘀 𝗗𝗕𝗭\`🇪🇸
