@@ -355,7 +355,7 @@ let random = `⚶⭒ \`Menu audios\`
 🔊 𝗥𝗶𝘀𝗮 𝗡𝗲𝗹𝘀𝗼𝗻
 
 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)`
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NTk4NjVf/menuaudio.jpg" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf/Menu%20audios.jpg" }, caption: random }, { quoted: m })
 }
 
 // funcion de pruebas
