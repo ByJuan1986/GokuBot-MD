@@ -32,14 +32,15 @@ let menuAll = `▢ *Prefix* : (/ # - . ,)
 ▢ *Modo* : Privado.
 ${readMore}
 ⚶⭒ \`Informacion\` 
-\t㊙ *${usedPrefix}estado*
-\t㊙ *${usedPrefix}ping*
-\t㊙ *${usedPrefix}run*
-\t㊙ *${usedPrefix}canal*
+\t㊙ *${usedPrefix}menuaudio*
 \t㊙ *${usedPrefix}grupos*
 \t㊙ *${usedPrefix}grupos telegram*
 \t㊙ *${usedPrefix}grupos facebook*
 \t㊙ *${usedPrefix}appsticker*
+\t㊙ *${usedPrefix}estado*
+\t㊙ *${usedPrefix}ping*
+\t㊙ *${usedPrefix}run*
+\t㊙ *${usedPrefix}canal*
 \t㊙ *${usedPrefix}support*  =  text
 
 ⚶⭒ \`Descargas\` 
