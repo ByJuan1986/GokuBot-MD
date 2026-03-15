@@ -263,7 +263,7 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 }
 
 // menú audios
-if (command === "menuaudio") {
+if (command === "menuaudio" || command === "menuaudios") {
 let random = `*╔══════════════*
 *║* \`Menu audios\` 
 *║*
@@ -456,7 +456,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte', 'administradores'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'soporte', 'administradores'];
 
 export default handler;
   
