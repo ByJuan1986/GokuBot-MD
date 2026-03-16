@@ -38,7 +38,11 @@ ${readMore}
 \t㊙ *${usedPrefix}grupos telegram*
 \t㊙ *${usedPrefix}grupos facebook*
 \t㊙ *${usedPrefix}appsticker*
+\t㊙ *${usedPrefix}dar numero*
 \t㊙ *${usedPrefix}canal*
+\t㊙ *${usedPrefix}noticiasdragonball*
+\t㊙ *${usedPrefix}curiosidadesdragonball*
+\t㊙ *${usedPrefix}añadirusuario*
 \t㊙ *${usedPrefix}estado*
 \t㊙ *${usedPrefix}ping*
 \t㊙ *${usedPrefix}run*
