@@ -363,6 +363,40 @@ let random = `*╔══════════════*
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf/Menu%20audios.jpg" }, caption: random }, { quoted: m })
 }
 
+
+// Reglas
+if (command === "reglas") {
+let random = ` *\`𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚐𝚛𝚞𝚙𝚘, 𝚜𝚒é𝚗𝚝𝚎𝚝𝚎 𝚌𝚘𝚖𝚘 𝚎𝚗 𝚜𝚞 𝚌𝚊𝚜𝚊  𝚙𝚎𝚛𝚘 𝚊𝚗𝚝𝚎𝚜 𝚕𝚎𝚎 𝚊𝚋𝚊𝚓𝚘 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘, 𝚙𝚘𝚛 𝚌𝚒𝚎𝚛𝚝𝚘 𝚝𝚎𝚗𝚎𝚖𝚘𝚜 𝚞𝚗 𝚋𝚘𝚝 𝚗𝚘 𝚝𝚎 𝚊𝚜𝚞𝚜𝚝𝚎𝚜 𝚇𝙳\`* 👇
+
+📢⚠️ \`𝑹𝑬𝑮𝑳𝑨𝑺\` ⚠️📢
+
+* *1. ⚠️ Mantener un respeto a todos/as de este grupo.*
+* *2. ⚠️Si te insultaron o te sentó mal lo que te dijeron, coméntalo al administrador del grupo e intentaremos buscar una solución...*
+* *3. ✅ Pueden compartir imágenes, stickers, vídeos de vuestro personajes de dragón ball.*
+* *4. ✅ Si desea presentarse en el grupo es opcional.*
+* *5. ✅ Se puede hablar de otros temas no relacionados con dragón ball.*
+* *6. ✅ Está permitido los enlaces de Facebook, Youtube y Twitter.*
+* *7. ⛔ No se puede hablar de política ni de religión, para evitar problemas...*
+* *8. ⛔ Prohibido discriminar cualquier idioma, puedes dar tu opinión pero no insultes ni dañes a ese idioma.*
+* *9. ⛔ Prohibido hacer stickers en el grupo que no está habilitado para ello...*
+* *10. ⛔ Prohibido hablar con el bot, no está permitido y te bloqueará.*
+* *11 ⛔ No se permiten enlaces de otros grupos de WhatsApp ni de Telegram, si alguien lo pone el bot lo borrara y lo echara del grupo*
+* *12. ⛔ Cualquier clase de insulto o falta al respecto está prohibido.*
+* *13. 🔞 Contenido X de cualquier forma, stickers ,imagen, gif, video etc.. en el grupo está prohibido, y serás eliminado de inmediato.*  
+* *14. ⛔ Contenido gore de cualquier forma en el grupo está prohibido, stickers, imagen videos gif etc...* 
+* *15. ⛔ Cualquier forma de spam, links de forma masía, no está permitido, se avisará y si persigue se eliminará del grupo.*
+* *16.⛔ Mensajes en cadena que hay que enviar a varios grupos esta prohibido y será avisado y si persigue se eliminará del grupo.* 
+* *17. ⛔ No se puede permitir pedir ser administrador, para ello hay que ganárselo destacando en el grupo y haciendo que la gente escriba, sin usuarios en un grupo.. no hace falta administradores*
+
+*Aqui os dejo el PayPal*
+*http://PayPal.me/GokuBotyJuan1986*
+
+
+`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgwNjUwMTJf/reglas.jpeg" }, caption: random }, { quoted: m })
+}
+
+ 
 // funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
