@@ -365,7 +365,7 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf
 
 
 // Reglas
-if (command === "reglas") {
+if (command === "reglas" || command === "normas") {
 let random = ` *\`𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍@ 𝚊𝚕 𝚐𝚛𝚞𝚙𝚘, 𝚜𝚒é𝚗𝚝𝚎𝚝𝚎 𝚌𝚘𝚖𝚘 𝚎𝚗 𝚜𝚞 𝚌𝚊𝚜𝚊  𝚙𝚎𝚛𝚘 𝚊𝚗𝚝𝚎𝚜 𝚕𝚎𝚎 𝚊𝚋𝚊𝚓𝚘 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜 𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘, 𝚙𝚘𝚛 𝚌𝚒𝚎𝚛𝚝𝚘 𝚝𝚎𝚗𝚎𝚖𝚘𝚜 𝚞𝚗 𝚋𝚘𝚝 𝚗𝚘 𝚝𝚎 𝚊𝚜𝚞𝚜𝚝𝚎𝚜 𝚇𝙳\`* 👇
 
 📢⚠️ \`𝑹𝑬𝑮𝑳𝑨𝑺\` ⚠️📢
