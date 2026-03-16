@@ -34,13 +34,14 @@ ${readMore}
 ⚶⭒ \`Informacion\` 
 \t㊙ *${usedPrefix}menuaudio*
 \t㊙ *${usedPrefix}grupos*
+\t㊙ *${usedPrefix}grupos frikis*
 \t㊙ *${usedPrefix}grupos telegram*
 \t㊙ *${usedPrefix}grupos facebook*
 \t㊙ *${usedPrefix}appsticker*
+\t㊙ *${usedPrefix}canal*
 \t㊙ *${usedPrefix}estado*
 \t㊙ *${usedPrefix}ping*
 \t㊙ *${usedPrefix}run*
-\t㊙ *${usedPrefix}canal*
 \t㊙ *${usedPrefix}support*  =  text
 
 ⚶⭒ \`Descargas\` 
