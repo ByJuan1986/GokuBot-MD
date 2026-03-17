@@ -439,7 +439,14 @@ let t = `📢 *¿Tienes un número de WhatsApp y no lo usas? o te gustaría ayud
 
 // noticias dragon ball
 if (command === "noticiasdragonball") {
-let tuto = `Buscas un canal de noticias de dragon ball, en este canal podreis ver y estar al dia en las noticias...`
+let tuto = `*Buscas estar informado de las novedades y noticias de dragón ball? En el vídeo de arriba te dejo lo que puedes encontrar.. Un canal echo por un fan para otros fans de dragón ball...*
+
+*Pulsen a seguir para estar informados de las novedades 👇👇*
+*https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w*
+
+*Si tenéis dudas escribir a By Juan1986*
+
+*Esto a sido posible gracias a By Juan𝟏𝟗𝟖𝟔*`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODFf/Noticias%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
   
