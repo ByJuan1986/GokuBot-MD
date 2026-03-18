@@ -396,7 +396,7 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgwNjUwMTJf
 }
 
 // funcion de reglas alex
-if (command === "reglamento) {
+if (command === "reglamento") {
 let random = `𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮🅑🅘🅔🅝🅥🅔🅝🅘🅓🅞🅢 𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮
 
 🄰🄻 🄶🅁🅄🄿🄾 
