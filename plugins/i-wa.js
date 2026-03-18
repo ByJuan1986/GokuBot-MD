@@ -391,12 +391,17 @@ let random = ` *\`S𝚒é𝚗𝚝𝚎𝚝𝚎 𝚌𝚘𝚖𝚘 𝚎𝚗 𝚜𝚞
 *Aqui os dejo el PayPal*
 *http://PayPal.me/GokuBotyJuan1986*
 
-
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgwNjUwMTJf/reglas.jpeg" }, caption: random }, { quoted: m })
 }
 
- 
+// funcion de reglas alex
+if (command === "reglamento) {
+let random = `Xd`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgyOTU0Njdf/Reglamento.jpg" }, caption: random }, { quoted: m })
+}
+
+
 // funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
