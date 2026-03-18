@@ -397,7 +397,13 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgwNjUwMTJf
 
 // funcion de reglas alex
 if (command === "reglamento) {
-let random = `Xd`
+let random = `𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮🅑🅘🅔🅝🅥🅔🅝🅘🅓🅞🅢 𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮
+
+🄰🄻 🄶🅁🅄🄿🄾 
+🄳🄴 🄰🄿🄾🅁🅃🄴🅂 🄿🄴🄻🄸🄲🅄🄻🄰🅂 
+
+𝗦𝗶𝗲𝗻𝘁𝗮𝘁𝗲 𝗰𝗼𝗺𝗼 𝗲𝗻 𝘁𝘂 𝗖𝗮𝘀𝗮 𝗽𝗲𝗿𝗼 𝗮𝗻𝘁𝗲𝘀 𝗹𝗲𝗮𝗻 𝗹𝗮𝘀 𝗿𝗲𝗴𝗹𝗮𝘀 𝗱𝗲𝗹 𝗴𝗿𝘂𝗽𝗼 𝗽𝗮𝗿𝗮 𝗻𝗼 𝘀𝗲𝗿 𝗲𝗹𝗶𝗺𝗶𝗻𝗮𝗱𝗼 𝗿𝗲𝗰𝘂𝗲𝗿𝗱𝗲𝗻 𝗔𝗹 𝗲𝗻𝘁𝗿𝗮𝗿 𝗱𝗲𝘃𝗲𝗻 𝗮𝗽𝗼𝗿𝘁𝗮𝗿 𝗾𝘂𝗶𝗲𝗻 𝗽𝗶𝗱𝗮 𝘀𝗶𝗻 𝗮𝗽𝗼𝗿𝘁𝗮𝗿 𝘀𝗲 𝗲𝗹𝗶𝗺𝗶𝗻𝗮 
+𝗡𝗼 𝘀𝗲 𝗽𝗲𝗿𝗺𝗶𝘁𝗲 𝗰𝗵𝗮𝘁 𝗱𝗲 𝗮𝘂𝗱𝗶𝗼 𝗺𝗲𝗻𝗰𝗶𝗻𝗮𝗿 𝗰𝗼𝗻 𝗲𝘀𝘁𝗮𝗱𝗼𝘀 𝗻𝗶 𝗺𝗮𝗿𝗰𝗮𝗿 𝗹𝗼𝘀 𝗮𝗽𝗼𝗿𝘁𝗲𝘀 𝗰𝗼𝗻 𝗽𝘂𝗻𝘁𝗶𝘁𝗼𝘀 𝗮𝗹 𝗾𝘂𝗲 𝗹𝗼 𝗮𝗴𝗮 𝘀𝗲 𝗲𝗹𝗶𝗺𝗶𝗻𝗮 𝘀𝗶𝗻 𝗮𝗯𝗶𝘀𝗼`
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgyOTU0Njdf/Reglamento.jpg" }, caption: random }, { quoted: m })
 }
 
