@@ -449,7 +449,7 @@ let t = `📢 *¿Tienes un número de WhatsApp y no lo usas? o te gustaría ayud
 }
 
 // funcion tutorial encuestas DB Telegram 
-if (command === "encuesta" || command === "encuestas" || command === "dragón ball encuestas" || command === "dragon ball encuestas") {
+if (command === "encuesta" || command === "encuestas" || command === "dragónball encuestas" || command === "dragonball encuestas") {
 let random = `𝗦𝗶 𝗯𝘂𝘀𝗰𝗮𝘀 𝘂𝗻 𝗴𝗿𝘂𝗽𝗼 𝗱𝗼𝗻𝗱𝗲 𝗽𝗼𝗱𝗲𝗿 𝘃𝗼𝘁𝗮𝗿 𝘆 𝗼𝗽𝗶𝗻𝗮𝗿 𝗮𝗹 𝗺𝗶𝘀𝗺𝗼 𝘁𝗶𝗲𝗺𝗽𝗼, 𝘁𝗲 𝗱𝗲𝗷𝗼 𝘂𝗻 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝗱𝗲 𝗰𝗼𝗺𝗼 𝘀𝗲 𝗵𝗮𝗰𝗲, 𝗲 𝗶𝗻𝗰𝗹𝘂𝘀𝗼 𝘀𝗶 𝘁𝗲 𝗲𝗾𝘂𝗶𝘃𝗼𝗰𝗮𝘀 𝘃𝗼𝘁𝗮𝗻𝗱𝗼 𝗽𝘂𝗲𝗱𝗲𝘀 𝗿𝗲𝘁𝗶𝗿𝗮𝗿 𝗲𝘀𝗲 𝘃𝗼𝘁𝗼 𝘆 𝘃𝗼𝗹𝘃𝗲𝗿 𝗮 𝘃𝗼𝘁𝗮𝗿 𝗱𝗲 𝗻𝘂𝗲𝘃𝗼, 𝗮𝗿𝗿𝗶𝗯𝗮 𝘁𝗶𝗲𝗻𝗲𝘀 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝗱𝗲 𝗰𝗼𝗺𝗼 𝘀𝗲 𝗵𝗮𝗰𝗲.
 
 𝗢𝘀 𝗱𝗲𝗷𝗼 𝗲𝗹 𝗲𝗻𝗹𝗮𝗰𝗲 𝗱𝗲𝗹 𝗴𝗿𝘂𝗽𝗼 𝗱𝗲 𝗲𝗻𝗰𝘂𝗲𝘀𝘁𝗮 𝗽𝗮𝗿𝗮 𝗾𝘂𝗲 𝗲𝗻𝘁𝗿𝗲𝗻...
@@ -523,7 +523,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragón ball encuestas', 'dragon ball encuestas', 'administradores'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónball encuestas', 'dragonball encuestas', 'administradores'];
 
 export default handler;
   
