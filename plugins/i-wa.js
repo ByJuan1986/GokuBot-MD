@@ -449,7 +449,7 @@ let t = `📢 *¿Tienes un número de WhatsApp y no lo usas? o te gustaría ayud
 }
 
 // funcion tutorial encuestas DB Telegram 
-if (command === "encuenta") {
+if (command === "encuesta") {
 let random = `Si buscas un grupo donde poder votar y hablar al mismo tiempo te dejo un vídeo tutorial de como se hace, arriba lo tienes 😁`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzhf/Encuestas%20dragon%20ball%20en%20Telegram.mp4" }, caption: random }, { quoted: m })
 }
