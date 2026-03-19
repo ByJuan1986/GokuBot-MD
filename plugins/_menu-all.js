@@ -44,6 +44,7 @@ ${readMore}
 \t㊙ *${usedPrefix}curiosidadesdragonball*
 \t㊙ *${usedPrefix}añadirusuario*
 \t㊙ *${usedPrefix}dragonballencuestas*
+\t㊙ *${usedPrefix}dragonballtelegram*
 \t㊙ *${usedPrefix}estado*
 \t㊙ *${usedPrefix}ping*
 \t㊙ *${usedPrefix}run*
