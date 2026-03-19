@@ -43,6 +43,7 @@ ${readMore}
 \t㊙ *${usedPrefix}noticiasdragonball*
 \t㊙ *${usedPrefix}curiosidadesdragonball*
 \t㊙ *${usedPrefix}añadirusuario*
+\t㊙ *${usedPrefix}encuestas telegram*
 \t㊙ *${usedPrefix}estado*
 \t㊙ *${usedPrefix}ping*
 \t㊙ *${usedPrefix}run*
