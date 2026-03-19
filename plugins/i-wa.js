@@ -460,6 +460,14 @@ https://t.me/+PZwugKsv2x5hMGVk
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzhf/Encuestas%20dragon%20ball%20en%20Telegram.mp4" }, caption: random }, { quoted: m })
 }
+
+  
+// funcion como entrar al canal de db donde estan la serie entera 
+if (command === "canaldb") {
+let random = `No sabes como bajar la serie de dragon ball desde el canal de Telegram, en este video tutorial te explicamos como se hace...`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzdf/Como%20bajar%20del%20canal%20dragon%20ball%20los%20videos.mp4" }, caption: random }, { quoted: m })
+}
+
   
 // noticias dragon ball
 if (command === "noticiasdragonball") {
@@ -523,7 +531,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'administradores'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb', 'administradores'];
 
 export default handler;
   
