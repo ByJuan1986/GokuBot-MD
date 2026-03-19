@@ -448,6 +448,12 @@ let t = `📢 *¿Tienes un número de WhatsApp y no lo usas? o te gustaría ayud
 }
 }
 
+// funcion tutorial encuestas DB Telegram 
+if (command === "encuenta") {
+let random = `Si buscas un grupo donde poder votar y hablar al mismo tiempo te dejo un vídeo tutorial de como se hace, arriba lo tienes 😁`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzhf/Encuestas%20dragon%20ball%20en%20Telegram.mp4" }, caption: random }, { quoted: m })
+}
+  
 // noticias dragon ball
 if (command === "noticiasdragonball") {
 let tuto = `*Buscas estar informado de las novedades y noticias de dragón ball? En el vídeo de arriba te dejo lo que puedes encontrar.. Un canal echo por un fan para otros fans de dragón ball...*
@@ -510,7 +516,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'administradores'];
+handler.command = ["noticiasdragonball", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', "encuesta", 'administradores'];
 
 export default handler;
   
