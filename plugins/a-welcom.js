@@ -54,7 +54,7 @@ let userName = await getUserName(conn, who);
 let total = groupMetadata.participants.length;
 
 if (chat.welcome && m.messageStubType === 27) {
-await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu }, productId: '24529689176623820', title: botname, currencyCode: 'USD', priceAmount1000: '0', retailerId: 1677, productImageCount: 1 }, businessOwnerJid: m.sender, caption: `🐲 *𝙱𝚒𝚎𝚗𝚟𝚎𝚗𝚒𝚍𝚘 𝚊𝚕 𝚐𝚛𝚞𝚙𝚘,*
+await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu }, productId: '24529689176623820', title: botname, currencyCode: 'USD', priceAmount1000: '0', retailerId: 1677, productImageCount: 1 }, businessOwnerJid: m.sender, caption: `🐲 *Bienvenido/a* @${userName} *𝚊𝚕 𝚐𝚛𝚞𝚙𝚘,*
 *𝚜𝚒𝚎𝚗𝚝𝚎𝚝𝚎 𝚌𝚘𝚖𝚘 𝚎𝚗 𝚜𝚞 𝚌𝚊𝚜𝚊,*
 *𝚙𝚎𝚛𝚘 𝚊𝚗𝚝𝚎𝚜 𝚕𝚎𝚎 𝚕𝚊𝚜 𝚛𝚎𝚐𝚕𝚊𝚜*
 *𝚍𝚎𝚕 𝚐𝚛𝚞𝚙𝚘...*
