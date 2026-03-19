@@ -464,7 +464,8 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzhf
   
 // funcion como entrar al canal de db donde estan la serie entera 
 if (command === "canaldb" || command === "dragonballtelegram" || command === "dragónballtelegram") {
-let random = `𝗡𝗼 𝘀𝗮𝗯𝗲𝘀 𝗰𝗼𝗺𝗼 𝗯𝗮𝗷𝗮𝗿 𝗹𝗮 𝘀𝗲𝗿𝗶𝗲 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗰𝗮𝗻𝗮𝗹 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺, 𝗲𝗻 𝗲𝘀𝘁𝗲 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝘁𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗺𝗼𝘀 𝗰𝗼𝗺𝗼 𝘀𝗲 𝗲𝗻𝘁𝗿𝗮 𝗮𝗹 𝗰𝗮𝗻𝗮𝗹 𝘆 𝗰𝗼𝗺𝗼 𝗻𝗮𝘃𝗲𝗴𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗰𝗮𝗻𝗮𝗹...
+let random = `𝗡𝗼 𝘀𝗮𝗯𝗲𝘀 𝗰𝗼𝗺𝗼 𝗯𝗮𝗷𝗮𝗿 𝗹𝗮
+𝘀𝗲𝗿𝗶𝗲 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝗱𝗲𝘀𝗱𝗲 𝗲𝗹 𝗰𝗮𝗻𝗮𝗹 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺, 𝗲𝗻 𝗲𝘀𝘁𝗲 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝘁𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗺𝗼𝘀 𝗰𝗼𝗺𝗼 𝘀𝗲 𝗲𝗻𝘁𝗿𝗮 𝗮𝗹 𝗰𝗮𝗻𝗮𝗹 𝘆 𝗰𝗼𝗺𝗼 𝗻𝗮𝘃𝗲𝗴𝗮𝗿 𝗲𝗻 𝗲𝗹 𝗰𝗮𝗻𝗮𝗹...
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzdf/Como%20bajar%20del%20canal%20dragon%20ball%20los%20videos.mp4" }, caption: random }, { quoted: m })
 }
