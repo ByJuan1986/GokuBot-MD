@@ -81,7 +81,23 @@ mentions: getMentionedJid()
 }
 
 if (chat.welcome && (m.messageStubType === 28 || m.messageStubType === 32)) {
-await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu }, productId: '24529689176623820', title: botname, currencyCode: 'USD', priceAmount1000: '0', retailerId: 1677, productImageCount: 1 }, businessOwnerJid: m.sender, caption: `🐲  "Despedimos al integrante que recien salio del grupo, esperamos y mejore pronto en su dia a dia con lo que haga."
+await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu }, productId: '24529689176623820', title: botname, currencyCode: 'USD', priceAmount1000: '0', retailerId: 1677, productImageCount: 1 }, businessOwnerJid: m.sender, caption: `
+*╔══════════════*
+*║   Se fue el saiyan* 
+*║   @${userName} un saiyan*
+*║   de clase baja, no* 
+*║   pudisteis con* 
+*║   nosotros,* 
+*║   un placer haberle* 
+*║   tenido en*
+*║   el grupo, si*
+*║   vuelves entrena*
+*║   antes, para estar a*
+*║   la altura, insecto*
+*║*
+*║ hasta la vista Saiyan* 
+*║ 👋🏻🐲* 
+*╚══════════════*
 
 \t👤 *Usuario* : @${userName}
 \t👥 *Participantes* : *${total}* en total`.trim(), footer: `\n¡Únanse a nuestro nuevo canal!`, interactiveButtons: [
