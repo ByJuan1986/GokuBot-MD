@@ -67,7 +67,7 @@ await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu
 *╚══════════════*
 
 \t👤 *Usuario* : @${userName}
-\t👥 *Participantes* : *${total}* en total.`.trim(), footer: `\n¡Únete a nuestro nuevo canal!`, interactiveButtons: [
+\t👥 *Participantes* : *${total}* en total.`.trim(), footer: `\n *¡Únete a nuestro nuevo canal de dragon ball noticias!*👇`, interactiveButtons: [
 { name: 'cta_url', buttonParamsJson: JSON.stringify({ display_text: 'canal', url: "https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w" }) }
 ], mentions: getMentionedJid() });
 
