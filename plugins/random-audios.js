@@ -28,8 +28,8 @@ const audioMap = [
 {regex: /^hola soy GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTZf/GokuBot%20hola%20castellano.mp3'},
 {regex: /^kamehaa$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTdf/GokuBot%20kamehaa%20castellano.mp3'},
 
-// Porta
-{regex: /^Porta tapion$/i, url: 'https://od.lk/s/NTZfMjg5ODkzMzJf/Porta%20tapion.mp3'},
+// BSO dragón ball 
+{regex: /^DB ending castellano$/i, url: 'https://od.lk/s/NTZfMjg3MzEzMzNf/Dragon%20ball%20ending%20castellano.mp3'},
 
  
 // GokuBot latino  
