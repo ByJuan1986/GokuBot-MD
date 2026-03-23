@@ -28,9 +28,9 @@ const audioMap = [
 {regex: /^hola soy GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTZf/GokuBot%20hola%20castellano.mp3'},
 {regex: /^kamehaa$/i, url: 'https://od.lk/s/NTZfMjg3MzA4NTdf/GokuBot%20kamehaa%20castellano.mp3'},
 
-// BSO dragón ball 
+// BSO dragón ball castellano 
+{regex: /^DB opening castellano$/i, url: 'https://od.lk/s/NTZfMjg3MzEzMzdf/Dragon%20ball%20opening%20castellano.mp3'},
 {regex: /^DB ending castellano$/i, url: 'https://od.lk/s/NTZfMjg3MzEzMzNf/Dragon%20ball%20ending%20castellano.mp3'},
-
  
 // GokuBot latino  
 {regex: /^Hola soy Goku|hola GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDFf/GokuBot%20hola%20latino.mp3'},
