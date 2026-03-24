@@ -34,7 +34,6 @@ const audioMap = [
 {regex: /^DBZ1 opening castellano$/i, url: 'https://od.lk/s/NTZfNDg0NjYxMDVf/DBZ1%20opening%20castellano.mp3'},
 {regex: /^DBZ2 opening castellano$/i, url: 'https://od.lk/s/NTZfNDg0NjYxNzVf/DBZ2%20opening%20castellano.mp3'},
 
-
 // BSO dragon ball valenciano
 {regex: /^DB opening valenciano$/i, url: 'https://od.lk/s/NTZfNDg0ODQ2NDZf/DB%20opening%20valenciano.mp3'},
 {regex: /^DB ending valenciano$/i, url: 'https://od.lk/s/NTZfNDg0ODQzMzhf/DB%20ending%20valenciano.mp3'},
@@ -47,7 +46,7 @@ const audioMap = [
 {regex: /^Hola soy Goku|hola GokuBot$/i, url: 'https://od.lk/s/NTZfMjg3MzA5NDFf/GokuBot%20hola%20latino.mp3'},
 
 // BSO dragon ball latino  
-{regex: /^DB opening latino$/i, url: 'https://od.lk/s/NTZfNDg0ODQ3OTNf/DB%20opening%20latino.mp3'},
+{regex: /^DB opening latino$/i, url: 'https://od.lk/s/NTZfNDg0ODQ4MTVf/DB%20opening%20latino.mp3'},
  
 // Personajes dragon ball en latino
 {regex: /^callate|Cállate|🤫$/i, url: 'https://od.lk/s/NTZfNDg0NjU2NTdf/callate.mp3'},
