@@ -73,7 +73,7 @@ await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu
 
 /*
 await conn.sendMessage(m.chat, {
-image: { url: imgWelcome },
+image: { url: "https://od.lk/s/NTZfNDg0OTg3Mzlf/GokuBotWelcome.jpg" },
 caption: `👋🏻  "Hola nuevo integrante, espero y te sientas bien, esperamos que estes comodo o comoda en este grupo, que tu experiencia sea tu éxito."
 
 \t＃ *Usuario* : @${userName}
