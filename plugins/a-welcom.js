@@ -39,8 +39,8 @@ return jid.split('@')[0];
 export async function before(m, { conn, participants, groupMetadata }) {
 if (!m.messageStubType || !m.isGroup) return true;
 
-//let imgWelcome = 'https://files.catbox.moe/hnn3hp.jpg';
-//let imgBye = 'https://files.catbox.moe/tln7ks.jpg';
+let imgWelcome = 'https://od.lk/s/NTZfNDg0OTg3Mzlf/GokuBotWelcome.jpg';
+let imgBye = 'https://od.lk/s/NTZfNDc2MzMxMDJf/menu2_GokuBot.jpg';
 
 let chat = global.db.data.chats[m.chat];
 const getMentionedJid = () => {
@@ -54,7 +54,9 @@ let userName = await getUserName(conn, who);
 let total = groupMetadata.participants.length;
 
 if (chat.welcome && m.messageStubType === 27) {
-await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu }, productId: '24529689176623820', title: botname, currencyCode: 'USD', priceAmount1000: '0', retailerId: 1677, productImageCount: 1 }, businessOwnerJid: m.sender, caption: `
+await conn.sendMessage(m.chat, {
+image: { url: imgWelcome },
+caption: `
 *╔══════════════*
 *║  Bienvenido/a saiyan* 
 *║  @${userName} 𝚊𝚕 𝚐𝚛𝚞𝚙𝚘,*
@@ -66,26 +68,18 @@ await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu
 *║  𝚞𝚗 𝚋𝚘𝚝 𝚗𝚘 𝚝𝚎 𝚊𝚜𝚞𝚜𝚝𝚎𝚜 𝚇𝙳*
 *╚══════════════*
 
-\t👤 *Usuario* : @${userName}
-\t👥 *Participantes* : *${total}* en total.`.trim(), footer: `\n *¡Únete a nuestro nuevo canal de dragon ball noticias!*👇`, interactiveButtons: [
-{ name: 'cta_url', buttonParamsJson: JSON.stringify({ display_text: 'canal', url: "https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w" }) }
-], mentions: getMentionedJid() });
-
-/*
-await conn.sendMessage(m.chat, {
-image: { url: imgWelcome },
-caption: `👋🏻  "Hola nuevo integrante, espero y te sientas bien, esperamos que estes comodo o comoda en este grupo, que tu experiencia sea tu éxito."
-
 \t＃ *Usuario* : @${userName}
 \t＃ *Participantes* : *${total}* en total.
 
 > ${textbot}`.trim(),
 mentions: getMentionedJid()
-}, { quoted: fkontak });*/
+}, { quoted: fkontak });
 }
 
 if (chat.welcome && (m.messageStubType === 28 || m.messageStubType === 32)) {
-await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu }, productId: '24529689176623820', title: botname, currencyCode: 'USD', priceAmount1000: '0', retailerId: 1677, productImageCount: 1 }, businessOwnerJid: m.sender, caption: `
+await conn.sendMessage(m.chat, {
+image: { url: imgBye },
+caption: `
 *╔══════════════*
 *║   Se fue el saiyan* 
 *║   @${userName} un saiyan*
@@ -103,21 +97,11 @@ await conn.sendMessage(m.chat, { product: { productImage: { url: global.gokuMenu
 *║ 👋🏻🐲* 
 *╚══════════════*
 
-\t👤 *Usuario* : @${userName}
-\t👥 *Participantes* : *${total}* en total`.trim(), footer: `\n¡Únanse a nuestro nuevo canal!`, interactiveButtons: [
-{ name: 'cta_url', buttonParamsJson: JSON.stringify({ display_text: 'canal', url: "https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w" }) }
-], mentions: getMentionedJid() });
-
-/*await conn.sendMessage(m.chat, {
-image: { url: imgBye },
-caption: `📍  "Despedimos al integrante que recien salio del grupo, esperamos y mejore pronto en su dia a dia con lo que haga."
-
 \t＃ *Usuario* : @${userName}
 \t＃ *Participantes* : *${total}* en total
 
 > ${textbot}`.trim(),
 mentions: getMentionedJid()
-}, { quoted: fkontak });*/
-
+}, { quoted: fkontak });
 }
 }
