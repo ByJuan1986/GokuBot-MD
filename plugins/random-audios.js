@@ -135,7 +135,7 @@ const audioMap = [
 {regex: /^jo tio$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDNf/Homer%20Simpson%20Jo%20tio.mp3'},
 {regex: /^mosqui$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDRf/Homer%20Simpson%20mosquis.mp3'},
 {regex: /^rodaran|rodarán|rodarán vidones$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDVf/Homer%20Simpson%20rodaran.mp3'},
-{regex: /^hoy no... mañana$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDZf/Jose%20Mota%20-%20Hoy%20no%20ma%C3%B1ana.mp3'},
+{regex: /^hoy no... mañana$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDZf/Jose%20Mota%20-%20Hoy%20no%20manana.mp3'},
 {regex: /^la cabra$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDdf/La%20cabra.mp3'},
 {regex: /^la purga$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDhf/La%20purga%20castellano.mp3'},
 {regex: /^la técnica de Piter pan$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDlf/La%20t%C3%A9cnica%20de%20Piter%20pan.mp3'},
