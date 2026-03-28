@@ -139,12 +139,11 @@ const audioMap = [
 {regex: /^la cabra$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDdf/La%20cabra.mp3'},
 {regex: /^la purga$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDhf/La%20purga%20castellano.mp3'},
 {regex: /^la técnica de Piter pan$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDlf/La%20t%C3%A9cnica%20de%20Piter%20pan.mp3'},
-
-{regex: /^nicccco$/i, url: 'https://od.lkkkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
-{regex: /^nicccco$/i, url: 'https://od.lkkkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
-{regex: /^nicccco$/i, url: 'https://od.lkkkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
-{regex: /^nicccco$/i, url: 'https://od.lkkkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
-{regex: /^nicccco$/i, url: 'https://od.lkkkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+{regex: /^los dioses del Olimpo$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTBf/Los%20dioses%20del%20Olimpo%20me%20han%20abandonado.mp3'},
+{regex: /^liando porros$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTFf/Los%20Simpson%20-%20Liando%20porros.mp3'},
+{regex: /^sayonara baby$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTJf/Sayonara%20baby.mp3'},
+{regex: /^todo el olímpico caerá$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTNf/Todo%20el%20Olimpo%20caera.mp3'},
+{regex: /^yo soy tu padre$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTdf/Yo%20soy%20tu%20padre.mp3'},
 
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
