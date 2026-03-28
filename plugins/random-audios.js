@@ -142,7 +142,7 @@ const audioMap = [
 {regex: /^los dioses del Olimpo$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTBf/Los%20dioses%20del%20Olimpo%20me%20han%20abandonado.mp3'},
 {regex: /^liando porros$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTFf/Los%20Simpson%20-%20Liando%20porros.mp3'},
 {regex: /^sayonara baby$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTJf/Sayonara%20baby.mp3'},
-{regex: /^todo el olímpico caerá$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTNf/Todo%20el%20Olimpo%20caera.mp3'},
+{regex: /^todo el olimpo caerá$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTNf/Todo%20el%20Olimpo%20caera.mp3'},
 {regex: /^yo soy tu padre$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTdf/Yo%20soy%20tu%20padre.mp3'},
 
 // Sonido LQS
