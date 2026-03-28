@@ -129,7 +129,17 @@ const audioMap = [
 {regex: /^abogado| sal ratita|ver la colita$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1MzNf/Abogado.mp3'},
 {regex: /^multiplicate por cero$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1MzBf/Bart%20Simpson%20multipliquese.mp3'},
 {regex: /^cobarde|pecador|pecador de la pradera$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1MzRf/Basta%20cobarde%20pecador.mp3'},
+{regex: /^cansino|a llegado el cansino$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1Mzdf/Cansinoo.mp3'},
+{regex: /^eres hijo de mil padres$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1Mzlf/Eres%20un%20hijo%20de%20mil%20padres.mp3'},
+{regex: /^bocadillo$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDFf/Homer%20Simpson%20bocadillo.mp3'},
+{regex: /^jo tio$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NDNf/Homer%20Simpson%20Jo%20tio.mp3'},
 
+{regex: /^nicoooo$/i, url: 'https://od.lkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+{regex: /^nicoooo$/i, url: 'https://od.lkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+{regex: /^nicoooo$/i, url: 'https://od.lkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+{regex: /^nicoooo$/i, url: 'https://od.lkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+{regex: /^nicoooo$/i, url: 'https://od.lkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+{regex: /^nicoooo$/i, url: 'https://od.lkkkkkk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
  
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
