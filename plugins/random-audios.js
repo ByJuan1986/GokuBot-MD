@@ -124,6 +124,12 @@ const audioMap = [
 {regex: /^sexual|sexo$/i, url: 'https://od.lk/s/NTZfNDc4OTc3MzRf/Sxo%20anal.mp3'},
 {regex: /^mm|mmm|mmmm$/i, url: 'https://od.lk/s/NTZfNDc4OTc3Njdf/mmmm.mp3'},
 {regex: /^nico$/i, url: 'https://od.lk/s/NTZfNDc4OTc4MTlf/niconico.mp3'},
+
+// Sonidos en castellano
+{regex: /^abogado| sal ratita|ver la colita$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1MzNf/Abogado.mp3'},
+{regex: /^multiplicate por cero$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1MzBf/Bart%20Simpson%20multipliquese.mp3'},
+{regex: /^cobarde|pecador|pecador de la pradera$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1MzRf/Basta%20cobarde%20pecador.mp3'},
+
  
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
