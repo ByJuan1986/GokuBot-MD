@@ -24,7 +24,7 @@ const audioMap = [
 
 // Porta
 {regex: /^Porta dragon ball$/i, url: 'https://od.lk/s/NTZfNDg1NDg2Njdf/Porta%20dragon%20ball.mp3'},
-{regex: /^Tapion$/i, url: 'https://od.lk/s/NTZfNDg1NTEyNThf/1No_me_deja_Porta_Tapion.mp3'},
+{regex: /^Tapion$/i, url: 'https://od.lk/s/NTZfNDg1NTEyOThf/2No_me_deja_Porta_Tapion%20%28audio-extractor.net%29.mp3'},
 
  
 // GokuBot castellano
