@@ -23,7 +23,7 @@ const audioMap = [
 {regex: /^no soy un héroe de la justicia|no soy un heroe de la justicia$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMTBf/No%20soy%20un%20heroe%20de%20la%20justicia.mp3'},
 
 // Porta
-{regex: /^Porta dragon ball$/i, url: 'https://od.lk/s/NTZfNDg1NDg2MjZf/Porta%20dragon%20ball.mp3'},
+{regex: /^Porta dragon ball$/i, url: 'https://od.lk/s/NTZfNDg1NDg2Njdf/Porta%20dragon%20ball.mp3'},
  
 
  
