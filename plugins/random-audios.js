@@ -92,7 +92,8 @@ const audioMap = [
 {regex: /^ta bien$/i, url: 'https://od.lk/s/NTZfNDc5MDU4NjVf/Goku%20ta%20bien.mp3'},
 {regex: /^mi niña bonita$/i, url: 'https://od.lk/s/NTZfNDc5MDU4NzVf/Mi%20nina%20bonita%20Goku.mp3'},
 {regex: /^los terrenos|los terrenos de la abuelita$/i, url: 'https://od.lk/s/NTZfNDc5MDU4ODJf/Los%20terrenos%20de%20la%20abuelita.mp3'},
-
+{regex: /^esas tetas no dejan de mirarme$/i, url: 'https://od.lk/s/NTZfNDg3NzYwNjJf/esas%20tetas%20no%20me%20dejan%20de%20mirar.mp3'},
+ 
  // Audio en latino
 {regex: /^hay alguien en el grupo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzdf/Hay%20alguien%20en%20el%20grupo.mp3'},
 {regex: /^los pinguinos$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzhf/Los%20ping%C3%BCinos.mp3'},
@@ -111,7 +112,6 @@ const audioMap = [
 {regex: /^mirar para adelante|adelante$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMDlf/Mirar%20para%20adelante.mp3'},
 
  // Melodias
-{regex: /^me voy de fiesta$/i, url: 'https://od.lk/s/NTZfNDg3NzYwNTNf/Me%20voy%20de%20fiesta.mp3'},
 {regex: /^pvp|una partida|un combate$/i, url: 'https://od.lk/s/NTZfNDc3NDU5MTZf/Goku%20ultra%20instinto.mp3'}, 
 {regex: /^alarma$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTRf/Alarma.mp3'},
 {regex: /^silbando$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOThf/Gohan%20silbido.mp3'},  
