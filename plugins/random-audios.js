@@ -111,7 +111,7 @@ const audioMap = [
 {regex: /^mirar para adelante|adelante$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMDlf/Mirar%20para%20adelante.mp3'},
 
  // Melodias
-{regex: /^porta las niñas$/i, url: 'https://od.lk/s/NTZfNDg3NzYwMjJf/Las%20chicas%20de%20hoy.mp3'},
+{regex: /^me voy de fiesta$/i, url: 'https://od.lk/s/NTZfNDg3NzYwNTNf/Me%20voy%20de%20fiesta.mp3'},
 {regex: /^pvp|una partida|un combate$/i, url: 'https://od.lk/s/NTZfNDc3NDU5MTZf/Goku%20ultra%20instinto.mp3'}, 
 {regex: /^alarma$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOTRf/Alarma.mp3'},
 {regex: /^silbando$/i, url: 'https://od.lk/s/NTZfMjg3MjkwOThf/Gohan%20silbido.mp3'},  
