@@ -454,7 +454,7 @@ let random = `𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮🅑🅘🅔🅝
 🚫 𝗘𝗹𝗶𝗺𝗶𝗻𝗮𝗰𝗶𝗼́𝗻 𝗹𝗮𝘀 𝘃𝗲𝗰𝗲𝘀 𝗾𝘂𝗲 𝘀𝗲𝗮 𝗻𝗲𝗰𝗲𝘀𝗮𝗿𝗶𝗼 
 𝗥𝗲𝘀𝗽𝗲𝘁𝗲 𝗹𝗮𝘀 𝗱𝗲𝗰𝗶𝘀𝗶𝗼𝗻𝗲𝘀 𝗱𝗲 𝗹𝗼𝘀 𝗮𝗱𝗺
 🔰🅢🅔🅐🅝 🅑🅘🅔🅝🅥🅔🅝🅘🅓🅞🅢`
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgyOTU0Njdf/Reglamento.jpg" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf/Reglamento%20Alex.jpg" }, caption: random }, { quoted: m })
 }
 
 
