@@ -460,7 +460,7 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 
 // biografía Vegeta 
 if (command === "vegeta" || command === "biografíavegeta") {
-let random = ` <center> Biografia de Vegeta </center>
+let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲𝘁𝗮
 
 Vegeta es el príncipe de los Saiyajin y uno de los personajes principales de Dragon Ball. Nació en el año 732 en el Planeta Vegeta, por lo que en Dragon Ball Super tiene cerca de 50 años. Es hijo del Rey Vegeta.
 De niño fue un guerrero de élite con gran poder. Sobrevivió a la destrucción de su planeta causada por Freezer y luego trabajó para él hasta rebelarse.
