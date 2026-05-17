@@ -460,7 +460,20 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
   
 // biografía Gohan 
 if (command === "Gohan" || command === "biografíagohan") {
-let random = `Xd`
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗵𝗮𝗻
+
+Gohan es el hijo mayor de Goku y Chi-Chi. Nació el 18 de mayo del año 757, por lo que en Dragon Ball Super tiene alrededor de 27 años.
+
+Desde pequeño mostró un enorme poder oculto. Fue entrenado por Piccolo, quien se convirtió en su maestro y figura importante. Aunque es muy fuerte, Gohan prefiere estudiar y vivir tranquilo antes que pelear.
+
+Durante la saga de Cell alcanzó el Super Saiyajin 2 y derrotó a Cell. Más adelante se convirtió en investigador y también en el héroe conocido como Great Saiyaman.
+
+Se casó con Videl y tuvo una hija llamada Pan.
+
+Gohan tiene cabello negro, ojos oscuros y una personalidad amable, inteligente y protectora. Le gusta estudiar, entrenar ocasionalmente y pasar tiempo con su familia. No le gusta la violencia innecesaria.
+
+Sus técnicas más conocidas son Masenko, Kamehameha y Special Beam Cannon. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2, Estado Definitivo y Beast Gohan.
+`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf/Gohan.mp4" }, caption: random }, { quoted: m })
 }
 
