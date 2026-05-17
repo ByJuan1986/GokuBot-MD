@@ -486,14 +486,45 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf
 if (command === "vegeta" || command === "biografíavegeta") {
 let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲𝘁𝗮
 
-Vegeta es el príncipe de los Saiyajin y uno de los personajes principales de Dragon Ball. Nació en el año 732 en el Planeta Vegeta, por lo que en Dragon Ball Super tiene cerca de 50 años. Es hijo del Rey Vegeta.
-De niño fue un guerrero de élite con gran poder. Sobrevivió a la destrucción de su planeta causada por Freezer y luego trabajó para él hasta rebelarse.
-Llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien después se volvió su mayor rival y motivación para superarse.
-Se casó con Bulma y tuvo dos hijos: Trunks y Bra.
-Mide 1.64 m, tiene cabello negro puntiagudo y gran musculatura. Su personalidad es orgullosa, seria, inteligente y competitiva.
-Le gusta entrenar, hacerse más fuerte y proteger a su familia. No le gusta perder, depender de otros ni mostrar debilidad.
-Sus técnicas más famosas son Galick Gun, Big Bang Attack y Final Flash. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2, Super Saiyajin Blue y Ultra Ego.
-Pasó de villano a héroe, siendo uno de los personajes más queridos por su evolución y disciplina.
+𝗕𝗶𝗼𝗴𝗿𝗮𝗳í𝗮 𝗱𝗲 Vegeta
+
+Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 732 en el Planeta Vegeta. En Dragon Ball Super tiene alrededor de 50 años.
+
+🔹 Infancia
+
+Desde pequeño fue un guerrero de élite con un enorme poder y mucho orgullo Saiyajin. Después de que Freezer destruyera el Planeta Vegeta, sobrevivió y trabajó para él conquistando planetas.
+
+🔹 Llegada a la Tierra
+
+Tiempo después llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien terminó convirtiéndose en su mayor rival y motivación para hacerse más fuerte.
+
+🔹 Familia
+
+Vegeta se casó con Bulma y tuvo dos hijos: Trunks y Bra.
+
+🔹 Apariencia y personalidad
+
+Tiene cabello negro puntiagudo, ojos negros y mide aproximadamente 1.64 m. Su personalidad es orgullosa, seria, inteligente y muy competitiva.
+
+🔹 Gustos y disgustos
+
+Le gusta entrenar, superar sus límites y proteger a su familia. No le gusta perder, depender de otros ni mostrar debilidad.
+
+🔹 Técnicas y transformaciones
+
+Sus técnicas más famosas son Galick Gun, Big Bang Attack y Final Flash.
+
+Sus transformaciones principales son:
+
+Super Saiyajin
+
+Super Saiyajin 2
+
+Majin Vegeta
+
+Super Saiyajin Blue
+
+Ultra Ego 💜
 
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf/Vegeta.mp4" }, caption: random }, { quoted: m })
