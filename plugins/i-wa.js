@@ -458,6 +458,14 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 }
 
 
+// biografía Vegeta 
+if (command === "Vegeta") {
+let random = `Biografia de Vegeta`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf/Reglamento%20Alex.jpg" }, caption: random }, { quoted: m })
+}
+    
+  
+
 // funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
