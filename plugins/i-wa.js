@@ -457,6 +457,14 @@ let random = `𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮🅑🅘🅔🅝
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf/Reglamento%20Alex.jpg" }, caption: random }, { quoted: m })
 }
 
+  
+// biografía Gohan 
+if (command === "Gohan" || command === "biografíagohan") {
+let random = `Xd`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf/Gohan.mp4" }, caption: random }, { quoted: m })
+}
+
+  
 // biografía Trunks 
 if (command === "Trunks" || command === "biografíatrunks") {
 let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝗿𝘂𝗻𝗸𝘀
@@ -529,12 +537,12 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf
 }
     
   
-
 // funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc2MzMzNjhf/Dragon_ball_video_01.mp4" }, caption: random }, { quoted: m })
 }
+
   
   //----------------------
   //Comando de soporte
@@ -656,7 +664,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
