@@ -477,7 +477,7 @@ Le gusta entrenar, ayudar a los demás y pasar tiempo con Goten. No le gusta la 
 
 Sus técnicas más famosas son Burning Attack, Finish Buster y Shining Sword Attack. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2 y Super Saiyajin Rage.
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MjkzMDZf/Trunks.gif" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf/Trunks.mp4" }, caption: random }, { quoted: m })
 }
 
   
