@@ -486,8 +486,6 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf
 if (command === "vegeta" || command === "biografíavegeta") {
 let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲𝘁𝗮
 
-𝗕𝗶𝗼𝗴𝗿𝗮𝗳í𝗮 𝗱𝗲 Vegeta
-
 Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 732 en el Planeta Vegeta. En Dragon Ball Super tiene alrededor de 50 años.
 
 🔹 Infancia
