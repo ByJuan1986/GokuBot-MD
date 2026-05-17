@@ -459,8 +459,19 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 
 
 // biografía Vegeta 
-if (command === "vegeta") {
-let random = `Biografia de Vegeta`
+if (command === "vegeta" || command === "biografía vegeta") {
+let random = `Biografia de Vegeta
+
+Vegeta es el príncipe de los Saiyajin y uno de los personajes principales de Dragon Ball. Nació en el año 732 en el Planeta Vegeta, por lo que en Dragon Ball Super tiene cerca de 50 años. Es hijo del Rey Vegeta.
+De niño fue un guerrero de élite con gran poder. Sobrevivió a la destrucción de su planeta causada por Freezer y luego trabajó para él hasta rebelarse.
+Llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien después se volvió su mayor rival y motivación para superarse.
+Se casó con Bulma y tuvo dos hijos: Trunks y Bra.
+Mide 1.64 m, tiene cabello negro puntiagudo y gran musculatura. Su personalidad es orgullosa, seria, inteligente y competitiva.
+Le gusta entrenar, hacerse más fuerte y proteger a su familia. No le gusta perder, depender de otros ni mostrar debilidad.
+Sus técnicas más famosas son Galick Gun, Big Bang Attack y Final Flash. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2, Super Saiyajin Blue y Ultra Ego.
+Pasó de villano a héroe, siendo uno de los personajes más queridos por su evolución y disciplina.
+
+`
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf/Reglamento%20Alex.jpg" }, caption: random }, { quoted: m })
 }
     
@@ -592,7 +603,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "biografía vegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
