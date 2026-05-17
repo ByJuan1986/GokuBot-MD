@@ -457,6 +457,30 @@ let random = `𒊐⃢⃝🍿█̻̻͓ ⃪⃘⵿᷒〬ᰰ𝅲𒋮🅑🅘🅔🅝
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf/Reglamento%20Alex.jpg" }, caption: random }, { quoted: m })
 }
 
+// biografía Trunks 
+if (command === "Trunks" || command === "biografíatrunks") {
+let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝗿𝘂𝗻𝗸𝘀
+
+Trunks es el hijo de Vegeta y Bulma. Es un híbrido Saiyajin y humano. Nació el 1 de junio del año 766.
+
+Existen dos versiones del personaje:
+
+🔹 Trunks del Presente:
+Es el niño que vive en paz junto a su familia y mejor amigo Goten. En Dragon Ball Super tiene alrededor de 14 años.
+
+🔹 Trunks del Futuro:
+Viene de una línea temporal donde los androides destruyeron casi toda la Tierra. Viajó al pasado usando la máquina del tiempo de Bulma para salvar el futuro. En Dragon Ball Super tiene aproximadamente 30 años.
+
+Trunks tiene cabello lila, ojos azules y gran habilidad para pelear. Su personalidad cambia según la versión: el del presente es alegre y travieso, mientras que el del futuro es serio, maduro y valiente.
+
+Le gusta entrenar, ayudar a los demás y pasar tiempo con Goten. No le gusta la injusticia ni perder personas importantes.
+
+Sus técnicas más famosas son Burning Attack, Finish Buster y Shining Sword Attack. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2 y Super Saiyajin Rage.
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MjkzMDZf/Trunks.gif" }, caption: random }, { quoted: m })
+}
+
+  
 
 // biografía Vegeta 
 if (command === "vegeta" || command === "biografíavegeta") {
@@ -603,7 +627,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
