@@ -472,7 +472,7 @@ Sus técnicas más famosas son Galick Gun, Big Bang Attack y Final Flash. Sus tr
 Pasó de villano a héroe, siendo uno de los personajes más queridos por su evolución y disciplina.
 
 `
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf/Reglamento%20Alex.jpg" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTA3OTk5Nzdf/Vegeta%20saiyan.png" }, caption: random }, { quoted: m })
 }
     
   
