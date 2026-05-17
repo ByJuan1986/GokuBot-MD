@@ -459,7 +459,7 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 
 
 // biografía Vegeta 
-if (command === "vegeta" || command === "biografía vegeta") {
+if (command === "vegeta" || command === "biografíavegeta") {
 let random = `Biografia de Vegeta
 
 Vegeta es el príncipe de los Saiyajin y uno de los personajes principales de Dragon Ball. Nació en el año 732 en el Planeta Vegeta, por lo que en Dragon Ball Super tiene cerca de 50 años. Es hijo del Rey Vegeta.
@@ -603,7 +603,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "biografía vegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
