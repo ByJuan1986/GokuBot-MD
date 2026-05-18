@@ -462,9 +462,59 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 if (command === "Goku" || command === "biografíagoku") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗸𝘂
 
-luego...
+Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin es Kakarotto. Nació en el año 737 en el Planeta Vegeta y fue enviado a la Tierra cuando era un bebé. En Dragon Ball Super tiene alrededor de 49 años.
+
+🔹 Infancia
+
+Fue encontrado y criado por el abuelo Gohan, quien le enseñó artes marciales. De pequeño era agresivo, pero después de golpearse la cabeza se volvió amable y alegre.
+
+🔹 Aventuras y peleas
+
+A lo largo de la serie ha protegido la Tierra enfrentándose a enemigos como Freezer, Cell, Majin Buu y muchos más. Su mayor rival y amigo es Vegeta.
+
+🔹 Familia
+
+Goku se casó con Chi-Chi y tuvo dos hijos: Gohan y Goten.
+
+🔹 Apariencia y personalidad
+
+Tiene cabello negro puntiagudo, ojos negros y gran musculatura. Su personalidad es alegre, inocente, valiente y muy competitiva.
+
+🔹 Gustos y disgustos
+
+Le gusta entrenar, comer mucho y pelear contra rivales fuertes. No le gusta la injusticia ni que lastimen a sus amigos.
+
+🔹 Técnicas y transformaciones
+
+Sus técnicas más famosas son:
+
+Kamehameha
+
+Genkidama
+
+Kaioken
+
+Teletransportación
 
 
+Sus transformaciones principales son:
+
+Super Saiyajin
+
+Super Saiyajin 2
+
+Super Saiyajin 3
+
+Super Saiyajin Dios
+
+Super Saiyajin Blue
+
+Ultra Instinto 🔥
+
+
+🔹 Dato curioso
+
+Goku es considerado uno de los personajes de anime más famosos y queridos de toda la historia 😎🐉
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
 }  
