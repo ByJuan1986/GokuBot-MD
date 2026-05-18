@@ -503,9 +503,9 @@ Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin e
 * Ultra Instinto 🔥
 
 
-🔹 Dato curioso
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
 
-Goku es considerado uno de los personajes de anime más famosos y queridos de toda la historia 😎🐉
+* Goku es considerado uno de los personajes de anime más famosos y queridos de toda la historia 😎🐉
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
 }  
@@ -579,17 +579,17 @@ Trunks es el hijo de Vegeta y Bulma. Es un híbrido Saiyajin y humano. Nació el
 
 Existen dos versiones del personaje:
 
-🔹 Trunks del Presente:
-Es el niño que vive en paz junto a su familia y mejor amigo Goten. En Dragon Ball Super tiene alrededor de 14 años.
+🔹 𝗧𝗿𝘂𝗻𝗸𝘀 𝗱𝗲𝗹 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗲:
 
-🔹 Trunks del Futuro:
-Viene de una línea temporal donde los androides destruyeron casi toda la Tierra. Viajó al pasado usando la máquina del tiempo de Bulma para salvar el futuro. En Dragon Ball Super tiene aproximadamente 30 años.
+* Es el niño que vive en paz junto a su familia y mejor amigo Goten. En Dragon Ball Super tiene alrededor de 14 años.
 
-Trunks tiene cabello lila, ojos azules y gran habilidad para pelear. Su personalidad cambia según la versión: el del presente es alegre y travieso, mientras que el del futuro es serio, maduro y valiente.
+🔹 𝗧𝗿𝘂𝗻𝗸𝘀 𝗱𝗲𝗹 𝗙𝘂𝘁𝘂𝗿𝗼:
 
-Le gusta entrenar, ayudar a los demás y pasar tiempo con Goten. No le gusta la injusticia ni perder personas importantes.
+* Viene de una línea temporal donde los androides destruyeron casi toda la Tierra. Viajó al pasado usando la máquina del tiempo de Bulma para salvar el futuro. En Dragon Ball Super tiene aproximadamente 30 años.
 
-Sus técnicas más famosas son Burning Attack, Finish Buster y Shining Sword Attack. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2 y Super Saiyajin Rage.
+* Trunks tiene cabello lila, ojos azules y gran habilidad para pelear. Su personalidad cambia según la versión: el del presente es alegre y travieso, mientras que el del futuro es serio, maduro y valiente.
+* Le gusta entrenar, ayudar a los demás y pasar tiempo con Goten. No le gusta la injusticia ni perder personas importantes.
+* Sus técnicas más famosas son Burning Attack, Finish Buster y Shining Sword Attack. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2 y Super Saiyajin Rage.
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf/Trunks.mp4" }, caption: random }, { quoted: m })
 }
@@ -602,42 +602,39 @@ let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲�
 
 Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 732 en el Planeta Vegeta. En Dragon Ball Super tiene alrededor de 50 años.
 
-🔹 Infancia
+🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
 
 Desde pequeño fue un guerrero de élite con un enorme poder y mucho orgullo Saiyajin. Después de que Freezer destruyera el Planeta Vegeta, sobrevivió y trabajó para él conquistando planetas.
 
 🔹 Llegada a la Tierra
 
-Tiempo después llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien terminó convirtiéndose en su mayor rival y motivación para hacerse más fuerte.
+* Tiempo después llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien terminó convirtiéndose en su mayor rival y motivación para hacerse más fuerte.
 
-🔹 Familia
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
 
-Vegeta se casó con Bulma y tuvo dos hijos: Trunks y Bra.
+* Vegeta se casó con Bulma y tuvo dos hijos: Trunks y Bra.
 
-🔹 Apariencia y personalidad
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
-Tiene cabello negro puntiagudo, ojos negros y mide aproximadamente 1.64 m. Su personalidad es orgullosa, seria, inteligente y muy competitiva.
+* Tiene cabello negro puntiagudo, ojos negros y mide aproximadamente 1.64 m. Su personalidad es orgullosa, seria, inteligente y muy competitiva.
 
-🔹 Gustos y disgustos
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
 
-Le gusta entrenar, superar sus límites y proteger a su familia. No le gusta perder, depender de otros ni mostrar debilidad.
+* Le gusta entrenar, superar sus límites y proteger a su familia. No le gusta perder, depender de otros ni mostrar debilidad.
 
-🔹 Técnicas y transformaciones
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
 
-Sus técnicas más famosas son Galick Gun, Big Bang Attack y Final Flash.
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
 
-Sus transformaciones principales son:
+* Galick Gun, Big Bang Attack y Final Flash.
 
-Super Saiyajin
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
 
-Super Saiyajin 2
-
-Majin Vegeta
-
-Super Saiyajin Blue
-
-Ultra Ego 💜
-
+* Super Saiyajin
+* Super Saiyajin 2
+* Majin Vegeta
+* Super Saiyajin Blue
+* Ultra Ego 💜
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf/Vegeta.mp4" }, caption: random }, { quoted: m })
 }
