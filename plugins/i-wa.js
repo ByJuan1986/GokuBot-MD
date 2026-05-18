@@ -502,7 +502,6 @@ Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin e
 * Super Saiyajin Blue
 * Ultra Instinto 🔥
 
-
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
 
 * Goku es considerado uno de los personajes de anime más famosos y queridos de toda la historia 😎🐉
@@ -513,7 +512,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf
 
 // biografía Freezer 
 if (command === "Freezer" || command === "biografíafreezer") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Freezer
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗙𝗿𝗲𝗲𝘇𝗲𝗿
 
 Freezer es uno de los villanos más famosos y peligrosos de Dragon Ball. Es el emperador del universo y líder del Imperio Freezer. Su edad exacta es desconocida, pero es mucho mayor que la mayoría de personajes de la serie.
 
@@ -558,11 +557,41 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf
 
 // biografía Celula
 if (command === "Celula" || command === "biografíacelula") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 celula
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
-luego...
+Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el Dr. Gero usando células de grandes guerreros como Goku, Vegeta, Piccolo y Freezer.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
 
+* Cell llegó del futuro usando una máquina del tiempo para absorber a los androides 17 y 18 y alcanzar su forma perfecta. Después organizó el Torneo de Cell para demostrar su poder y desafiar a los Guerreros Z.
+* Su mayor pelea fue contra Gohan, quien logró derrotarlo usando el Super Saiyajin 2.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene un cuerpo verde con manchas negras, cola larga y alas pequeñas. Su personalidad es arrogante, inteligente, cruel y muy confiada.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta demostrar su perfección, pelear contra rivales fuertes y humillar a sus enemigos. No le gusta perder ni ser superado.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Kamehameha
+* Solar Kamehameha
+* Regeneración
+* Absorción
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+* Cell Imperfecto
+* Semi-Perfect Cell
+* Perfect Cell 💥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Gracias a las células de varios guerreros, Cell podía usar técnicas de muchos personajes diferentes 😮‍💨🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf/Celula.mp4" }, caption: random }, { quoted: m })
 }  
