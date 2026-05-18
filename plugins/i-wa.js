@@ -539,9 +539,18 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf
 if (command === "Jiren" || command === "biografíajiren") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 jiren
 
-luego...
+𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
 
+𝗙𝗮𝗺𝗶𝗹𝗶𝗮
 
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf/Jiren.mp4" }, caption: random }, { quoted: m })
 }  
@@ -555,17 +564,46 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf
 if (command === "Gohan" || command === "biografíagohan") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗵𝗮𝗻
 
-Gohan es el hijo mayor de Goku y Chi-Chi. Nació el 18 de mayo del año 757, por lo que en Dragon Ball Super tiene alrededor de 27 años.
+Gohan es el hijo mayor de Goku y Chi-Chi. Nació el 18 de mayo del año 757 y es uno de los personajes con más potencial de Dragon Ball.
 
-Desde pequeño mostró un enorme poder oculto. Fue entrenado por Piccolo, quien se convirtió en su maestro y figura importante. Aunque es muy fuerte, Gohan prefiere estudiar y vivir tranquilo antes que pelear.
+🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
 
-Durante la saga de Cell alcanzó el Super Saiyajin 2 y derrotó a Cell. Más adelante se convirtió en investigador y también en el héroe conocido como Great Saiyaman.
+* Desde pequeño mostró un enorme poder oculto. Fue entrenado por Piccolo, quien se convirtió en su maestro y figura importante. Aunque era muy fuerte, nunca le gustó pelear demasiado.
 
-Se casó con Videl y tuvo una hija llamada Pan.
+🔹 Batallas importantes
 
-Gohan tiene cabello negro, ojos oscuros y una personalidad amable, inteligente y protectora. Le gusta estudiar, entrenar ocasionalmente y pasar tiempo con su familia. No le gusta la violencia innecesaria.
+* Gohan participó en grandes peleas contra enemigos como Freezer, Cell y Majin Buu. Su momento más importante fue cuando derrotó a Cell usando el Super Saiyajin 2.
 
-Sus técnicas más conocidas son Masenko, Kamehameha y Special Beam Cannon. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2, Estado Definitivo y Beast Gohan.
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Se casó con Videl y tuvo una hija llamada Pan.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello negro, ojos oscuros y una personalidad amable, inteligente y tranquila. Siempre busca proteger a los demás.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta estudiar, pasar tiempo con su familia y entrenar ocasionalmente. No le gusta la violencia innecesaria ni lastimar personas inocentes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Masenko
+* Kamehameha
+* Special Beam Cannon
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+* Super Saiyajin
+* Super Saiyajin 2
+* Estado Definitivo
+* Beast Gohan 🔥
+
+🔹 Dato curioso
+
+* Muchos fans consideran que Gohan tiene más potencial oculto que incluso Goku y Vegeta 😮‍💨⚡
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf/Gohan.mp4" }, caption: random }, { quoted: m })
 }
@@ -604,9 +642,9 @@ Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
 
-Desde pequeño fue un guerrero de élite con un enorme poder y mucho orgullo Saiyajin. Después de que Freezer destruyera el Planeta Vegeta, sobrevivió y trabajó para él conquistando planetas.
+* Desde pequeño fue un guerrero de élite con un enorme poder y mucho orgullo Saiyajin. Después de que Freezer destruyera el Planeta Vegeta, sobrevivió y trabajó para él conquistando planetas.
 
-🔹 Llegada a la Tierra
+🔹 𝗟𝗹𝗲𝗴𝗮𝗱𝗮 𝗮 𝗹𝗮 𝗧𝗶𝗲𝗿𝗿𝗮
 
 * Tiempo después llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien terminó convirtiéndose en su mayor rival y motivación para hacerse más fuerte.
 
