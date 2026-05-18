@@ -632,7 +632,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf
 }
 
 // biografía chichi
-if (command === "Chichi" || command === "biografíaChichi") {
+if (command === "Chichi" || command === "biografíachichi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Chichi
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
