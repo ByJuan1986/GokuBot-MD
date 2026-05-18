@@ -464,52 +464,43 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗸𝘂
 
 Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin es Kakarotto. Nació en el año 737 en el Planeta Vegeta y fue enviado a la Tierra cuando era un bebé. En Dragon Ball Super tiene alrededor de 49 años.
 
-🔹 Infancia
+🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
 
-Fue encontrado y criado por el abuelo Gohan, quien le enseñó artes marciales. De pequeño era agresivo, pero después de golpearse la cabeza se volvió amable y alegre.
+* Fue encontrado y criado por el abuelo Gohan, quien le enseñó artes marciales. De pequeño era agresivo, pero después de golpearse la cabeza se volvió amable y alegre.
 
-🔹 Aventuras y peleas
+🔹 𝗔𝘃𝗲𝗻𝘁𝘂𝗿𝗮𝘀 𝘆 𝗽𝗲𝗹𝗲𝗮𝘀
 
-A lo largo de la serie ha protegido la Tierra enfrentándose a enemigos como Freezer, Cell, Majin Buu y muchos más. Su mayor rival y amigo es Vegeta.
+* A lo largo de la serie ha protegido la Tierra enfrentándose a enemigos como Freezer, Cell, Majin Buu y muchos más. Su mayor rival y amigo es Vegeta.
 
-🔹 Familia
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
 
-Goku se casó con Chi-Chi y tuvo dos hijos: Gohan y Goten.
+* Goku se casó con Chi-Chi y tuvo dos hijos: Gohan y Goten.
 
-🔹 Apariencia y personalidad
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
-Tiene cabello negro puntiagudo, ojos negros y gran musculatura. Su personalidad es alegre, inocente, valiente y muy competitiva.
+* Tiene cabello negro puntiagudo, ojos negros y gran musculatura. Su personalidad es alegre, inocente, valiente y muy competitiva.
 
-🔹 Gustos y disgustos
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
 
-Le gusta entrenar, comer mucho y pelear contra rivales fuertes. No le gusta la injusticia ni que lastimen a sus amigos.
+* Le gusta entrenar, comer mucho y pelear contra rivales fuertes. No le gusta la injusticia ni que lastimen a sus amigos.
 
-🔹 Técnicas y transformaciones
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
 
-Sus técnicas más famosas son:
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
 
-Kamehameha
+* Kamehameha
+* Genkidama
+* Kaioken
+* Teletransportación
 
-Genkidama
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
 
-Kaioken
-
-Teletransportación
-
-
-Sus transformaciones principales son:
-
-Super Saiyajin
-
-Super Saiyajin 2
-
-Super Saiyajin 3
-
-Super Saiyajin Dios
-
-Super Saiyajin Blue
-
-Ultra Instinto 🔥
+* Super Saiyajin
+* Super Saiyajin 2
+* Super Saiyajin 3
+* Super Saiyajin Dios
+* Super Saiyajin Blue
+* Ultra Instinto 🔥
 
 
 🔹 Dato curioso
