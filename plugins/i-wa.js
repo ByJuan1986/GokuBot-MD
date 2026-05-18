@@ -599,17 +599,43 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf
 
 // biografía Jiren
 if (command === "Jiren" || command === "biografíajiren") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 jiren
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗶𝗿𝗲𝗻
+
+Jiren es uno de los guerreros más poderosos de Dragon Ball Super y miembro de las Tropas del Orgullo del Universo 11. Su edad exacta es desconocida, pero es considerado un luchador extremadamente experimentado.
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
-🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
-🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲
-🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Cuando era niño, su familia y maestro fueron asesinados por un enemigo muy poderoso. Después de esa tragedia, Jiren decidió entrenar sin descanso para nunca volver a sentirse débil.
+
+🔹 𝗧𝗼𝗿𝗻𝗲𝗼 𝗱𝗲𝗹 𝗣𝗼𝗱𝗲𝗿
+
+* Jiren participó en el Torneo del Poder representando al Universo 11. Durante el torneo demostró una fuerza increíble, superando incluso el poder de muchos dioses.
+* Su mayor enfrentamiento fue contra Goku, quien despertó el Ultra Instinto peleando contra él.
+
 🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
-𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+* Tiene piel gris, ojos negros grandes y una musculatura enorme. Su personalidad es seria, tranquila y muy disciplinada. Casi nunca muestra emociones.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, la justicia y hacerse más fuerte. No le gusta confiar demasiado en otros ni mostrar debilidad.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
 
 𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Power Impact
+* Omegaheat Magnetron
+* Eye Blast
+* Colossal Slash
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝘀𝗼𝗻:
+
+* Jiren no tiene transformaciones oficiales, pero puede aumentar su poder liberando toda su energía 🔥.
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Jiren llegó a ser tan fuerte que muchos dioses de la destrucción reconocieron su enorme poder 😮‍💨💥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf/Jiren.mp4" }, caption: random }, { quoted: m })
 }  
