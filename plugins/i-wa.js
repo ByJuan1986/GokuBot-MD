@@ -469,6 +469,46 @@ luego...
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
 }  
 
+
+// biografía Freezer 
+if (command === "Freezer" || command === "biografíafreezer") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Freezer 
+
+luego...
+
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
+}  
+  
+
+// biografía Celula
+if (command === "Celula" || command === "biografíacelula") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 celula
+
+luego...
+
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
+}  
+
+
+// biografía Jiren
+if (command === "Jiren" || command === "biografíajiren") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 jiren
+
+luego...
+
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
+}  
+
+
+
+
+  
  
 // biografía Gohan 
 if (command === "Gohan" || command === "biografíagohan") {
@@ -689,7 +729,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball",  "Goku", "biografíagoku", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball",  "Goku", "biografíagoku", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
