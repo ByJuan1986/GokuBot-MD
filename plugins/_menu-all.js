@@ -50,6 +50,15 @@ ${readMore}
 \t㊙ *${usedPrefix}run*
 \t㊙ *${usedPrefix}support*  =  text
 
+⚶⭒ \`Biografia DB\`
+\t📖 *${usedPrefix}biografíagoku*  =  link/text
+\t📖 *${usedPrefix}biografíavegeta*  =  link/text
+\t📖 *${usedPrefix}biografíagohan*  =  link/text
+\t📖 *${usedPrefix}biografíacelula*  =  link/text
+\t📖 *${usedPrefix}biografíafreezer*  =  link/text
+\t📖 *${usedPrefix}biografíatrunks*  =  link/text
+
+
 ⚶⭒ \`Descargas\` 
 \t⬇️ *${usedPrefix}play*  =  link/text
 \t⬇️​ *${usedPrefix}ytmp3*  =  link/text
