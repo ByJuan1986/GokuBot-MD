@@ -513,11 +513,44 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf
 
 // biografía Freezer 
 if (command === "Freezer" || command === "biografíafreezer") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Freezer 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Freezer
 
-luego...
+Freezer es uno de los villanos más famosos y peligrosos de Dragon Ball. Es el emperador del universo y líder del Imperio Freezer. Su edad exacta es desconocida, pero es mucho mayor que la mayoría de personajes de la serie.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
 
+* Freezer conquistaba planetas y eliminaba razas enteras para vender mundos. Fue quien destruyó el Planeta Vegeta por miedo al poder de los Saiyajin.
+* Tiempo después viajó a Namekusei buscando las Esferas del Dragón para obtener la inmortalidad, donde se enfrentó a Goku y despertó por primera vez el Super Saiyajin.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel blanca con partes moradas y varias formas físicas. Su personalidad es fría, cruel, arrogante y muy inteligente.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta dominar, controlar y demostrar su poder. No le gusta perder, ser humillado ni que alguien sea más fuerte que él.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Death Beam
+* Death Ball
+* Supernova
+* Telequinesis
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+* Primera Forma
+* Segunda Forma
+* Tercera Forma
+* Forma Final
+* Golden Freezer ✨
+* Black Freezer 🖤
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Aunque empezó como villano, Freezer terminó ayudando a los Guerreros Z durante el Torneo del Poder para salvar su universo 😎🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf/Freezer.mp4" }, caption: random }, { quoted: m })
 }  
