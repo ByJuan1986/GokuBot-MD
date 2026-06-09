@@ -2,8 +2,8 @@ import { sticker } from '../lib/sticker.js'
 let handler = async (m, {conn}) => {
 
 if (db.data.chats[m.chat].fAutoStick) {
-let nombre = "Goku" //nombre del sticker en config.js
-let nombre2 = "Bot" //nombre del sticker en config.js
+let nombre = "Goku 𝐆𝐨𝐤𝐮𝐁𝐨𝐭" //nombre del sticker en config.js
+let nombre2 = "Bot 𝐁𝐲 𝐉𝐮𝐚𝐧𝟏𝟗𝟖𝟔" //nombre del sticker en config.js
 
 //Sticker de hola
 if (/^hola|👋|👋🏼|👋🏽|👋🏾|👋🏿$/i.test(m.text)) {
