@@ -221,7 +221,7 @@ const miedo = [
 
 const ok = [
 'https://od.lk/s/NTZfMjUwMDMwNTZf/ok%2001.jpg',
-'https://od.lk/s/NTZfMjU0NDU5NTdf/ok%2002.png',
+'https://od.lk/s/NTZfNTM1NTkyMjFf/ok%2002.png',
 'https://od.lk/s/NTZfMjU0NDU5Njlf/ok%2003.png'
 ]
 
