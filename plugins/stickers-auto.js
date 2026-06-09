@@ -138,7 +138,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 //copiar
 const alegre = [
-'https://od.lk/s/NTZfMjU0NTgxMjhf/alegre%2001.png',
+'https://od.lk/s/NTZfNTM1OTAyNDNf/Alegre%2001.png',
 'https://od.lk/s/NTZfMjU3OTM0MzBf/Alegre%2002.png',
 'https://od.lk/s/NTZfMjU0NTgxMjdf/alegre%2003.png',
 'https://od.lk/s/NTZfMjU0NTgxMjdf/alegre%2003.png',
