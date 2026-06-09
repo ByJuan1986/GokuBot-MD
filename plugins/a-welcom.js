@@ -94,7 +94,7 @@ caption: `
 *║   la altura, insecto*
 *║*
 *║ hasta la vista Saiyan* 
-*║ 👋🏻🐲* 
+*║ 🐲* 
 *╚══════════════*
 
 \t＃ *Usuario* : @${userName}
