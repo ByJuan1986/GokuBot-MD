@@ -367,9 +367,21 @@ let random = `*╔══════════════*
 *║* 🔊 𝗧𝗼𝗱𝗼 𝗲𝗹 𝗼𝗹𝗶𝗺𝗽𝗼 𝗰𝗮𝗲𝗿𝗮
 *║* 🔊 𝗬𝗼 𝘀𝗼𝘆 𝘁𝘂 𝗽𝗮𝗱𝗿𝗲 
 *║*
-*║*
-*║* 🔊 𝗛𝗼𝘆 𝗻𝗼... *mañana*
-*║*
+*║* • \`𝗝𝗼𝘀𝗲 𝗠𝗼𝘁𝗮\`🇪🇸
+*║* 🔊 El cansino
+*║* 🔊 El tio de la vara
+*║* 🔊 Eres muy tonto
+*║* 🔊 Hoy no...
+*║* 🔊 Ey jubilado
+*║* 
+*║* 🔊 No cuentes na
+*║* 🔊 Esto es rustico
+*║* 🔊 Na de na
+*║* 🔊 Soy superstar
+*║* 🔊
+*║* 🔊 Berengario el tractorista
+*║* 
+*║* 
 *║* • \`𝗔𝘂𝗱𝗶𝗼𝘀\`🇪🇸
 *║* 🔊 𝗘𝘀𝗽𝗮𝗿𝘁𝗮𝗰𝗼
 *║* 🔊 𝗠𝗮𝗻𝗱𝗮𝗻𝗴𝗮 𝘃𝗶𝗹𝗹𝗮𝗻𝗰𝗶𝗰𝗼
