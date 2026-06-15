@@ -163,6 +163,9 @@ const audioMap = [
 {regex: /^esto es rustico$/i, url: 'https://od.lk/s/NTZfNTQ3OTg3MjJf/Blasa%20-%20Esto%20es%20rustico.mp3'},
 {regex: /^na de na$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mzdf/Blasa%20-%20Na%20de%20na.mp3'},
 {regex: /^soy superstar$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mzlf/Blasa%20-%20Soy%20superstar.mp3'},
+
+// Berengario
+{regex: /^Berengario el tractorista$/i, url: 'https://od.lk/s/NTZfNTQ4MTY3OTNf/Berengario%20el%20tractorista.mp3'},
  
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
