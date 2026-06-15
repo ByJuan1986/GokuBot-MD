@@ -161,7 +161,9 @@ const audioMap = [
 
 // Blasa
 {regex: /^no cuentes na$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mjhf/Blasa%20-%20Eso%20si%20te%20pido%20que%20no%20cuentes%20na.mp3'},
-
+{regex: /^na de na$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mzdf/Blasa%20-%20Na%20de%20na.mp3'},
+{regex: /^soy superstar$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mzlf/Blasa%20-%20Soy%20superstar.mp3'},
+ 
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
 {regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
