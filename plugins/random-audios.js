@@ -151,6 +151,9 @@ const audioMap = [
 {regex: /^todo el olimpo caerá$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTNf/Todo%20el%20Olimpo%20caera.mp3'},
 {regex: /^yo soy tu padre$/i, url: 'https://od.lk/s/NTZfMjg3Mjk1NTdf/Yo%20soy%20tu%20padre.mp3'},
 
+// Jose Mota
+{regex: /^el cansino|cansino$/i, url: 'https://od.lk/s/NTZfNTQ3OTg2ODVf/Jose%20Mota%20-%20El%20cansino.mp3'},
+ 
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
 {regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
