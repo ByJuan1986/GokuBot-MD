@@ -153,6 +153,8 @@ const audioMap = [
 
 // Jose Mota
 {regex: /^el cansino|cansino$/i, url: 'https://od.lk/s/NTZfNTQ3OTg2ODVf/Jose%20Mota%20-%20El%20cansino.mp3'},
+{regex: /^el tio de la vara|vara$/i, url: 'https://od.lk/s/NTZfNTQ3OTg2Nzhf/Jose%20Mota%20-%20El%20tio%20la%20vara.mp3'},
+{regex: /^eres muy tonto|tonto$/i, url: 'https://od.lk/s/NTZfNTQ3OTg2ODhf/Jose%20Mota%20-%20eres%20muy%20tonto.mp3'},
  
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
