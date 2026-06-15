@@ -157,10 +157,10 @@ const audioMap = [
 {regex: /^eres muy tonto|tonto$/i, url: 'https://od.lk/s/NTZfNTQ3OTg2ODhf/Jose%20Mota%20-%20eres%20muy%20tonto.mp3'},
 {regex: /^hoy no...|hoy no... mañana$/i, url: 'https://od.lk/s/NTZfNTQ3OTg2OTRf/Jose%20Mota%20-%20Hoy%20no%20mana%C3%B1a.mp3'},
 {regex: /^ey jubilado$/i, url: 'https://od.lk/s/NTZfNTQ3OTg3MDlf/Jose%20Mota%20-%20iey%20jubilao%21.mp3'},
-{regex: /^esto es rustico$/i, url: 'https://od.lk/s/NTZfNTQ3OTg3MjJf/Jose%20Nota%20-%20Esto%20es%20rustico.mp3'},
 
 // Blasa
 {regex: /^no cuentes na$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mjhf/Blasa%20-%20Eso%20si%20te%20pido%20que%20no%20cuentes%20na.mp3'},
+{regex: /^esto es rustico$/i, url: 'https://od.lk/s/NTZfNTQ3OTg3MjJf/Blasa%20-%20Esto%20es%20rustico.mp3'},
 {regex: /^na de na$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mzdf/Blasa%20-%20Na%20de%20na.mp3'},
 {regex: /^soy superstar$/i, url: 'https://od.lk/s/NTZfNTQ4MDg4Mzlf/Blasa%20-%20Soy%20superstar.mp3'},
  
