@@ -167,7 +167,11 @@ const audioMap = [
 
 // Berengario
 {regex: /^Berengario el tractorista$/i, url: 'https://od.lk/s/NTZfNTQ4MTY3OTNf/Berengario%20el%20tractorista.mp3'},
- 
+
+// Ricardo Boquerone
+{regex: /^me cago en el amor$/i, url: 'https://od.lk/s/NTZfNTQ4ODMyMTZf/Ricardo%20Boquerone%20-%20Me%20cago%20en%20el%20amor.mp3'},
+{regex: /^No quiero pensar en el amor$/i, url: 'https://od.lk/s/NTZfNTQ4ODMyMTdf/Ricardo%20Boquerone%20-%20No%20quiero%20pensar%20en%20el%20amor.mp3'},
+
 // Sonido LQS
 {regex: /^espartaco$/i, url: 'https://od.lk/s/NTZfMjg2NDY3MDhf/Amador%20Ribas%20-%20Espartaco.mp3'},
 {regex: /^mandanga villancico$/i, url: 'https://od.lk/s/NTZfMjg3Mjg2Mzdf/Amador%20Ribas%20-%20Mandanga%20villancicos.mp3'},
