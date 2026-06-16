@@ -10,11 +10,12 @@ if (m.fromMe) return !0
 if (!db.data.chats[m.chat].fAudios) return
 
 const audioMap = [
-{regex: /^Bien pensado boddy|bien pensado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
 {regex: /^Gokubot 1|cancion GokuBot$/i, url: 'https://od.lk/s/NTZfNDc1MTI4NzFf/GokuBot%20cancion.mp3'},
 {regex: /^Gokubot 2|cancion GokuBot 2$/i, url: 'https://od.lk/s/NTZfNDc5MDI1NzJf/GokuBot%20cancion%202.mp3'},
 {regex: /^Gokubot 3|cancion GokuBot 3$/i, url: 'https://od.lk/s/NTZfNTQ4MTkzMzBf/GokuBot%20en%20Pista.mp3'},
-
+{regex: /^Gokubot 4|cancion GokuBot 4$/i, url: 'https://od.lk/s/NTZfNTUwOTg0Mjlf/GokuBot%20en%20Pista%20%281%29.mp3'},
+{regex: /^Bien pensado bojgfdfddy|bien pensaaaaado$/i, url: 'https://files.catbox.moe/cv4969.mp3'},
+ 
 // Personajes dragon ball en castellano 
 {regex: /^Final flash|vegeta flash$/i, url: 'https://od.lk/s/NTZfNDc2OTg4MDhf/Final%20flash%20castellano.mp3'},
 {regex: /^baba la cansina|hermana de mutenroshi$/i, url: 'https://od.lk/s/NTZfNDc2OTkzNTBf/Baba%20la%20cansina.mp3'},
