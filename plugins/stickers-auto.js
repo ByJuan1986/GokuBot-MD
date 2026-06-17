@@ -70,6 +70,13 @@ if (stiker)
 await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 }
 
+if (/^mondongo$/i.test(m.text)) {
+let stiker = await sticker(null, mondongo[Math.floor(Math.random() * mondongo.length)], nombre, nombre2)
+await delay(3 * 3000)
+if (stiker)
+await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
+}
+ 
 if (/^ok|👍|🆗|👌$/i.test(m.text)) {
 let stiker = await sticker(null, ok[Math.floor(Math.random() * ok.length)], nombre, nombre2)
 await delay(3 * 3000)
@@ -217,6 +224,12 @@ const miedo = [
 'https://od.lk/s/NTZfMjUwOTU1MjBf/miedo%2001.gif',
 'https://od.lk/s/NTZfMjUwOTU1MjFf/miedo%2002.jpg',
 'https://od.lk/s/NTZfMjUwOTU1MjJf/miedo%2003.jpeg'
+]
+
+const mondongo = [
+'https://od.lk/s/NTZfNTUzMjA3Mzdf/Mondongo%2001.jpg',
+'https://od.lk/s/NTZfNTUzMjA3MzZf/Mondongo%2002.jpg',
+'https://od.lk/s/NTZfNTUzMjA3Mzdf/Mondongo%2001.jpg'
 ]
 
 const ok = [
