@@ -134,7 +134,7 @@ await conn.sendMessage(m.chat, { sticker: stiker }, { quoted: m })
 } 
  
 }}
-handler.customPrefix = /hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|pelea|🤜|🤛|comida|voy a comer|estoy comiendo|comiendo|🥝|🥑|🥔|🥞|🥖|🥐|🍥|🥮|🍩|🥧|🍛|🍪|🎂|🍰|🧁|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|alegre|😊|😀|guantazo|amor|🥰|😍|🫶|❤️|😚|baile|llorar|miedo|ok|papus|payaso|pienso|🤔|risa|🤣|😂|😄|😁|😊|triste|☹️|🙁|vacilon/i
+handler.customPrefix = /hola|👋|👋🏼|👋🏽|👋🏾|👋🏿|pelea|🤜|🤛|comida|voy a comer|estoy comiendo|comiendo|🥝|🥑|🥔|🥞|🥖|🥐|🍥|🥮|🍩|🥧|🍛|🍪|🎂|🍰|🧁|enfadado|😡|😠|😤|😭|😥|😢|😱|👍|🆗|👌|alegre|😊|😀|guantazo|amor|🥰|😍|🫶|❤️|😚|baile|llorar|miedo|ok|papus|payaso|pienso|🤔|risa|🤣|😂|😄|😁|😊|triste|☹️|🙁|vacilon|mondongo/i
 handler.command = new RegExp()
 export default handler
 
