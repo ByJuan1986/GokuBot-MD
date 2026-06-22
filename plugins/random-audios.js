@@ -96,6 +96,7 @@ const audioMap = [
 {regex: /^los terrenos|los terrenos de la abuelita$/i, url: 'https://od.lk/s/NTZfNDc5MDU4ODJf/Los%20terrenos%20de%20la%20abuelita.mp3'},
 {regex: /^esas tetas no dejan de mirarme$/i, url: 'https://od.lk/s/NTZfNDg3NzYwNjJf/esas%20tetas%20no%20me%20dejan%20de%20mirar.mp3'},
 {regex: /^kaio ken|kaioken$/i, url: 'https://od.lk/s/NTZfNTY4NDQ2Mjlf/Kaio%20ken%20latino.mp3'},
+{regex: /^por que no me la chupas|porque no me la chupas$/i, url: 'https://od.lk/s/NTZfNTY4NDQ4Mjdf/porque%20no%20mejor%20me%20la%20chupas.mp3'},
 
  // Audio en latino
 {regex: /^hay alguien en el grupo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzdf/Hay%20alguien%20en%20el%20grupo.mp3'},
