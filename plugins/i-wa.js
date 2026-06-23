@@ -922,7 +922,7 @@ Hit es el asesino más poderoso del Universo 6. Tiene más de 1000 años y es co
 * Puede detener el tiempo por unos instantes
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf/Bulma.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf/Hit.mp4" }, caption: random }, { quoted: m })
 } 
 
 
