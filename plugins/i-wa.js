@@ -899,6 +899,34 @@ Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf/Vegeta.mp4" }, caption: random }, { quoted: m })
 }
     
+// biografía Bulma
+if (command === "Hit" || command === "biografíahit") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗶𝘁 
+ 
+Hit es el asesino más poderoso del Universo 6. Tiene más de 1000 años y es conocido por su gran experiencia en combate.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Participó en el Torneo entre los Universos 6 y 7 y más adelante en el Torneo del Poder. Se volvió rival y aliado de Goku.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es serio, tranquilo, inteligente y muy profesional.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Salto Temporal, Jaula del Tiempo, Golpes de alta velocidad
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Puede detener el tiempo por unos instantes
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf/Bulma.mp4" }, caption: random }, { quoted: m })
+} 
+
+
+
   
 // funcion de pruebas
 if (command === "administradores") {
