@@ -535,7 +535,7 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTcwMjUwMTBf
 
   
 // biografía Goku
-if (command === "Goku" || command === "biografíagoku") {
+if (command === "Goku" || command === "biografiagoku") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗸𝘂
 
 Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin es Kakarotto. Nació en el año 737 en el Planeta Vegeta y fue enviado a la Tierra cuando era un bebé. En Dragon Ball Super tiene alrededor de 49 años.
@@ -1081,7 +1081,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "Goku", "biografíagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "biografíahit", "hit", "biografiabeerus", "beerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografiagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "biografíahit", "hit", "biografiabeerus", "beerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
