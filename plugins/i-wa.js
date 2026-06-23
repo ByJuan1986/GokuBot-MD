@@ -927,8 +927,8 @@ Hit es el asesino más poderoso del Universo 6. Tiene más de 1000 años y es co
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf/Hit.mp4" }, caption: random }, { quoted: m })
 } 
 
-// biografía Hit
-if (command === "beerus" || command === "biografíabeerus") {
+// biografía Beerus
+if (command === "beerus" || command === "biografiabeerus") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗲𝗲𝗿𝘂𝘀 
  
 Bills, conocido realmente como Beerus, es el Dios de la Destrucción del Universo 7. Tiene millones de años.
