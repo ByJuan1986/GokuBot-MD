@@ -122,50 +122,63 @@ if (!args[0]) {
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzQ5NTQwMjNf/Goku_whatsApp.jpg" }, caption: grupos }, { quoted: m })
   //conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
 } else if (args[0] === "telegram") {
-let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺.
+let grupot = `¿𝗕𝘂𝘀𝗰𝗮𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝗲𝗻 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺?
 
-𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗰𝗮𝘀𝘁𝗲𝗹𝗹𝗮𝗻𝗼
-- https://t.me/+KtSUCeZ7-0Y3ZWI0
+🆃︎🅾︎🅳︎🅾︎🆂︎ 🅻︎🅾︎🆂︎ 🅶︎🆁︎🆄︎🅿︎🅾︎🆂︎ 
+
+𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗲𝗻 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹
+- https://miniurl.cl/Dragonballgrupo
 
 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗲𝗻 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽
 - https://miniurl.cl/DragonBallEnWhatsApp
 
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗲𝗻 𝗰𝗮𝘁𝗮𝗹𝗮𝗻
+- https://miniurl.cl/GrupBolaDeDracCatala
+
 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗚𝗮𝗹𝗹𝗲𝗴𝗼 
 - https://miniurl.cl/DragonBallGallego
 
-𝗘𝗻𝗰𝘂𝗲𝘀𝘁𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 
-- https://t.me/+AhjEkyliMt8xOTVk
+𝗘𝗻𝗰𝘂𝗲𝘀𝘁𝗮𝘀 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹
+- https://miniurl.cl/DragonballEncuestas
 
-𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗰𝗮𝘁𝗮𝗹𝗮𝗻
-- https://miniurl.cl/GrupBolaDeDracCatala
+𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗟𝗲𝗴𝗲𝗻𝗱𝘀 
+- https://miniurl.cl/DragonBallLegens
+
+𝗚𝗲𝗻𝗸𝗶𝘀𝗵𝗶𝗻 𝗦𝗾𝘂𝗮𝗱𝗿𝗮
+- https://miniurl.cl/DragonballGenkishinSquadra
+
+𝗗𝗕𝗖𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹𝗚𝗿𝘂𝗽𝗼
+- https://miniurl.cl/DBCProjectOfficialGrupo
+
+𝗔𝗻𝗶𝗺𝗲 𝗰𝗮𝘁𝗮𝗹𝗮𝗻 
+- https://miniurl.cl/AnimeCatalan
+
+𝗙𝗮𝗻𝘀 𝗔𝗹𝗶𝗲𝗻 𝗩𝗦 𝗽𝗿𝗲𝗱𝗮𝘁𝗼𝗿 𝗘𝘀𝗽𝗮𝗻𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱
+- https://miniurl.cl/GrupoAlienvspredatores
+
+𝗙𝗮𝗻𝘀 𝗗𝗖 𝗬 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
+- https://miniurl.cl/GrupoDcMarvel
+
+𝗙𝗮𝗻𝘀 𝗦𝘁𝗮𝗿 𝗧𝗿𝗲𝗸 𝗪𝗮𝗿𝘀  🇪🇸 
+- https://miniurl.cl/GrupoStarTrek
+
+𝗡𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗔𝗻𝗶𝗺𝗲
+- https://miniurl.cl/NoticiasAnime
 
 𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝘃𝗮𝗹𝗲𝗻𝗰𝗶𝗮𝗻𝗼
 - https://t.me/boladedracvalencia
 
 𝗙𝗮𝗺𝗶𝗹𝗶𝗮 𝗦𝗮𝗶𝘆𝗮𝗻𝘀
-- https://t.me/FamiliaSaiyan
-
-𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗟𝗲𝗴𝗲𝗻𝗱𝘀
-- https://t.me/+yfN-w0E3V0kxNGQ0
-
-𝗔𝗻𝗶𝗺𝗲 𝗲𝗻 𝗰𝗮𝘁𝗮𝗹𝗮𝗻
-- https://bit.ly/AnimeEnCatala
-
- 🇪🇸 𝗔𝗹𝗶𝗲𝗻 𝗩𝗦 𝗗𝗲𝗽𝗿𝗲𝗱𝗮𝗱𝗼𝗿 🇪🇸 
-- https://t.me/ComunidadAlienVsPredator
-
- 🇪🇸 𝗦𝘁𝗮𝗿 𝗧𝗿𝗲𝗸 𝗪𝗮𝗿𝘀 🇪🇸 
-- https://t.me/ComunidadStarWarsWars
-
-🇪🇸 𝗗𝗖 𝘆 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
-- https://t.me/ComunidadDCMarvel
+- https://t.me/FamiliaSaiyan 
 
 📍 𝗣𝗮𝗿𝗮 𝘃𝗲𝗿 𝗺𝗮𝘀 𝗴𝗿𝘂𝗽𝗼𝘀.
 • .grupos
 • .grupos facebook 
 • .grupos frikis
 
-𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
+> *Por ejemplo:* ${usedPrefix + command} facebook
+
+𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟐𝟒/𝟎𝟐/𝟐𝟔`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODMxMTFf/Goku_telegram.png" }, caption: grupot }, { quoted: m })
 //conn.reply(m.chat, grupot, m)
 } else if (args[0] === "facebook") {
