@@ -54,7 +54,7 @@ let canalt = `📍 Nada agregado...`
   //Comando de grupos.
   //-------------------------
 if (command === "grupos" || command === "gruposoficiales") {
-let grupos = `Buscas grupos de dragon ball aqui tienes varios grupos elije el tuyo y difruta del mejor anime del mundo.
+let grupos = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝗮𝗾𝘂𝗶 𝘁𝗶𝗲𝗻𝗲𝘀 𝘃𝗮𝗿𝗶𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗲𝗹𝗶𝗷𝗲 𝗲𝗹 𝘁𝘂𝘆𝗼 𝘆 𝗱𝗶𝗳𝗿𝘂𝘁𝗮 𝗱𝗲𝗹 𝗺𝗲𝗷𝗼𝗿 𝗮𝗻𝗶𝗺𝗲 𝗱𝗲𝗹 𝗺𝘂𝗻𝗱𝗼.
 
 ◜🐉 🅳🆁🅰🅶🅾🅽 🅱🅰🅻🅻 🐉◞
 
@@ -109,14 +109,15 @@ https://chat.whatsapp.com/BhXwjZVP0Ae9VU4pHqXATS
 🐉🎮𝔻ℝ𝔸𝔾𝕆ℕ 𝔹𝔸𝕃𝕃 𝔽𝕀𝔾𝕋ℍ𝔼ℝℤ🎮🐉
 https://chat.whatsapp.com/LUKhODoKfqrC0uVKqMdfu4
 
+📍 𝗣𝗮𝗿𝗮 𝘃𝗲𝗿 𝗺𝗮𝘀 𝗴𝗿𝘂𝗽𝗼𝘀.
+• .grupos telegram
+• .grupos facebook 
+• .grupos frikis
+
+> *Por ejemplo:* ${usedPrefix + command} facebook
+
 𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 *12/02/26*
-
-📍 Para ver otros grupos.
-- grupos telegram
-- grupos facebook 
-- grupos frikis
-
-> *Por ejemplo:* ${usedPrefix + command} facebook`
+`
 if (!args[0]) {
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzQ5NTQwMjNf/Goku_whatsApp.jpg" }, caption: grupos }, { quoted: m })
   //conn.sendMessage(m.chat, { text: grupos }, { quoted: m })
@@ -159,10 +160,10 @@ let grupot = ` 𝗧𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱�
 🇪🇸 𝗗𝗖 𝘆 𝗠𝗮𝗿𝘃𝗲𝗹 🇪🇸
 - https://t.me/ComunidadDCMarvel
 
-📍 Para ver otros grupos.
-- grupos
-- grupos facebook 
-- grupos frikis
+📍 𝗣𝗮𝗿𝗮 𝘃𝗲𝗿 𝗺𝗮𝘀 𝗴𝗿𝘂𝗽𝗼𝘀.
+• .grupos
+• .grupos facebook 
+• .grupos frikis
 
 𝐔𝐥𝐭𝐢𝐦𝐚 𝐚𝐜𝐭𝐮𝐚𝐥𝐢𝐳𝐚𝐜𝐢𝐨𝐧 𝟎𝟓/𝟎𝟓/𝟐𝟓`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODMxMTFf/Goku_telegram.png" }, caption: grupot }, { quoted: m })
