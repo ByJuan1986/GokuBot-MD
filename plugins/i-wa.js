@@ -997,7 +997,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "Goku", "biografíagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "Goku", "biografíagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
