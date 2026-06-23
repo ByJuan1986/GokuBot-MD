@@ -194,9 +194,10 @@ https://www.facebook.com/groups/5608883022528456/
 • .grupos telegram
 • .grupos frikis
 
-*Actualizado 10/02/2026.*
+> *Por ejemplo:* ${usedPrefix + command} facebook
 
-> *Por ejemplo:* ${usedPrefix + command} facebook`
+*Actualizado 10/02/2026.*
+`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODI4ODhf/Goku_facebook.png" }, caption: grupof }, { quoted: m })
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
