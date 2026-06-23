@@ -901,7 +901,7 @@ Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf/Vegeta.mp4" }, caption: random }, { quoted: m })
 }
     
-// biografía Bulma
+// biografía Hit
 if (command === "Hit" || command === "biografíahit") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗶𝘁 
  
@@ -927,7 +927,30 @@ Hit es el asesino más poderoso del Universo 6. Tiene más de 1000 años y es co
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf/Hit.mp4" }, caption: random }, { quoted: m })
 } 
 
+// biografía Hit
+if (command === "beerus" || command === "biografíabeerus") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗲𝗲𝗿𝘂𝘀 
+ 
+Bills, conocido realmente como Beerus, es el Dios de la Destrucción del Universo 7. Tiene millones de años.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Despierta después de un largo sueño buscando al Super Saiyajin Dios y conoce a Goku.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es tranquilo, arrogante y ama dormir y comer 😹
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Hakai, Energía de destrucción, Ultra velocidad
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Su comida favorita es la comida terrestre 🍜🔥
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf/Hit.mp4" }, caption: random }, { quoted: m })
+} 
 
   
 // funcion de pruebas
@@ -1057,7 +1080,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "Goku", "biografíagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "biografíahit", "hit", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "Goku", "biografíagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "Freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "biografíahit", "hit", "biografiabeerus", "beerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
