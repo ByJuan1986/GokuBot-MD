@@ -487,6 +487,20 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 }
 
 
+// Biografías
+if (command === "menubiografia" || command === "biografias" || command === "menubiografias") {
+let random = ` biografías👇
+
+📢⚠️ \`biografias\` ⚠️📢
+
+luego 
+
+`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgwNjUwMTJf/reglas.jpeg" }, caption: random }, { quoted: m })
+}
+
+
+  
 // biografía Goku
 if (command === "Goku" || command === "biografíagoku") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗸𝘂
