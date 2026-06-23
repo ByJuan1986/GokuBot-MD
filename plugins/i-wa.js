@@ -491,19 +491,19 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 if (command === "menubiografia" || command === "biografias" || command === "menubiografias") {
 let random = `𝗧𝗲 𝗺𝗼𝘀𝘁𝗿𝗮𝗺𝗼𝘀 𝘂𝗻 𝗹𝗶𝘀𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗷𝗲𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲𝘀...
 
-📢⚠️ \`𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝘀\` ⚠️📢
+📢 \`𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝘀\` 📢
 
-• 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗴𝗼𝗸𝘂
-• biografíafreezer
-• biografíacelula
-• biografíajiren
-• biografíabulma
-• biografíachichi
-• biografíagoten
-• biografíakrilin
-• biografíagohan
-• biografíatrunks
-• biografíavegeta
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗴𝗼𝗸𝘂
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗳𝗿𝗲𝗲𝘇𝗲𝗿
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗰𝗲𝗹𝘂𝗹𝗮
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗷𝗶𝗿𝗲𝗻
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗯𝘂𝗹𝗺𝗮
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗰𝗵𝗶𝗰𝗵𝗶
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗴𝗼𝘁𝗲𝗻
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗸𝗿𝗶𝗹𝗶𝗻
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗴𝗼𝗵𝗮𝗻
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝘁𝗿𝘂𝗻𝗸𝘀
+• .𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝘃𝗲𝗴𝗲𝘁𝗮
 • 
 • 
 • 
