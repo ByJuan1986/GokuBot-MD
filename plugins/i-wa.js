@@ -210,9 +210,9 @@ https://www.facebook.com/groups/5608883022528456/
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODI4ODhf/Goku_facebook.png" }, caption: grupof }, { quoted: m })
 //conn.reply(m.chat, grupof, m)
 } else if (args[0] === "frikis") {
-let grupofr = `*Buscas una comunidad de anime? aqui tienes los enlaces de la comunidad frikilandia de WhatsApp, si queréis ver los grupos de Facebook y Telegram pon:*
+let grupofr = `𝗦𝗶 𝗯𝘂𝘀𝗰𝗮𝘀 𝘂𝗻𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗱𝗲 𝗮𝗻𝗶𝗺𝗲 𝗮𝗾𝘂𝗶 𝘁𝗲 𝗱𝗲𝗷𝗼 𝗹𝗼𝘀 𝗲𝗻𝗹𝗮𝗰𝗲𝘀 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝗳𝗿𝗶𝗸𝗶𝗹𝗮𝗻𝗱𝗶𝗮 𝗱𝗲 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽.
 
-*➤ Comunidad frikilandia*
+➤ 🄲🅾🄼🆄🄽🅸🄳🅰🄳 🄵🆁🄸🅺🄸🅻🄰🅽🄳🅸🄰
 
 *亀🇪🇸 𝔽𝕒𝕟𝕤 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 🇪🇸亀*
 https://chat.whatsapp.com/ChQubdKdYav2XpohU8Vs3R
@@ -259,14 +259,15 @@ https://chat.whatsapp.com/LZbQBENMeIjEv7HE1DM32v
 *3️⃣🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍3️⃣*
 https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
+📍 𝗣𝗮𝗿𝗮 𝘃𝗲𝗿 𝗺𝗮𝘀 𝗴𝗿𝘂𝗽𝗼𝘀.
+• .grupos telegram
+• .grupos facebook 
+• .grupos
+
+> *Por ejemplo:* ${usedPrefix + command} facebook
+
 *Actualizado 12/02/2026.*
-
-📍 Para ver otros grupos.
-- grupos telegram
-- grupos facebook 
-- grupos
-
-> *Por ejemplo:* ${usedPrefix + command} facebook`
+`
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
 }
