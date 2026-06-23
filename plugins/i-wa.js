@@ -489,12 +489,42 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDkxNDI2NzFf
 
 // Biografías
 if (command === "menubiografia" || command === "biografias" || command === "menubiografias") {
-let random = ` biografías👇
+let random = `𝗧𝗲 𝗺𝗼𝘀𝘁𝗿𝗮𝗺𝗼𝘀 𝘂𝗻 𝗹𝗶𝘀𝘁𝗮𝗱𝗼 𝗱𝗲 𝗹𝗼𝘀 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗷𝗲𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝗱𝗶𝘀𝗽𝗼𝗻𝗶𝗯𝗹𝗲𝘀...
 
-📢⚠️ \`biografias\` ⚠️📢
+📢⚠️ \`𝗗𝗿𝗮𝗴𝗼𝗻 𝗕𝗮𝗹𝗹 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝘀\` ⚠️📢
 
-luego 
-
+• 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮𝗴𝗼𝗸𝘂
+• biografíafreezer
+• biografíacelula
+• biografíajiren
+• biografíabulma
+• biografíachichi
+• biografíagoten
+• biografíakrilin
+• biografíagohan
+• biografíatrunks
+• biografíavegeta
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDgwNjUwMTJf/reglas.jpeg" }, caption: random }, { quoted: m })
 }
