@@ -585,7 +585,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcxMjM1MzFf
 }
 
 // biografía Freezer 
-if (command === "freezer" || command === "biografíafreezer") {
+if (command === "freezer"  || command === "biografíafreezer" || command === "biografiafreezer") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗙𝗿𝗲𝗲𝘇𝗲𝗿
 
 Freezer es uno de los villanos más famosos y peligrosos de Dragon Ball. Es el emperador del universo y líder del Imperio Freezer. Su edad exacta es desconocida, pero es mucho mayor que la mayoría de personajes de la serie.
@@ -1079,7 +1079,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografíagoku", "biografiagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "freezer", "biografíafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "biografíahit", "hit", "biografiabeerus", "beerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografíagoku", "biografiagoku", "Goten", "biografíagoten", "Krilin", "biografíakrilin", "Bulma", "biografíabulma", "Chichi", "biografíachichi", "freezer", "biografíafreezer", "biografiafreezer", "Celula", "biografíacelula", "Jiren", "biografíajiren", "Gohan", "biografíagohan", "trunks", "biografíatrunks", "biografíavegeta", "vegeta", "biografíahit", "hit", "biografiabeerus", "beerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
