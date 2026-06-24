@@ -630,7 +630,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf
   
 
 // biografía Celula
-if (command === "celula"  || command === "biografíacelula") || command === "biografiacelula") {
+if (command === "cell"  || command === "biografíacelula") || command === "biografiacelula") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
 Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el Dr. Gero usando células de grandes guerreros como Goku, Vegeta, Piccolo y Freezer.
@@ -1079,7 +1079,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografíagoku", "biografiagoku", "Goten", "biografíagoten", "biografiagoten", "Krilin", "biografíakrilin", "biografiakrilin", "Bulma", "biografíabulma", "biografiabulma", "Chichi", "biografíachichi", "biografiachichi", "freezer", "biografíafreezer", "biografiafreezer", "celula", "biografíacelula", "biografiacelula", "Jiren", "biografíajiren", "biografiajiren", "Gohan", "biografíagohan", "biografiagohan", "trunks", "biografíatrunks", "biografiatrunks", "vegeta", "biografíavegeta", "biografiavegeta", "hit", "biografíahit", "biografiahit", "beerus", "biografíabeerus", "biografiabeerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografíagoku", "biografiagoku", "Goten", "biografíagoten", "biografiagoten", "Krilin", "biografíakrilin", "biografiakrilin", "Bulma", "biografíabulma", "biografiabulma", "Chichi", "biografíachichi", "biografiachichi", "freezer", "biografíafreezer", "biografiafreezer", "cell", "biografíacelula", "biografiacelula", "Jiren", "biografíajiren", "biografiajiren", "Gohan", "biografíagohan", "biografiagohan", "trunks", "biografíatrunks", "biografiatrunks", "vegeta", "biografíavegeta", "biografiavegeta", "hit", "biografíahit", "biografiahit", "beerus", "biografíabeerus", "biografiabeerus", "curiosidadesdragonball", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
