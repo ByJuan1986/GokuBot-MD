@@ -533,9 +533,8 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTcwMjUwMTBf
 }
 
 
-  
 // biografía Goku
-if (command === "Goku" || command === "biografiagoku") {
+if (command === "Goku" || command === "biografíagoku") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗸𝘂
 
 Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin es Kakarotto. Nació en el año 737 en el Planeta Vegeta y fue enviado a la Tierra cuando era un bebé. En Dragon Ball Super tiene alrededor de 49 años.
@@ -581,6 +580,18 @@ Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin e
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
 
 * Goku es considerado uno de los personajes de anime más famosos y queridos de toda la historia 😎🐉
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
+}
+
+
+  
+  
+// biografía Goku
+if (command === "zzzz" || command === "zzzxxxx") {
+let random = `
+
+
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
 }  
