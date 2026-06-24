@@ -630,7 +630,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf
   
 
 // biografía Celula
-if (command === "Celula" || command === "biografíacelula") || command === "biografiacelula") {
+if (command === "celula" || command === "biografíacelula") || command === "biografiacelula") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
 Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el Dr. Gero usando células de grandes guerreros como Goku, Vegeta, Piccolo y Freezer.
