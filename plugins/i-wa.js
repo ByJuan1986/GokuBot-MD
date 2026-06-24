@@ -581,7 +581,7 @@ Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin e
 
 * Goku es considerado uno de los personajes de anime más famosos y queridos de toda la historia 😎🐉
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcxMjM1MzFf/Goku.mp4" }, caption: random }, { quoted: m })
 }
 
 // biografía Freezer 
