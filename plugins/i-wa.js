@@ -584,19 +584,6 @@ Goku es el protagonista principal de Dragon Ball. Su verdadero nombre Saiyajin e
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
 }
 
-
-  
-  
-// biografía Goku
-if (command === "zzzz" || command === "zzzxxxx") {
-let random = `
-
-
-`
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTc1MTdf/Goku%20ultrainstinto.mp4" }, caption: random }, { quoted: m })
-}  
-
-
 // biografía Freezer 
 if (command === "Freezer" || command === "biografíafreezer") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗙𝗿𝗲𝗲𝘇𝗲𝗿
