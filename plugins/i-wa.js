@@ -630,7 +630,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf
   
 
 // biografía Celula
-if (command === "celula" || command === "biografíacelula") || command === "biografiacelula") {
+if (command === "celula"  || command === "biografíacelula") || command === "biografiacelula") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
 Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el Dr. Gero usando células de grandes guerreros como Goku, Vegeta, Piccolo y Freezer.
@@ -672,7 +672,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf
 
 
 // biografía Jiren
-if (command === "Jiren" || command === "biografíajiren") || command === "biografiajiren") {
+if (command === "Jiren"  || command === "biografíajiren") || command === "biografiajiren") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗶𝗿𝗲𝗻
 
 Jiren es uno de los guerreros más poderosos de Dragon Ball Super y miembro de las Tropas del Orgullo del Universo 11. Su edad exacta es desconocida, pero es considerado un luchador extremadamente experimentado.
