@@ -628,9 +628,8 @@ Freezer es uno de los villanos más famosos y peligrosos de Dragon Ball. Es el e
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf/Freezer.mp4" }, caption: random }, { quoted: m })
 }  
   
-
-// biografía Celula
-if (command === "cell"  || command === "biografíacelula") || command === "biografiacelula") {
+// biografía chichi
+if (command === "celula" || command === "biografíacelula") || command === "biografiacelula") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
 Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el Dr. Gero usando células de grandes guerreros como Goku, Vegeta, Piccolo y Freezer.
@@ -666,6 +665,18 @@ Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el D
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
 
 * Gracias a las células de varios guerreros, Cell podía usar técnicas de muchos personajes diferentes 😮‍💨🔥
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf/Celula.mp4" }, caption: random }, { quoted: m })
+}
+
+
+
+  
+// biografía zzzz
+if (command === "zzz"  || command === "zzxzz") || command === "vzzzz") {
+let random = `
+
+
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf/Celula.mp4" }, caption: random }, { quoted: m })
 }  
