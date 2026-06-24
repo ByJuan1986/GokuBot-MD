@@ -672,7 +672,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf
 
 
 // biografía Jiren
-if (command === "Jiren" || command === "biografíajiren") {
+if (command === "Jiren" || command === "biografíajiren") || command === "biografiajiren") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗶𝗿𝗲𝗻
 
 Jiren es uno de los guerreros más poderosos de Dragon Ball Super y miembro de las Tropas del Orgullo del Universo 11. Su edad exacta es desconocida, pero es considerado un luchador extremadamente experimentado.
@@ -715,7 +715,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf
 }  
 
 // biografía Bulma
-if (command === "Bulma" || command === "biografíabulma") {
+if (command === "Bulma" || command === "biografíabulma") || command === "biografiabulma") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Bulma 
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
@@ -732,7 +732,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf
 }
 
 // biografía chichi
-if (command === "Chichi" || command === "biografíachichi") {
+if (command === "Chichi" || command === "biografíachichi") || command === "biografiachichi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Chichi
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
@@ -750,7 +750,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODVf
 
 
 // biografía chichi
-if (command === "Goten" || command === "biografíagoten") {
+if (command === "Goten" || command === "biografíagoten") || command === "biografiagoten") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Goten 
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
@@ -767,7 +767,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf
 }
 
 // biografía Krilin 
-if (command === "Krilin" || command === "biografíakrilin") {
+if (command === "Krilin" || command === "biografíakrilin") || command === "biografiakrilin") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Krilin
 
 🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
@@ -785,7 +785,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTRf
   
  
 // biografía Gohan 
-if (command === "Gohan" || command === "biografíagohan") {
+if (command === "Gohan"  || command === "biografíagohan") || command === "biografiagohan") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗵𝗮𝗻
 
 Gohan es el hijo mayor de Goku y Chi-Chi. Nació el 18 de mayo del año 757 y es uno de los personajes con más potencial de Dragon Ball.
@@ -834,7 +834,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf
 
   
 // biografía Trunks 
-if (command === "Trunks" || command === "biografíatrunks") {
+if (command === "Trunks" || command === "biografíatrunks") || command === "biografiatrunks") {
 let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝗿𝘂𝗻𝗸𝘀
 
 Trunks es el hijo de Vegeta y Bulma. Es un híbrido Saiyajin y humano. Nació el 1 de junio del año 766.
@@ -858,7 +858,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf
 
 
 // biografía Vegeta 
-if (command === "vegeta" || command === "biografíavegeta") {
+if (command === "vegeta" || command === "biografíavegeta") || command === "biografiavegeta") {
 let random = ` 𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲𝘁𝗮
 
 Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 732 en el Planeta Vegeta. En Dragon Ball Super tiene alrededor de 50 años.
@@ -901,7 +901,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf
 }
     
 // biografía Hit
-if (command === "Hit" || command === "biografíahit") {
+if (command === "Hit" || command === "biografíahit") || command === "biografiahit") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗶𝘁 
  
 Hit es el asesino más poderoso del Universo 6. Tiene más de 1000 años y es conocido por su gran experiencia en combate.
@@ -927,7 +927,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf
 } 
 
 // biografía Beerus
-if (command === "beerus" || command === "biografiabeerus") {
+if (command === "beerus" || command === "biografíabeerus") || command === "biografiabeerus") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗲𝗲𝗿𝘂𝘀 
  
 Bills, conocido realmente como Beerus, es el Dios de la Destrucción del Universo 7. Tiene millones de años.
