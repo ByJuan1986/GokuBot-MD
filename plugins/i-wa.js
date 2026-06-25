@@ -750,7 +750,16 @@ en contracción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
 }
 
+//Biografia Whis
+if (command === "whis"  || command === "biografíawhis" || command === "biografiawhis") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗪𝗵𝗶𝘀 
 
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODA5Njdf/Whis.mp4" }, caption: random }, { quoted: m })
+                                                                                                                    }
 
 
 
