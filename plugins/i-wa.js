@@ -772,6 +772,20 @@ en contracción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODY4ODJf/Broly.mp4" }, caption: random }, { quoted: m })
 }  
 
+//Biografia Zeno
+if (command === "zeno"  || command === "biografíazeno" || command === "biografiazeno") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗲𝗻𝗼 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1Nzg4NjFf/zeno%20sama.mp4" }, caption: random }, { quoted: m })
+}  
+  
+
+
+
   
 
 
