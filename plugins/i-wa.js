@@ -769,7 +769,7 @@ en contracción!!!
  
  
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODY4ODJf/Broly.mp4" }, caption: random }, { quoted: m })
 }  
 
   
