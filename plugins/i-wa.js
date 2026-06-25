@@ -628,14 +628,34 @@ Freezer es uno de los villanos más famosos y peligrosos de Dragon Ball. Es el e
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf/Freezer.mp4" }, caption: random }, { quoted: m })
 }  
   
+//Biografia celula
+if (command === "celula"  || command === "biografíacelula" || command === "biografiacelula") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf/Celula.mp4" }, caption: random }, { quoted: m })
+}
 
+//Biografia Jiren
+if (command === "jiren"  || command === "biografíajiren" || command === "biografiajiren") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗶𝗿𝗲𝗻
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf/Jiren.mp4" }, caption: random }, { quoted: m })
+}
+  
 
   
 // funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc2MzMzNjhf/Dragon_ball_video_01.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf/Jiren.mp4" }, caption: random }, { quoted: m })
 }
 
   
