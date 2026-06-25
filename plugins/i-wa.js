@@ -651,6 +651,45 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf
 }
   
 
+//Biografia Bulma
+if (command === "bulma"  || command === "biografíabulma" || command === "biografiabulma") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 bulma
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf/Bulma.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Bulma
+if (command === "chichi"  || command === "biografíachichi" || command === "biografiachichi") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 chichi
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODVf/Chichi.mp4" }, caption: random }, { quoted: m })
+}
+  
+//Biografia Goten
+if (command === "goten"  || command === "biografíagoten" || command === "biografiagoten") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Goten
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf/Goten.mp4" }, caption: random }, { quoted: m })
+}
+
+
+
+
+
+
+  
   
 // funcion de pruebas
 if (command === "administradores") {
