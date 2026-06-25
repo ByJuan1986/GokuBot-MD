@@ -684,13 +684,92 @@ en contracción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf/Goten.mp4" }, caption: random }, { quoted: m })
 }
 
+//Biografia Krilin 
+if (command === "krilin"  || command === "biografíakrilin" || command === "biografiakrilin") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Krilin 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTRf/Krilin.mp4" }, caption: random }, { quoted: m })
+  }
+
+//Biografia Gohan
+if (command === "gohan"  || command === "biografíagohan" || command === "biografiagohan") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗵𝗮𝗻 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf/Gohan.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Trunks
+if (command === "trunks"  || command === "biografíatrunks" || command === "biografiatrunks") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝗿𝘂𝗻𝗸𝘀 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf/Trunks.mp4" }, caption: random }, { quoted: m })
+}
+  
+//Biografia Vegeta
+if (command === "vegeta"  || command === "biografíavegeta" || command === "biografiavegeta") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲𝘁𝗮 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf/Vegeta.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Hit
+if (command === "hit"  || command === "biografíahit" || command === "biografiahit") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗶𝘁 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf/Hit.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Beerus
+if (command === "beerus"  || command === "biografíabeerus" || command === "biografiabeerus") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗲𝗲𝗿𝘂𝘀 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
 
 
   
+
+
   
+//Biografia Plantilla
+if (command === "plantilla"  || command === "biografíaplantilla" || command === "biografiaplantilla") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+
+en contracción!!!
+ 
+ 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+
+
 // funcion de pruebas
 if (command === "administradores") {
 let random = `Xd`
