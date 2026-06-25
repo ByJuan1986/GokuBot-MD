@@ -632,9 +632,39 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODFf
 if (command === "celula"  || command === "biografíacelula" || command === "biografiacelula") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗲𝗹𝗹
 
-en contracción!!!
- 
- 
+Cell es uno de los villanos más poderosos de Dragon Ball Z. Fue creado por el Dr. Gero usando células de grandes guerreros como Goku, Vegeta, Piccolo y Freezer.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Cell llegó del futuro usando una máquina del tiempo para absorber a los androides 17 y 18 y alcanzar su forma perfecta. Después organizó el Torneo de Cell para demostrar su poder y desafiar a los Guerreros Z.
+* Su mayor pelea fue contra Gohan, quien logró derrotarlo usando el Super Saiyajin 2.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene un cuerpo verde con manchas negras, cola larga y alas pequeñas. Su personalidad es arrogante, inteligente, cruel y muy confiada.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta demostrar su perfección, pelear contra rivales fuertes y humillar a sus enemigos. No le gusta perder ni ser superado.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Kamehameha
+* Solar Kamehameha
+* Regeneración
+* Absorción
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+* Cell Imperfecto
+* Semi-Perfect Cell
+* Perfect Cell 💥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Gracias a las células de varios guerreros, Cell podía usar técnicas de muchos personajes diferentes 😮‍💨🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf/Celula.mp4" }, caption: random }, { quoted: m })
 }
@@ -643,9 +673,41 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyODRf
 if (command === "jiren"  || command === "biografíajiren" || command === "biografiajiren") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗶𝗿𝗲𝗻
 
-en contracción!!!
- 
- 
+Jiren es uno de los guerreros más poderosos de Dragon Ball Super y miembro de las Tropas del Orgullo del Universo 11. Su edad exacta es desconocida, pero es considerado un luchador extremadamente experimentado.
+
+🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
+
+* Cuando era niño, su familia y maestro fueron asesinados por un enemigo muy poderoso. Después de esa tragedia, Jiren decidió entrenar sin descanso para nunca volver a sentirse débil.
+
+🔹 𝗧𝗼𝗿𝗻𝗲𝗼 𝗱𝗲𝗹 𝗣𝗼𝗱𝗲𝗿
+
+* Jiren participó en el Torneo del Poder representando al Universo 11. Durante el torneo demostró una fuerza increíble, superando incluso el poder de muchos dioses.
+* Su mayor enfrentamiento fue contra Goku, quien despertó el Ultra Instinto peleando contra él.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel gris, ojos negros grandes y una musculatura enorme. Su personalidad es seria, tranquila y muy disciplinada. Casi nunca muestra emociones.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, la justicia y hacerse más fuerte. No le gusta confiar demasiado en otros ni mostrar debilidad.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Power Impact
+* Omegaheat Magnetron
+* Eye Blast
+* Colossal Slash
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝘀𝗼𝗻:
+
+* Jiren no tiene transformaciones oficiales, pero puede aumentar su poder liberando toda su energía 🔥.
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Jiren llegó a ser tan fuerte que muchos dioses de la destrucción reconocieron su enorme poder 😮‍💨💥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf/Jiren.mp4" }, caption: random }, { quoted: m })
 }
@@ -655,7 +717,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf
 if (command === "bulma"  || command === "biografíabulma" || command === "biografiabulma") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 bulma
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -666,7 +728,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf
 if (command === "chichi"  || command === "biografíachichi" || command === "biografiachichi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 chichi
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -677,7 +739,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODVf
 if (command === "goten"  || command === "biografíagoten" || command === "biografiagoten") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Goten
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -688,7 +750,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf
 if (command === "krilin"  || command === "biografíakrilin" || command === "biografiakrilin") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Krilin 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -699,9 +761,46 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTRf
 if (command === "gohan"  || command === "biografíagohan" || command === "biografiagohan") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗵𝗮𝗻 
 
-en contracción!!!
- 
- 
+Gohan es el hijo mayor de Goku y Chi-Chi. Nació el 18 de mayo del año 757 y es uno de los personajes con más potencial de Dragon Ball.
+
+🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
+
+* Desde pequeño mostró un enorme poder oculto. Fue entrenado por Piccolo, quien se convirtió en su maestro y figura importante. Aunque era muy fuerte, nunca le gustó pelear demasiado.
+
+🔹 𝗕𝗮𝘁𝗮𝗹𝗹𝗮𝘀 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁𝗲𝘀
+
+* Gohan participó en grandes peleas contra enemigos como Freezer, Cell y Majin Buu. Su momento más importante fue cuando derrotó a Cell usando el Super Saiyajin 2.
+
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Se casó con Videl y tuvo una hija llamada Pan.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello negro, ojos oscuros y una personalidad amable, inteligente y tranquila. Siempre busca proteger a los demás.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta estudiar, pasar tiempo con su familia y entrenar ocasionalmente. No le gusta la violencia innecesaria ni lastimar personas inocentes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Masenko
+* Kamehameha
+* Special Beam Cannon
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+* Super Saiyajin
+* Super Saiyajin 2
+* Estado Definitivo
+* Beast Gohan 🔥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Muchos fans consideran que Gohan tiene más potencial oculto que incluso Goku y Vegeta 😮‍💨⚡
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf/Gohan.mp4" }, caption: random }, { quoted: m })
 }
@@ -710,9 +809,21 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NTI3MjJf
 if (command === "trunks"  || command === "biografíatrunks" || command === "biografiatrunks") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝗿𝘂𝗻𝗸𝘀 
 
-en contracción!!!
- 
- 
+Trunks es el hijo de Vegeta y Bulma. Es un híbrido Saiyajin y humano. Nació el 1 de junio del año 766.
+
+Existen dos versiones del personaje:
+
+🔹 𝗧𝗿𝘂𝗻𝗸𝘀 𝗱𝗲𝗹 𝗣𝗿𝗲𝘀𝗲𝗻𝘁𝗲:
+
+* Es el niño que vive en paz junto a su familia y mejor amigo Goten. En Dragon Ball Super tiene alrededor de 14 años.
+
+🔹 𝗧𝗿𝘂𝗻𝗸𝘀 𝗱𝗲𝗹 𝗙𝘂𝘁𝘂𝗿𝗼:
+
+* Viene de una línea temporal donde los androides destruyeron casi toda la Tierra. Viajó al pasado usando la máquina del tiempo de Bulma para salvar el futuro. En Dragon Ball Super tiene aproximadamente 30 años.
+
+* Trunks tiene cabello lila, ojos azules y gran habilidad para pelear. Su personalidad cambia según la versión: el del presente es alegre y travieso, mientras que el del futuro es serio, maduro y valiente.
+* Le gusta entrenar, ayudar a los demás y pasar tiempo con Goten. No le gusta la injusticia ni perder personas importantes.
+* Sus técnicas más famosas son Burning Attack, Finish Buster y Shining Sword Attack. Sus transformaciones principales son Super Saiyajin, Super Saiyajin 2 y Super Saiyajin Rage.
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf/Trunks.mp4" }, caption: random }, { quoted: m })
 }
