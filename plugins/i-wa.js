@@ -832,9 +832,41 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4MzI4OTNf
 if (command === "vegeta"  || command === "biografíavegeta" || command === "biografiavegeta") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗲𝗴𝗲𝘁𝗮 
 
-en contracción!!!
- 
- 
+Vegeta es el príncipe de los Saiyajin e hijo del Rey Vegeta. Nació en el año 732 en el Planeta Vegeta. En Dragon Ball Super tiene alrededor de 50 años.
+
+🔹 𝗜𝗻𝗳𝗮𝗻𝗰𝗶𝗮
+
+* Desde pequeño fue un guerrero de élite con un enorme poder y mucho orgullo Saiyajin. Después de que Freezer destruyera el Planeta Vegeta, sobrevivió y trabajó para él conquistando planetas.
+
+🔹 𝗟𝗹𝗲𝗴𝗮𝗱𝗮 𝗮 𝗹𝗮 𝗧𝗶𝗲𝗿𝗿𝗮
+
+* Tiempo después llegó a la Tierra buscando las Esferas del Dragón y se enfrentó a Goku, quien terminó convirtiéndose en su mayor rival y motivación para hacerse más fuerte.
+
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Vegeta se casó con Bulma y tuvo dos hijos: Trunks y Bra.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello negro puntiagudo, ojos negros y mide aproximadamente 1.64 m. Su personalidad es orgullosa, seria, inteligente y muy competitiva.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, superar sus límites y proteger a su familia. No le gusta perder, depender de otros ni mostrar debilidad.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+𝗦𝘂𝘀 𝘁𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝗺𝗮𝘀 𝗳𝗮𝗺𝗼𝘀𝗮𝘀 𝘀𝗼𝗻:
+
+* Galick Gun, Big Bang Attack y Final Flash.
+
+𝗦𝘂𝘀 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 𝗽𝗿𝗶𝗻𝗰𝗶𝗽𝗮𝗹𝗲𝘀 𝘀𝗼𝗻:
+
+* Super Saiyajin
+* Super Saiyajin 2
+* Majin Vegeta
+* Super Saiyajin Blue
+* Ultra Ego 💜
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf/Vegeta.mp4" }, caption: random }, { quoted: m })
 }
@@ -843,9 +875,23 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTA4NDA2MTFf
 if (command === "hit"  || command === "biografíahit" || command === "biografiahit") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗶𝘁 
 
-en contracción!!!
- 
- 
+Hit es el asesino más poderoso del Universo 6. Tiene más de 1000 años y es conocido por su gran experiencia en combate.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Participó en el Torneo entre los Universos 6 y 7 y más adelante en el Torneo del Poder. Se volvió rival y aliado de Goku.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es serio, tranquilo, inteligente y muy profesional.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Salto Temporal, Jaula del Tiempo, Golpes de alta velocidad.
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Puede detener el tiempo por unos instantes.
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf/Hit.mp4" }, caption: random }, { quoted: m })
 }
@@ -854,9 +900,23 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDQ5Njlf
 if (command === "beerus"  || command === "biografíabeerus" || command === "biografiabeerus") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗲𝗲𝗿𝘂𝘀 
 
-en contracción!!!
- 
- 
+Bills, conocido realmente como Beerus, es el Dios de la Destrucción del Universo 7. Tiene millones de años.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Despierta después de un largo sueño buscando al Super Saiyajin Dios y conoce a Goku.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es tranquilo, arrogante y ama dormir y comer 😹
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Hakai, Energía de destrucción, Ultra velocidad
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Su comida favorita es la comida terrestre 🍜🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
 }
@@ -865,7 +925,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf
 if (command === "whis"  || command === "biografíawhis" || command === "biografiawhis") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗪𝗵𝗶𝘀 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -876,7 +936,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODA5Njdf
 if (command === "broly"  || command === "biografíabroly" || command === "biografiabroly") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗿𝗼𝗹𝘆 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -887,7 +947,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODY4ODJf
 if (command === "zeno"  || command === "biografíazeno" || command === "biografiazeno") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗲𝗻𝗼 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -898,7 +958,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1Nzg4NjFf
 if (command === "gransacerdote"  || command === "biografíagransacerdote" || command === "biografiagransacerdote") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝐆𝐫𝐚𝐧 𝐒𝐚𝐜𝐞𝐫𝐝𝐨𝐭𝐞 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -909,7 +969,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1ODIwMTVf
 if (command === "gokublack"  || command === "biografíagokublack" || command === "biografiagokublack") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
@@ -920,7 +980,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc2MzA5MjFf
 if (command === "majinbuu"  || command === "biografíamajinbuu" || command === "biografiamajinbuu") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Majin Buu 
 
-en contracción!!!
+Muy pronto!!!
  
  
 `
