@@ -818,11 +818,28 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc2MzYwMDlf
 
 //Biografia Piccolo
 if (command === "piccolo"  || command === "biografíapiccolo" || command === "biografiapiccolo") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Piccolo 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗣𝗶𝗰𝗰𝗼𝗹𝗼
 
-en contracción!!!
- 
- 
+Picoro, conocido realmente como Piccolo, es un guerrero Namekiano y antiguo rival de Goku.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Al principio fue enemigo de Goku, pero después se convirtió en uno de sus mayores aliados y maestro de Gohan.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es serio, sabio, tranquilo y protector.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Makankosappo
+* Regeneración
+* Gigantificación
+
+🔹 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Piccolo Fusionado
+* Orange Piccolo 🟠
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc2MzkzMDFf/piccolo.mp4" }, caption: random }, { quoted: m })
 }
