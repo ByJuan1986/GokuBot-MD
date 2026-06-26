@@ -925,9 +925,25 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf
 if (command === "whis"  || command === "biografíawhis" || command === "biografiawhis") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗪𝗵𝗶𝘀 
 
-Muy pronto!!!
- 
- 
+Whis es el ángel y maestro de Beerus. Tiene millones de años y es uno de los seres más poderosos del universo.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Entrena a Goku y Vegeta para mejorar sus habilidades divinas.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es calmado, elegante, amable y muy inteligente.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Ultra Instinto
+* Retroceder el tiempo
+* Bastón angelical
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+*Puede regresar el tiempo tres minutos ⏰✨
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODA5Njdf/Whis.mp4" }, caption: random }, { quoted: m })
 }
@@ -936,9 +952,25 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODA5Njdf
 if (command === "broly"  || command === "biografíabroly" || command === "biografiabroly") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗿𝗼𝗹𝘆 
 
-Muy pronto!!!
- 
- 
+Broly es un Saiyajin legendario con un poder monstruoso. Nació el mismo día que Goku.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Fue exiliado junto a su padre Paragus y sobrevivió en un planeta peligroso hasta enfrentarse a Goku y Vegeta.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es tranquilo y noble, pero pierde el control cuando se enfurece.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Eraser Cannon
+* Poder Saiyajin Legendario
+* Explosiones masivas
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Su poder aumenta constantemente mientras pelea 🔥💚
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODY4ODJf/Broly.mp4" }, caption: random }, { quoted: m })
 }  
@@ -947,9 +979,22 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc0ODY4ODJf
 if (command === "zeno"  || command === "biografíazeno" || command === "biografiazeno") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗲𝗻𝗼 
 
-Muy pronto!!!
- 
- 
+Zeno Sama es el rey de todos los universos y el ser más poderoso de Dragon Ball.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Gobierna todos los universos junto a su versión del futuro.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es infantil, curioso y amable, pero extremadamente peligroso.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱
+
+* Puede borrar universos completos instantáneamente 💥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+* Todos los dioses le tienen miedo 😨
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1Nzg4NjFf/zeno%20sama.mp4" }, caption: random }, { quoted: m })
 }  
