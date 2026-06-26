@@ -724,7 +724,7 @@ Muy pronto!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf/Bulma.mp4" }, caption: random }, { quoted: m })
 }
 
-//Biografia Bulma
+//Biografia Chichi
 if (command === "chichi"  || command === "biografíachichi" || command === "biografiachichi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 chichi
 
@@ -994,6 +994,7 @@ Zeno Sama es el rey de todos los universos y el ser más poderoso de Dragon Ball
 * Puede borrar universos completos instantáneamente 💥
 
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
 * Todos los dioses le tienen miedo 😨
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1Nzg4NjFf/zeno%20sama.mp4" }, caption: random }, { quoted: m })
@@ -1002,32 +1003,83 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1Nzg4NjFf
 //Biografia Gran Sacerdote
 if (command === "gransacerdote"  || command === "biografíagransacerdote" || command === "biografiagransacerdote") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝐆𝐫𝐚𝐧 𝐒𝐚𝐜𝐞𝐫𝐝𝐨𝐭𝐞 
+ 
+El Gran Sacerdote, llamado Daishinkan, es el padre de los ángeles y asistente principal de Zeno Sama.
 
-Muy pronto!!!
- 
- 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Organiza eventos importantes como el Torneo del Poder.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es educado, calmado y muy serio.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Poder angelical
+* Teletransportación
+* Control del cosmos
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Es uno de los cinco seres más poderosos de todo Dragon Ball 🌌✨
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc1ODIwMTVf/Gran%20Sacerdote.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Goku Black
 if (command === "gokublack"  || command === "biografíagokublack" || command === "biografiagokublack") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝗸𝘂 𝗕𝗹𝗮𝗰𝗸 
+ 
+Goku Black es en realidad Zamasu usando el cuerpo de Goku.
 
-Muy pronto!!!
- 
- 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Robó el cuerpo de Goku usando las Super Esferas del Dragón y destruyó gran parte del futuro de Trunks.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es arrogante, cruel y cree que los mortales deben desaparecer.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Kamehameha Oscuro
+* Espada de Ki
+* Guadaña de energía
+
+🔹 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻
+
+* Super Saiyajin Rosé 🌸
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc2MzA5MjFf/gokublack.mp4" }, caption: random }, { quoted: m })
 }  
 
 //Biografia Majin Buu 
 if (command === "majinbuu"  || command === "biografíamajinbuu" || command === "biografiamajinbuu") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Majin Buu 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗠𝗮𝗷𝗶𝗻 𝗕𝘂𝘂 
 
-Muy pronto!!!
- 
- 
+Majin Buu es una criatura mágica creada por Bibidi hace millones de años.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Ha tenido varias formas y fue uno de los enemigos más peligrosos de los Guerreros Z.
+
+🔹 𝗣𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Depende de la forma: puede ser inocente, divertida o extremadamente malvada.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀
+
+* Absorción
+* Regeneración
+* Rayo de chocolate
+
+🔹 𝗧𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Buu Gordo
+* Evil Buu
+* Super Buu
+* Kid Buu 💗
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc2MzYwMDlf/majinbuu.mp4" }, caption: random }, { quoted: m })
 }
