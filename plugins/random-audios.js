@@ -54,6 +54,8 @@ const audioMap = [
 
 // BSO dragon ball latino  
 {regex: /^DB opening latino$/i, url: 'https://od.lk/s/NTZfNDg0ODQ4MTVf/DB%20opening%20latino.mp3'},
+{regex: /^DB ending latino$/i, url: 'https://od.lk/s/NTZfNDg0ODQ3OTJf/DB%20ending%20latino.mp3'},
+
  
 // Personajes dragon ball en latino
 {regex: /^callate|Cállate|🤫$/i, url: 'https://od.lk/s/NTZfNDg0NjU2NTdf/callate.mp3'},
