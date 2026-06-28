@@ -54,6 +54,8 @@ const audioMap = [
 
 // GokuBot Catalan 
 {regex: /^DB opening catalan$/i, url: 'https://od.lk/s/NTZfNTgyNjgwNTlf/DB%20opening%20catala.mp3'},
+{regex: /^DB ending catalan$/i, url: 'https://od.lk/s/NTZfNTgyNjkwMjJf/DB%20ending%20catalan.mp3'},
+
  
 // BSO dragon ball latino  
 {regex: /^DB opening latino$/i, url: 'https://od.lk/s/NTZfNDg0ODQ4MTVf/DB%20opening%20latino.mp3'},
