@@ -1229,7 +1229,7 @@ let random = `Lista de administradores, de cada grupo...
 🐉🎮𝔻ℝ𝔸𝔾𝕆ℕ 𝔹𝔸𝕃𝕃 𝔽𝕀𝔾𝕋ℍ𝔼ℝℤ🎮🐉
 • Juan1986 - +34636445091
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf/Jiren.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyNzQ1MjBf/administradores.jpg" }, caption: random }, { quoted: m })
 }
 
   
