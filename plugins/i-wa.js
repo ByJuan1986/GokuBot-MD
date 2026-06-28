@@ -417,12 +417,31 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf
 
 //menu opening
 if (command === "menuopening"  || command === "openingmenu") {
-let random = `menu
-
-muy pronto!!!
- 
- 
-`
+let random = `*╔══════════════*
+*║* \`𝗠𝗲𝗻𝘂 𝗢𝗽𝗲𝗻𝗶𝗻𝗴𝘀\` 
+*║*
+*║* • \`𝗢𝗽𝗲𝗻𝗶𝗻𝗴 𝗰𝗮𝘀𝘁𝗲𝗹𝗹𝗮𝗻𝗼\`
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* • \`𝗢𝗽𝗲𝗻𝗶𝗻𝗴 𝗹𝗮𝘁𝗶𝗻𝗼\`  
+*║* 🔊
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* • \`𝗢𝗽𝗲𝗻𝗶𝗻𝗴 𝗩𝗮𝗹𝗲𝗻𝗰𝗶𝗮𝗻𝗼\`
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊
+*║* 🔊 
+*╚══════════════*
+𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)`
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf/Menu%20audios.jpg" }, caption: random }, { quoted: m })
 }
 
