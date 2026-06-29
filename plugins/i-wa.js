@@ -1233,13 +1233,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTc2MzkzMDFf
 
 //biografia Bra
 if (command === "bra"  || command === "biografíabra" || command === "biografiabra") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗿𝗮
 
-luego 
- 
- 
+Bra, conocida originalmente como bulla, es la hija menor de Vegeta y Bulma. Nació en el año 780 y es una híbrida entre humana y Saiyajin. En Dragon Ball Super tiene alrededor de 1 año.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Bra nació poco antes del Torneo del Poder. Desde su nacimiento fue muy querida por su familia, especialmente por Vegeta, quien mostró un lado más cariñoso y protector gracias a ella.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello azul claro, ojos azules y una personalidad alegre, tranquila y muy cariñosa. Aunque aún es una bebé en Dragon Ball Super, demuestra ser muy expresiva.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta estar con su familia, recibir atención y jugar. Como cualquier bebé, no le gusta quedarse sola o sentirse incómoda.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Hasta el momento no ha mostrado técnicas ni transformaciones, pero al ser hija de un Saiyajin y una humana posee un enorme potencial para convertirse en una poderosa guerrera.
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Vegeta dejó de entrenar por un tiempo para estar presente en el nacimiento de Bra, demostrando cuánto había cambiado desde sus primeros días como guerrero. 💙👶 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgyOTMwMTVf/Bra.mp4" }, caption: random }, { quoted: m })
 }
 
 
