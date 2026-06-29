@@ -759,17 +759,33 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf
 if (command === "bulma"  || command === "biografíabulma" || command === "biografiabulma") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝘂𝗹𝗺𝗮
 
+Bulma es una de las protagonistas principales de Dragon Ball y la hija del fundador de Capsule Corp. Nació el 18 de agosto del año 733 y es considerada una de las científicas más inteligentes del universo. En Dragon Ball Super tiene alrededor de 47 años.
+
 🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Bulma fue la primera amiga de Goku y quien inició la búsqueda de las Esferas del Dragón. Gracias a su inteligencia creó inventos como el Radar del Dragón, naves espaciales y la máquina del tiempo, ayudando en numerosas ocasiones a salvar la Tierra.
+
+🔹 Familia
+
+* Se casó con Vegeta y tuvo dos hijos: Trunks y Bulla.
 
 🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
+* Tiene cabello azul (lila en algunas versiones del anime), ojos azules y una personalidad inteligente, valiente, divertida y un poco mandona.
+
 🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
 
-🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
- 
+* Le gustan la ciencia, la tecnología, la moda y crear nuevos inventos. No le gusta que destruyan sus proyectos ni que la subestimen.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Inteligencia científica
+* Creación de inventos avanzados
+* Manejo de tecnología y naves espaciales
+
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
- 
- 
+
+* Aunque no es una guerrera, Bulma ha sido una de las personas más importantes para proteger la Tierra gracias a su enorme inteligencia y sus inventos. 🧠✨
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf/Bulma.mp4" }, caption: random }, { quoted: m })
 }
