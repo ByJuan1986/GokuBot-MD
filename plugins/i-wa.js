@@ -757,9 +757,17 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTEwNjEyOTZf
 
 //Biografia Bulma
 if (command === "bulma"  || command === "biografíabulma" || command === "biografiabulma") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 bulma
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝘂𝗹𝗺𝗮
 
-Muy pronto!!!
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+ 
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
  
  
 `
@@ -768,9 +776,17 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf
 
 //Biografia Chichi
 if (command === "chichi"  || command === "biografíachichi" || command === "biografiachichi") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 chichi
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗰𝗵𝗶𝗰𝗵𝗶
 
-Muy pronto!!!
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+ 
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
  
  
 `
@@ -779,22 +795,51 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODVf
   
 //Biografia Goten
 if (command === "goten"  || command === "biografíagoten" || command === "biografiagoten") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Goten
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗼𝘁𝗲𝗻
+ 
+Goten es el hijo menor de Goku y Chi-Chi. Nació el 26 de agosto del año 767 y es un híbrido entre humano y Saiyajin. En Dragon Ball Super tiene alrededor de 13 años.
 
-Muy pronto!!!
- 
- 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Goten nació después del sacrificio de Goku contra Cell, por lo que pasó varios años sin conocer a su padre. Desde muy pequeño demostró un gran talento para el combate y aprendió a convertirse en Super Saiyajin con mucha facilidad. Entrenó junto a su mejor amigo, Trunks, y ambos realizaron la Fusión Metamoru para formar a Gotenks.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello negro puntiagudo muy parecido al de Goku cuando era niño, ojos negros y una personalidad alegre, amable, inocente y muy divertida.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, jugar con Trunks, pelear amistosamente y pasar tiempo con su familia. No le gusta ver sufrir a las personas ni las injusticias.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Kamehameha
+* Danza de la Fusión (Metamoru)
+* Super Saiyajin
+
+* Gotenks (al fusionarse con Trunks) 💥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+Goten es el Saiyajin más joven en alcanzar el estado de Super Saiyajin, logrando transformarse con solo 7 años. ⚡😎
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf/Goten.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Krilin 
 if (command === "krilin"  || command === "biografíakrilin" || command === "biografiakrilin") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 Krilin 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗞𝗿𝗶𝗹𝗶𝗻
 
-Muy pronto!!!
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
  
- 
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTRf/Krilin.mp4" }, caption: random }, { quoted: m })
   }
