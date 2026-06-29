@@ -1453,9 +1453,18 @@ let random = `Lista de administradores, de cada grupo...
 *║*
 *╚══════════════*
 
-
-🌍🐉🐲 𝔽𝕒𝕟𝕤 𝔻𝕖 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 ℤ 𝕂𝕒𝕚 🐲🐉🌍
-• Juan1986 - +34636445091
+*╔══════════════*
+*║* 🌍🐉🐲 𝔽𝕒𝕟𝕤 𝔻𝕖 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 ℤ 𝕂𝕒𝕚 🐲🐉🌍
+*║* • *Juan1986*
+*║* 🟢 wa.me/+34636445091
+*║*
+*║* • 𝗚𝗼𝗸𝘂
+*║* 🟢 wa.me/+34686630246
+*║*
+*║* • 𝗠𝗮𝘅𝗶𝗺𝘂𝘀
+*║* 🟢 wa.me/+51924171191
+*║*
+*╚══════════════*
 
 *╔══════════════*
 *║* 🐉🎮𝔻ℝ𝔸𝔾𝕆ℕ 𝔹𝔸𝕃𝕃 𝔽𝕀𝔾𝕋ℍ𝔼ℝℤ🎮🐉
@@ -1467,7 +1476,7 @@ let random = `Lista de administradores, de cada grupo...
 *║*
 *╚══════════════*
 `
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyNzQ1MjBf/administradores.jpg" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyNzQ1MjBf/administradores.j pg" }, caption: random }, { quoted: m })
 }
 
   
