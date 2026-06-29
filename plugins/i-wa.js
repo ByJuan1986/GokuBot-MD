@@ -765,7 +765,7 @@ Bulma es una de las protagonistas principales de Dragon Ball y la hija del funda
 
 * Bulma fue la primera amiga de Goku y quien inició la búsqueda de las Esferas del Dragón. Gracias a su inteligencia creó inventos como el Radar del Dragón, naves espaciales y la máquina del tiempo, ayudando en numerosas ocasiones a salvar la Tierra.
 
-🔹 Familia
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
 
 * Se casó con Vegeta y tuvo dos hijos: Trunks y Bulla.
 
@@ -794,17 +794,33 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODZf
 if (command === "chichi"  || command === "biografíachichi" || command === "biografiachichi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗰𝗵𝗶𝗰𝗵𝗶
 
+Chi-Chi, conocida como Milk en el doblaje latino, es la esposa de Goku e hija del Rey Ox. Nació el 12 de mayo del año 737 y en Dragon Ball Super tiene alrededor de 43 años.
+
 🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Conoció a Goku cuando ambos eran niños y años después cumplieron la promesa de casarse. Desde entonces se ha dedicado a cuidar de su familia y a apoyar a sus hijos, aunque siempre intenta que prioricen los estudios antes que las peleas.
+
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Está casada con Goku y es madre de Gohan y Goten.
 
 🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
+* Tiene cabello negro, ojos oscuros y una personalidad fuerte, protectora, responsable y muy cariñosa con su familia. Aunque suele enojarse con Goku, siempre se preocupa por él.
+
 🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
 
-🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
- 
+* Le gusta cuidar a su familia, cocinar y que sus hijos estudien. No le gusta que Goku pase todo el tiempo entrenando o arriesgando su vida en combates.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Artes marciales
+* Gran fuerza física
+* Excelente cocinera
+
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
- 
- 
+
+Antes de convertirse en ama de casa, Chi-Chi fue una talentosa luchadora y participó en el Torneo Mundial de Artes Marciales, donde volvió a encontrarse con Goku y finalmente se casó con él. ❤️
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExMTE3ODVf/Chichi.mp4" }, caption: random }, { quoted: m })
 }
@@ -817,7 +833,7 @@ Goten es el hijo menor de Goku y Chi-Chi. Nació el 26 de agosto del año 767 y 
 
 🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
 
-* Goten nació después del sacrificio de Goku contra Cell, por lo que pasó varios años sin conocer a su padre. Desde muy pequeño demostró un gran talento para el combate y aprendió a convertirse en Super Saiyajin con mucha facilidad. Entrenó junto a su mejor amigo, Trunks, y ambos realizaron la Fusión Metamoru para formar a Gotenks.
+* Goten nació después del sacrificio de Goku contra Cell, por lo que pasó varios años sin conocer a su padre. Desde muy pequeño demostró un gran talento para el coe y aprendió a convertirse en Super Saiyajin con mucha facilidad. Entrenó junto a su mejor amigo, Trunks, y ambos realizaron la Fusión Metamoru para formar a Gotenks.
 
 🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
