@@ -1279,7 +1279,7 @@ En construcción!!!
  
  
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3Njdf/Rey%20Vegeta.mp4" }, caption: random }, { quoted: m })
 }
   
 
