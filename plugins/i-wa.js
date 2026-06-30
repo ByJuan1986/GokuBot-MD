@@ -1284,32 +1284,32 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3Njdf
   
 //Biografia Dr. Gero 
 if (command === "drgero"  || command === "biografíadrgero" || command === "biografiadrgero") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗗𝗿. 𝗚𝗲𝗿𝗼 
 
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgzMjZf/dr-gero-C20.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Baby
 if (command === "baby"  || command === "biografíababy" || command === "biografiababy") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗮𝗯𝘆 
 
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgzMDlf/baby.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Janemba 
 if (command === "janemba"  || command === "biografíajanemba" || command === "biografiajanemba") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗮𝗻𝗲𝗺𝗯𝗮 
 
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf/janemba.mp4" }, caption: random }, { quoted: m })
 }
 
 
