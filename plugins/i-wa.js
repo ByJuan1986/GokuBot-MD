@@ -1282,9 +1282,34 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3Njdf/Rey%20Vegeta.mp4" }, caption: random }, { quoted: m })
 }
   
+//Biografia Dr. Gero 
+if (command === "drgero"  || command === "biografíadrgero" || command === "biografiadrgero") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Baby
+if (command === "baby"  || command === "biografíababy" || command === "biografiababy") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
+
+
+
+
+
+  
 
 
   
@@ -1294,8 +1319,7 @@ if (command === "plantilla"  || command === "biografíaplantilla" || command ===
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
 
 En construcción!!!
- 
- 
+
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
 }
