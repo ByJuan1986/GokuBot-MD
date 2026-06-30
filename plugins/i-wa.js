@@ -1540,7 +1540,8 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzdf
   
 // noticias dragon ball
 if (command === "noticiasdragonball") {
-let tuto = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼 𝗱𝗲 𝗹𝗮𝘀 𝗻𝗼𝘃𝗲𝗱𝗮𝗱𝗲𝘀 𝘆 𝗻𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹? 𝗘𝗻 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝗱𝗲 𝗮𝗿𝗿𝗶𝗯𝗮 𝘁𝗲 𝗱𝗲𝗷𝗼 𝗹𝗼 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝘀 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿.. 𝗨𝗻 𝗰𝗮𝗻𝗮𝗹 𝗲𝗰𝗵𝗼 𝗽𝗼𝗿 𝘂𝗻 𝗳𝗮𝗻 𝗽𝗮𝗿𝗮 𝗼𝘁𝗿𝗼𝘀 𝗳𝗮𝗻𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹...
+let tuto = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼
+𝗱𝗲 𝗹𝗮𝘀 𝗻𝗼𝘃𝗲𝗱𝗮𝗱𝗲𝘀 𝘆 𝗻𝗼𝘁𝗶𝗰𝗶𝗮𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹? 𝗘𝗻 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝗱𝗲 𝗮𝗿𝗿𝗶𝗯𝗮 𝘁𝗲 𝗱𝗲𝗷𝗼 𝗹𝗼 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝘀 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿.. 𝗨𝗻 𝗰𝗮𝗻𝗮𝗹 𝗲𝗰𝗵𝗼 𝗽𝗼𝗿 𝘂𝗻 𝗳𝗮𝗻 𝗽𝗮𝗿𝗮 𝗼𝘁𝗿𝗼𝘀 𝗳𝗮𝗻𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹...
 
 𝗣𝘂𝗹𝘀𝗲𝗻 𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝗽𝗮𝗿𝗮 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼𝘀 𝗱𝗲 𝗹𝗮𝘀 𝗻𝗼𝘃𝗲𝗱𝗮𝗱𝗲𝘀 👇👇
 *https://whatsapp.com/channel/0029VaSZsS14Y9lhQYCFvO0w*
@@ -1557,12 +1558,15 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODFf
   
 // video tutorial curiosidades dragon ball
 if (command === "curiosidadesdragonball") {
-let tuto = `*Buscas estar informado de las curiosidades de dragón ball? En el vídeo de arriba te dejo lo que puedes encontrar.. Un canal echo por un fan para otros fans de dragón ball...*
+let tuto = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼
+𝗱𝗲 𝗹𝗮𝘀 𝗰𝘂𝗿𝗶𝗼𝘀𝗶𝗱𝗮𝗱𝗲𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹? 𝗘𝗻 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝗱𝗲 𝗮𝗿𝗿𝗶𝗯𝗮 𝘁𝗲 𝗱𝗲𝗷𝗼 𝗹𝗼 𝗾𝘂𝗲 𝗽𝘂𝗲𝗱𝗲𝘀 𝗲𝗻𝗰𝗼𝗻𝘁𝗿𝗮𝗿.. 𝗨𝗻 𝗰𝗮𝗻𝗮𝗹 𝗲𝗰𝗵𝗼 𝗽𝗼𝗿 𝘂𝗻 𝗳𝗮𝗻 𝗽𝗮𝗿𝗮 𝗼𝘁𝗿𝗼𝘀 𝗳𝗮𝗻𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹...
 
-*Pulsen a seguir para estar informados de las novedades 👇👇*
+𝗣𝘂𝗹𝘀𝗲𝗻 𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝗽𝗮𝗿𝗮 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼𝘀 𝗱𝗲 𝗹𝗮𝘀 𝗻𝗼𝘃𝗲𝗱𝗮𝗱𝗲𝘀 👇👇
 *https://whatsapp.com/channel/0029VaQghZyAInPcWuTHOR3V*
 
-*Esto a sido posible gracias a By Juan1986*`
+𝗘𝘀𝘁𝗼 𝗮 𝘀𝗶𝗱𝗼 𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝗴𝗿𝗮𝗰𝗶𝗮𝘀 𝗮 𝗕𝘆 Juan𝟏𝟗𝟖𝟔
+
+`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODJf/Curiosidades%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
 
