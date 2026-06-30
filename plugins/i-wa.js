@@ -1270,7 +1270,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgyOTMwMTVf
 if (command === "plantilla"  || command === "biografíaplantilla" || command === "biografiaplantilla") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 ??? 
 
-En contrucción!!!
+En construcción!!!
  
  
 `
@@ -1278,9 +1278,9 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf
 }
 
 
-// funcion de pruebas
+// funcion de administradores en el grupo 
 if (command === "administradores") {
-let random = `Lista de administradores, de cada grupo...
+let random = `𝗔𝗾𝘂𝗶 𝗺𝗼𝘀𝘁𝗿𝗮𝗿𝗲𝗺𝗼𝘀 𝘂𝗻𝗮 𝗹𝗶𝘀𝘁𝗮 𝗱𝗲 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗮𝗱𝗺𝗶𝗻𝗶𝘀𝘁𝗿𝗮𝗱𝗼𝗿𝗲𝘀 𝗱𝗲 𝗰𝗮𝗱𝗮 𝗴𝗿𝘂𝗽𝗼, 𝗽𝗼𝗿 𝘀𝗶 𝘁𝗶𝗲𝗻𝗲𝘀 𝗱𝘂𝗱𝗮𝘀 𝗽𝗮𝗿𝗮 𝗰𝗼𝗻𝘁𝗮𝗰𝘁𝗮𝗿 𝗰𝗼𝗻 𝗲𝗹𝗹𝗼𝘀...
 
 *╔══════════════*
 *║* 🌍📱🎮🐉 𝔻𝕣𝕒𝕘𝕠𝕟 𝔹𝕒𝕝𝕝 𝕃𝕖𝕘𝕖𝕟𝕕𝕤 🐉 🎮📱🌍
