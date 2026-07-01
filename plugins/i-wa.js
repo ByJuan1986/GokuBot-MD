@@ -1328,7 +1328,7 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗶𝗿𝘂
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf/janemba.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NjRf/giru.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Cooler
