@@ -1321,9 +1321,55 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf/janemba.mp4" }, caption: random }, { quoted: m })
 }
 
+//Biografia Giru aqui
+if (command === "giru"  || command === "biografíagiru" || command === "biografiagiru") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗶𝗿𝘂 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf/janemba.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Cooler
+if (command === "cooler"  || command === "biografíacooler" || command === "biografiacooler") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗼𝗼𝗹𝗲𝗿  
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Turles
+if (command === "turles"  || command === "biografíaturles" || command === "biografiaturles") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝘂𝗿𝗹𝗲𝘀  
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Bardock 
+if (command === "bardock"  || command === "biografíabardock" || command === "biografiabardock") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗮𝗿𝗱𝗼𝗰𝗸  
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
+
+
+
+  
+
+
+  
 
 
   
