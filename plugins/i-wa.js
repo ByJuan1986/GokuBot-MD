@@ -1321,7 +1321,7 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf/janemba.mp4" }, caption: random }, { quoted: m })
 }
 
-//Biografia Giru aqui
+//Biografia Giru
 if (command === "giru"  || command === "biografíagiru" || command === "biografiagiru") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗶𝗿𝘂 
 
@@ -1361,6 +1361,51 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0MzkxNTFf/Bardock.mp4" }, caption: random }, { quoted: m })
 }
 
+//Biografia Slug desde aquí 
+if (command === "slug"  || command === "biografíaslug" || command === "biografiaslug") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝗹𝘂𝗴 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+
+//Biografia Plantilla
+if (command === "zamas"  || command === "biografíazamas" || command === "biografiazamas") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗮𝗺𝗮𝘀
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}  
+
+//Biografia Bibidi
+if (command === "bibidi"  || command === "biografíabibidi" || command === "biografiabibidi") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗶𝗯𝗶𝗱𝗶 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+  
+//Biografia Babidi
+if (command === "babidi"  || command === "biografíababidi" || command === "biografiababidi") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗮𝗯𝗶𝗱𝗶 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
+
+  
+
+
+
+
 
 
 
@@ -1368,14 +1413,12 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0MzkxNTFf
 
   
 
-
   
 
 
-  
 
 
-  
+
   
 //Biografia Plantilla
 if (command === "plantilla"  || command === "biografíaplantilla" || command === "biografiaplantilla") {
