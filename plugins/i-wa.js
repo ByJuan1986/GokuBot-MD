@@ -1368,7 +1368,7 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝗹𝘂𝗴
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDkyODRf/slug.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Plantilla
@@ -1378,7 +1378,7 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗮𝗺𝗮𝘀
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NTA0NTZf/Zamas.mp4" }, caption: random }, { quoted: m })
 }  
 
 //Biografia Bibidi
