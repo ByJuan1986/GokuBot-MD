@@ -244,8 +244,8 @@ https://chat.whatsapp.com/LvPGDAvKI6R4j35u167sCx
 *💥💣ARCANE💣💥*
 https://chat.whatsapp.com/HHqnpkNB3pRCpekFTzQTne
 
-*🌍🍥🍜 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑵𝒂𝒓𝒖𝒕𝒐 🍜🍥🌍*
-https://chat.whatsapp.com/GDbQsR94lxuIhwggOCPtqA
+⛴️👒𝗢𝗻𝗲 𝗣𝗶𝗲𝗰𝗲👒⛴️
+https://chat.whatsapp.com/Dc2hF9RBvtOGpSISBvIIzh
 
 *🌍⚔️🛡️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒂𝒕𝒂𝒒𝒖𝒆 𝒂 𝒍𝒐𝒔 𝒕𝒊𝒕𝒂𝒏𝒆𝒔 ⚔️🛡️🌍*
 https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
