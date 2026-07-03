@@ -235,8 +235,8 @@ https://chat.whatsapp.com/CRYP316MujxKFYiIHe9ZEx
 *🌍🃏♣️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑲𝒂𝒌𝒆𝒈𝒖𝒓𝒖𝒊 ♣️🃏🌍*
 https://chat.whatsapp.com/By1GlKQ5yLQAYYxhTR8t9N
 
-*🌍⚔️🗡️ 𝑲𝒊𝒍𝒍 𝒍𝒂 𝒌𝒊𝒍𝒍 🗡️⚔️🌍*
-https://chat.whatsapp.com/IIH75WjAuzhBSrd05wFsgV
+💪🧌𝗙𝘂𝗹𝗹𝗺𝗲𝘁𝗮𝗹 𝗔𝗹𝗰𝗵𝗲𝗺𝗶𝘀𝘁: 𝗕𝗿𝗼𝘁𝗵𝗲𝗿𝗵𝗼𝗼𝗱🧌💪
+https://chat.whatsapp.com/Jpl3P5te0Rk4SzVKMFN8SZ
 
 *🌍🎭🐻 𝑩𝒍𝒆𝒂𝒄𝒉 🐻🎭🌍*
 https://chat.whatsapp.com/J0vzttZbKXqKeUZPj0fUYa
