@@ -1431,7 +1431,15 @@ En construcción!!!
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1Nzg5ODFf/Haze%20Shenron.jpeg" }, caption: random }, { quoted: m })
 }
 
+//Biografia Naturon Shenron
+if (command === "naturonshenron"  || command === "biografíanaturonshenron" || command === "biografianaturonshenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗡𝗮𝘁𝘂𝗿𝗼𝗻 𝗦𝗵𝗲𝗻𝗿𝗼𝗻 
 
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1ODE4NDBf/Naturon%20Shenron.jpeg" }, caption: random }, { quoted: m })
+}
 
 
 
@@ -1441,6 +1449,11 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1Nzg5ODFf
 
 
 
+
+
+
+
+  
 
 
   
@@ -1797,7 +1810,7 @@ _*AppStore*_
 
 };
 
-handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografíagoku", "biografiagoku", "goten", "biografíagoten", "biografiagoten", "Krilin", "biografíakrilin", "biografiakrilin", "bulma", "biografíabulma", "biografiabulma", "chichi", "biografíachichi", "biografiachichi", "freezer", "biografíafreezer", "biografiafreezer", "Celula", "celula", "biografíacelula", "biografiacelula", "Jiren", "biografíajiren", "biografiajiren", "Gohan", "biografíagohan", "biografiagohan", "trunks", "biografíatrunks", "biografiatrunks", "vegeta", "biografíavegeta", "biografiavegeta", "hit", "biografíahit", "biografiahit", "beerus", "biografíabeerus", "biografiabeerus", "whis", "biografíawhis", "biografiawhis", "broly", "biografíabroly", "biografiabroly", "zeno", "biografíazeno", "biografiazeno", "gransacerdote", "biografíagransacerdote", "biografiagransacerdote", "gokublack", "biografíagokublack", "biografiagokublack", "majinbuu", "biografíamajinbuu", "biografiamajinbuu", "piccolo", "biografíapiccolo", "biografiapiccolo", "bra", "biografíabra", "biografiabra", "curiosidadesdragonball", "videl", "biografíavidel", "biografiavidel", "reyvegeta", "biografíareyvegeta", "biografiareyvegeta", "baby", "biografíababy", "biografiababy", "drgero", "biografíadrgero", "biografiadrgero", "janemba", "biografíajanemba", "biografiajanemba", "giru", "biografíagiru", "biografiagiru", "cooler", "biografíacooler", "biografiacooler", "turles", "biografíaturles", "biografiaturles", "bardock", "biografíabardock", "biografiabardock", "slug", "biografíaslug", "biografiaslug", "zamas", "biografíazamas", "biografiazamas", "bibidi", "biografíabibidi", "biografiabibidi", "babidi", "biografíababidi", "biografiababidi", "synshenron", "biografíasynshenron", "biografiasynshenron", "nuovashenron", "biografíanuovashenron", "biografianuovashenron", "hazeshenron", "biografíahazeshenron", "biografiahazeshenron", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', "openingmenu", "menuopening", 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', "anime", "animesnuevos", "nuevoanime", 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
+handler.command = ["noticiasdragonball", "menubiografia", "biografias","menubiografias", "goku", "biografíagoku", "biografiagoku", "goten", "biografíagoten", "biografiagoten", "Krilin", "biografíakrilin", "biografiakrilin", "bulma", "biografíabulma", "biografiabulma", "chichi", "biografíachichi", "biografiachichi", "freezer", "biografíafreezer", "biografiafreezer", "Celula", "celula", "biografíacelula", "biografiacelula", "Jiren", "biografíajiren", "biografiajiren", "Gohan", "biografíagohan", "biografiagohan", "trunks", "biografíatrunks", "biografiatrunks", "vegeta", "biografíavegeta", "biografiavegeta", "hit", "biografíahit", "biografiahit", "beerus", "biografíabeerus", "biografiabeerus", "whis", "biografíawhis", "biografiawhis", "broly", "biografíabroly", "biografiabroly", "zeno", "biografíazeno", "biografiazeno", "gransacerdote", "biografíagransacerdote", "biografiagransacerdote", "gokublack", "biografíagokublack", "biografiagokublack", "majinbuu", "biografíamajinbuu", "biografiamajinbuu", "piccolo", "biografíapiccolo", "biografiapiccolo", "bra", "biografíabra", "biografiabra", "curiosidadesdragonball", "videl", "biografíavidel", "biografiavidel", "reyvegeta", "biografíareyvegeta", "biografiareyvegeta", "baby", "biografíababy", "biografiababy", "drgero", "biografíadrgero", "biografiadrgero", "janemba", "biografíajanemba", "biografiajanemba", "giru", "biografíagiru", "biografiagiru", "cooler", "biografíacooler", "biografiacooler", "turles", "biografíaturles", "biografiaturles", "bardock", "biografíabardock", "biografiabardock", "slug", "biografíaslug", "biografiaslug", "zamas", "biografíazamas", "biografiazamas", "bibidi", "biografíabibidi", "biografiabibidi", "babidi", "biografíababidi", "biografiababidi", "synshenron", "biografíasynshenron", "biografiasynshenron", "nuovashenron", "biografíanuovashenron", "biografianuovashenron", "hazeshenron", "biografíahazeshenron", "biografiahazeshenron", "naturonshenron", "biografíanaturonshenron", "biografianaturonshenron", "añadirusuario", 'appstickers', 'menuaudio', 'menuaudios', "openingmenu", "menuopening", 'appsticker', 'canal', 'canales', 'dar', 'grupos', 'gruposoficiales', 'support', 'reglas', 'normas', "anime", "animesnuevos", "nuevoanime", 'soporte', 'reglamento', 'encuesta',  'encuestas', 'dragónballencuestas', 'dragonballencuestas', 'canaldb',  'dragónballtelegram',  'dragonballtelegram', 'administradores'];
 
 export default handler;
   
