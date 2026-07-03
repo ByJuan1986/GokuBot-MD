@@ -1421,7 +1421,15 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
 }
 
+//Biografia Haze Shenron
+if (command === "hazeshenron"  || command === "biografíahazeshenron" || command === "biografiahazeshenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗮𝘇𝗲 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
