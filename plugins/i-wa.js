@@ -1428,7 +1428,7 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗮𝘇𝗲 �
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1Nzg5ODFf/Haze%20Shenron.jpeg" }, caption: random }, { quoted: m })
 }
 
 
