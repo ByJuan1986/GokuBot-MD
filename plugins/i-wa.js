@@ -238,8 +238,8 @@ https://chat.whatsapp.com/By1GlKQ5yLQAYYxhTR8t9N
 💪🧌𝗙𝘂𝗹𝗹𝗺𝗲𝘁𝗮𝗹 𝗔𝗹𝗰𝗵𝗲𝗺𝗶𝘀𝘁: 𝗕𝗿𝗼𝘁𝗵𝗲𝗿𝗵𝗼𝗼𝗱🧌💪
 https://chat.whatsapp.com/Jpl3P5te0Rk4SzVKMFN8SZ
 
-*🌍🎭🐻 𝑩𝒍𝒆𝒂𝒄𝒉 🐻🎭🌍*
-https://chat.whatsapp.com/J0vzttZbKXqKeUZPj0fUYa
+🌍⚔️🤺 𝗗𝗲𝗮𝘁𝗵 𝗡𝗼𝘁𝗲🤺⚔️ 🌍
+https://chat.whatsapp.com/LvPGDAvKI6R4j35u167sCx
 
 *💥💣ARCANE💣💥*
 https://chat.whatsapp.com/HHqnpkNB3pRCpekFTzQTne
