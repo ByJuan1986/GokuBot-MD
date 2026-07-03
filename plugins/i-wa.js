@@ -1361,7 +1361,7 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0MzkxNTFf/Bardock.mp4" }, caption: random }, { quoted: m })
 }
 
-//Biografia Slug desde aquí 
+//Biografia Slug 
 if (command === "slug"  || command === "biografíaslug" || command === "biografiaslug") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝗹𝘂𝗴 
 
@@ -1371,7 +1371,7 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDkyODRf/slug.mp4" }, caption: random }, { quoted: m })
 }
 
-//Biografia Plantilla
+//Biografia Zamas
 if (command === "zamas"  || command === "biografíazamas" || command === "biografiazamas") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗮𝗺𝗮𝘀
 
@@ -1401,9 +1401,25 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDY2MThf/babidi.mp4" }, caption: random }, { quoted: m })
 }
 
-  
+//Biografia SynShenron desde aqui
+if (command === "synshenron"  || command === "biografíasynshenron" || command === "biografiasynshenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝘆𝗻𝗦𝗵𝗲𝗻𝗿𝗼𝗻 
 
+En construcción!!!
 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}  
+
+//Biografia Nuova shenron
+if (command === "nuovashenron"  || command === "biografíanuovashenron" || command === "biografianuovashenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗡𝘂𝗼𝘃𝗮𝘀𝗵𝗲𝗻𝗿𝗼𝗻 
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
