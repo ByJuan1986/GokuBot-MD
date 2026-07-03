@@ -229,8 +229,8 @@ https://chat.whatsapp.com/J644aEYo8BXITv6ZOLyYpi
 *🌍🐉🐲 𝗗𝗿𝗮𝗴𝗼𝗶 𝗯𝗼𝗹𝗮 🐲🐉🌍*
 https://chat.whatsapp.com/LE7qPMXoSMH5Rh40R8aPlE
 
-*🌍😺🐼 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑹𝒂𝒏𝒎𝒂 ½ 🐼😺🌍*
-https://chat.whatsapp.com/CRYP316MujxKFYiIHe9ZEx
+⚔️🔥 𝗔𝘁𝘁𝗮𝗰𝗸 𝗼𝗻 𝗧𝗶𝘁𝗮𝗻 🔥⚔️
+https://chat.whatsapp.com/Gli5q589qhp3NSFnClSPTC
 
 *🌍🃏♣️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑲𝒂𝒌𝒆𝒈𝒖𝒓𝒖𝒊 ♣️🃏🌍*
 https://chat.whatsapp.com/By1GlKQ5yLQAYYxhTR8t9N
