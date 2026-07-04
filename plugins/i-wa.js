@@ -232,8 +232,8 @@ https://chat.whatsapp.com/LE7qPMXoSMH5Rh40R8aPlE
 ⚔️🔥 𝗔𝘁𝘁𝗮𝗰𝗸 𝗼𝗻 𝗧𝗶𝘁𝗮𝗻 🔥⚔️
 https://chat.whatsapp.com/Gli5q589qhp3NSFnClSPTC
 
-*🌍🃏♣️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝑲𝒂𝒌𝒆𝒈𝒖𝒓𝒖𝒊 ♣️🃏🌍*
-https://chat.whatsapp.com/By1GlKQ5yLQAYYxhTR8t9N
+⚔️🤕 𝗕𝗹𝗮𝗰𝗸 𝗧𝗼𝗿𝗰𝗵 🤕⚔️
+https://chat.whatsapp.com/K1MM4UnFvnDHQ05VjFGlR0
 
 💪🧌𝗙𝘂𝗹𝗹𝗺𝗲𝘁𝗮𝗹 𝗔𝗹𝗰𝗵𝗲𝗺𝗶𝘀𝘁: 𝗕𝗿𝗼𝘁𝗵𝗲𝗿𝗵𝗼𝗼𝗱🧌💪
 https://chat.whatsapp.com/Jpl3P5te0Rk4SzVKMFN8SZ
@@ -247,8 +247,8 @@ https://chat.whatsapp.com/HHqnpkNB3pRCpekFTzQTne
 ⛴️👒𝗢𝗻𝗲 𝗣𝗶𝗲𝗰𝗲👒⛴️
 https://chat.whatsapp.com/Dc2hF9RBvtOGpSISBvIIzh
 
-*🌍⚔️🛡️ 𝑭𝒂𝒏𝒔 𝒅𝒆 𝒂𝒕𝒂𝒒𝒖𝒆 𝒂 𝒍𝒐𝒔 𝒕𝒊𝒕𝒂𝒏𝒆𝒔 ⚔️🛡️🌍*
-https://chat.whatsapp.com/Bjf43ZD8ZlZBCWE0Yv3jIX
+🔫💪 𝗛𝘂𝗻𝘁𝗲𝗿 𝘅 𝗛𝘂𝗻𝘁𝗲𝗿 💪🔫
+https://chat.whatsapp.com/Las2GpuILnS7DSWtXecZHu
 
 *🌍🤖 𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂 𝒃𝒐𝒕𝒔 - 𝑹𝒆𝒅𝒆𝒔 𝒔𝒐𝒄𝒊𝒂𝒍𝒆𝒔 🤖🌍*
 https://chat.whatsapp.com/EGR7UJ4mvjMD0hc0ZoAxwI
