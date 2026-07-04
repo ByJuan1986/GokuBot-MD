@@ -266,7 +266,7 @@ https://chat.whatsapp.com/FVHgtUt6URSJ5MjVWas829
 
 > *Por ejemplo:* ${usedPrefix + command} facebook
 
-*Actualizado 12/02/2026.*
+*Actualizado 04/07/2026.*
 `
   return conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfMzYzODM3MTFf/gruposfrikis.jpg" }, caption: grupofr }, { quoted: m })
 //conn.reply(m.chat, grupofr, m)
