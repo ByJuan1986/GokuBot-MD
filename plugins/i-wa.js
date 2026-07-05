@@ -1833,16 +1833,28 @@ En construcción!!!
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMTY1Nzlf/Rage-Shenron.mp4" }, caption: random }, { quoted: m })
 }
   
+//Biografia Oceanus Shenron
+if (command === "oceanusshenron"  || command === "biografíaoceanusshenron" || command === "biografiaoceanusshenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗢𝗰𝗲𝗮𝗻𝘂𝘀 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
   
+//Biografia Eis Shenron
+if (command === "eisshenron"  || command === "biografíaeisshenron" || command === "biografiaeisshenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗘𝗶𝘀 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
+
+En construcción!!!
+
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
-
-
-
-
-  
 
 
   
