@@ -1715,7 +1715,7 @@ Babidi es un poderoso hechicero y el hijo de Bibidi. Su edad exacta es desconoci
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDY2MThf/babidi.mp4" }, caption: random }, { quoted: m })
 }
 
-//Biografia SynShenron desde aqui
+//Biografia SynShenron
 if (command === "synshenron"  || command === "biografíasynshenron" || command === "biografiasynshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝘆𝗻𝗦𝗵𝗲𝗻𝗿𝗼𝗻 
 
@@ -1823,8 +1823,15 @@ En construcción!!!
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1ODE4NDBf/Naturon%20Shenron.jpeg" }, caption: random }, { quoted: m })
 }
 
+//Rage Shenron desde aquí 
+if (command === "rageshenron"  || command === "biografírageshenron" || command === "biografiarageshenron") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗥𝗮𝗴𝗲 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
+En construcción!!!
 
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMTY1Nzlf/Rage-Shenron.mp4" }, caption: random }, { quoted: m })
+}
   
 
   
