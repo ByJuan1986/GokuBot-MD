@@ -1317,9 +1317,35 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3NTVf
 if (command === "reyvegeta"  || command === "biografíareyvegeta" || command === "biografiareyvegeta") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗥𝗲𝘆 𝗩𝗲𝗴𝗲𝘁𝗮 
 
-En construcción!!!
- 
- 
+El Rey Vegeta fue el gobernante del Planeta Vegeta y el padre de Vegeta. Su fecha de nacimiento es desconocida y fue uno de los Saiyajin más poderosos de su época.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Como rey de los Saiyajin, lideró a su pueblo mientras trabajaban bajo el dominio de Freezer. Siempre desconfió de él y temía que destruyera a los Saiyajin. Cuando Freezer decidió acabar con el Planeta Vegeta, el Rey Vegeta intentó enfrentarlo, pero fue derrotado y asesinado.
+
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Fue el padre del príncipe Vegeta y esposo de una reina Saiyajin cuyo nombre nunca fue revelado.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tenía cabello negro puntiagudo, una gran estatura y una musculatura imponente. Era orgulloso, valiente, autoritario y muy protector con su raza.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gustaba el honor de los Saiyajin, entrenar y defender a su pueblo. No le gustaba obedecer a Freezer ni ver a su raza humillada.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Vuelo
+* Manipulación de ki
+* Explosiones de energía
+* Combate cuerpo a cuerpo
+* Gran fuerza y velocidad
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Aunque era muy poderoso, el Rey Vegeta nunca pudo superar el enorme poder de Freezer, quien terminó destruyendo el Planeta Vegeta y casi toda la raza Saiyajin. 👑🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3Njdf/Rey%20Vegeta.mp4" }, caption: random }, { quoted: m })
 }
