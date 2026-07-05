@@ -1752,8 +1752,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg1ODA3MDFf
 if (command === "nuovashenron"  || command === "biografíanuovashenron" || command === "biografianuovashenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗡𝘂𝗼𝘃𝗮𝘀𝗵𝗲𝗻𝗿𝗼𝗻 
 
-En construcción!!!
+San Xing Long, conocido como Nuova Shenron, es el Dragón Maligno de la Esfera del Dragón de Cuatro Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Apareció junto a los demás Dragones Malignos tras la creación de las Esferas Oscuras. Aunque al principio luchó contra Goku, demostró tener honor y un fuerte sentido de la justicia, llegando incluso a ayudarlo contra enemigos más peligrosos.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene apariencia humana con cabello rojo, piel clara y una armadura roja. Es serio, honorable, valiente y respetuoso con sus rivales.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta luchar con honor y respetar a los guerreros fuertes. No le gustan las trampas ni las peleas injustas.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Control del fuego
+* Nova Strike
+* Explosiones de energía
+* Vuelo
+* Gran velocidad
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Aunque es un Dragón Maligno, Nuova Shenron fue uno de los pocos que decidió ayudar a Goku, convirtiéndose en uno de los personajes más nobles de Dragon Ball GT. 🔥🐉
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1NzkyMzRf/Nuova%20Shenron.jpg" }, caption: random }, { quoted: m })
 }
