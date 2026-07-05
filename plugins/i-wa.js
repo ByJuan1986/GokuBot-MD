@@ -1787,7 +1787,7 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗮𝘇𝗲 �
 
 Er Xing Long, conocido como Haze Shenron, es el Dragón Maligno de la Esfera del Dragón de Dos Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
-🔹 Historia
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
 
 * Haze Shenron apareció para enfrentarse a Goku utilizando una niebla venenosa que debilitaba a sus enemigos. Confiaba más en su inteligencia y en sus trampas que en la fuerza bruta, pero finalmente fue derrotado por Goku.
 
@@ -1817,8 +1817,31 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1Nzg5ODFf
 if (command === "naturonshenron"  || command === "biografíanaturonshenron" || command === "biografianaturonshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗡𝗮𝘁𝘂𝗿𝗼𝗻 𝗦𝗵𝗲𝗻𝗿𝗼𝗻 
 
-En construcción!!!
+Si Xing Long, conocido como Naturon Shenron, es el Dragón Maligno de la Esfera del Dragón de Tres Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Naturon Shenron se enfrentó a Goku utilizando una habilidad especial que le permitía absorber y controlar el cuerpo de otras personas. Durante la batalla tomó el cuerpo de Pan para intentar derrotar a Goku, pero finalmente fue vencido.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene un cuerpo verde con apariencia de dragón y puede cambiar de forma al absorber a otros seres. Es manipulador, astuto y muy tramposo.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta engañar a sus enemigos y aprovecharse de sus debilidades. No le gustan los combates justos ni enfrentarse a rivales más fuertes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Absorción de cuerpos
+* Cambio de forma
+* Explosiones de energía
+* Vuelo
+* Regeneración parcial
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Naturon Shenron es el único Dragón Maligno capaz de aumentar su poder absorbiendo el cuerpo de otros seres vivos. 🐉🌿
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1ODE4NDBf/Naturon%20Shenron.jpeg" }, caption: random }, { quoted: m })
 }
