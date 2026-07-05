@@ -1762,8 +1762,30 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1NzkyMzRf
 if (command === "hazeshenron"  || command === "biografíahazeshenron" || command === "biografiahazeshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗛𝗮𝘇𝗲 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
-En construcción!!!
+Er Xing Long, conocido como Haze Shenron, es el Dragón Maligno de la Esfera del Dragón de Dos Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 Historia
+
+* Haze Shenron apareció para enfrentarse a Goku utilizando una niebla venenosa que debilitaba a sus enemigos. Confiaba más en su inteligencia y en sus trampas que en la fuerza bruta, pero finalmente fue derrotado por Goku.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel verde, un cuerpo delgado y una apariencia similar a un dragón. Es astuto, tramposo, cobarde y muy inteligente.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta engañar a sus enemigos, usar venenos y obtener ventaja en el combate. No le gustan las peleas directas ni los rivales más fuertes que él.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Niebla venenosa
+* Explosiones de energía
+* Vuelo
+* Manipulación de gases tóxicos
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Haze Shenron es el único Dragón Maligno que basa casi todo su poder en el uso de venenos y ataques químicos en lugar de la fuerza física. ☠️🐉
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1Nzg5ODFf/Haze%20Shenron.jpeg" }, caption: random }, { quoted: m })
 }
