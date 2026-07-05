@@ -1354,8 +1354,32 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3Njdf
 if (command === "drgero"  || command === "biografíadrgero" || command === "biografiadrgero") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗗𝗿. 𝗚𝗲𝗿𝗼 
 
-En construcción!!!
+El Dr. Gero fue un brillante científico y antiguo miembro del Ejército de la Red Ribbon. Su fecha de nacimiento es desconocida y es el creador de los androides y de Cell.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Después de que Goku derrotara al Ejército Red Ribbon, el Dr. Gero juró vengarse. Durante años creó poderosos androides como los Androides 16, 17, 18, 19 y diseñó a Cell utilizando células de los guerreros más fuertes.
+
+* Más tarde transfirió su cerebro al cuerpo del Androide 20 para prolongar su vida y continuar con sus experimentos.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello y barba blancos, usa lentes y un sombrero con el símbolo de la Red Ribbon. Es un hombre muy inteligente, frío, calculador y obsesionado con la venganza.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta crear androides, experimentar con la tecnología y planear estrategias. No le gusta Goku ni que sus creaciones desobedezcan sus órdenes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Absorción de energía
+* Inteligencia científica
+* Creación de androides
+* Amplios conocimientos en robótica y biotecnología
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* El Dr. Gero convirtió su propio cuerpo en el Androide 20, logrando seguir con vida gracias a la tecnología que él mismo creó. 🤖🧪
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgzMjZf/dr-gero-C20.mp4" }, caption: random }, { quoted: m })
 }
@@ -1364,8 +1388,32 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgzMjZf
 if (command === "baby"  || command === "biografíababy" || command === "biografiababy") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗮𝗯𝘆 
 
-En construcción!!!
+Baby es el principal villano de Dragon Ball GT y el último sobreviviente de la raza Tsufur. Su edad exacta es desconocida y fue creado por el Dr. Myuu para vengar la destrucción de su pueblo.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Baby viajó por el universo buscando un cuerpo fuerte para cumplir su venganza contra los Saiyajin. Finalmente tomó el control del cuerpo de Vegeta, convirtiéndose en Baby Vegeta y dominando gran parte de la Tierra.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel blanca, cabello plateado y ojos rojos. Es frío, inteligente, manipulador y extremadamente vengativo.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta controlar a las personas, aumentar su poder y vengarse de los Saiyajin. No le gusta fracasar ni que alguien se oponga a sus planes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Baby Vegeta
+* Super Baby 1
+* Super Baby 2
+* Golden Great Ape (Ozaru Dorado)
+* Revenge Death Ball
+* Control mental mediante parásitos
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Baby es el único villano principal de Dragon Ball GT que logra controlar completamente el cuerpo de Vegeta durante gran parte de la historia. 👑🦠
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgzMDlf/baby.mp4" }, caption: random }, { quoted: m })
 }
