@@ -1553,18 +1553,64 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NDNf
 if (command === "bardock"  || command === "biografíabardock" || command === "biografiabardock") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗮𝗿𝗱𝗼𝗰𝗸  
 
-En construcción!!!
+Bardock es un guerrero Saiyajin de clase baja y el padre de Goku y Raditz. Nació en el año 720 en el Planeta Vegeta y fue uno de los guerreros más valientes de su raza.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Bardock lideraba un equipo de guerreros Saiyajin que conquistaban planetas para el Imperio de Freezer. Cuando descubrió que Freezer planeaba destruir el Planeta Vegeta, intentó detenerlo él solo. Antes del ataque envió a su hijo Kakarotto (Goku) a la Tierra para salvarle la vida, pero fue derrotado por Freezer junto con casi toda la raza Saiyajin.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello negro puntiagudo, una cicatriz en la mejilla izquierda y lleva la armadura clásica Saiyajin. Es valiente, decidido, orgulloso y muy protector con su familia.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, luchar y proteger a sus compañeros. No le gusta la traición, la injusticia ni obedecer ciegamente a Freezer.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Explosión Final (Final Spirit Cannon)
+* Onda de energía
+* Vuelo
+* Combate cuerpo a cuerpo
+* Gran fuerza y velocidad Saiyajin
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Bardock fue el único Saiyajin que intentó enfrentarse a Freezer para salvar a su planeta, convirtiéndose en uno de los personajes más admirados de Dragon Ball. 🔥💪
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0MzkxNTFf/Bardock.mp4" }, caption: random }, { quoted: m })
 }
 
 //Biografia Slug 
 if (command === "slug"  || command === "biografíaslug" || command === "biografiaslug") {
-let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝗹𝘂𝗴 
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗟𝗼𝗿𝗱 𝗦𝗹𝘂𝗴 
 
-En construcción!!!
+Lord Slug es un Namekiano maligno y el principal villano de la película Dragon Ball Z: El Super Saiyajin Son Goku. Su edad exacta es desconocida, pero tiene varios siglos de vida.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Slug conquistó numerosos planetas antes de llegar a la Tierra con el objetivo de convertirla en un nuevo planeta para gobernar. Gracias a las Esferas del Dragón recuperó su juventud y aumentó enormemente su poder, enfrentándose a Goku y los Guerreros Z.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel verde, antenas, una gran estatura y una musculatura imponente. Es cruel, orgulloso, ambicioso y despiadado.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta conquistar planetas, gobernar con poder absoluto y demostrar su superioridad. No le gusta ser desafiado ni perder el control de una batalla.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Gigantificación
+* Regeneración
+* Explosiones de energía
+* Telequinesis
+* Forma rejuvenecida
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Lord Slug es uno de los pocos Namekianos capaces de transformarse en un gigante durante el combate, aumentando considerablemente su fuerza. 🟢👑
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDkyODRf/slug.mp4" }, caption: random }, { quoted: m })
 }
@@ -1573,8 +1619,32 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDkyODRf
 if (command === "zamas"  || command === "biografíazamas" || command === "biografiazamas") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗭𝗮𝗺𝗮𝘀
 
-En construcción!!!
+Zamas es un Kaio Supremo aprendiz del Universo 10 y uno de los principales villanos de Dragon Ball Super. Su fecha de nacimiento es desconocida y pertenece a la raza de los Shinjin.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Zamasu creía que los mortales solo traían violencia y caos al universo. Usó las Super Esferas del Dragón para intercambiar su cuerpo con el de Goku, convirtiéndose en Goku Black, y junto a una versión inmortal de sí mismo inició el llamado "Plan Cero Mortales". Finalmente fue eliminado por Zeno.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel verde, cabello blanco y ojos grises. Su personalidad es tranquila, orgullosa, inteligente y extremadamente fanática de la justicia.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta el orden, la paz y la justicia según su propia visión. Odia a los mortales y considera que no merecen existir.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Kai Kai (teletransportación)
+* Espadas de Ki
+* Manipulación de energía divina
+* Vuelo
+* Inmortalidad (en una de sus versiones)
+* Fusión con Goku Black (Zamasu Fusionado)
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Zamasu es uno de los pocos villanos que consiguió la inmortalidad gracias a las Super Esferas del Dragón, obligando a Zeno a borrar toda una línea temporal para detenerlo. 🌌⚡
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NTA0NTZf/Zamas.mp4" }, caption: random }, { quoted: m })
 }  
