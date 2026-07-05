@@ -1444,7 +1444,7 @@ Janemba es uno de los villanos más poderosos de las películas de Dragon Ball Z
 * Portales dimensionales
 * Forma Final de Janemba
 
-🔹 Dato curioso
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
 
 * Janemba es uno de los pocos enemigos que obligó a Goku y Vegeta a fusionarse para crear a Gogeta y así poder derrotarlo. 🔥👹
 `
@@ -1455,8 +1455,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf
 if (command === "giru"  || command === "biografíagiru" || command === "biografiagiru") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗚𝗶𝗿𝘂 
 
-En construcción!!!
+Giru es un pequeño robot que aparece en Dragon Ball GT. Fue construido con tecnología avanzada y se convierte en un gran compañero de viaje de Goku, Pan y Trunks. Su fecha de creación es desconocida.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Giru conoció al grupo cuando se comió el Radar del Dragón, integrándolo a su sistema. Desde ese momento los ayudó a localizar las Esferas del Dragón de Estrellas Negras durante su viaje por el universo.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es un pequeño robot de color amarillo con detalles negros. Tiene una personalidad leal, curiosa, inteligente y muy valiente.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta ayudar a sus amigos, explorar nuevos lugares y buscar las Esferas del Dragón. No le gusta que sus amigos estén en peligro.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Localización de las Esferas del Dragón
+* Vuelo
+* Análisis de información
+* Transformación de herramientas
+* Gran resistencia mecánica
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Su frase más famosa es "¡Giru, Giru!", la cual repite constantemente y terminó convirtiéndose en una de sus características más recordadas. 🤖⭐
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NjRf/giru.mp4" }, caption: random }, { quoted: m })
 }
@@ -1465,8 +1488,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NjRf
 if (command === "cooler"  || command === "biografíacooler" || command === "biografiacooler") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗖𝗼𝗼𝗹𝗲𝗿  
 
-En construcción!!!
+Cooler es el hermano mayor de Freezer e hijo del King Cold. Es uno de los villanos más poderosos de las películas de Dragon Ball Z. Su edad exacta es desconocida.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Después de enterarse de la muerte de Freezer a manos de Goku, Cooler viajó a la Tierra para vengar a su hermano. Más tarde regresó convertido en Metal Cooler, con un cuerpo mecánico controlado por la Estrella Big Gete.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel blanca con detalles morados y una forma final exclusiva con una armadura biológica. Es frío, inteligente, orgulloso y muy estratégico.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta conquistar planetas, aumentar su poder y demostrar que es superior a Freezer. No le gusta perder ni que desafíen su autoridad.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀 
+
+* Death Beam
+* Supernova
+* Nova Chariot
+* Forma Final de Cooler
+* Metal Cooler 🤖
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Cooler posee una transformación exclusiva que Freezer nunca tuvo en Dragon Ball Z, lo que hizo que muchos fans lo consideraran incluso más fuerte que su hermano. ❄️🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NDRf/Cooler.mp4" }, caption: random }, { quoted: m })
 }
@@ -1475,8 +1521,30 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NDRf
 if (command === "turles"  || command === "biografíaturles" || command === "biografiaturles") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗧𝘂𝗿𝗹𝗲𝘀  
 
-En construcción!!!
+Turles es un Saiyajin de élite y el principal villano de la película Dragon Ball Z: El árbol del poder. Su edad exacta es desconocida, pero pertenece a la misma generación que Goku.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Turles sobrevivió a la destrucción del Planeta Vegeta y formó una banda de piratas espaciales. Viajaba por distintos planetas plantando el Árbol del Poder para consumir sus frutos y aumentar su fuerza. Llegó a la Tierra con ese objetivo, donde se enfrentó a Goku y los Guerreros Z.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene un aspecto casi idéntico al de Goku, con cabello negro puntiagudo y ojos oscuros. Es frío, despiadado, arrogante y ambicioso.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta conquistar planetas, obtener más poder y dominar a sus enemigos. No le gusta que alguien se interponga en sus planes ni perder una batalla.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Kill Driver
+* Meteor Burst
+* Explosive Wave
+* Poder aumentado por el Fruto del Árbol del Poder
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Muchos fans creen que Turles es el "Goku malvado", pero en realidad solo se parece físicamente porque los Saiyajin de clase baja suelen tener rasgos muy similares. 🌳🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0Mzk0NDNf/Turles.mp4" }, caption: random }, { quoted: m })
 }
