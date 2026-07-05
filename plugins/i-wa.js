@@ -1850,7 +1850,7 @@ let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗘𝗶𝘀 𝗦�
 En construcción!!!
 
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMzA0NDFf/Eis%20Shenron.gif" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMzEwNzNf/Eis-Shenron.mp4" }, caption: random }, { quoted: m })
 }
 
 
