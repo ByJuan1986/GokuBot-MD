@@ -1686,8 +1686,31 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg0NDY2MTdf
 if (command === "babidi"  || command === "biografíababidi" || command === "biografiababidi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗮𝗯𝗶𝗱𝗶 
 
-luego 
+Babidi es un poderoso hechicero y el hijo de Bibidi. Su edad exacta es desconocida y heredó los conocimientos mágicos de su padre.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Después de la muerte de Bibidi, Babidi dedicó su vida a revivir a Majin Buu. Reunió energía de poderosos guerreros para despertar a Buu y utilizó su magia para controlar a varios luchadores, entre ellos a Vegeta, convirtiéndolo en Majin Vegeta. Finalmente fue eliminado por Majin Buu.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es un pequeño hechicero de piel amarilla y cabeza alargada. Tiene una personalidad cruel, manipuladora, cobarde y muy ambiciosa.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta usar la magia, controlar a otros y sembrar el caos. No le gusta que desobedezcan sus órdenes ni enfrentarse directamente a enemigos más fuertes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Magia oscura
+* Control mental
+* Teletransportación
+* Sellado mágico
+* Manipulación de energía
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Aunque Babidi no era un gran guerrero, logró poner en serios problemas a los Guerreros Z únicamente gracias a su poderosa magia y su capacidad para manipular a otros. 🪄😈
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDY2MThf/babidi.mp4" }, caption: random }, { quoted: m })
 }
