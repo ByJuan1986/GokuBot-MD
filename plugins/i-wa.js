@@ -1850,8 +1850,31 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg1ODE4NDBf
 if (command === "rageshenron"  || command === "biografírageshenron" || command === "biografiarageshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗥𝗮𝗴𝗲 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
-En construcción!!!
+Liu Xing Long, conocido como Rage Shenron, es el Dragón Maligno de la Esfera del Dragón de Seis Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Rage Shenron apareció para enfrentarse a Goku utilizando el poder del rayo y las tormentas. Aunque parecía un enemigo muy poderoso, fue derrotado después de que Goku descubriera el punto débil de sus ataques eléctricos.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene un cuerpo azul con detalles amarillos y una apariencia robusta. Es agresivo, impulsivo, arrogante y le encanta demostrar su fuerza.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta crear tormentas, usar rayos para atacar y dominar a sus enemigos. No le gusta que resistan sus ataques eléctricos.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Control de rayos
+* Manipulación del clima
+* Explosiones eléctricas
+* Vuelo
+* Gran resistencia
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Rage Shenron puede generar enormes tormentas eléctricas y lanzar rayos capaces de destruir grandes áreas del campo de batalla. ⚡🐉
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMTY1Nzlf/Rage-Shenron.mp4" }, caption: random }, { quoted: m })
 }
@@ -1860,8 +1883,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMTY1Nzlf
 if (command === "oceanusshenron"  || command === "biografíaoceanusshenron" || command === "biografiaoceanusshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗢𝗰𝗲𝗮𝗻𝘂𝘀 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
-En construcción!!!
+Wu Xing Long, conocida como Oceanus Shenron, es la Dragón Maligna de la Esfera del Dragón de Cinco Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Oceanus Shenron se enfrentó a Goku utilizando el poder del agua y el viento. Al principio aparentaba ser amable y elegante para engañar a sus enemigos, pero luego mostró su verdadera personalidad durante el combate. Finalmente fue derrotada por Goku.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene apariencia femenina, cabello azul y una vestimenta elegante. Es orgullosa, astuta, vanidosa y muy inteligente.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta su belleza, manipular a los demás y demostrar su poder. No le gusta ser humillada ni que destruyan su apariencia.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Control del agua
+* Manipulación del viento
+* Explosiones de energía
+* Vuelo
+* Ilusiones
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Oceanus Shenron es la única mujer entre los siete Dragones Malignos y destaca por usar la inteligencia y el engaño en lugar de la fuerza bruta. 🌊🐉
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMjk5OTdf/Oceanus-Shenron.mp4" }, caption: random }, { quoted: m })
 }
