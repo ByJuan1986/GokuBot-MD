@@ -1916,8 +1916,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMjk5OTdf
 if (command === "eisshenron"  || command === "biografíaeisshenron" || command === "biografiaeisshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗘𝗶𝘀 𝗦𝗵𝗲𝗻𝗿𝗼𝗻
 
-En construcción!!!
+Yi Xing Long, conocido como Eis Shenron, es el Dragón Maligno de la Esfera del Dragón de Tres Estrellas en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Eis Shenron apareció como uno de los dragones más fuertes y se enfrentó a Goku utilizando sus poderes de hielo. Durante la batalla intentó derrotarlo con ataques sorpresa y trampas. Más tarde fue derrotado por su propio hermano, Nuova Shenron, tras traicionar el código de honor de los dragones.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel azul claro, cuernos largos y una apariencia elegante. Es frío, arrogante, tramposo y muy calculador.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta demostrar su superioridad, utilizar el hielo para combatir y engañar a sus rivales. No le gusta perder ni luchar de forma justa.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Control del hielo
+* Congelación instantánea
+* Explosiones de energía
+* Vuelo
+* Ice Ray (Rayo de Hielo)
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Eis Shenron es el hermano de Nuova Shenron. Mientras Nuova lucha con honor, Eis prefiere usar trampas y engaños para ganar, lo que provoca el enfrentamiento entre ambos. ❄️🐉
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMzEwNzNf/Eis-Shenron.mp4" }, caption: random }, { quoted: m })
 }
