@@ -1653,8 +1653,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NTA0NTZf
 if (command === "bibidi"  || command === "biografíabibidi" || command === "biografiabibidi") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗕𝗶𝗯𝗶𝗱𝗶 
 
-En construcción!!!
+Bibidi fue un poderoso hechicero y el creador de Majin Buu. Su edad exacta es desconocida y vivió hace millones de años.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Bibidi creó a Majin Buu con poderosa magia para destruir planetas y sembrar el caos por el universo. Sin embargo, el monstruo se volvió imposible de controlar. Tiempo después, Bibidi fue asesinado por el Kaio Supremo del Este, poniendo fin a sus planes.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Es un pequeño hechicero de piel rosada que viste una túnica mágica. Su personalidad es malvada, manipuladora, ambiciosa y muy inteligente.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta usar la magia, controlar seres poderosos y conquistar el universo. No le gusta que desobedezcan sus órdenes ni que sus planes fracasen.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Magia oscura
+* Creación de Majin Buu
+* Sellado mágico
+* Manipulación de energía
+* Control mental
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Durante muchos años se creyó que Bibidi había creado a Majin Buu, aunque más adelante la historia reveló que Buu existía desde tiempos muy antiguos y Bibidi simplemente logró controlarlo temporalmente. 🪄💜
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTg0NDY2MTdf/Bibidi.jpg" }, caption: random }, { quoted: m })
 }
