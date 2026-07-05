@@ -1422,8 +1422,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgzMDlf
 if (command === "janemba"  || command === "biografíajanemba" || command === "biografiajanemba") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗝𝗮𝗻𝗲𝗺𝗯𝗮 
 
-En construcción!!!
+Janemba es uno de los villanos más poderosos de las películas de Dragon Ball Z. Nació a partir de la acumulación de energía maligna en el Otro Mundo, por lo que no tiene una edad conocida.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Después de un accidente en la estación purificadora del Otro Mundo, un joven ogro fue transformado en Janemba por la energía negativa acumulada. Su enorme poder alteró la realidad y puso en peligro tanto el mundo de los vivos como el de los muertos. Finalmente fue derrotado por Gogeta.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene dos formas principales: una pequeña de color rojo y una forma final más alta, musculosa y con detalles morados. Es un ser silencioso, caótico y extremadamente peligroso.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta destruir todo a su paso y sembrar el caos. No le gusta que interfieran con sus ataques ni ser enfrentado por guerreros más fuertes.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Teletransportación
+* Manipulación de la realidad
+* Espada de energía
+* Portales dimensionales
+* Forma Final de Janemba
+
+🔹 Dato curioso
+
+* Janemba es uno de los pocos enemigos que obligó a Goku y Vegeta a fusionarse para crear a Gogeta y así poder derrotarlo. 🔥👹
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDgyNDJf/janemba.mp4" }, caption: random }, { quoted: m })
 }
