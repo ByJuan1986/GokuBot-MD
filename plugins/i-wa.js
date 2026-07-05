@@ -1281,9 +1281,34 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgyOTMwMTVf
 if (command === "videl"  || command === "biografíavidel" || command === "biografiavidel") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗩𝗶𝗱𝗲𝗹 
 
-En construcción!!!
- 
- 
+Videl es la hija de Mr. Satan y una de las guerreras humanas más destacadas de Dragon Ball. Nació en el año 756 y en Dragon Ball Super tiene alrededor de 24 años.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Videl conoció a Gohan durante la preparatoria. Al descubrir que era el Gran Saiyaman, le pidió que le enseñara a volar y a controlar su ki. Con el tiempo ambos se enamoraron y se casaron.
+
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Está casada con Gohan y es madre de Pan. También es hija del famoso campeón mundial Mr. Satan.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene cabello negro (corto o largo según la etapa de la serie), ojos oscuros y una personalidad valiente, decidida, amable y muy protectora con su familia.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, ayudar a los demás y pasar tiempo con su familia. No le gustan las injusticias ni que las personas inocentes sufran.
+
+🔹 𝗛𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Vuelo
+* Control del ki
+* Artes marciales
+* Gran resistencia física
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Durante el ritual del Super Saiyajin Dios, Videl estaba embarazada de Pan y la energía de su hija ayudó a completar el ritual. ❤️✨
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTgzMDI3NTVf/videl.mp4" }, caption: random }, { quoted: m })
 }
