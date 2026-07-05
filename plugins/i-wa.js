@@ -1719,8 +1719,31 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg0NDY2MThf
 if (command === "synshenron"  || command === "biografíasynshenron" || command === "biografiasynshenron") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗦𝘆𝗻𝗦𝗵𝗲𝗻𝗿𝗼𝗻 
 
-En construcción!!!
+Qi Xing Long, conocido como Syn Shenron, es el Dragón Maligno de la Esfera del Dragón de Una Estrella y el líder de los Dragones Malignos en Dragon Ball GT. Nació de la energía negativa acumulada por el uso excesivo de las Esferas del Dragón.
 
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Syn Shenron apareció como el más poderoso de los Dragones Malignos. Durante su batalla contra Goku absorbió las demás Esferas del Dragón y se transformó en Omega Shenron, aumentando su poder hasta convertirse en el enemigo más fuerte de Dragon Ball GT. Finalmente fue derrotado por la Genkidama Universal de Goku.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel blanca con detalles azules y una apariencia intimidante. Es frío, arrogante, despiadado y se considera el ser perfecto.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta demostrar su poder, dominar a sus enemigos y destruir todo a su paso. No le gusta ser desafiado ni perder una batalla.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Explosiones de energía
+* Regeneración
+* Vuelo
+* Manipulación de energía negativa
+* Omega Shenron 🐉💥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Al convertirse en Omega Shenron, obtuvo los poderes de los siete Dragones Malignos, siendo considerado el villano más poderoso de Dragon Ball GT. 🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTg1ODA3MDFf/syn-shenron-sparking-zero.mp4" }, caption: random }, { quoted: m })
 }  
