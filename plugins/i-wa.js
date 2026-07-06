@@ -16,23 +16,23 @@ let random = ` Muy pronto estara disponible este menu con todas las funciones...
 
 
 ⚶⭒ \`Informacion\` 
-\t㊙ .menuaudio
-\t㊙ .grupos
-\t㊙ .grupos frikis
-\t㊙ .grupos telegram
-\t㊙ .grupos facebook
-\t㊙ .appsticker
-\t㊙ .dar numero
-\t㊙ .canal
-\t㊙ .noticiasdragonball
-\t㊙ .curiosidadesdragonball
-\t㊙ .añadirusuario
-\t㊙ .dragonballencuestas
-\t㊙ .dragonballtelegram
-\t㊙ .estado
-\t㊙ .ping
-\t㊙ .run
-\t㊙ .support  =  text
+㊙ .menuaudio
+㊙ .grupos
+㊙ .grupos frikis
+㊙ .grupos telegram
+㊙ .grupos facebook
+㊙ .appsticker
+㊙ .dar numero
+㊙ .canal
+㊙ .noticiasdragonball
+㊙ .curiosidadesdragonball
+㊙ .añadirusuario
+㊙ .dragonballencuestas
+㊙ .dragonballtelegram
+㊙ .estado
+㊙ .ping
+㊙ .run
+㊙ .support  =  text
 
 
 
