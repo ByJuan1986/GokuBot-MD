@@ -16,29 +16,29 @@ let random = ` Muy pronto estara disponible este menu con todas las funciones...
 
 
 ⚶⭒ \`Informacion\` 
+㊙ .run
+㊙ .support  =  text
 ㊙ .menuaudio
 ㊙ .grupos
 ㊙ .grupos frikis
 ㊙ .grupos telegram
 ㊙ .grupos facebook
 ㊙ .appsticker
-㊙ .dar numero
-㊙ .canal
+
+
+
+⚶⭒ \`Tutoriales\`
 ㊙ .noticiasdragonball
 ㊙ .curiosidadesdragonball
+㊙ .dar numero
+㊙ .canal
 ㊙ .añadirusuario
 ㊙ .dragonballencuestas
 ㊙ .dragonballtelegram
-㊙ .estado
-㊙ .ping
-㊙ .run
-㊙ .support  =  text
-
 
 
 
 Estamos en construcción!!!
-
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc2MzMwOTdf/menu_GokuBot.jpg" }, caption: random }, { quoted: m })
 }
