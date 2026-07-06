@@ -14,6 +14,29 @@ const name = await conn.getName(m.sender);
 if (command === "menu2"  || command === "menucompleto" || command === "menuauxiliar") {
 let random = ` Muy pronto estara disponible este menu con todas las funciones...
 
+
+⚶⭒ \`Informacion\` 
+\t㊙ .menuaudio
+\t㊙ .grupos
+\t㊙ .grupos frikis
+\t㊙ .grupos telegram
+\t㊙ .grupos facebook
+\t㊙ .appsticker
+\t㊙ .dar numero
+\t㊙ .canal
+\t㊙ .noticiasdragonball
+\t㊙ .curiosidadesdragonball
+\t㊙ .añadirusuario
+\t㊙ .dragonballencuestas
+\t㊙ .dragonballtelegram
+\t㊙ .estado
+\t㊙ .ping
+\t㊙ .run
+\t㊙ .support  =  text
+
+
+
+
 Estamos en construcción!!!
 
 `
