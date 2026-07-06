@@ -1975,7 +1975,7 @@ Uub, conocido por algunos fans como Super Uub tras fusionarse con Majin Buu en D
 
 * Aunque nació como un humano, Uub heredó el enorme poder de Kid Buu, convirtiéndose en uno de los discípulos más prometedores de Goku. 🔥
 `
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTk1Nzk3MzBf/Uub.mp4" }, caption: random }, { quoted: m })
 }
 
 
