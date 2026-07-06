@@ -2222,7 +2222,7 @@ let teks = `·─┄ · ✦ *Reporte : Support* ✦ ·
 \t\t⧡ Mensaje : ${text}
 
 > 📍  Use el comando *#respuesta* para opciones.`
-conn.reply('5493873655135@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, { contextInfo: { mentionedJid: [m.sender] }})
+conn.reply('34636445091@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, { contextInfo: { mentionedJid: [m.sender] }})
 await conn.sendMessage(m.chat, { text: `✓  Comentario enviado a los desarrolladores.` }, { quoted: m })
 };
 
