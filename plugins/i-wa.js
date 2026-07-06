@@ -1946,9 +1946,41 @@ Yi Xing Long, conocido como Eis Shenron, es el Dragón Maligno de la Esfera del 
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTkyMzEwNzNf/Eis-Shenron.mp4" }, caption: random }, { quoted: m })
 }
 
+//Biografia Uub
+if (command === "uub"  || command === "biografíauub" || command === "biografiauub") {
+let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗨𝘂𝗯
+
+Uub, conocido por algunos fans como Super Uub tras fusionarse con Majin Buu en Dragon Ball GT, es la reencarnación humana del malvado Kid Buu. Nació en una aldea pobre de la Tierra y su fecha de nacimiento exacta es desconocida.
+
+🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Después de derrotar a Kid Buu, Goku pidió que renaciera como una buena persona. Años más tarde conoció a Uub en el Torneo Mundial de Artes Marciales y decidió entrenarlo. En Dragon Ball GT, Uub se fusionó con Majin Buu, convirtiéndose en Super Uub para proteger la Tierra.
+
+🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
+
+* Tiene piel morena, cabello negro y una personalidad humilde, respetuosa y valiente. Siempre busca hacerse más fuerte para proteger a los demás.
+
+🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
+
+* Le gusta entrenar, ayudar a su familia y proteger la Tierra. No le gusta la maldad ni que las personas inocentes sufran.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
+
+* Kamehameha
+* Explosiones de energía
+* Combate cuerpo a cuerpo
+* Super Uub (fusión con Majin Buu) 💥
+
+🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
+
+* Aunque nació como un humano, Uub heredó el enorme poder de Kid Buu, convirtiéndose en uno de los discípulos más prometedores de Goku. 🔥
+`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTcwNDU2NTZf/beerus.mp4" }, caption: random }, { quoted: m })
+}
 
 
 
+  
 
   
 //Biografia Plantilla
