@@ -18,13 +18,12 @@ let random = ` Muy pronto estara disponible este menu con todas las funciones...
 ⚶⭒ \`Informacion\` 
 ㊙ .run
 ㊙ .support  =  text
+㊙ .menuopening
 ㊙ .menuaudio
 ㊙ .grupos
 ㊙ .grupos frikis
 ㊙ .grupos telegram
 ㊙ .grupos facebook
-㊙ .appsticker
-
 
 
 ⚶⭒ \`Tutoriales\`
@@ -35,6 +34,7 @@ let random = ` Muy pronto estara disponible este menu con todas las funciones...
 ㊙ .añadirusuario
 ㊙ .dragonballencuestas
 ㊙ .dragonballtelegram
+㊙ .appsticker
 
 
 
