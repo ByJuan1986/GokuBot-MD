@@ -47,6 +47,9 @@ let random = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂
 ㊙ .dragonballtelegram
 ㊙ .appsticker
 
+⚶⭒ \`Descargas\`
+⬇️ .tiktok  =  link
+
 *𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 CON 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
 
 Muy pronto estara disponible este menu con todas las funciones, Estamos en construcción!!!
