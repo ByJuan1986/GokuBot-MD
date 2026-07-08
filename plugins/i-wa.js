@@ -27,6 +27,15 @@ let random = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂
 ㊙ .grupos telegram
 ㊙ .grupos facebook
 
+⚶⭒ \`Grupos\` 
+🐲 .link
+🐲 .invocar  =  text
+🐲 .kick  =  mention
+🐲 .admin+  =  mention
+🐲 .admin-  =  mention
+🐲 .warn+  = mention 
+🐲 .warn-  =  mention
+	
 ⚶⭒ \`Tutoriales\`
 ㊙ .noticiasdragonball
 ㊙ .curiosidadesdragonball
