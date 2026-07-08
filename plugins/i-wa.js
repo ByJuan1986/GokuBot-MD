@@ -12,12 +12,15 @@ const name = await conn.getName(m.sender);
 //Menu auxiliar 
 //------------------
 if (command === "menu2"  || command === "menucompleto" || command === "menuauxiliar") {
-let random = ` Muy pronto estara disponible este menu con todas las funciones...
+let random = ` Aqui te pondremos las funciones disponibles de GokuBot, acuérdate de poner el .
 
 
 ⚶⭒ \`Informacion\` 
+㊙ .reglas
+㊙ .administradores 
 ㊙ .run
 ㊙ .support  =  text
+㊙ .menubiografia 
 ㊙ .menuopening
 ㊙ .menuaudio
 ㊙ .grupos
@@ -30,6 +33,7 @@ let random = ` Muy pronto estara disponible este menu con todas las funciones...
 ㊙ .noticiasdragonball
 ㊙ .curiosidadesdragonball
 ㊙ .dar numero
+㊙ .encuesta
 ㊙ .canal
 ㊙ .añadirusuario
 ㊙ .dragonballencuestas
@@ -38,7 +42,7 @@ let random = ` Muy pronto estara disponible este menu con todas las funciones...
 
 
 
-Estamos en construcción!!!
+Muy pronto estara disponible este menu con todas las funciones, Estamos en construcción!!!
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc2MzMwOTdf/menu_GokuBot.jpg" }, caption: random }, { quoted: m })
 }
