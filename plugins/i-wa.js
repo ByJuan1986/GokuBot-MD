@@ -12,8 +12,7 @@ const name = await conn.getName(m.sender);
 //Menu auxiliar 
 //------------------
 if (command === "menu2"  || command === "menucompleto" || command === "menuauxiliar") {
-let random = ` Aqui te pondremos las funciones disponibles de GokuBot, acuérdate de poner el .
-
+let random = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂 𝗰𝗼𝗺𝗽𝗹𝗲𝘁𝗼 𝗱𝗲 𝗚𝗼𝗸𝘂𝗕𝗼𝘁, 𝗲𝘀𝘁𝗮𝘀 𝘀𝗶𝗻 𝗺𝗶𝘀 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗲𝘀, 𝘂𝘀𝗮𝗺𝗲 𝗰𝗼𝗻 𝗺𝗼𝗱𝗲𝗿𝗮𝗰𝗶𝗼𝗻
 
 ⚶⭒ \`Informacion\` 
 ㊙ .reglas
@@ -28,7 +27,6 @@ let random = ` Aqui te pondremos las funciones disponibles de GokuBot, acuérdat
 ㊙ .grupos telegram
 ㊙ .grupos facebook
 
-
 ⚶⭒ \`Tutoriales\`
 ㊙ .noticiasdragonball
 ㊙ .curiosidadesdragonball
@@ -40,7 +38,7 @@ let random = ` Aqui te pondremos las funciones disponibles de GokuBot, acuérdat
 ㊙ .dragonballtelegram
 ㊙ .appsticker
 
-
+*𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 CON 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
 
 Muy pronto estara disponible este menu con todas las funciones, Estamos en construcción!!!
 `
