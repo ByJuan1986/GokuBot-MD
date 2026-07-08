@@ -49,9 +49,11 @@ let random = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂
 
 ⚶⭒ \`Descargas\`
 ⬇️ .tiktok  =  link
+⬇️ .twitter  =  link
 
 *𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 CON 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)*
 
+> *By Juan1986*
 Muy pronto estara disponible este menu con todas las funciones, Estamos en construcción!!!
 `
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc2MzMwOTdf/menu_GokuBot.jpg" }, caption: random }, { quoted: m })
