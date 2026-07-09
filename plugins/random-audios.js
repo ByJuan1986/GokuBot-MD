@@ -10,6 +10,11 @@ if (m.fromMe) return !0
 if (!db.data.chats[m.chat].fAudios) return
 
 const audioMap = [
+
+//Himno GokuBot hardstyle
+{regex: /^Gokubot hardstyle 01$/i, url: 'https://od.lk/s/MThfNzMwODk4NTBf/GokuBot%20hardstyle%2001.mp3'},
+ 
+ 
 {regex: /^Gokubot 1|cancion GokuBot$/i, url: 'https://od.lk/s/NTZfNDc1MTI4NzFf/GokuBot%20cancion.mp3'},
 {regex: /^Gokubot 2|cancion GokuBot 2$/i, url: 'https://od.lk/s/NTZfNDc5MDI1NzJf/GokuBot%20cancion%202.mp3'},
 {regex: /^Gokubot 3|cancion GokuBot 3$/i, url: 'https://od.lk/s/NTZfNTQ4MTkzMzBf/GokuBot%20en%20Pista.mp3'},
