@@ -646,7 +646,7 @@ let random = `𝗧𝗲 𝗺𝗼𝘀𝘁𝗿𝗮𝗺𝗼𝘀 𝘂𝗻 𝗹𝗶�
 
 > 𝗣𝗼𝗿 𝗲𝗷𝗲𝗺𝗽𝗹𝗼: *.biografíagoku*
 `
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTcwMjUwMTBf/Menubiograf%C3%ADa.jpg" }, caption: random }, { quoted: m })
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNjIxMDc5Mjhf/Biografia%20dragon%20ball.jpg" }, caption: random }, { quoted: m })
 }
 
 
