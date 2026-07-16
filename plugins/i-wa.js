@@ -938,7 +938,7 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf
 if (command === "krilin"  || command === "biografíakrilin" || command === "biografiakrilin") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗞𝗿𝗶𝗹𝗶𝗻
 
-* Krilin es el mejor amigo de Goku y uno de los guerreros humanos más fuertes de Dragon Ball. Nació el 29 de octubre del año 736 y en Dragon Ball Super tiene alrededor de 44 años.
+Krilin es el mejor amigo de Goku y uno de los guerreros humanos más fuertes de Dragon Ball. Nació el 29 de octubre del año 736 y en Dragon Ball Super tiene alrededor de 44 años.
 
 🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
 
