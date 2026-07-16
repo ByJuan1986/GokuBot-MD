@@ -938,16 +938,35 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTNf
 if (command === "krilin"  || command === "biografíakrilin" || command === "biografiakrilin") {
 let random = `𝗕𝗶𝗼𝗴𝗿𝗮𝗳𝗶𝗮 𝗱𝗲 𝗞𝗿𝗶𝗹𝗶𝗻
 
+* Krilin es el mejor amigo de Goku y uno de los guerreros humanos más fuertes de Dragon Ball. Nació el 29 de octubre del año 736 y en Dragon Ball Super tiene alrededor de 44 años.
+
 🔹 𝗛𝗶𝘀𝘁𝗼𝗿𝗶𝗮
+
+* Krilin conoció a Goku cuando ambos entrenaban con el Maestro Roshi. Desde entonces se convirtió en uno de los Guerreros Z más importantes, participando en batallas contra enemigos como Vegeta, Freezer, Cell y Majin Buu. Más adelante se casó con Android 18 y formó una familia.
+
+🔹 𝗙𝗮𝗺𝗶𝗹𝗶𝗮
+
+* Está casado con Android 18 y es padre de Marron.
 
 🔹 𝗔𝗽𝗮𝗿𝗶𝗲𝗻𝗰𝗶𝗮 𝘆 𝗽𝗲𝗿𝘀𝗼𝗻𝗮𝗹𝗶𝗱𝗮𝗱
 
+* Es de baja estatura, no tiene cabello durante gran parte de la serie y posee seis puntos de incienso en la frente. Es valiente, leal, inteligente y siempre está dispuesto a ayudar a sus amigos.
+
 🔹 𝗚𝘂𝘀𝘁𝗼𝘀 𝘆 𝗱𝗶𝘀𝗴𝘂𝘀𝘁𝗼𝘀
 
-🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝗰𝗶𝗼𝗻𝗲𝘀
- 
+* Le gusta entrenar, proteger a su familia y pasar tiempo con sus amigos. No le gusta que las personas inocentes sufran ni enfrentarse a enemigos que amenacen la Tierra.
+
+🔹 𝗧𝗲𝗰𝗻𝗶𝗰𝗮𝘀 𝘆 𝗵𝗮𝗯𝗶𝗹𝗶𝗱𝗮𝗱𝗲𝘀
+
+* Kienzan (Disco Destructor)
+* Kamehameha
+* Taiyōken (Destello Solar)
+* Bukūjutsu (Vuelo)
+* Manipulación de ki
+
 🔹 𝗗𝗮𝘁𝗼 𝗰𝘂𝗿𝗶𝗼𝘀𝗼
 
+* Aunque es humano, Krilin es considerado uno de los guerreros humanos más fuertes de Dragon Ball y ha acompañado a Goku desde el inicio de la historia. 🥋🔥
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNTExNjg5MTRf/Krilin.mp4" }, caption: random }, { quoted: m })
   }
