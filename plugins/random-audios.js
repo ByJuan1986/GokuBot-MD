@@ -20,7 +20,7 @@ const audioMap = [
  
 // Himno GokuBot Cantaditas
 {regex: /^Gokubot cantadita 01$/i, url: 'https://od.lk/s/MThfNzMwODk5MzNf/GokuBot%20cantadita%2001.mp3'},
-{regex: /^Gokubot cantadita 02$/i, url: 'https://od.lk/s/MThfNzMyMjAyMjNf/Gokubot%20cantaditas%2002.mp3'},
+{regex: /^Gokubot cantadita 02$/i, url: 'https://od.lk/s/MThfNzMyMjAyMzJf/Gokubot-cantadita-02.mp3'},
 
  
  
