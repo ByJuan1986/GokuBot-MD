@@ -22,7 +22,7 @@ const audioMap = [
 
 
 //Himno GokuBot hard-core
-{regex: /^Gokubot hardcore 01$/i, url: 'https://od.lk/s/MThfNzMyMzI4Mjhf/GokuBot%20hardcore%2001.mp3'},
+{regex: /^Gokubot hardcore 01$/i, url: 'https://od.lk/s/MThfNzMyMzI4NTJf/GokuBot%20hardcore%2001.mp3'},
 
  
 // Himno GokuBot Cantaditas
