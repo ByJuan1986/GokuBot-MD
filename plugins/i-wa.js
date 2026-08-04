@@ -20,12 +20,15 @@ let random = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂
 ㊙ .run
 ㊙ .support  =  text
 ㊙ .menubiografia 
-㊙ .menuopening
-㊙ .menuaudio
 ㊙ .grupos
 ㊙ .grupos frikis
 ㊙ .grupos telegram
 ㊙ .grupos facebook
+
+⚶⭒ \`Menus del grupo\`
+㊙ .musicabot
+㊙ .menuopening
+㊙ .menuaudio
 
 ⚶⭒ \`Grupos\` 
 🐲 .link
