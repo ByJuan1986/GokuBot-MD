@@ -61,7 +61,39 @@ Muy pronto estara disponible este menu con todas las funciones, Estamos en const
 await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc2MzMwOTdf/menu_GokuBot.jpg" }, caption: random }, { quoted: m })
 }
 
+//menu musica GokuBot 
+if (command === "musica GokuBot"  || command === "música GokuBot") {
+let random = `*╔══════════════*
+*║* \`GokuBot canciones\` 
+*║*
+*║* • \`Canciones hardstyle\`
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊
+*║* 🔊
+*║* • \`Canciones cantaditas\`  
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊 
+*║* 🔊
+*║* 🔊
+*║* • \`canciones hardcore\`
+*║* 🔊 
+*║* 🔊
+*╚══════════════*
+𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc5NzcxNTNf/Menu%20audios.jpg" }, caption: random }, { quoted: m })
+}
 
+
+
+
+	
   
   //------------------
   //Comando de canales
