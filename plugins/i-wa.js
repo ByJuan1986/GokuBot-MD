@@ -64,26 +64,32 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNDc2MzMwOTdf
 //menu musica GokuBot 
 if (command === "musicapersonalizadas"  || command === "músicapersonalizadas") {
 let random = `*╔══════════════*
-*║* \`GokuBot canciones\` 
+*║* \`🅶🅾🅺🆄🅱🅾🆃 🅲🅰🅽🅲🅸🅾🅽🅴🆂\` 
 *║*
-*║* • \`Canciones hardstyle\`
-*║* 🔊 
-*║* 🔊 
-*║* 🔊 
-*║* 🔊 
+*║* 
+*║* • \`𝗖𝗮𝗻𝗰𝗶𝗼𝗻𝗲𝘀 𝗵𝗮𝗿𝗱𝘀𝘁𝘆𝗹𝗲\`
+*║* 🔊 Gokubot hardstyle 01
+*║* 🔊 Gokubot hardstyle 02
+*║* 🔊 Gokubot hardstyle 03
+*║* 🔊 Gokubot hardstyle 04
+*║* 🔊 Gokubot hardstyle 05
+*║* 🔊 Gokubot hardstyle 06
+*║* 🔊 Gokubot hardstyle 07
+*║* 🔊
+*║* • \`𝗖𝗮𝗻𝗰𝗶𝗼𝗻𝗲𝘀 𝗰𝗮𝗻𝘁𝗮𝗱𝗶𝘁𝗮𝘀\`  
+*║* 🔊 Gokubot cantadita 01
+*║* 🔊 Gokubot cantadita 02
+*║* 🔊 Gokubot cantadita 03
+*║* 🔊 Gokubot cantadita 04
 *║* 🔊 
 *║* 🔊
 *║* 🔊
-*║* • \`Canciones cantaditas\`  
-*║* 🔊 
-*║* 🔊 
-*║* 🔊 
-*║* 🔊 
-*║* 🔊 
+*║* • \`𝗖𝗮𝗻𝗰𝗶𝗼𝗻𝗲𝘀 𝗵𝗮𝗿𝗱𝗰𝗼𝗿𝗲\`
+*║* 🔊 Gokubot hardcore
 *║* 🔊
 *║* 🔊
-*║* • \`canciones hardcore\`
-*║* 🔊 
+*║* 🔊 Cancion leyenda
+*║* 🔊
 *║* 🔊
 *╚══════════════*
 𝙴𝚂𝙲𝚁𝙸𝙱𝙴 𝙻𝙰𝚂 𝚂𝙸𝙶𝚄𝙸𝙴𝙽𝚃𝙴𝚂 𝙿𝙰𝙻𝙰𝙱𝚁𝙰𝚂 𝙾 𝙵𝚁𝙰𝚂𝙴𝚂 𝚂𝙸𝙽 𝙽𝙸𝙽𝙶𝚄𝙽 𝙿𝚁𝙴𝙵𝙸𝙹𝙾 (#, /, *, .)`
