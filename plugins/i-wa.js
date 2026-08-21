@@ -2462,9 +2462,12 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyODY4NjBf
 
 // video tutorial añadir usuarios
 if (command === "añadirusuario") {
-let tuto = `𝗧𝘂𝘀 𝗮𝗺𝗶𝗴𝗼𝘀 𝗹𝗲 𝗴𝘂𝘀𝘁𝗮 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹, 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘁𝗶𝗲𝗻𝗲  𝗱𝗲 𝗹𝗮 𝗼𝗽𝗰𝗶𝗼𝗻, 𝗽𝘂𝗲𝗱𝗲𝘀 𝗮𝗻𝗮𝗱𝗶𝗿 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀 𝗱𝗲 𝗱𝗲𝘀𝗱𝗲 𝘁𝘂 𝗮𝗴𝗲𝗻𝗱𝗮.. 𝗔𝗿𝗿𝗶𝗯𝗮 𝘁𝗲 𝗱𝗲𝗷𝗼 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝘆 𝘁𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗼 𝗰𝗼𝗺𝗼 𝘀𝗲 𝗵𝗮𝗰𝗲, 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮 𝗲𝗻 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗲𝘀𝘁𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱
+let tuto = `𝗧𝘂𝘀 𝗮𝗺𝗶𝗴𝗼𝘀 𝗹𝗲 𝗴𝘂𝘀𝘁𝗮
+𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹, 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 𝘁𝗶𝗲𝗻𝗲  𝗱𝗲 𝗹𝗮 𝗼𝗽𝗰𝗶𝗼𝗻, 𝗽𝘂𝗲𝗱𝗲𝘀 𝗮𝗻𝗮𝗱𝗶𝗿 𝘂𝘀𝘂𝗮𝗿𝗶𝗼𝘀 𝗱𝗲 𝗱𝗲𝘀𝗱𝗲 𝘁𝘂 𝗮𝗴𝗲𝗻𝗱𝗮.. 𝗔𝗿𝗿𝗶𝗯𝗮 𝘁𝗲 𝗱𝗲𝗷𝗼 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝘆 𝘁𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗼 𝗰𝗼𝗺𝗼 𝘀𝗲 𝗵𝗮𝗰𝗲, 𝗳𝘂𝗻𝗰𝗶𝗼𝗻𝗮 𝗲𝗻 𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝗴𝗿𝘂𝗽𝗼𝘀 𝗱𝗲 𝗲𝘀𝘁𝗮 𝗰𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱
 
-*Esto a sido posible gracias a By Juan1986*`
+𝗘𝘀𝘁𝗼 𝗮 𝘀𝗶𝗱𝗼 𝗽𝗼𝘀𝗶𝗯𝗹𝗲 𝗴𝗿𝗮𝗰𝗶𝗮𝘀 𝗮 𝗕𝘆 *Juan1986*
+
+`
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODBf/A%C3%B1adirUsuariosAlGrupo.mp4" }, caption: tuto }, { quoted: m })
 }
 	
