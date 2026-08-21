@@ -2441,14 +2441,6 @@ let tuto = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿�
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODJf/Curiosidades%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
 
-// video tutorial añadir usuarios
-if (command === "añadirusuario") {
-let tuto = `*Tus amigos le gusta dragón ball, WhatsApp tiene  de la opción, puedes añadir usuarios de desde tu agenda.. Arriba te dejo el video tutorial y te explicó como se hace, funciona en todos los grupos de esta comunidad*
-
-*Esto a sido posible gracias a By Juan1986*`
-await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODBf/A%C3%B1adirUsuariosAlGrupo.mp4" }, caption: tuto }, { quoted: m })
-}
-
 
 //grupos nuevos de anime, sugerencia
 if (command === "anime"  || command === "animesnuevos" || command === "nuevoanime") {
@@ -2465,10 +2457,20 @@ await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyODY4NjBf
 }
   
   //----------------------
-  //Prueba de video.
+  //Tutoriales.
   //----------------------
-  if (command === "appstickers" || command === "appsticker") { 
-  let ssXd = `*¿Te gustaría descargar todos los stickers de dragón ball y de otros animes? En este video tutorial te explicamos de una app llamada Sticker ly, aparte de los stickers que mostramos en el video hay muchos mas... descarga la app de tu tienda y danos a seguir nos ayudaras a seguir subiendo mas stickers*
+
+// video tutorial añadir usuarios
+if (command === "añadirusuario") {
+let tuto = `*Tus amigos le gusta dragón ball, WhatsApp tiene  de la opción, puedes añadir usuarios de desde tu agenda.. Arriba te dejo el video tutorial y te explicó como se hace, funciona en todos los grupos de esta comunidad*
+
+*Esto a sido posible gracias a By Juan1986*`
+await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODBf/A%C3%B1adirUsuariosAlGrupo.mp4" }, caption: tuto }, { quoted: m })
+}
+	
+// Video tutorial stickers.ly
+if (command === "appstickers" || command === "appsticker") { 
+let ssXd = `*¿Te gustaría descargar todos los stickers de dragón ball y de otros animes? En este video tutorial te explicamos de una app llamada Sticker ly, aparte de los stickers que mostramos en el video hay muchos mas... descarga la app de tu tienda y danos a seguir nos ayudaras a seguir subiendo mas stickers*
 
 _*PlayStore*_
 *https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android*
