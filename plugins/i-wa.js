@@ -2470,13 +2470,13 @@ await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODBf
 	
 // Video tutorial stickers.ly
 if (command === "appstickers" || command === "appsticker") { 
-let ssXd = `¿𝗧𝗲 𝗴𝘂𝘀𝘁𝗮𝗿𝗶𝗮 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝗿 𝘁𝗼𝗱𝗼𝘀
-𝗹𝗼𝘀 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝘆 𝗱𝗲 𝗼𝘁𝗿𝗼𝘀 𝗮𝗻𝗶𝗺𝗲𝘀? 𝗘𝗻 𝗲𝘀𝘁𝗲 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝘁𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗺𝗼𝘀 𝗱𝗲 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗹𝘆, 𝗮𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗼𝘀 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗾𝘂𝗲 𝗺𝗼𝘀𝘁𝗿𝗮𝗺𝗼𝘀 𝗲𝗻 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝗵𝗮𝘆 𝗺𝘂𝗰𝗵𝗼𝘀 𝗺𝗮𝘀... 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮 𝗹𝗮 𝗮𝗽𝗽 𝗱𝗲 𝘁𝘂 𝘁𝗶𝗲𝗻𝗱𝗮 𝘆 𝗱𝗮𝗻𝗼𝘀 𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝗻𝗼𝘀 𝗮𝘆𝘂𝗱𝗮𝗿𝗮𝘀 𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝘀𝘂𝗯𝗶𝗲𝗻𝗱𝗼 𝗺𝗮𝘀 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀
+let ssXd = `¿𝗧𝗲 𝗴𝘂𝘀𝘁𝗮𝗿𝗶𝗮 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮𝗿
+𝘁𝗼𝗱𝗼𝘀 𝗹𝗼𝘀 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗱𝗲 𝗱𝗿𝗮𝗴𝗼𝗻 𝗯𝗮𝗹𝗹 𝘆 𝗱𝗲 𝗼𝘁𝗿𝗼𝘀 𝗮𝗻𝗶𝗺𝗲𝘀? 𝗘𝗻 𝗲𝘀𝘁𝗲 𝘃𝗶𝗱𝗲𝗼 𝘁𝘂𝘁𝗼𝗿𝗶𝗮𝗹 𝘁𝗲 𝗲𝘅𝗽𝗹𝗶𝗰𝗮𝗺𝗼𝘀 𝗱𝗲 𝘂𝗻𝗮 𝗮𝗽𝗽 𝗹𝗹𝗮𝗺𝗮𝗱𝗮 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗹𝘆, 𝗮𝗽𝗮𝗿𝘁𝗲 𝗱𝗲 𝗹𝗼𝘀 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀 𝗾𝘂𝗲 𝗺𝗼𝘀𝘁𝗿𝗮𝗺𝗼𝘀 𝗲𝗻 𝗲𝗹 𝘃𝗶𝗱𝗲𝗼 𝗵𝗮𝘆 𝗺𝘂𝗰𝗵𝗼𝘀 𝗺𝗮𝘀... 𝗱𝗲𝘀𝗰𝗮𝗿𝗴𝗮 𝗹𝗮 𝗮𝗽𝗽 𝗱𝗲 𝘁𝘂 𝘁𝗶𝗲𝗻𝗱𝗮 𝘆 𝗱𝗮𝗻𝗼𝘀 𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝗻𝗼𝘀 𝗮𝘆𝘂𝗱𝗮𝗿𝗮𝘀 𝗮 𝘀𝗲𝗴𝘂𝗶𝗿 𝘀𝘂𝗯𝗶𝗲𝗻𝗱𝗼 𝗺𝗮𝘀 𝘀𝘁𝗶𝗰𝗸𝗲𝗿𝘀
 
-_*PlayStore*_
+𝙋𝙡𝙖𝙮𝙎𝙩𝙤𝙧𝙚
 *https://play.google.com/store/apps/details?id=com.snowcorp.stickerly.android*
 
-_*AppStore*_
+𝘼𝙥𝙥𝙎𝙩𝙤𝙧𝙚
 *https://apps.apple.com/es/app/sticker-ly-sticker-maker/id1458740001*
 
 *_Descargate la app desde mediafire_ https://www.mediafire.com/file/ioed5yg1601knnd/Sticker.ly+-+Sticker+Maker.apk/file*
