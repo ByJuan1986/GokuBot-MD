@@ -2365,10 +2365,25 @@ conn.reply('34636445091@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks,
 await conn.sendMessage(m.chat, { text: `✓  Comentario enviado a los desarrolladores.` }, { quoted: m })
 };
 
+//grupos nuevos de anime, sugerencia
+if (command === "anime"  || command === "animesnuevos" || command === "nuevoanime") {
+let random = `¿𝑻𝒊𝒆𝒏𝒆𝒔 𝒖𝒏𝒂 𝒊𝒅𝒆𝒂 𝒑𝒂𝒓𝒂 𝒖𝒏 𝒈𝒓𝒖𝒑𝒐 𝒅𝒆 𝒂𝒏𝒊𝒎𝒆? 𝑩𝒖𝒔𝒄𝒂𝒎𝒐𝒔 𝒏𝒖𝒆𝒗𝒐𝒔 𝒈𝒓𝒖𝒑𝒐𝒔 𝒅𝒆 𝒂𝒏𝒊𝒎𝒆𝒔 𝒑𝒂𝒓𝒂 𝒍𝒂 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅, 𝒕𝒆𝒏𝒆𝒎𝒐𝒔 𝒍𝒂 𝒔𝒐𝒍𝒖𝒄𝒊𝒐𝒏, 𝒉𝒂𝒚 𝒖𝒏𝒂 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅 𝒒𝒖𝒆 𝒑𝒖𝒆𝒅𝒆 𝒕𝒆𝒏𝒆𝒓 𝒆𝒍 𝒂𝒏𝒊𝒎𝒆 𝒒𝒖𝒆 𝒅𝒆𝒔𝒆𝒂𝒔...  𝑪𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅:
 
-  //-----------------------
-  //Comando para enviar numero o alguna cuenta.
-  //-----------------------
+https://chat.whatsapp.com/DggMS1eGWZpGlMayylSpoQ
+
+  𝑯𝒂𝒃𝒍𝒂 𝒄𝒐𝒏 𝒆𝒍 𝒂𝒅𝒎𝒊𝒏𝒊𝒔𝒕𝒓𝒂𝒅𝒐𝒓:   
+
+• *Juan1986*
+🟢 wa.me/+34636445091 
+`
+await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyODY4NjBf/Anime%20fans.jpg" }, caption: random }, { quoted: m })
+}
+	
+  //----------------------
+  //Video tutoriales.
+  //----------------------
+	
+//Pedir un número para poner bot.
 if (command === "dar") {
 let lolXd = `📍  Usa *(${usedPrefix + command} numero)*`
 if (!args[0]) {
@@ -2399,7 +2414,6 @@ https://t.me/+PZwugKsv2x5hMGVk
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzhf/Encuestas%20dragon%20ball%20en%20Telegram.mp4" }, caption: random }, { quoted: m })
 }
 
-  
 // funcion como entrar al canal de db donde estan la serie entera 
 if (command === "canaldb" || command === "dragonballtelegram" || command === "dragónballtelegram") {
 let random = `𝗡𝗼 𝘀𝗮𝗯𝗲𝘀 𝗰𝗼𝗺𝗼 𝗯𝗮𝗷𝗮𝗿 𝗹𝗮
@@ -2408,7 +2422,6 @@ let random = `𝗡𝗼 𝘀𝗮𝗯𝗲𝘀 𝗰𝗼𝗺𝗼 𝗯𝗮𝗷𝗮�
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDgzMjAzNzdf/Como%20bajar%20del%20canal%20dragon%20ball%20los%20videos.mp4" }, caption: random }, { quoted: m })
 }
 
-  
 // noticias dragon ball
 if (command === "noticiasdragonball") {
 let tuto = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝗱𝗼
@@ -2440,25 +2453,6 @@ let tuto = `𝗕𝘂𝘀𝗰𝗮𝘀 𝗲𝘀𝘁𝗮𝗿 𝗶𝗻𝗳𝗼𝗿�
 `
 await conn.sendMessage(m.chat, { video: { url: "https://od.lk/s/NTZfNDc1MzI5ODJf/Curiosidades%20dragon%20ball.mp4" }, caption: tuto }, { quoted: m })
 }
-
-
-//grupos nuevos de anime, sugerencia
-if (command === "anime"  || command === "animesnuevos" || command === "nuevoanime") {
-let random = `¿𝑻𝒊𝒆𝒏𝒆𝒔 𝒖𝒏𝒂 𝒊𝒅𝒆𝒂 𝒑𝒂𝒓𝒂 𝒖𝒏 𝒈𝒓𝒖𝒑𝒐 𝒅𝒆 𝒂𝒏𝒊𝒎𝒆? 𝑩𝒖𝒔𝒄𝒂𝒎𝒐𝒔 𝒏𝒖𝒆𝒗𝒐𝒔 𝒈𝒓𝒖𝒑𝒐𝒔 𝒅𝒆 𝒂𝒏𝒊𝒎𝒆𝒔 𝒑𝒂𝒓𝒂 𝒍𝒂 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅, 𝒕𝒆𝒏𝒆𝒎𝒐𝒔 𝒍𝒂 𝒔𝒐𝒍𝒖𝒄𝒊𝒐𝒏, 𝒉𝒂𝒚 𝒖𝒏𝒂 𝒄𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅 𝒒𝒖𝒆 𝒑𝒖𝒆𝒅𝒆 𝒕𝒆𝒏𝒆𝒓 𝒆𝒍 𝒂𝒏𝒊𝒎𝒆 𝒒𝒖𝒆 𝒅𝒆𝒔𝒆𝒂𝒔...  𝑪𝒐𝒎𝒖𝒏𝒊𝒅𝒂𝒅:
-
-https://chat.whatsapp.com/DggMS1eGWZpGlMayylSpoQ
-
-  𝑯𝒂𝒃𝒍𝒂 𝒄𝒐𝒏 𝒆𝒍 𝒂𝒅𝒎𝒊𝒏𝒊𝒔𝒕𝒓𝒂𝒅𝒐𝒓:   
-
-• *Juan1986*
-🟢 wa.me/+34636445091 
-`
-await conn.sendMessage(m.chat, { image: { url: "https://od.lk/s/NTZfNTgyODY4NjBf/Anime%20fans.jpg" }, caption: random }, { quoted: m })
-}
-  
-  //----------------------
-  //Tutoriales.
-  //----------------------
 
 // video tutorial añadir usuarios
 if (command === "añadirusuario") {
