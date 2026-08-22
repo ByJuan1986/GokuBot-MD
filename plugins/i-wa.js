@@ -19,13 +19,14 @@ let random = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗮𝗹 𝗺𝗲𝗻𝘂
 ㊙ .administradores 
 ㊙ .run
 ㊙ .support  =  text
-㊙ .menubiografia 
+㊙ .s = imagen 
 ㊙ .grupos
 ㊙ .grupos frikis
 ㊙ .grupos telegram
 ㊙ .grupos facebook
 
 ⚶⭒ \`Menus del grupo\`
+㊙ .menubiografia
 ㊙ .musicabot
 ㊙ .menuopening
 ㊙ .menuaudio
