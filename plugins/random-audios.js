@@ -136,7 +136,8 @@ const audioMap = [
 {regex: /^kaio ken|kaioken$/i, url: 'https://od.lk/s/NTZfNTY4NDQ2Mjlf/Kaio%20ken%20latino.mp3'},
 {regex: /^por que no me la chupas|porque no me la chupas$/i, url: 'https://od.lk/s/NTZfNTY4NDQ4Mjdf/porque%20no%20mejor%20me%20la%20chupas.mp3'},
 {regex: /^sabes loco estás celoso|sabes loco estas celoso$/i, url: 'https://od.lk/s/NTZfNTY4NDY0NTNf/sabes%20loco%20est%C3%A1s%20celoso.mp3'},
-
+{regex: /^Quien diria q se podia el amor por telepatia|Quien diria que se podia el amor por telepatia$/i, url: 'https://od.lk/s/NTZfNzI0NTU1MDBfUThEVmk/Quien%20diria%20que%20se%20podia%20el%20amor%20por%20telepatia.mp3'},
+ 
  // Audio en latino
 {regex: /^hay alguien en el grupo$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzdf/Hay%20alguien%20en%20el%20grupo.mp3'},
 {regex: /^los pinguinos$/i, url: 'https://od.lk/s/NTZfMjg3MzAzNzhf/Los%20ping%C3%BCinos.mp3'},
