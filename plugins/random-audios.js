@@ -47,7 +47,8 @@ const audioMap = [
 {regex: /^la calvicie$/i, url: 'https://od.lk/s/NTZfNDc5MDYxMDBf/La%20calvicie.mp3'},
 {regex: /^gordito|régimen|regimen$/i, url: 'https://od.lk/s/NTZfNDc5MjQ4NTlf/Vegeta%20le%20dice%20a%20Bu%20que%20est%C3%A1%20a%20dieta.mp3'},
 {regex: /^no soy un héroe de la justicia|no soy un heroe de la justicia$/i, url: 'https://od.lk/s/NTZfNDc5MjUwMTBf/No%20soy%20un%20heroe%20de%20la%20justicia.mp3'},
-
+{regex: /^cara guisante|cara guisantes$/i, url: 'https://od.lk/s/NTZfNzI0MDY3MDBfYTV4Umw/Vegeta%20dice%20cara%20guisante%20castellano.mp3'},
+ 
 // Porta
 {regex: /^Porta dragon ball$/i, url: 'https://od.lk/s/NTZfNDg1NDg2Njdf/Porta%20dragon%20ball.mp3'},
 {regex: /^Porta dragon ball 1,5$/i, url: 'https://od.lk/s/NTZfNDg1NTIwMzRf/Dragon%20ball%20rap%201.5%20Porta.mp3'},
