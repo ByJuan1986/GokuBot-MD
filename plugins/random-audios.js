@@ -65,7 +65,7 @@ const audioMap = [
 // BSO dragón ball castellano 
 {regex: /^DB opening castellano$/i, url: 'https://od.lk/s/NTZfMjg3MzEzMzdf/Dragon%20ball%20opening%20castellano.mp3'},
 {regex: /^DB ending castellano$/i, url: 'https://od.lk/s/NTZfMjg3MzEzMzNf/Dragon%20ball%20ending%20castellano.mp3'},
-{regex: /^DBZ1 opening castellano$/i, url: 'https://od.lk/s/NTZfNDg0NjYxMDVf/DBZ1%20opening%20castellano.mp3'},
+{regex: /^DBZ opening castellano$/i, url: 'https://od.lk/s/NTZfMjg3MzgyOTVfVXV4dmQ/DBZ%20opening%20castellano.mp3'},
 {regex: /^DBZ2 opening castellano$/i, url: 'https://od.lk/s/NTZfNDg0NjYxNzVf/DBZ2%20opening%20castellano.mp3'},
 
 // BSO dragon ball valenciano
