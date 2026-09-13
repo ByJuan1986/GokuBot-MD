@@ -92,6 +92,7 @@ const audioMap = [
 {regex: /^DB opening latino$/i, url: 'https://od.lk/s/NTZfNDg0ODQ4MTVf/DB%20opening%20latino.mp3'},
 {regex: /^DB ending latino$/i, url: 'https://od.lk/s/NTZfNTgyNjcxNDlfZzlmZlE/DB%20ending%20Latino.mp3'},
 {regex: /^DBZ opening latino$/i, url: 'https://od.lk/s/NTZfNzg5Mzk5MzhfMWkwZEU/DBZ%20opening%20latino.mp3'},
+{regex: /^DBZ ending latino$/i, url: 'https://od.lk/s/NTZfNzg5NDMwOTlfTFZVa3U/Dragon%20Ball%20Z%20ending%20latino.mp3'},
  
 // Personajes dragon ball en latino
 {regex: /^callate|Cállate|🤫$/i, url: 'https://od.lk/s/NTZfNDg0NjU2NTdf/callate.mp3'},
